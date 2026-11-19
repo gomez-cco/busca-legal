@@ -21,10 +21,33 @@
     {
       "id": "pension-alimentos",
       "titulo": "Pensión de alimentos: cómo demandarla y cuánto corresponde",
-      "temas": ["pension de alimentos", "pension alimenticia", "demandar pension", "demanda de alimentos", "cuanto es la pension", "monto de la pension", "pension para mi hijo", "el papa no paga nada", "la mama no paga", "alimentos provisorios", "mediacion de alimentos", "cobrar pension alimenticia", "me quieren cobrar pension", "me demandaron por pension", "alimentos para hijos"],
+      "temas": [
+        "pension de alimentos",
+        "pension alimenticia",
+        "demandar pension",
+        "demanda de alimentos",
+        "cuanto es la pension",
+        "monto de la pension",
+        "pension para mi hijo",
+        "el papa no paga nada",
+        "la mama no paga",
+        "alimentos provisorios",
+        "mediacion de alimentos",
+        "cobrar pension alimenticia",
+        "me quieren cobrar pension",
+        "me demandaron por pension",
+        "alimentos para hijos"
+      ],
       "resumen": "Los padres deben aportar a la mantención de sus hijos según sus capacidades. Si no hay acuerdo, primero se va a mediación (gratuita) y, si fracasa, se demanda ante el Tribunal de Familia, que fija una pensión provisoria y luego una definitiva.",
       "explicacion": "Los alimentos cubren lo necesario para subsistir de un modo correspondiente a la posición social: alimentación, vivienda, vestuario, salud, educación y recreación. Se deben a los hijos hasta los 21 años, hasta los 28 si estudian una profesión u oficio, y sin límite de edad si tienen una discapacidad. La ley presume que el alimentante tiene medios para pagar, y el monto mínimo por un hijo no puede ser inferior al 40% del ingreso mínimo remuneracional (30% por cada hijo si son dos o más). Por regla general, la pensión no puede exceder el 50% de las rentas del alimentante. Si a ti te demandan, igual debes ir a la mediación y al juicio: presentar tus ingresos y cargas reales es lo que permite fijar un monto justo.",
-      "baseLegal": ["Art. 321 a 337 Código Civil (derecho de alimentos)", "Art. 332 Código Civil (duración: 21 años, 28 si estudia)", "Art. 3 Ley 14.908 (presunción de medios y montos mínimos)", "Art. 4 Ley 14.908 (alimentos provisorios)", "Art. 7 Ley 14.908 (tope del 50% de las rentas)", "Art. 106 Ley 19.968 (mediación previa obligatoria)"],
+      "baseLegal": [
+        "Art. 321 a 337 Código Civil (derecho de alimentos)",
+        "Art. 332 Código Civil (duración: 21 años, 28 si estudia)",
+        "Art. 3 Ley 14.908 (presunción de medios y montos mínimos)",
+        "Art. 4 Ley 14.908 (alimentos provisorios)",
+        "Art. 7 Ley 14.908 (tope del 50% de las rentas)",
+        "Art. 106 Ley 19.968 (mediación previa obligatoria)"
+      ],
       "pasos": [
         "Reúne antecedentes de los gastos del hijo (colegio, salud, alimentación, arriendo proporcional) y de los ingresos del otro padre o madre (liquidaciones, boletas, bienes, estilo de vida).",
         "Solicita una mediación gratuita en el Sistema Nacional de Mediación (mediacionchile.cl) o en el Tribunal de Familia. Si llegan a acuerdo, el acta se envía al tribunal para su aprobación y vale como sentencia.",
@@ -33,19 +56,54 @@
         "Asiste a la audiencia preparatoria y de juicio con tus pruebas; el tribunal fija la pensión definitiva.",
         "Pide que el pago se haga por retención del empleador (descuento directo por planilla) o por depósito en una cuenta a nombre del hijo o de quien lo cuida."
       ],
-      "plazos": ["La mediación debe hacerse antes de demandar (salvo casos de violencia intrafamiliar)", "Alimentos provisorios: se fijan al inicio del juicio", "Hijos: hasta los 21 años, 28 si estudian, o sin límite si hay discapacidad"],
-      "documentos": ["Certificado de nacimiento del hijo", "Comprobantes de gastos", "Antecedentes de ingresos del demandado", "Acta de mediación frustrada"],
-      "dondeAcudir": ["Sistema Nacional de Mediación (mediacionchile.cl)", "Tribunal de Familia", "Corporación de Asistencia Judicial", "Oficina Judicial Virtual (pjud.cl)"],
+      "plazos": [
+        "La mediación debe hacerse antes de demandar (salvo casos de violencia intrafamiliar)",
+        "Alimentos provisorios: se fijan al inicio del juicio",
+        "Hijos: hasta los 21 años, 28 si estudian, o sin límite si hay discapacidad"
+      ],
+      "documentos": [
+        "Certificado de nacimiento del hijo",
+        "Comprobantes de gastos",
+        "Antecedentes de ingresos del demandado",
+        "Acta de mediación frustrada"
+      ],
+      "dondeAcudir": [
+        "Sistema Nacional de Mediación (mediacionchile.cl)",
+        "Tribunal de Familia",
+        "Corporación de Asistencia Judicial",
+        "Oficina Judicial Virtual (pjud.cl)"
+      ],
       "consejo": "Si el demandado es trabajador independiente o informal, aporta pruebas de su capacidad económica (redes sociales, vehículos, viajes, propiedades): el juez puede considerarlas aunque no haya liquidaciones de sueldo.",
       "alerta": "El monto mínimo legal se calcula sobre el ingreso mínimo remuneracional vigente, que cambia por ley; confirma el valor actual antes de calcular."
     },
     {
       "id": "deuda-alimentos",
       "titulo": "No me pagan la pensión de alimentos: cobro, Registro de Deudores y apremios",
-      "temas": ["no me pagan la pension", "deuda de pension", "deuda de alimentos", "registro de deudores", "registro nacional de deudores de pensiones de alimentos", "retencion de devolucion de impuestos", "arresto nocturno", "apremios", "liquidacion de deuda de alimentos", "fondos de la afp para pension", "ley papito corazon", "debe pensiones", "me deben la pension", "pago efectivo de alimentos"],
+      "temas": [
+        "no me pagan la pension",
+        "deuda de pension",
+        "deuda de alimentos",
+        "registro de deudores",
+        "registro nacional de deudores de pensiones de alimentos",
+        "retencion de devolucion de impuestos",
+        "arresto nocturno",
+        "apremios",
+        "liquidacion de deuda de alimentos",
+        "fondos de la afp para pension",
+        "ley papito corazon",
+        "debe pensiones",
+        "me deben la pension",
+        "pago efectivo de alimentos"
+      ],
       "resumen": "Si el alimentante no paga, puedes pedir al tribunal la liquidación de la deuda y medidas de apremio. Desde la Ley 21.389, quien adeuda pensiones queda inscrito en el Registro Nacional de Deudores, lo que le impide realizar diversos trámites, y la Ley 21.484 permite pagar la deuda con sus cuentas bancarias y fondos previsionales.",
       "explicacion": "Medidas disponibles: liquidación de la deuda, retención de la devolución de impuestos de la Operación Renta, retención de remuneraciones, arresto nocturno y, en caso de incumplimiento, arresto total; arraigo nacional; suspensión de la licencia de conducir; e inscripción en el Registro Nacional de Deudores de Pensiones de Alimentos (Registro Civil), que, entre otras consecuencias, le impide obtener o renovar licencia de conducir y pasaporte, y obliga a bancos y a terceros a retener ciertos pagos. El procedimiento especial de cobro de la Ley 21.484 permite al tribunal investigar las cuentas del deudor y ordenar el pago con sus fondos, incluso con sus ahorros previsionales en la AFP, bajo las reglas de la ley.",
-      "baseLegal": ["Ley 14.908 (art. 14 y siguientes: apremios, arresto nocturno, arraigo, suspensión de licencia)", "Art. 16 Ley 14.908 (retención de la devolución de impuestos)", "Ley 21.389 (Registro Nacional de Deudores de Pensiones de Alimentos)", "Ley 21.484 (procedimiento especial de cobro y pago con fondos previsionales)", "Art. 8 Ley 14.908 (retención por el empleador)"],
+      "baseLegal": [
+        "Ley 14.908 (art. 14 y siguientes: apremios, arresto nocturno, arraigo, suspensión de licencia)",
+        "Art. 16 Ley 14.908 (retención de la devolución de impuestos)",
+        "Ley 21.389 (Registro Nacional de Deudores de Pensiones de Alimentos)",
+        "Ley 21.484 (procedimiento especial de cobro y pago con fondos previsionales)",
+        "Art. 8 Ley 14.908 (retención por el empleador)"
+      ],
       "pasos": [
         "Lleva un registro de los pagos recibidos y de los meses impagos (cartola de la cuenta donde se deposita la pensión).",
         "Solicita al Tribunal de Familia la liquidación de la deuda (puedes hacerlo en la Oficina Judicial Virtual).",
@@ -53,38 +111,95 @@
         "Pide la inscripción del deudor en el Registro Nacional de Deudores de Pensiones de Alimentos, y solicita el procedimiento especial de cobro sobre sus cuentas y fondos previsionales.",
         "Si el deudor sale del país o vende bienes para evitar pagar, informa al tribunal de inmediato para medidas cautelares."
       ],
-      "plazos": ["Inscripción en el Registro: procede cuando se adeudan al menos 3 mensualidades consecutivas o 5 discontinuas, según la ley (verifica requisitos vigentes)", "La retención de la devolución de impuestos opera en la Operación Renta de abril"],
-      "documentos": ["Sentencia o acta de mediación que fijó la pensión", "Cartolas o comprobantes de pago", "Liquidación de la deuda"],
-      "dondeAcudir": ["Tribunal de Familia", "Oficina Judicial Virtual (pjud.cl)", "Corporación de Asistencia Judicial", "Registro Civil (consulta del Registro de Deudores)"],
+      "plazos": [
+        "Inscripción en el Registro: procede cuando se adeudan al menos 3 mensualidades consecutivas o 5 discontinuas, según la ley (verifica requisitos vigentes)",
+        "La retención de la devolución de impuestos opera en la Operación Renta de abril"
+      ],
+      "documentos": [
+        "Sentencia o acta de mediación que fijó la pensión",
+        "Cartolas o comprobantes de pago",
+        "Liquidación de la deuda"
+      ],
+      "dondeAcudir": [
+        "Tribunal de Familia",
+        "Oficina Judicial Virtual (pjud.cl)",
+        "Corporación de Asistencia Judicial",
+        "Registro Civil (consulta del Registro de Deudores)"
+      ],
       "consejo": "Si eres el deudor y no puedes pagar, no te quedes en silencio: pide al tribunal una rebaja por cambio de circunstancias o un plan de pago; la deuda no desaparece y los apremios se acumulan.",
       "alerta": "La deuda de alimentos no se extingue con la insolvencia ni con la liquidación de bienes de la Ley 20.720."
     },
     {
       "id": "aumento-rebaja-alimentos",
       "titulo": "Aumento, rebaja o cese de la pensión de alimentos",
-      "temas": ["aumento de pension", "subir la pension", "rebaja de pension", "bajar la pension", "cese de alimentos", "terminar la pension", "hijo cumplio 21", "perdi el trabajo y pago pension", "cambio de circunstancias", "pension muy alta"],
+      "temas": [
+        "aumento de pension",
+        "subir la pension",
+        "rebaja de pension",
+        "bajar la pension",
+        "cese de alimentos",
+        "terminar la pension",
+        "hijo cumplio 21",
+        "perdi el trabajo y pago pension",
+        "cambio de circunstancias",
+        "pension muy alta"
+      ],
       "resumen": "La pensión puede modificarse si cambian las circunstancias que se tuvieron en cuenta al fijarla (más gastos del hijo, menos ingresos del alimentante, otro hijo que mantener, etc.), o terminar cuando el hijo deja de tener derecho.",
       "explicacion": "Las sentencias de alimentos no producen cosa juzgada definitiva: pueden revisarse si varían las necesidades del alimentario o las facultades del alimentante. El aumento, la rebaja y el cese requieren mediación previa y luego demanda ante el Tribunal de Familia. El cese procede, por ejemplo, cuando el hijo cumple 21 años y no estudia, o cumple 28, o deja de necesitar los alimentos.",
-      "baseLegal": ["Art. 332 Código Civil (duración)", "Art. 333 Código Civil (necesidades del alimentario)", "Art. 106 Ley 19.968 (mediación previa)", "Ley 14.908"],
+      "baseLegal": [
+        "Art. 332 Código Civil (duración)",
+        "Art. 333 Código Civil (necesidades del alimentario)",
+        "Art. 106 Ley 19.968 (mediación previa)",
+        "Ley 14.908"
+      ],
       "pasos": [
         "Reúne pruebas del cambio: nuevos gastos del hijo, pérdida de trabajo, licencia médica, nuevas cargas familiares, mejora de ingresos del otro.",
         "Solicita mediación gratuita para intentar un acuerdo.",
         "Si no hay acuerdo, presenta la demanda de aumento, rebaja o cese ante el Tribunal de Familia.",
         "Mientras no haya una nueva resolución, sigue pagando la pensión vigente: dejar de pagar genera deuda y apremios."
       ],
-      "plazos": ["La pensión vigente se mantiene hasta que el tribunal la modifique"],
-      "documentos": ["Sentencia o acta que fijó la pensión", "Pruebas del cambio de circunstancias", "Certificado de alumno regular (si el hijo estudia)"],
-      "dondeAcudir": ["Sistema Nacional de Mediación", "Tribunal de Familia", "Corporación de Asistencia Judicial"],
+      "plazos": [
+        "La pensión vigente se mantiene hasta que el tribunal la modifique"
+      ],
+      "documentos": [
+        "Sentencia o acta que fijó la pensión",
+        "Pruebas del cambio de circunstancias",
+        "Certificado de alumno regular (si el hijo estudia)"
+      ],
+      "dondeAcudir": [
+        "Sistema Nacional de Mediación",
+        "Tribunal de Familia",
+        "Corporación de Asistencia Judicial"
+      ],
       "consejo": "Si el hijo mayor de 21 sigue estudiando, el certificado de alumno regular es la prueba clave para mantener la pensión hasta los 28 años.",
       "alerta": "Perder el trabajo no suspende automáticamente la obligación: debes pedir la rebaja al tribunal."
     },
     {
       "id": "divorcio",
       "titulo": "Divorcio: de mutuo acuerdo, unilateral o por culpa",
-      "temas": ["divorcio", "divorciarme", "quiero divorciarme", "divorcio de mutuo acuerdo", "divorcio unilateral", "divorcio por culpa", "cese de convivencia", "separacion de hecho", "separacion judicial", "nulidad matrimonial", "compensacion economica", "acuerdo completo y suficiente"],
+      "temas": [
+        "divorcio",
+        "divorciarme",
+        "quiero divorciarme",
+        "divorcio de mutuo acuerdo",
+        "divorcio unilateral",
+        "divorcio por culpa",
+        "cese de convivencia",
+        "separacion de hecho",
+        "separacion judicial",
+        "nulidad matrimonial",
+        "compensacion economica",
+        "acuerdo completo y suficiente"
+      ],
       "resumen": "El divorcio pone término al matrimonio. Puede ser de común acuerdo (al menos 1 año de cese de convivencia), unilateral (al menos 3 años de cese) o por culpa de uno de los cónyuges (violación grave de los deberes del matrimonio).",
       "explicacion": "En el divorcio de común acuerdo, los cónyuges deben presentar un acuerdo completo y suficiente que regule alimentos, cuidado personal y relación directa y regular con los hijos, y las relaciones patrimoniales. En el unilateral, el juez puede rechazarlo si el demandante no ha cumplido reiteradamente su obligación de alimentos. La compensación económica protege al cónyuge que, por dedicarse al cuidado de los hijos o del hogar, no pudo desarrollar una actividad remunerada o lo hizo en menor medida: debe pedirse en el mismo juicio. El cese de convivencia se acredita con distintos medios de prueba según la fecha del matrimonio.",
-      "baseLegal": ["Art. 54 Ley 19.947 (divorcio por culpa)", "Art. 55 Ley 19.947 (divorcio por cese de convivencia: 1 año de común acuerdo, 3 años unilateral)", "Art. 21 y 27 Ley 19.947 (acuerdo completo y suficiente)", "Art. 61 a 66 Ley 19.947 (compensación económica)", "Art. 22 y 25 Ley 19.947 (acreditación del cese de convivencia)"],
+      "baseLegal": [
+        "Art. 54 Ley 19.947 (divorcio por culpa)",
+        "Art. 55 Ley 19.947 (divorcio por cese de convivencia: 1 año de común acuerdo, 3 años unilateral)",
+        "Art. 21 y 27 Ley 19.947 (acuerdo completo y suficiente)",
+        "Art. 61 a 66 Ley 19.947 (compensación económica)",
+        "Art. 22 y 25 Ley 19.947 (acreditación del cese de convivencia)"
+      ],
       "pasos": [
         "Determina el tipo de divorcio según el tiempo de separación y si hay acuerdo con tu cónyuge.",
         "Reúne pruebas de la fecha del cese de convivencia (escritura, acta ante el Registro Civil, demanda o transacción aprobada, o, según el caso, otros medios como testigos y contratos de arriendo).",
@@ -93,19 +208,48 @@
         "Si corresponde, pide compensación económica en la demanda o en la contestación.",
         "Una vez firme la sentencia, se subinscribe en el Registro Civil y recién ahí produce efectos frente a terceros."
       ],
-      "plazos": ["Común acuerdo: al menos 1 año de cese de convivencia", "Unilateral: al menos 3 años de cese de convivencia", "La compensación económica debe pedirse en el mismo juicio de divorcio o nulidad"],
-      "documentos": ["Certificado de matrimonio", "Certificados de nacimiento de los hijos", "Prueba del cese de convivencia", "Acuerdo completo y suficiente (si es de común acuerdo)"],
-      "dondeAcudir": ["Tribunal de Familia", "Corporación de Asistencia Judicial", "Registro Civil"],
+      "plazos": [
+        "Común acuerdo: al menos 1 año de cese de convivencia",
+        "Unilateral: al menos 3 años de cese de convivencia",
+        "La compensación económica debe pedirse en el mismo juicio de divorcio o nulidad"
+      ],
+      "documentos": [
+        "Certificado de matrimonio",
+        "Certificados de nacimiento de los hijos",
+        "Prueba del cese de convivencia",
+        "Acuerdo completo y suficiente (si es de común acuerdo)"
+      ],
+      "dondeAcudir": [
+        "Tribunal de Familia",
+        "Corporación de Asistencia Judicial",
+        "Registro Civil"
+      ],
       "consejo": "Si se casaron en sociedad conyugal, el divorcio la disuelve pero no reparte los bienes: luego hay que liquidarla, de común acuerdo o judicialmente.",
       "alerta": "Si no pides la compensación económica durante el juicio de divorcio, pierdes la oportunidad de reclamarla después."
     },
     {
       "id": "cuidado-personal",
       "titulo": "Cuidado personal de los hijos (tuición) y corresponsabilidad",
-      "temas": ["cuidado personal", "tuicion", "quien se queda con los hijos", "custodia", "cuidado compartido", "quitar la tuicion", "corresponsabilidad", "con quien vive mi hijo", "cambio de cuidado personal"],
+      "temas": [
+        "cuidado personal",
+        "tuicion",
+        "quien se queda con los hijos",
+        "custodia",
+        "cuidado compartido",
+        "quitar la tuicion",
+        "corresponsabilidad",
+        "con quien vive mi hijo",
+        "cambio de cuidado personal"
+      ],
       "resumen": "Los padres pueden acordar quién tendrá el cuidado personal de los hijos, o pactar un cuidado compartido. A falta de acuerdo, el hijo sigue con el padre o madre con quien vive, y el juez puede cambiarlo si el interés superior del niño lo exige.",
       "explicacion": "Desde la Ley 20.680, rige el principio de corresponsabilidad: ambos padres participan activa y equitativamente en la crianza aunque vivan separados. El acuerdo de cuidado personal debe constar por escritura pública o acta ante el Registro Civil y subinscribirse. El juez decide considerando el interés superior del niño: vínculo afectivo, aptitudes de los padres, opinión del niño según su edad y madurez, y la actitud de cada padre para favorecer la relación con el otro.",
-      "baseLegal": ["Art. 224 a 228 Código Civil (cuidado personal)", "Art. 225 Código Civil (acuerdo, cuidado compartido y atribución judicial)", "Art. 225-2 Código Civil (criterios)", "Ley 20.680 (corresponsabilidad)", "Art. 106 Ley 19.968 (mediación previa)"],
+      "baseLegal": [
+        "Art. 224 a 228 Código Civil (cuidado personal)",
+        "Art. 225 Código Civil (acuerdo, cuidado compartido y atribución judicial)",
+        "Art. 225-2 Código Civil (criterios)",
+        "Ley 20.680 (corresponsabilidad)",
+        "Art. 106 Ley 19.968 (mediación previa)"
+      ],
       "pasos": [
         "Intenta un acuerdo con el otro padre o madre; puede ser cuidado personal exclusivo o compartido.",
         "Formaliza el acuerdo en una escritura pública o un acta ante el Registro Civil, y subinscríbelo al margen de la inscripción de nacimiento.",
@@ -114,18 +258,41 @@
         "En casos urgentes (riesgo para el niño), pide medidas de protección o cuidado personal provisorio."
       ],
       "plazos": [],
-      "documentos": ["Certificado de nacimiento", "Informes del colegio y de salud", "Pruebas del cuidado cotidiano", "Acuerdo firmado (si existe)"],
-      "dondeAcudir": ["Sistema Nacional de Mediación", "Tribunal de Familia", "Oficina de Protección de Derechos (OPD) / Defensoría de la Niñez"],
+      "documentos": [
+        "Certificado de nacimiento",
+        "Informes del colegio y de salud",
+        "Pruebas del cuidado cotidiano",
+        "Acuerdo firmado (si existe)"
+      ],
+      "dondeAcudir": [
+        "Sistema Nacional de Mediación",
+        "Tribunal de Familia",
+        "Oficina de Protección de Derechos (OPD) / Defensoría de la Niñez"
+      ],
       "consejo": "Obstaculizar sin motivo la relación del hijo con el otro padre es un factor que el juez considera en tu contra al decidir el cuidado personal.",
       "alerta": "El cuidado personal no se gana por quién gana más dinero: el criterio central es el interés superior del niño."
     },
     {
       "id": "relacion-directa-regular",
       "titulo": "Relación directa y regular (régimen de visitas)",
-      "temas": ["visitas", "regimen de visitas", "relacion directa y regular", "no me deja ver a mi hijo", "quiero ver a mi hijo", "visitas fin de semana", "incumplimiento de visitas", "vacaciones con mi hijo"],
+      "temas": [
+        "visitas",
+        "regimen de visitas",
+        "relacion directa y regular",
+        "no me deja ver a mi hijo",
+        "quiero ver a mi hijo",
+        "visitas fin de semana",
+        "incumplimiento de visitas",
+        "vacaciones con mi hijo"
+      ],
       "resumen": "El padre o madre que no tiene el cuidado personal tiene el derecho y el deber de mantener una relación directa y regular con su hijo. El régimen puede acordarse o fijarlo el tribunal.",
       "explicacion": "Incluye visitas, salidas, fines de semana, vacaciones, fechas especiales y contacto por teléfono o videollamada. El juez lo fija según el interés superior del niño y solo puede suspenderlo o restringirlo cuando manifiestamente perjudique al niño. Si quien tiene el cuidado impide sin motivo la relación, el tribunal puede adoptar medidas, incluida la recuperación de los días perdidos.",
-      "baseLegal": ["Art. 229 Código Civil (relación directa y regular)", "Art. 229-2 Código Civil (relación con abuelos)", "Art. 48 Ley 16.618", "Art. 106 Ley 19.968 (mediación previa)"],
+      "baseLegal": [
+        "Art. 229 Código Civil (relación directa y regular)",
+        "Art. 229-2 Código Civil (relación con abuelos)",
+        "Art. 48 Ley 16.618",
+        "Art. 106 Ley 19.968 (mediación previa)"
+      ],
       "pasos": [
         "Intenta acordar un régimen detallado (días, horarios, quién retira y entrega, vacaciones, fechas especiales).",
         "Si no hay acuerdo, acude a mediación y luego demanda en el Tribunal de Familia.",
@@ -133,37 +300,81 @@
         "Los abuelos también pueden pedir relación directa y regular con sus nietos."
       ],
       "plazos": [],
-      "documentos": ["Certificado de nacimiento", "Acuerdo o resolución vigente", "Constancias de incumplimiento"],
-      "dondeAcudir": ["Sistema Nacional de Mediación", "Tribunal de Familia"],
+      "documentos": [
+        "Certificado de nacimiento",
+        "Acuerdo o resolución vigente",
+        "Constancias de incumplimiento"
+      ],
+      "dondeAcudir": [
+        "Sistema Nacional de Mediación",
+        "Tribunal de Familia"
+      ],
       "consejo": "Las visitas y la pensión son obligaciones independientes: no se puede negar la visita porque no se paga la pensión, ni dejar de pagar porque no hay visitas.",
       "alerta": "Si hay violencia intrafamiliar o riesgo para el niño, el tribunal puede fijar visitas supervisadas o suspenderlas."
     },
     {
       "id": "salida-pais-menor",
       "titulo": "Permiso para que un hijo menor salga del país",
-      "temas": ["salir del pais con mi hijo", "permiso notarial", "autorizacion de viaje", "viajar con menor", "salida del pais menor", "el papa no firma el permiso", "autorizacion judicial salida del pais"],
+      "temas": [
+        "salir del pais con mi hijo",
+        "permiso notarial",
+        "autorizacion de viaje",
+        "viajar con menor",
+        "salida del pais menor",
+        "el papa no firma el permiso",
+        "autorizacion judicial salida del pais"
+      ],
       "resumen": "Si un menor de edad viaja con solo uno de sus padres o sin ellos, normalmente necesita la autorización notarial del otro padre o madre; si se niega sin motivo, se puede pedir autorización al Tribunal de Familia.",
       "explicacion": "Las reglas dependen de quién tiene el cuidado personal y de si hay una relación directa y regular fijada judicialmente. La autorización debe otorgarse por escritura pública o instrumento autorizado ante notario, e indicar el destino y el tiempo de permanencia. Si el otro padre no puede o no quiere dar el permiso, el juez puede autorizar la salida por un tiempo determinado, considerando el beneficio para el niño y las garantías de regreso.",
-      "baseLegal": ["Art. 49 Ley 16.618 (salida de menores del país)"],
+      "baseLegal": [
+        "Art. 49 Ley 16.618 (salida de menores del país)"
+      ],
       "pasos": [
         "Revisa si necesitas la autorización del otro padre (según quién tenga el cuidado personal y si hay relación directa y regular fijada).",
         "Pide al otro padre firmar la autorización ante notario, indicando destino, fechas y con quién viaja.",
         "Si se niega o no es posible ubicarlo, presenta una solicitud de autorización de salida al Tribunal de Familia con los detalles del viaje.",
         "Lleva al viaje la autorización original, la cédula o pasaporte del niño y su certificado de nacimiento."
       ],
-      "plazos": ["Inicia el trámite judicial con anticipación: no es inmediato"],
-      "documentos": ["Autorización notarial o resolución judicial", "Pasaporte o cédula del niño", "Certificado de nacimiento"],
-      "dondeAcudir": ["Notaría", "Tribunal de Familia", "PDI (control migratorio)"],
+      "plazos": [
+        "Inicia el trámite judicial con anticipación: no es inmediato"
+      ],
+      "documentos": [
+        "Autorización notarial o resolución judicial",
+        "Pasaporte o cédula del niño",
+        "Certificado de nacimiento"
+      ],
+      "dondeAcudir": [
+        "Notaría",
+        "Tribunal de Familia",
+        "PDI (control migratorio)"
+      ],
       "consejo": "Si el viaje es frecuente, pueden acordar una autorización amplia por un período determinado.",
       "alerta": "Sacar a un menor del país sin la autorización requerida puede constituir sustracción de menores y generar problemas internacionales (Convenio de La Haya)."
     },
     {
       "id": "filiacion-paternidad",
       "titulo": "Filiación: reconocimiento y demanda de paternidad o maternidad",
-      "temas": ["reconocimiento de paternidad", "demanda de paternidad", "filiacion", "examen de adn", "no quiere reconocer a mi hijo", "impugnar paternidad", "reconocer a un hijo", "apellido del padre", "cambio de orden de apellidos"],
+      "temas": [
+        "reconocimiento de paternidad",
+        "demanda de paternidad",
+        "filiacion",
+        "examen de adn",
+        "no quiere reconocer a mi hijo",
+        "impugnar paternidad",
+        "reconocer a un hijo",
+        "apellido del padre",
+        "cambio de orden de apellidos"
+      ],
       "resumen": "El padre puede reconocer voluntariamente a su hijo en el Registro Civil. Si no lo hace, el hijo (o su representante) puede demandar la paternidad ante el Tribunal de Familia, donde la prueba de ADN es decisiva.",
       "explicacion": "La acción de reclamación de filiación del hijo es imprescriptible. En el juicio, la negativa injustificada a practicarse el examen de ADN hace presumir la paternidad. Una vez determinada la filiación, el hijo adquiere todos los derechos: alimentos, herencia y apellido. También existen acciones para impugnar una paternidad que no corresponde, con plazos más acotados.",
-      "baseLegal": ["Art. 187 Código Civil (reconocimiento voluntario)", "Art. 195 Código Civil (imprescriptibilidad de la acción del hijo)", "Art. 198 y 199 Código Civil (pruebas y presunción por negativa al ADN)", "Art. 211 a 216 Código Civil (impugnación)", "Ley 19.585 (reforma de filiación)", "Ley 21.334 (orden de los apellidos)"],
+      "baseLegal": [
+        "Art. 187 Código Civil (reconocimiento voluntario)",
+        "Art. 195 Código Civil (imprescriptibilidad de la acción del hijo)",
+        "Art. 198 y 199 Código Civil (pruebas y presunción por negativa al ADN)",
+        "Art. 211 a 216 Código Civil (impugnación)",
+        "Ley 19.585 (reforma de filiación)",
+        "Ley 21.334 (orden de los apellidos)"
+      ],
       "pasos": [
         "Intenta el reconocimiento voluntario: el padre puede hacerlo en el Registro Civil al inscribir el nacimiento o después.",
         "Si se niega, presenta la demanda de reclamación de paternidad en el Tribunal de Familia (no requiere mediación previa).",
@@ -171,57 +382,148 @@
         "El tribunal ordenará el examen de ADN (Servicio Médico Legal o laboratorio acreditado).",
         "Con la sentencia firme, se subinscribe la filiación en el Registro Civil."
       ],
-      "plazos": ["Reclamación por el hijo: imprescriptible", "Impugnación: plazos breves y distintos según quién la ejerza (arts. 212 a 216 CC); consulta pronto a un abogado"],
-      "documentos": ["Certificado de nacimiento", "Pruebas de la relación (fotos, mensajes, testigos)"],
-      "dondeAcudir": ["Registro Civil", "Tribunal de Familia", "Corporación de Asistencia Judicial"],
+      "plazos": [
+        "Reclamación por el hijo: imprescriptible",
+        "Impugnación: plazos breves y distintos según quién la ejerza (arts. 212 a 216 CC); consulta pronto a un abogado"
+      ],
+      "documentos": [
+        "Certificado de nacimiento",
+        "Pruebas de la relación (fotos, mensajes, testigos)"
+      ],
+      "dondeAcudir": [
+        "Registro Civil",
+        "Tribunal de Familia",
+        "Corporación de Asistencia Judicial"
+      ],
       "consejo": "Puedes pedir alimentos desde la demanda de paternidad, sin esperar la sentencia.",
       "alerta": "Los acuerdos privados para 'no reconocer' a un hijo a cambio de no pedir alimentos no tienen valor: los derechos del hijo son irrenunciables."
     },
     {
       "id": "regimen-bienes-matrimonio",
       "titulo": "Bienes en el matrimonio: sociedad conyugal, separación de bienes y bien familiar",
-      "temas": ["sociedad conyugal", "separacion de bienes", "participacion en gananciales", "regimen patrimonial", "bien familiar", "declarar bien familiar", "casa del matrimonio", "liquidar sociedad conyugal", "patrimonio reservado", "cambiar regimen matrimonial"],
+      "temas": [
+        "sociedad conyugal",
+        "separacion de bienes",
+        "participacion en gananciales",
+        "regimen patrimonial",
+        "bien familiar",
+        "declarar bien familiar",
+        "casa del matrimonio",
+        "liquidar sociedad conyugal",
+        "patrimonio reservado",
+        "cambiar regimen matrimonial"
+      ],
       "resumen": "Si no pactan otra cosa al casarse, rige la sociedad conyugal. También pueden optar por separación total de bienes o participación en los gananciales. La vivienda familiar puede declararse bien familiar para protegerla.",
       "explicacion": "Sociedad conyugal: los bienes adquiridos durante el matrimonio forman un patrimonio común administrado, por regla general, por el marido, y la mujer tiene un patrimonio reservado con lo que gana con su trabajo (este régimen ha sido objeto de proyectos de reforma: verifica la regla vigente). Separación de bienes: cada uno administra lo suyo. Participación en gananciales: durante el matrimonio funciona como separación, y al terminar se compensan las ganancias. La declaración de bien familiar protege el inmueble que sirve de residencia principal a la familia: el cónyuge propietario no puede venderlo ni hipotecarlo sin la autorización del otro, y frente a los acreedores el cónyuge no propietario puede pedir que primero se persigan otros bienes del deudor (beneficio de excusión).",
-      "baseLegal": ["Art. 135 y 1718 y siguientes Código Civil (sociedad conyugal)", "Art. 150 Código Civil (patrimonio reservado de la mujer)", "Art. 152 y siguientes Código Civil (separación de bienes)", "Art. 1792-1 y siguientes Código Civil (participación en gananciales)", "Art. 141 a 149 Código Civil (bienes familiares)", "Art. 148 Código Civil (beneficio de excusión)", "Art. 1723 Código Civil (cambio de régimen)"],
+      "baseLegal": [
+        "Art. 135 y 1718 y siguientes Código Civil (sociedad conyugal)",
+        "Art. 150 Código Civil (patrimonio reservado de la mujer)",
+        "Art. 152 y siguientes Código Civil (separación de bienes)",
+        "Art. 1792-1 y siguientes Código Civil (participación en gananciales)",
+        "Art. 141 a 149 Código Civil (bienes familiares)",
+        "Art. 148 Código Civil (beneficio de excusión)",
+        "Art. 1723 Código Civil (cambio de régimen)"
+      ],
       "pasos": [
         "Revisa tu certificado de matrimonio: indica el régimen de bienes pactado.",
         "Para cambiar de sociedad conyugal a separación o participación, firma una escritura pública con tu cónyuge y subinscríbela al margen de la inscripción de matrimonio dentro de 30 días.",
         "Para proteger la vivienda, solicita la declaración de bien familiar ante el Tribunal de Familia (luego se anota en el Conservador de Bienes Raíces).",
         "Al terminar el matrimonio, liquida el régimen (de común acuerdo ante notario o judicialmente ante un juez árbitro o el tribunal)."
       ],
-      "plazos": ["Subinscripción del pacto de cambio de régimen: 30 días desde la escritura (art. 1723 CC)"],
-      "documentos": ["Certificado de matrimonio", "Inscripción de dominio del inmueble", "Escrituras de los bienes"],
-      "dondeAcudir": ["Notaría", "Registro Civil", "Tribunal de Familia", "Conservador de Bienes Raíces"],
+      "plazos": [
+        "Subinscripción del pacto de cambio de régimen: 30 días desde la escritura (art. 1723 CC)"
+      ],
+      "documentos": [
+        "Certificado de matrimonio",
+        "Inscripción de dominio del inmueble",
+        "Escrituras de los bienes"
+      ],
+      "dondeAcudir": [
+        "Notaría",
+        "Registro Civil",
+        "Tribunal de Familia",
+        "Conservador de Bienes Raíces"
+      ],
       "consejo": "Si la casa familiar está en riesgo por deudas de tu cónyuge, la declaración de bien familiar (incluso provisoria, desde que se presenta la demanda) es una protección importante.",
       "alerta": "La declaración de bien familiar no impide el cobro de deudas: el acreedor puede embargar, pero debe respetar el beneficio de excusión y ciertas reglas de protección."
     },
     {
       "id": "acuerdo-union-civil",
       "titulo": "Acuerdo de Unión Civil (AUC) y matrimonio igualitario",
-      "temas": ["acuerdo de union civil", "auc", "union civil", "convivientes civiles", "conviviente civil", "terminar acuerdo de union civil", "matrimonio igualitario", "matrimonio entre personas del mismo sexo", "pareja de hecho"],
+      "temas": [
+        "acuerdo de union civil",
+        "auc",
+        "union civil",
+        "convivientes civiles",
+        "conviviente civil",
+        "terminar acuerdo de union civil",
+        "matrimonio igualitario",
+        "matrimonio entre personas del mismo sexo",
+        "pareja de hecho"
+      ],
       "resumen": "El Acuerdo de Unión Civil se celebra ante el Registro Civil entre dos personas que comparten un hogar, y les da derechos en salud, previsión, herencia y bienes. Desde 2022, el matrimonio también está abierto a parejas del mismo sexo.",
       "explicacion": "Por regla general, los convivientes civiles conservan la propiedad de sus bienes (separación), salvo que pacten una comunidad. Tienen derechos hereditarios similares a los del cónyuge, pueden ser carga de salud y acceder a beneficios previsionales. El AUC termina por muerte, por matrimonio entre ellos, por mutuo acuerdo (escritura pública o acta ante el Registro Civil), por voluntad unilateral (escritura o acta notificada al otro) o por declaración de nulidad.",
-      "baseLegal": ["Ley 20.830 (Acuerdo de Unión Civil)", "Art. 15 Ley 20.830 (régimen de bienes)", "Art. 16 Ley 20.830 (derechos hereditarios)", "Art. 26 Ley 20.830 (término)", "Ley 21.400 (matrimonio igualitario)"],
+      "baseLegal": [
+        "Ley 20.830 (Acuerdo de Unión Civil)",
+        "Art. 15 Ley 20.830 (régimen de bienes)",
+        "Art. 16 Ley 20.830 (derechos hereditarios)",
+        "Art. 26 Ley 20.830 (término)",
+        "Ley 21.400 (matrimonio igualitario)"
+      ],
       "pasos": [
         "Pide hora en el Registro Civil para celebrar el AUC (o el matrimonio).",
         "Decide si pactarán comunidad de bienes; si no, rige la separación.",
         "Asisten ambos con cédula de identidad (y testigos en el caso del matrimonio).",
         "Para terminar el AUC por voluntad unilateral, firma una escritura o acta y notifícala al otro conviviente dentro del plazo legal."
       ],
-      "plazos": ["Término unilateral: la notificación al otro conviviente debe hacerse dentro de 20 días hábiles desde la anotación (verifica condiciones vigentes)"],
-      "documentos": ["Cédulas de identidad", "Certificado del AUC"],
-      "dondeAcudir": ["Registro Civil"],
+      "plazos": [
+        "Término unilateral: la notificación al otro conviviente debe hacerse dentro de 20 días hábiles desde la anotación (verifica condiciones vigentes)"
+      ],
+      "documentos": [
+        "Cédulas de identidad",
+        "Certificado del AUC"
+      ],
+      "dondeAcudir": [
+        "Registro Civil"
+      ],
       "consejo": "El conviviente civil que sobrevive es heredero, por lo que conviene revisar o hacer un testamento después de celebrar el AUC.",
       "alerta": "Una simple convivencia sin AUC ni matrimonio no da derechos hereditarios automáticos."
     },
     {
       "id": "herencia-sucesion",
       "titulo": "Herencias: quiénes heredan, testamento y posesión efectiva",
-      "temas": ["quien hereda", "herederos", "herencia sin testamento", "testamento", "hacer un testamento", "legitima", "cuarta de mejoras", "orden de sucesion", "murio mi papa que hago", "posesion efectiva", "repartir la herencia", "particion de herencia", "desheredar"],
+      "temas": [
+        "quien hereda",
+        "herederos",
+        "herencia sin testamento",
+        "testamento",
+        "hacer un testamento",
+        "legitima",
+        "cuarta de mejoras",
+        "orden de sucesion",
+        "murio mi papa que hago",
+        "posesion efectiva",
+        "repartir la herencia",
+        "particion de herencia",
+        "desheredar",
+        "beneficio de inventario",
+        "posesion efectiva con beneficio de inventario",
+        "deudas del fallecido",
+        "heredar deudas",
+        "se heredan las deudas",
+        "repudiar la herencia"
+      ],
       "resumen": "Si no hay testamento, heredan primero los hijos junto al cónyuge o conviviente civil; a falta de hijos, el cónyuge y los padres; luego los hermanos y otros parientes. Con testamento, la persona solo puede disponer libremente de una parte de sus bienes.",
       "explicacion": "Sucesión intestada (sin testamento): (1) hijos y cónyuge o conviviente civil sobreviviente: el cónyuge recibe el doble de lo que corresponde a cada hijo (o lo mismo si hay un solo hijo), y nunca menos de un cuarto de la herencia; (2) sin hijos: cónyuge y ascendientes (2/3 para el cónyuge y 1/3 para los ascendientes); (3) hermanos; (4) otros colaterales hasta el sexto grado; (5) el Fisco. Con testamento: la mitad de los bienes es para los legitimarios (hijos, cónyuge y ascendientes), un cuarto (cuarta de mejoras) puede distribuirse entre ellos y descendientes, y el último cuarto es de libre disposición. El trámite para tomar posesión de los bienes es la posesión efectiva.",
-      "baseLegal": ["Art. 983 a 998 Código Civil (órdenes de sucesión)", "Art. 988 y 989 Código Civil (cuotas de cónyuge e hijos/ascendientes)", "Art. 1167 y 1184 Código Civil (legítimas y cuartas)", "Art. 1207 y siguientes Código Civil (desheredamiento)", "Ley 19.903 (posesión efectiva)", "Ley 20.830 (derechos del conviviente civil)", "Ley 16.271 (impuesto a las herencias)"],
+      "baseLegal": [
+        "Art. 983 a 998 Código Civil (órdenes de sucesión)",
+        "Art. 988 y 989 Código Civil (cuotas de cónyuge e hijos/ascendientes)",
+        "Art. 1167 y 1184 Código Civil (legítimas y cuartas)",
+        "Art. 1207 y siguientes Código Civil (desheredamiento)",
+        "Ley 19.903 (posesión efectiva)",
+        "Ley 20.830 (derechos del conviviente civil)",
+        "Ley 16.271 (impuesto a las herencias)"
+      ],
       "pasos": [
         "Obtén el certificado de defunción y averigua si hay testamento (Registro Nacional de Testamentos del Registro Civil).",
         "Sin testamento: solicita la posesión efectiva en el Registro Civil (en línea o en oficina), con el inventario de bienes. Con testamento: se tramita en el tribunal civil.",
@@ -229,19 +531,43 @@
         "Inscribe los bienes a nombre de los herederos (Conservador de Bienes Raíces, vehículos, cuentas bancarias, AFP).",
         "Para dividir los bienes, hagan una partición de común acuerdo (escritura pública) o ante un juez partidor si no hay acuerdo."
       ],
-      "plazos": ["Impuesto a la herencia: dentro de 3 años desde la delación", "No hay plazo para pedir la posesión efectiva, pero sin ella no pueden disponer de los bienes"],
-      "documentos": ["Certificado de defunción", "Certificados de nacimiento y matrimonio/AUC", "Inventario valorado de bienes", "Testamento (si existe)"],
-      "dondeAcudir": ["Registro Civil", "Tribunal civil", "SII", "Conservador de Bienes Raíces", "Notaría"],
+      "plazos": [
+        "Impuesto a la herencia: dentro de 3 años desde la delación",
+        "No hay plazo para pedir la posesión efectiva, pero sin ella no pueden disponer de los bienes"
+      ],
+      "documentos": [
+        "Certificado de defunción",
+        "Certificados de nacimiento y matrimonio/AUC",
+        "Inventario valorado de bienes",
+        "Testamento (si existe)"
+      ],
+      "dondeAcudir": [
+        "Registro Civil",
+        "Tribunal civil",
+        "SII",
+        "Conservador de Bienes Raíces",
+        "Notaría"
+      ],
       "consejo": "Las deudas del causante también se heredan. Si sospechas que las deudas superan los bienes, acepta la herencia con beneficio de inventario: así respondes solo hasta el valor de lo que recibes.",
       "alerta": "Mientras no se haga la partición, los herederos son comuneros de todos los bienes: ninguno puede vender la casa por sí solo."
     },
     {
       "id": "adopcion",
       "titulo": "Adopción",
-      "temas": ["adopcion", "adoptar", "adoptar un hijo", "adoptar al hijo de mi pareja", "susceptibilidad de adopcion", "mejor ninez adopcion"],
+      "temas": [
+        "adopcion",
+        "adoptar",
+        "adoptar un hijo",
+        "adoptar al hijo de mi pareja",
+        "susceptibilidad de adopcion",
+        "mejor ninez adopcion"
+      ],
       "resumen": "La adopción da al niño la calidad de hijo de los adoptantes, con todos sus derechos. Se tramita ante el Tribunal de Familia, con intervención del Servicio de Protección Especializada (Mejor Niñez) o instituciones acreditadas.",
       "explicacion": "Primero se declara al niño susceptible de ser adoptado (por consentimiento de los padres, inhabilidad o abandono) y luego se tramita la adopción con los postulantes evaluados. Los requisitos de los adoptantes (edad, diferencia de edad con el niño, matrimonio o no, residencia) los fija la ley. También existe la adopción del hijo del cónyuge, con reglas propias. La normativa de adopción ha estado en proceso de reforma: verifica las reglas vigentes.",
-      "baseLegal": ["Ley 19.620 (adopción de menores)", "Ley 21.302 (Servicio Nacional de Protección Especializada a la Niñez y Adolescencia)"],
+      "baseLegal": [
+        "Ley 19.620 (adopción de menores)",
+        "Ley 21.302 (Servicio Nacional de Protección Especializada a la Niñez y Adolescencia)"
+      ],
       "pasos": [
         "Postula en el Servicio de Protección Especializada (Mejor Niñez) o en una institución acreditada.",
         "Completa la evaluación técnica (psicológica, social y de idoneidad).",
@@ -250,18 +576,40 @@
         "La sentencia ordena una nueva inscripción de nacimiento del niño como hijo de los adoptantes."
       ],
       "plazos": [],
-      "documentos": ["Certificados de nacimiento y matrimonio", "Certificado de antecedentes", "Informes de salud", "Antecedentes económicos"],
-      "dondeAcudir": ["Servicio de Protección Especializada (Mejor Niñez)", "Instituciones acreditadas de adopción", "Tribunal de Familia"],
+      "documentos": [
+        "Certificados de nacimiento y matrimonio",
+        "Certificado de antecedentes",
+        "Informes de salud",
+        "Antecedentes económicos"
+      ],
+      "dondeAcudir": [
+        "Servicio de Protección Especializada (Mejor Niñez)",
+        "Instituciones acreditadas de adopción",
+        "Tribunal de Familia"
+      ],
       "consejo": "La adopción es un proceso largo: inicia la evaluación con tiempo y mantén actualizados tus antecedentes.",
       "alerta": "Entregar o recibir un niño fuera del procedimiento legal ('adopción de hecho') no crea vínculo legal y puede constituir delito."
     },
     {
       "id": "vif-familia",
       "titulo": "Violencia intrafamiliar ante el Tribunal de Familia y medidas de protección",
-      "temas": ["violencia intrafamiliar tribunal de familia", "medida de proteccion familia", "maltrato psicologico pareja", "violencia psicologica", "denunciar violencia en familia", "proteccion de menores", "vulneracion de derechos de un nino"],
+      "temas": [
+        "violencia intrafamiliar tribunal de familia",
+        "medida de proteccion familia",
+        "maltrato psicologico pareja",
+        "violencia psicologica",
+        "denunciar violencia en familia",
+        "proteccion de menores",
+        "vulneracion de derechos de un nino"
+      ],
       "resumen": "Los actos de violencia intrafamiliar que no constituyen delito los conoce el Tribunal de Familia, que puede decretar de inmediato medidas cautelares (salida del agresor del hogar, prohibición de acercamiento) y, para niños, medidas de protección.",
       "explicacion": "Si los hechos son delito (lesiones, amenazas, maltrato habitual), la causa pasa a la Fiscalía y al Juzgado de Garantía. El Tribunal de Familia también conoce las causas de vulneración de derechos de niños, niñas y adolescentes y puede decretar medidas de protección. Revisa también el tema 'Violencia intrafamiliar (VIF)' del área penal.",
-      "baseLegal": ["Ley 20.066 (violencia intrafamiliar)", "Art. 81 y siguientes Ley 19.968 (procedimiento VIF en Tribunales de Familia)", "Art. 68 y siguientes Ley 19.968 (medidas de protección de niños)", "Ley 21.675 (violencia contra las mujeres)"],
+      "baseLegal": [
+        "Ley 20.066 (violencia intrafamiliar)",
+        "Art. 81 y siguientes Ley 19.968 (procedimiento VIF en Tribunales de Familia)",
+        "Art. 68 y siguientes Ley 19.968 (medidas de protección de niños)",
+        "Ley 21.675 (violencia contra las mujeres)"
+      ],
       "pasos": [
         "Si hay peligro inmediato, llama al 133.",
         "Denuncia en Carabineros, PDI, Fiscalía o directamente en el Tribunal de Familia.",
@@ -269,9 +617,21 @@
         "Si un niño está en riesgo, solicita una medida de protección al Tribunal de Familia o acude a la OPD de tu comuna.",
         "Busca apoyo psicosocial (Centros de la Mujer de SernamEG, Fono 1455)."
       ],
-      "plazos": ["Las medidas cautelares pueden decretarse de inmediato"],
-      "documentos": ["Constatación de lesiones", "Mensajes, audios o testigos", "Informes de salud o del colegio"],
-      "dondeAcudir": ["Carabineros (133)", "Fono 1455", "Tribunal de Familia", "Fiscalía", "OPD / Defensoría de la Niñez"],
+      "plazos": [
+        "Las medidas cautelares pueden decretarse de inmediato"
+      ],
+      "documentos": [
+        "Constatación de lesiones",
+        "Mensajes, audios o testigos",
+        "Informes de salud o del colegio"
+      ],
+      "dondeAcudir": [
+        "Carabineros (133)",
+        "Fono 1455",
+        "Tribunal de Familia",
+        "Fiscalía",
+        "OPD / Defensoría de la Niñez"
+      ],
       "consejo": "En causas de VIF no se exige mediación previa para demandar alimentos o cuidado personal.",
       "alerta": "La mediación no procede en asuntos de violencia intrafamiliar."
     }

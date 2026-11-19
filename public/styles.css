@@ -237,6 +237,12 @@ a { color: var(--accent); }
 .btn-primary:hover { filter: brightness(1.08); }
 .calc-cta { margin: 0.6rem 0; }
 
+/* ---------- Definition card ---------- */
+.card-def { border-left: 4px solid var(--gold); background: var(--surface); }
+.pill-def { background: var(--gold-soft); color: var(--gold); }
+.def-term { margin: 0.2rem 0 0.3rem; font-size: 1.05rem; }
+.def-base { margin: 0.4rem 0 0; font-size: 0.8rem; color: var(--text-muted); }
+
 /* ---------- Calculator ---------- */
 .calc-form { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem 0.9rem; margin-top: 0.6rem; }
 .calc-form label { display: flex; flex-direction: column; gap: 0.25rem; font-size: 0.82rem; font-weight: 600; color: var(--text-muted); }

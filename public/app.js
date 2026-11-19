@@ -16,6 +16,8 @@
 
   const tplTopic = document.getElementById('tpl-topic-card');
   const tplCalc = document.getElementById('tpl-calc-card');
+  const tplDef = document.getElementById('tpl-def-card');
+  const openGlossaryBtn = document.getElementById('openGlossaryBtn');
 
   const store = {
     get(k) { try { return localStorage.getItem(k); } catch { return null; } },
@@ -132,6 +134,16 @@
     return root;
   }
 
+  function buildDefinitionCard(d) {
+    const node = tplDef.content.cloneNode(true);
+    const root = node.querySelector('.card-def');
+    root.querySelector('[data-role="termino"]').textContent = d.termino;
+    root.querySelector('[data-role="area"]').textContent = d.area || '';
+    root.querySelector('[data-role="definicion"]').textContent = d.definicion;
+    fillText(root, 'base', d.base, 'baseWrap');
+    return root;
+  }
+
   function addAssistantAnswer(answer) {
     const wrap = document.createElement('div');
     wrap.className = 'msg assistant';
@@ -164,7 +176,7 @@
     if (answer.items && answer.items.length) {
       const cards = document.createElement('div');
       cards.className = 'cards';
-      answer.items.forEach((item) => cards.appendChild(buildTopicCard(item)));
+      answer.items.forEach((item) => cards.appendChild(item.type === 'definicion' ? buildDefinitionCard(item) : buildTopicCard(item)));
       stack.appendChild(cards);
     }
 
@@ -298,6 +310,7 @@
     wrap.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
   openCalcBtn.addEventListener('click', showCalculator);
+  openGlossaryBtn.addEventListener('click', () => ask('Glosario'));
 
   // ---------- Ask ----------
   function addAssistantTyping() {
@@ -412,6 +425,7 @@
         'Quiero demandar pensión de alimentos',
         'Me quieren embargar la casa',
         'Debo contribuciones atrasadas',
+        '¿Qué es la posesión efectiva con beneficio de inventario?',
       ],
       disclaimer: 'Orientación general. No reemplaza la asesoría de un abogado que revise tu caso concreto.',
     });

@@ -49,6 +49,7 @@
         <h2>Herramientas</h2>
         <ul class="topic-list">
           <li><button type="button" id="openCalcBtn">🧮 Calcular indemnización por despido</button></li>
+          <li><button type="button" id="openGlossaryBtn">📖 Glosario jurídico (¿qué significa…?)</button></li>
         </ul>
       </div>
       <div class="sidebar-section">
@@ -111,6 +112,18 @@
 
     <p class="card-tip" data-role="consejoWrap"><strong>Consejo:</strong> <span data-role="consejo"></span></p>
     <p class="card-alert" data-role="alertaWrap"><strong>Ojo:</strong> <span data-role="alerta"></span></p>
+  </article>
+</template>
+
+<template id="tpl-def-card">
+  <article class="card card-def">
+    <header class="card-header">
+      <span class="pill pill-def">Concepto</span>
+      <span class="pill" data-role="area"></span>
+    </header>
+    <h3 class="def-term" data-role="termino"></h3>
+    <p class="card-text" data-role="definicion"></p>
+    <p class="def-base" data-role="baseWrap">⚖️ <span data-role="base"></span></p>
   </article>
 </template>
 

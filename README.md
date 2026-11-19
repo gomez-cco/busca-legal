@@ -37,6 +37,9 @@ backend. Lista para desplegar en Render.
     adopción, VIF ante Tribunales de Familia.
   - **Civil:** juicio ejecutivo y embargo, bienes inembargables, remate por hipoteca,
     prescripción de deudas, cobranza abusiva y DICOM, arriendos y Ley "Devuélveme mi casa".
+- **Glosario jurídico** (`data/glosario.json`, 91 conceptos): responde preguntas del tipo
+  "¿qué es / qué significa…?" (beneficio de inventario, posesión efectiva, tercería, UF,
+  formalización, silencio administrativo, etc.) y enlaza con la ficha del trámite.
 - **Calculadora de indemnización por despido** (arts. 162, 163, 168 y 172 CT): años de
   servicio, aviso previo, topes de 90 UF y 11 años, feriado proporcional y pendiente, y
   escenarios de recargo judicial.
@@ -70,6 +73,7 @@ npm test
 - `lib/engine.js`: búsqueda por frases clave, raíces de palabras y pistas de área; arma la respuesta
 - `lib/calc.js`: calculadora de indemnizaciones
 - `data/areas/*.json`: base de conocimiento (un archivo por área)
+- `data/glosario.json`: conceptos jurídicos `{ termino, alias, area, definicion, base, tema }`
 - `public/`: interfaz (HTML/CSS/JS sin build ni frameworks)
 - `test/run.js`: pruebas de ruteo de consultas y de la calculadora
 

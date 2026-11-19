@@ -1,0 +1,1024 @@
+[
+ {
+  "termino": "Beneficio de inventario",
+  "alias": [
+   "beneficio de inventario",
+   "con beneficio de inventario",
+   "aceptar con beneficio de inventario"
+  ],
+  "area": "Familia / Sucesiones",
+  "definicion": "Es una forma de aceptar una herencia por la cual el heredero responde de las deudas del causante (la persona fallecida) solo hasta el valor de los bienes que recibe, y no con su propio patrimonio. Si las deudas superan a los bienes, el heredero no tiene que pagar la diferencia con su dinero. Para gozar de él debe hacerse un inventario de los bienes. En la posesión efectiva intestada que se tramita en el Registro Civil, la ley entiende que todos los herederos la aceptan con beneficio de inventario.",
+  "base": "Art. 1247 a 1263 Código Civil; art. 4 Ley 19.903 (posesión efectiva intestada con beneficio de inventario)",
+  "tema": "herencia-sucesion"
+ },
+ {
+  "termino": "Posesión efectiva",
+  "alias": [
+   "posesion efectiva",
+   "tramitar la posesion efectiva",
+   "solicitud de posesion efectiva"
+  ],
+  "area": "Familia / Sucesiones",
+  "definicion": "Es la resolución que reconoce oficialmente quiénes son los herederos de una persona fallecida y les permite disponer de sus bienes (vender, inscribir propiedades, retirar fondos). Si no hay testamento, se tramita en el Registro Civil; si hay testamento, en un tribunal civil. Incluye un inventario valorado de los bienes.",
+  "base": "Ley 19.903; art. 688 Código Civil",
+  "tema": "herencia-sucesion"
+ },
+ {
+  "termino": "Causante",
+  "alias": [
+   "causante",
+   "de cujus"
+  ],
+  "area": "Familia / Sucesiones",
+  "definicion": "La persona fallecida cuya herencia se reparte.",
+  "base": "Libro III Código Civil",
+  "tema": "herencia-sucesion"
+ },
+ {
+  "termino": "Herencia yacente",
+  "alias": [
+   "herencia yacente"
+  ],
+  "area": "Familia / Sucesiones",
+  "definicion": "Herencia que no ha sido aceptada dentro de 15 días desde la apertura de la sucesión y sin albacea con tenencia de bienes; el juez la declara yacente y nombra un curador que la administra.",
+  "base": "Art. 1240 Código Civil",
+  "tema": "herencia-sucesion"
+ },
+ {
+  "termino": "Repudiar la herencia",
+  "alias": [
+   "repudiar la herencia",
+   "repudio de herencia",
+   "renunciar a la herencia",
+   "rechazar la herencia"
+  ],
+  "area": "Familia / Sucesiones",
+  "definicion": "Rechazar la herencia: el heredero que repudia se entiende que nunca fue heredero, por lo que no recibe bienes ni responde por deudas. Debe hacerse por escritura pública o ante el tribunal, y no puede ser parcial ni condicional.",
+  "base": "Art. 1225 a 1236 Código Civil",
+  "tema": "herencia-sucesion"
+ },
+ {
+  "termino": "Legítima",
+  "alias": [
+   "la legitima",
+   "legitima rigorosa",
+   "legitimarios",
+   "asignacion legitima"
+  ],
+  "area": "Familia / Sucesiones",
+  "definicion": "Parte de la herencia que la ley reserva obligatoriamente a ciertos herederos (legitimarios: hijos, cónyuge o conviviente civil y ascendientes), aunque el testamento diga otra cosa. Corresponde a la mitad de los bienes.",
+  "base": "Art. 1181 a 1184 Código Civil",
+  "tema": "herencia-sucesion"
+ },
+ {
+  "termino": "Cuarta de mejoras",
+  "alias": [
+   "cuarta de mejoras",
+   "cuarta de libre disposicion",
+   "libre disposicion"
+  ],
+  "area": "Familia / Sucesiones",
+  "definicion": "Con testamento, la herencia se divide en: mitad legitimaria (para los legitimarios), cuarta de mejoras (que el testador puede asignar libremente entre cónyuge, descendientes y ascendientes) y cuarta de libre disposición (que puede dejar a quien quiera).",
+  "base": "Art. 1184 Código Civil",
+  "tema": "herencia-sucesion"
+ },
+ {
+  "termino": "Albacea",
+  "alias": [
+   "albacea",
+   "ejecutor testamentario"
+  ],
+  "area": "Familia / Sucesiones",
+  "definicion": "Persona designada en el testamento para hacer cumplir las disposiciones del testador.",
+  "base": "Art. 1270 y siguientes Código Civil",
+  "tema": "herencia-sucesion"
+ },
+ {
+  "termino": "Partición de herencia",
+  "alias": [
+   "particion",
+   "particion de bienes",
+   "juez partidor",
+   "liquidacion de la comunidad hereditaria"
+  ],
+  "area": "Familia / Sucesiones",
+  "definicion": "Procedimiento para dividir los bienes de la herencia entre los herederos. Puede hacerse de común acuerdo (escritura pública) o ante un juez partidor (árbitro) si no hay acuerdo o hay incapaces.",
+  "base": "Art. 1317 y siguientes Código Civil",
+  "tema": "herencia-sucesion"
+ },
+ {
+  "termino": "Desheredamiento",
+  "alias": [
+   "desheredar",
+   "desheredamiento"
+  ],
+  "area": "Familia / Sucesiones",
+  "definicion": "Disposición testamentaria que priva a un legitimario de toda o parte de su legítima, solo por las causales que la ley señala (por ejemplo, injurias graves contra el testador) y que deben probarse.",
+  "base": "Art. 1207 a 1211 Código Civil",
+  "tema": "herencia-sucesion"
+ },
+ {
+  "termino": "Inventario solemne",
+  "alias": [
+   "inventario solemne",
+   "inventario valorado"
+  ],
+  "area": "Familia / Sucesiones",
+  "definicion": "Inventario de bienes hecho con las formalidades legales (ante notario o con autorización judicial). El inventario valorado de la posesión efectiva detalla bienes y su valor para efectos del impuesto a la herencia.",
+  "base": "Art. 858 Código de Procedimiento Civil; Ley 19.903",
+  "tema": "herencia-sucesion"
+ },
+ {
+  "termino": "Alimentos",
+  "alias": [
+   "alimentos",
+   "derecho de alimentos",
+   "alimentario",
+   "alimentante"
+  ],
+  "area": "Familia",
+  "definicion": "Obligación legal de ciertos parientes de proveer lo necesario para la subsistencia de otro (alimentación, vivienda, salud, educación). El alimentante es quien paga; el alimentario, quien recibe.",
+  "base": "Art. 321 y siguientes Código Civil; Ley 14.908",
+  "tema": "pension-alimentos"
+ },
+ {
+  "termino": "Alimentos provisorios",
+  "alias": [
+   "alimentos provisorios",
+   "pension provisoria"
+  ],
+  "area": "Familia",
+  "definicion": "Pensión que el juez fija al inicio del juicio de alimentos, mientras se dicta la sentencia definitiva.",
+  "base": "Art. 4 Ley 14.908",
+  "tema": "pension-alimentos"
+ },
+ {
+  "termino": "Compensación económica",
+  "alias": [
+   "compensacion economica"
+  ],
+  "area": "Familia",
+  "definicion": "Monto que, en el divorcio o nulidad, debe pagar un cónyuge al otro cuando este último, por dedicarse al cuidado de los hijos o del hogar, no pudo trabajar o lo hizo en menor medida de lo que podía, sufriendo un menoscabo económico.",
+  "base": "Art. 61 a 66 Ley 19.947",
+  "tema": "divorcio"
+ },
+ {
+  "termino": "Cuidado personal",
+  "alias": [
+   "cuidado personal",
+   "tuicion",
+   "custodia"
+  ],
+  "area": "Familia",
+  "definicion": "Derecho y deber de criar, educar y tener consigo a los hijos. Puede ser exclusivo de uno de los padres o compartido. Antiguamente se llamaba tuición.",
+  "base": "Art. 224 a 228 Código Civil",
+  "tema": "cuidado-personal"
+ },
+ {
+  "termino": "Relación directa y regular",
+  "alias": [
+   "relacion directa y regular",
+   "regimen de visitas"
+  ],
+  "area": "Familia",
+  "definicion": "Derecho y deber del padre o madre que no tiene el cuidado personal de mantener contacto periódico y estable con el hijo (visitas, salidas, comunicación).",
+  "base": "Art. 229 Código Civil",
+  "tema": "relacion-directa-regular"
+ },
+ {
+  "termino": "Patria potestad",
+  "alias": [
+   "patria potestad"
+  ],
+  "area": "Familia",
+  "definicion": "Conjunto de derechos y deberes de los padres sobre los bienes de sus hijos no emancipados (administración, usufructo y representación legal). Es distinta del cuidado personal.",
+  "base": "Art. 243 y siguientes Código Civil",
+  "tema": "cuidado-personal"
+ },
+ {
+  "termino": "Sociedad conyugal",
+  "alias": [
+   "sociedad conyugal"
+  ],
+  "area": "Familia",
+  "definicion": "Régimen de bienes del matrimonio que rige si no se pacta otro: los bienes adquiridos a título oneroso durante el matrimonio forman un patrimonio común.",
+  "base": "Art. 135 y 1718 y siguientes Código Civil",
+  "tema": "regimen-bienes-matrimonio"
+ },
+ {
+  "termino": "Separación de bienes",
+  "alias": [
+   "separacion de bienes",
+   "separacion total de bienes"
+  ],
+  "area": "Familia",
+  "definicion": "Régimen en que cada cónyuge es dueño y administra separadamente sus bienes.",
+  "base": "Art. 152 y siguientes Código Civil",
+  "tema": "regimen-bienes-matrimonio"
+ },
+ {
+  "termino": "Participación en los gananciales",
+  "alias": [
+   "participacion en los gananciales",
+   "participacion en gananciales",
+   "gananciales"
+  ],
+  "area": "Familia",
+  "definicion": "Régimen en que durante el matrimonio cada cónyuge administra lo suyo, y al terminar, el que obtuvo menos ganancias tiene derecho a la mitad de la diferencia.",
+  "base": "Art. 1792-1 y siguientes Código Civil",
+  "tema": "regimen-bienes-matrimonio"
+ },
+ {
+  "termino": "Bien familiar",
+  "alias": [
+   "bien familiar",
+   "bienes familiares"
+  ],
+  "area": "Familia",
+  "definicion": "Inmueble que sirve de residencia principal a la familia (y los muebles que lo guarnecen) declarado como tal por el juez: el cónyuge propietario no puede venderlo, hipotecarlo ni arrendarlo sin autorización del otro.",
+  "base": "Art. 141 a 149 Código Civil",
+  "tema": "regimen-bienes-matrimonio"
+ },
+ {
+  "termino": "Patrimonio reservado",
+  "alias": [
+   "patrimonio reservado"
+  ],
+  "area": "Familia",
+  "definicion": "Bienes que la mujer casada en sociedad conyugal obtiene con su trabajo separado del marido, y que administra ella misma.",
+  "base": "Art. 150 Código Civil",
+  "tema": "regimen-bienes-matrimonio"
+ },
+ {
+  "termino": "Mediación familiar",
+  "alias": [
+   "mediacion familiar",
+   "mediacion previa",
+   "mediacion obligatoria"
+  ],
+  "area": "Familia",
+  "definicion": "Instancia previa y obligatoria en alimentos, cuidado personal y relación directa y regular, en la que un mediador ayuda a las partes a llegar a un acuerdo. Es gratuita a través del sistema licitado por el Ministerio de Justicia.",
+  "base": "Art. 103 a 114 Ley 19.968",
+  "tema": "pension-alimentos"
+ },
+ {
+  "termino": "Filiación",
+  "alias": [
+   "filiacion"
+  ],
+  "area": "Familia",
+  "definicion": "Vínculo jurídico entre padres e hijos, del que nacen derechos como alimentos, herencia y apellido.",
+  "base": "Art. 179 y siguientes Código Civil",
+  "tema": "filiacion-paternidad"
+ },
+ {
+  "termino": "Finiquito",
+  "alias": [
+   "finiquito"
+  ],
+  "area": "Laboral",
+  "definicion": "Documento que deja constancia del término de la relación laboral y de los pagos que se hacen al trabajador. Debe ratificarse ante un ministro de fe o firmarse electrónicamente en la Dirección del Trabajo.",
+  "base": "Art. 177 Código del Trabajo",
+  "tema": "finiquito"
+ },
+ {
+  "termino": "Reserva de derechos",
+  "alias": [
+   "reserva de derechos"
+  ],
+  "area": "Laboral",
+  "definicion": "Anotación que el trabajador escribe en el finiquito indicando qué acciones se reserva (por ejemplo, demandar despido injustificado), para que la firma no le impida reclamarlas.",
+  "base": "Art. 177 Código del Trabajo (jurisprudencia)",
+  "tema": "finiquito"
+ },
+ {
+  "termino": "Desahucio",
+  "alias": [
+   "desahucio"
+  ],
+  "area": "Laboral / Arriendos",
+  "definicion": "Aviso de término de un contrato de duración indefinida. En materia laboral, procede solo para gerentes y cargos de exclusiva confianza y trabajadoras de casa particular (art. 161). En arriendo, es el aviso del arrendador para terminar un contrato mes a mes o indefinido.",
+  "base": "Art. 161 Código del Trabajo; art. 3 Ley 18.101",
+  "tema": "despido-causales"
+ },
+ {
+  "termino": "Indemnización sustitutiva del aviso previo",
+  "alias": [
+   "indemnizacion sustitutiva",
+   "mes de aviso",
+   "aviso previo"
+  ],
+  "area": "Laboral",
+  "definicion": "Pago de una remuneración mensual que corresponde cuando el empleador despide por el art. 161 sin avisar con 30 días de anticipación.",
+  "base": "Art. 162 inciso 4° Código del Trabajo",
+  "tema": "indemnizacion-anos-servicio"
+ },
+ {
+  "termino": "Fuero laboral",
+  "alias": [
+   "fuero laboral",
+   "fuero sindical",
+   "tiene fuero",
+   "desafuero"
+  ],
+  "area": "Laboral",
+  "definicion": "Protección que impide despedir a ciertos trabajadores (embarazadas, dirigentes sindicales, entre otros) sin autorización judicial previa (desafuero).",
+  "base": "Art. 174 y 201 Código del Trabajo",
+  "tema": "fuero-maternal-permisos"
+ },
+ {
+  "termino": "Subordinación y dependencia",
+  "alias": [
+   "subordinacion y dependencia",
+   "vinculo de subordinacion"
+  ],
+  "area": "Laboral",
+  "definicion": "Elemento que define al contrato de trabajo: el trabajador presta servicios bajo las órdenes, control y supervisión del empleador (horario, lugar, instrucciones).",
+  "base": "Art. 7 y 8 Código del Trabajo",
+  "tema": "honorarios-vs-contrato"
+ },
+ {
+  "termino": "Gratificación legal",
+  "alias": [
+   "gratificacion"
+  ],
+  "area": "Laboral",
+  "definicion": "Participación del trabajador en las utilidades de la empresa; normalmente se paga como el 25% de lo devengado con tope de 4,75 ingresos mínimos al año.",
+  "base": "Art. 47 y 50 Código del Trabajo",
+  "tema": "remuneraciones-gratificacion"
+ },
+ {
+  "termino": "Ingreso mínimo mensual",
+  "alias": [
+   "ingreso minimo",
+   "sueldo minimo",
+   "imm"
+  ],
+  "area": "Laboral",
+  "definicion": "Monto mínimo de remuneración para una jornada completa, fijado por ley y reajustado periódicamente. Sirve también de base para otros cálculos (alimentos, cuantías).",
+  "base": "Art. 44 Código del Trabajo",
+  "tema": "remuneraciones-gratificacion"
+ },
+ {
+  "termino": "Tutela laboral",
+  "alias": [
+   "tutela laboral",
+   "tutela de derechos"
+  ],
+  "area": "Laboral",
+  "definicion": "Procedimiento judicial para proteger los derechos fundamentales del trabajador vulnerados por el empleador (intimidad, honra, no discriminación, indemnidad).",
+  "base": "Art. 485 y siguientes Código del Trabajo",
+  "tema": "tutela-derechos-fundamentales"
+ },
+ {
+  "termino": "Despido indirecto",
+  "alias": [
+   "despido indirecto",
+   "autodespido"
+  ],
+  "area": "Laboral",
+  "definicion": "Término del contrato por el trabajador cuando el empleador incurre en causales graves; se demanda como si fuera un despido.",
+  "base": "Art. 171 Código del Trabajo",
+  "tema": "autodespido"
+ },
+ {
+  "termino": "Comparendo de conciliación",
+  "alias": [
+   "comparendo",
+   "comparendo de conciliacion"
+  ],
+  "area": "Laboral",
+  "definicion": "Audiencia ante la Inspección del Trabajo en que trabajador y empleador intentan llegar a acuerdo tras un reclamo administrativo.",
+  "base": "Art. 168 Código del Trabajo y normativa DT",
+  "tema": "juicio-laboral"
+ },
+ {
+  "termino": "UF (Unidad de Fomento)",
+  "alias": [
+   "uf",
+   "unidad de fomento",
+   "valor uf"
+  ],
+  "area": "General",
+  "definicion": "Unidad de cuenta reajustable según la inflación (IPC), que se usa en créditos, arriendos, topes legales e indemnizaciones. Su valor diario se publica en sii.cl y en el Banco Central.",
+  "base": "Ley 18.840 y normativa del Banco Central",
+  "tema": null
+ },
+ {
+  "termino": "UTM (Unidad Tributaria Mensual)",
+  "alias": [
+   "utm",
+   "unidad tributaria mensual",
+   "uta",
+   "unidad tributaria anual"
+  ],
+  "area": "General",
+  "definicion": "Unidad de cuenta que se reajusta mensualmente según el IPC y que se usa para fijar multas, impuestos y cuantías. La UTA equivale a 12 UTM. Su valor se publica en sii.cl.",
+  "base": "Art. 8 N°10 Código Tributario",
+  "tema": null
+ },
+ {
+  "termino": "Días hábiles",
+  "alias": [
+   "dias habiles",
+   "dia habil",
+   "dias corridos"
+  ],
+  "area": "General",
+  "definicion": "Depende de la ley que regula el plazo. En el Código Civil los plazos son de días corridos salvo que se diga otra cosa. En la Ley 19.880 (procedimientos administrativos), en materia tributaria y en los plazos laborales del art. 168, los días hábiles excluyen sábados, domingos y festivos. En los juicios civiles, los plazos de días del Código de Procedimiento Civil son de días hábiles: verifica en cada caso cómo se cuentan los sábados según la norma vigente.",
+  "base": "Art. 50 Código Civil; art. 66 CPC; art. 25 Ley 19.880; art. 10 Código Tributario",
+  "tema": null
+ },
+ {
+  "termino": "Título ejecutivo",
+  "alias": [
+   "titulo ejecutivo",
+   "merito ejecutivo"
+  ],
+  "area": "Civil",
+  "definicion": "Documento al que la ley da fuerza suficiente para exigir el pago de inmediato en un juicio ejecutivo (sentencia firme, escritura pública, pagaré o cheque con firma autorizada o reconocida, factura con mérito ejecutivo, etc.).",
+  "base": "Art. 434 Código de Procedimiento Civil",
+  "tema": "embargo-juicio-ejecutivo"
+ },
+ {
+  "termino": "Juicio ejecutivo",
+  "alias": [
+   "juicio ejecutivo",
+   "demanda ejecutiva"
+  ],
+  "area": "Civil",
+  "definicion": "Procedimiento rápido para cobrar una deuda que consta en un título ejecutivo; permite embargar y rematar bienes del deudor.",
+  "base": "Art. 434 y siguientes Código de Procedimiento Civil",
+  "tema": "embargo-juicio-ejecutivo"
+ },
+ {
+  "termino": "Embargo",
+  "alias": [
+   "embargo",
+   "trabar embargo"
+  ],
+  "area": "Civil",
+  "definicion": "Medida judicial que afecta bienes del deudor al pago de una deuda: quedan bajo custodia y no pueden venderse, y luego pueden rematarse.",
+  "base": "Art. 443 y siguientes Código de Procedimiento Civil",
+  "tema": "embargo-juicio-ejecutivo"
+ },
+ {
+  "termino": "Receptor judicial",
+  "alias": [
+   "receptor judicial",
+   "receptor"
+  ],
+  "area": "Civil",
+  "definicion": "Ministro de fe que notifica resoluciones judiciales y realiza diligencias como el requerimiento de pago y el embargo.",
+  "base": "Art. 390 y siguientes Código Orgánico de Tribunales",
+  "tema": "embargo-juicio-ejecutivo"
+ },
+ {
+  "termino": "Requerimiento de pago",
+  "alias": [
+   "requerimiento de pago"
+  ],
+  "area": "Civil",
+  "definicion": "Acto en que el receptor judicial exige al deudor que pague la deuda; desde ahí corre el plazo para oponer excepciones.",
+  "base": "Art. 443 y 459 Código de Procedimiento Civil",
+  "tema": "embargo-juicio-ejecutivo"
+ },
+ {
+  "termino": "Excepciones",
+  "alias": [
+   "oponer excepciones",
+   "excepciones a la ejecucion"
+  ],
+  "area": "Civil",
+  "definicion": "Defensas que el deudor puede presentar en el juicio ejecutivo (pago, prescripción, falta de requisitos del título, etc.).",
+  "base": "Art. 464 Código de Procedimiento Civil",
+  "tema": "embargo-juicio-ejecutivo"
+ },
+ {
+  "termino": "Tercería",
+  "alias": [
+   "terceria",
+   "terceria de dominio",
+   "terceria de posesion"
+  ],
+  "area": "Civil",
+  "definicion": "Acción de un tercero en un juicio ejecutivo ajeno, por ejemplo para reclamar que un bien embargado es suyo y no del deudor (tercería de dominio).",
+  "base": "Art. 518 y siguientes Código de Procedimiento Civil",
+  "tema": "embargo-juicio-ejecutivo"
+ },
+ {
+  "termino": "Remate",
+  "alias": [
+   "remate",
+   "subasta publica",
+   "martillero"
+  ],
+  "area": "Civil",
+  "definicion": "Venta en subasta pública de bienes embargados, ante el tribunal o un martillero, para pagar al acreedor con lo obtenido.",
+  "base": "Art. 482 y siguientes Código de Procedimiento Civil",
+  "tema": "remate-hipoteca"
+ },
+ {
+  "termino": "Hipoteca",
+  "alias": [
+   "hipoteca",
+   "credito hipotecario",
+   "mutuo hipotecario"
+  ],
+  "area": "Civil",
+  "definicion": "Garantía sobre un inmueble que asegura el pago de una deuda: si no se paga, el acreedor puede hacer rematar el inmueble y pagarse con preferencia.",
+  "base": "Art. 2407 y siguientes Código Civil",
+  "tema": "remate-hipoteca"
+ },
+ {
+  "termino": "Prenda",
+  "alias": [
+   "prenda",
+   "prenda sin desplazamiento"
+  ],
+  "area": "Civil / Comercial",
+  "definicion": "Garantía sobre un bien mueble (por ejemplo, un vehículo) que asegura el pago de una deuda.",
+  "base": "Art. 2384 Código Civil; Ley 20.190",
+  "tema": null
+ },
+ {
+  "termino": "Aval / codeudor solidario",
+  "alias": [
+   "aval",
+   "avalista",
+   "codeudor solidario",
+   "fiador",
+   "fianza"
+  ],
+  "area": "Civil / Comercial",
+  "definicion": "Persona que se obliga a pagar la deuda de otro si este no paga. El codeudor solidario puede ser cobrado por el total directamente, sin que primero se persiga al deudor principal.",
+  "base": "Art. 1511 y 2335 Código Civil; art. 46 Ley 18.092",
+  "tema": "pagare-letra-cheque"
+ },
+ {
+  "termino": "Prescripción extintiva",
+  "alias": [
+   "prescripcion extintiva",
+   "prescripcion"
+  ],
+  "area": "General",
+  "definicion": "Modo de extinguir derechos y acciones por no haberlos ejercido durante el tiempo que fija la ley. Debe alegarse; el juez no la declara de oficio (salvo excepciones).",
+  "base": "Art. 2492 y siguientes Código Civil",
+  "tema": "prescripcion-deudas"
+ },
+ {
+  "termino": "Prescripción adquisitiva",
+  "alias": [
+   "prescripcion adquisitiva",
+   "usucapion"
+  ],
+  "area": "Civil",
+  "definicion": "Modo de adquirir el dominio de una cosa por haberla poseído durante el tiempo legal (ordinaria o extraordinaria).",
+  "base": "Art. 2498 y siguientes Código Civil",
+  "tema": null
+ },
+ {
+  "termino": "Mora",
+  "alias": [
+   "mora",
+   "en mora",
+   "constituir en mora"
+  ],
+  "area": "Civil",
+  "definicion": "Retardo culpable en el cumplimiento de una obligación, que habilita al acreedor para cobrar intereses y perjuicios.",
+  "base": "Art. 1551 Código Civil",
+  "tema": null
+ },
+ {
+  "termino": "Cláusula de aceleración",
+  "alias": [
+   "clausula de aceleracion"
+  ],
+  "area": "Civil / Comercial",
+  "definicion": "Pacto que permite al acreedor exigir el total de una deuda en cuotas si el deudor no paga una o más de ellas.",
+  "base": "Práctica contractual; art. 105 Ley 18.092",
+  "tema": "prescripcion-deudas"
+ },
+ {
+  "termino": "Lanzamiento",
+  "alias": [
+   "lanzamiento",
+   "orden de lanzamiento"
+  ],
+  "area": "Arriendos",
+  "definicion": "Desalojo de un inmueble ordenado por el tribunal, que se realiza con el auxilio de la fuerza pública si es necesario.",
+  "base": "Ley 18.101; art. 595 Código de Procedimiento Civil",
+  "tema": "arriendo"
+ },
+ {
+  "termino": "Procedimiento monitorio",
+  "alias": [
+   "monitorio",
+   "procedimiento monitorio"
+  ],
+  "area": "General",
+  "definicion": "Procedimiento abreviado en que el tribunal, con los antecedentes de la demanda, ordena de inmediato al demandado pagar o cumplir; si no se opone en el plazo, la orden queda firme. Existe en materia laboral, de arriendos (Ley 21.461) y penal (faltas).",
+  "base": "Art. 496 Código del Trabajo; Ley 21.461; art. 392 Código Procesal Penal",
+  "tema": "arriendo"
+ },
+ {
+  "termino": "Avenimiento / transacción / conciliación",
+  "alias": [
+   "avenimiento",
+   "transaccion",
+   "conciliacion"
+  ],
+  "area": "General",
+  "definicion": "Formas de terminar un conflicto por acuerdo. La transacción es un contrato para terminar un litigio o precaverlo con concesiones recíprocas; la conciliación es el acuerdo logrado ante el juez; el avenimiento es el acuerdo de las partes presentado al tribunal.",
+  "base": "Art. 2446 Código Civil; art. 262 Código de Procedimiento Civil",
+  "tema": null
+ },
+ {
+  "termino": "Rol de la causa",
+  "alias": [
+   "rol de la causa",
+   "rit",
+   "ruc",
+   "numero de causa"
+  ],
+  "area": "General",
+  "definicion": "Número que identifica un juicio. En tribunales civiles se llama ROL (ej. C-1234-2025); en familia, laborales y penales se usa el RIT; en causas penales, la Fiscalía usa además el RUC. Con ellos se consulta la causa en pjud.cl.",
+  "base": "Poder Judicial",
+  "tema": null
+ },
+ {
+  "termino": "Patrocinio y poder",
+  "alias": [
+   "patrocinio",
+   "mandato judicial",
+   "poder judicial para abogado"
+  ],
+  "area": "General",
+  "definicion": "El patrocinio es la designación del abogado que dirige el juicio; el poder (mandato judicial) faculta a alguien a actuar en representación de la parte. En la mayoría de los juicios es obligatorio comparecer con abogado.",
+  "base": "Ley 18.120",
+  "tema": null
+ },
+ {
+  "termino": "Corporación de Asistencia Judicial",
+  "alias": [
+   "corporacion de asistencia judicial",
+   "caj",
+   "abogado gratis",
+   "asesoria legal gratuita"
+  ],
+  "area": "General",
+  "definicion": "Servicio público que entrega orientación y patrocinio judicial gratuito a personas que no pueden pagar un abogado (en materias civiles, familia, laborales y otras).",
+  "base": "Ley 17.995",
+  "tema": null
+ },
+ {
+  "termino": "Formalización",
+  "alias": [
+   "formalizacion",
+   "formalizar"
+  ],
+  "area": "Penal",
+  "definicion": "Comunicación que el fiscal hace al imputado, ante el juez de garantía, de que lo investiga por uno o más delitos. Desde ahí corre el plazo de la investigación y pueden pedirse medidas cautelares.",
+  "base": "Art. 229 Código Procesal Penal",
+  "tema": "formalizacion-medidas-cautelares"
+ },
+ {
+  "termino": "Imputado",
+  "alias": [
+   "imputado"
+  ],
+  "area": "Penal",
+  "definicion": "Persona a quien se atribuye participación en un delito desde la primera actuación del procedimiento en su contra. Se presume inocente.",
+  "base": "Art. 7 Código Procesal Penal",
+  "tema": "detencion-derechos"
+ },
+ {
+  "termino": "Querella",
+  "alias": [
+   "querella",
+   "querellante"
+  ],
+  "area": "Penal",
+  "definicion": "Acción formal, presentada con abogado ante el juez de garantía, por la cual la víctima u otros legitimados participan activamente en el proceso penal.",
+  "base": "Art. 111 y siguientes Código Procesal Penal",
+  "tema": "denuncia-querella"
+ },
+ {
+  "termino": "Flagrancia",
+  "alias": [
+   "flagrancia",
+   "delito flagrante"
+  ],
+  "area": "Penal",
+  "definicion": "Situación en que una persona es sorprendida cometiendo un delito o inmediatamente después; permite detenerla sin orden judicial.",
+  "base": "Art. 130 Código Procesal Penal",
+  "tema": "detencion-derechos"
+ },
+ {
+  "termino": "Prisión preventiva",
+  "alias": [
+   "prision preventiva"
+  ],
+  "area": "Penal",
+  "definicion": "Medida cautelar más grave, por la cual el imputado permanece privado de libertad mientras dura el proceso; procede solo si otras medidas son insuficientes.",
+  "base": "Art. 139 a 154 Código Procesal Penal",
+  "tema": "formalizacion-medidas-cautelares"
+ },
+ {
+  "termino": "Sobreseimiento",
+  "alias": [
+   "sobreseimiento",
+   "sobreseimiento definitivo",
+   "sobreseimiento temporal"
+  ],
+  "area": "Penal",
+  "definicion": "Resolución que pone término al proceso (definitivo) o lo suspende (temporal), por ejemplo cuando el hecho no es delito, está prescrito o se cumplió una salida alternativa.",
+  "base": "Art. 250 a 252 Código Procesal Penal",
+  "tema": "salidas-alternativas"
+ },
+ {
+  "termino": "Suspensión condicional del procedimiento",
+  "alias": [
+   "suspension condicional"
+  ],
+  "area": "Penal",
+  "definicion": "Salida alternativa en que el imputado cumple condiciones durante 1 a 3 años; si las cumple, se extingue la acción penal sin condena.",
+  "base": "Art. 237 Código Procesal Penal",
+  "tema": "salidas-alternativas"
+ },
+ {
+  "termino": "Acuerdo reparatorio",
+  "alias": [
+   "acuerdo reparatorio"
+  ],
+  "area": "Penal",
+  "definicion": "Salida alternativa en que imputado y víctima acuerdan la reparación del daño, aprobada por el juez, en delitos patrimoniales, lesiones menos graves o culposos.",
+  "base": "Art. 241 Código Procesal Penal",
+  "tema": "salidas-alternativas"
+ },
+ {
+  "termino": "Atenuante / agravante",
+  "alias": [
+   "atenuante",
+   "agravante",
+   "irreprochable conducta anterior",
+   "circunstancias modificatorias"
+  ],
+  "area": "Penal",
+  "definicion": "Circunstancias que disminuyen (atenuantes, como la irreprochable conducta anterior o reparar el mal causado) o aumentan (agravantes) la pena dentro del marco legal.",
+  "base": "Art. 11 y 12 Código Penal",
+  "tema": "penas-sustitutivas"
+ },
+ {
+  "termino": "Crimen, simple delito y falta",
+  "alias": [
+   "simple delito",
+   "crimen",
+   "falta penal"
+  ],
+  "area": "Penal",
+  "definicion": "Clasificación de los delitos según la gravedad de su pena: crímenes (penas aflictivas, más de 5 años), simples delitos (61 días a 5 años) y faltas (penas menores, como multas o prisión de 1 a 60 días).",
+  "base": "Art. 3 y 21 Código Penal",
+  "tema": "prescripcion-penal"
+ },
+ {
+  "termino": "Juez de garantía",
+  "alias": [
+   "juez de garantia",
+   "juzgado de garantia"
+  ],
+  "area": "Penal",
+  "definicion": "Juez que controla la legalidad de la investigación, protege los derechos del imputado y la víctima, y resuelve procedimientos abreviados y simplificados.",
+  "base": "Art. 14 Código Orgánico de Tribunales; art. 70 Código Procesal Penal",
+  "tema": "detencion-derechos"
+ },
+ {
+  "termino": "Crédito fiscal y débito fiscal",
+  "alias": [
+   "credito fiscal",
+   "debito fiscal"
+  ],
+  "area": "Tributario",
+  "definicion": "El débito fiscal es el IVA que cobras en tus ventas; el crédito fiscal, el IVA que pagaste en tus compras del giro. Cada mes se paga la diferencia en el F29.",
+  "base": "Art. 20 y 23 DL 825",
+  "tema": "iva-f29"
+ },
+ {
+  "termino": "PPM (pagos provisionales mensuales)",
+  "alias": [
+   "ppm",
+   "pagos provisionales"
+  ],
+  "area": "Tributario",
+  "definicion": "Pagos mensuales a cuenta del impuesto a la renta anual, que se declaran en el F29 y se imputan en la Operación Renta de abril.",
+  "base": "Art. 84 Ley sobre Impuesto a la Renta",
+  "tema": "iva-f29"
+ },
+ {
+  "termino": "Avalúo fiscal",
+  "alias": [
+   "avaluo fiscal",
+   "rol de avaluo"
+  ],
+  "area": "Tributario",
+  "definicion": "Valor que el SII asigna a un inmueble para calcular las contribuciones; normalmente es menor al valor comercial. Se consulta con el rol de la propiedad en sii.cl.",
+  "base": "Ley 17.235",
+  "tema": "contribuciones"
+ },
+ {
+  "termino": "Giro (tributario)",
+  "alias": [
+   "giro del sii",
+   "giro de impuestos"
+  ],
+  "area": "Tributario",
+  "definicion": "Orden de pago que emite el SII para que el contribuyente pague un impuesto adeudado; habilita a la Tesorería para cobrarlo.",
+  "base": "Art. 24 y 37 Código Tributario",
+  "tema": "citacion-liquidacion-sii"
+ },
+ {
+  "termino": "Liquidación (tributaria)",
+  "alias": [
+   "liquidacion del sii",
+   "liquidacion de impuestos"
+  ],
+  "area": "Tributario",
+  "definicion": "Acto del SII que determina las diferencias de impuestos que, a su juicio, adeuda un contribuyente tras una fiscalización. Es reclamable ante el Tribunal Tributario y Aduanero.",
+  "base": "Art. 21, 24 y 124 Código Tributario",
+  "tema": "citacion-liquidacion-sii"
+ },
+ {
+  "termino": "Elusión y evasión",
+  "alias": [
+   "elusion",
+   "evasion",
+   "planificacion tributaria"
+  ],
+  "area": "Tributario",
+  "definicion": "La evasión es no pagar impuestos ocultando hechos o mediante fraude (ilegal). La elusión es evitar impuestos mediante abuso de las formas jurídicas o simulación, que el SII puede desconocer con la norma general antielusión.",
+  "base": "Art. 4 bis a 4 quinquies y art. 97 Código Tributario",
+  "tema": "delitos-infracciones-tributarias"
+ },
+ {
+  "termino": "SpA (Sociedad por Acciones)",
+  "alias": [
+   "spa",
+   "sociedad por acciones"
+  ],
+  "area": "Comercial",
+  "definicion": "Tipo de sociedad muy flexible que puede tener uno o más accionistas, con capital dividido en acciones y responsabilidad limitada al aporte.",
+  "base": "Art. 424 y siguientes Ley 18.046",
+  "tema": "constituir-empresa"
+ },
+ {
+  "termino": "EIRL",
+  "alias": [
+   "eirl",
+   "empresa individual de responsabilidad limitada"
+  ],
+  "area": "Comercial",
+  "definicion": "Empresa con un único dueño persona natural, con patrimonio propio y responsabilidad limitada.",
+  "base": "Ley 19.857",
+  "tema": "constituir-empresa"
+ },
+ {
+  "termino": "Protesto",
+  "alias": [
+   "protesto",
+   "documento protestado"
+  ],
+  "area": "Comercial",
+  "definicion": "Constancia formal (bancaria o notarial) de que un cheque, letra o pagaré no fue pagado; permite iniciar el cobro judicial y se publica en el boletín comercial.",
+  "base": "Ley 18.092; DFL 707",
+  "tema": "pagare-letra-cheque"
+ },
+ {
+  "termino": "Factoring",
+  "alias": [
+   "factoring",
+   "ceder una factura"
+  ],
+  "area": "Comercial",
+  "definicion": "Operación por la cual una empresa cede sus facturas por cobrar a una empresa de factoring, que le anticipa el dinero a cambio de un descuento.",
+  "base": "Ley 19.983",
+  "tema": "cobro-factura"
+ },
+ {
+  "termino": "Garantía legal",
+  "alias": [
+   "garantia legal",
+   "derecho de opcion"
+  ],
+  "area": "Consumidor",
+  "definicion": "Derecho del consumidor a elegir entre reparación, cambio o devolución del dinero cuando un producto nuevo falla, dentro de 6 meses desde la recepción.",
+  "base": "Art. 19 a 21 Ley 19.496",
+  "tema": "derechos-consumidor"
+ },
+ {
+  "termino": "Derecho a retracto",
+  "alias": [
+   "retracto",
+   "derecho a retracto"
+  ],
+  "area": "Consumidor",
+  "definicion": "Facultad del consumidor de dejar sin efecto una compra a distancia dentro de 10 días, salvo que se haya excluido expresamente.",
+  "base": "Art. 3 bis Ley 19.496",
+  "tema": "derechos-consumidor"
+ },
+ {
+  "termino": "Liquidación concursal (quiebra)",
+  "alias": [
+   "quiebra",
+   "liquidacion concursal",
+   "liquidacion voluntaria"
+  ],
+  "area": "Comercial",
+  "definicion": "Procedimiento judicial en que se venden los bienes del deudor insolvente para pagar a sus acreedores; al terminar, se extinguen los saldos de las deudas anteriores (con excepciones). Reemplazó a la antigua quiebra.",
+  "base": "Ley 20.720",
+  "tema": "insolvencia-ley-20720"
+ },
+ {
+  "termino": "Acto administrativo",
+  "alias": [
+   "acto administrativo",
+   "resolucion administrativa",
+   "decreto"
+  ],
+  "area": "Administrativo",
+  "definicion": "Decisión formal escrita de un órgano de la Administración del Estado (decretos, resoluciones) que produce efectos jurídicos.",
+  "base": "Art. 3 Ley 19.880",
+  "tema": "recursos-administrativos"
+ },
+ {
+  "termino": "Recurso de reposición",
+  "alias": [
+   "reposicion"
+  ],
+  "area": "Administrativo / General",
+  "definicion": "Recurso que se presenta ante la misma autoridad que dictó una resolución para que la revise y la modifique o deje sin efecto.",
+  "base": "Art. 59 Ley 19.880; art. 181 CPC",
+  "tema": "recursos-administrativos"
+ },
+ {
+  "termino": "Recurso jerárquico",
+  "alias": [
+   "recurso jerarquico"
+  ],
+  "area": "Administrativo",
+  "definicion": "Recurso que se presenta ante el superior jerárquico de quien dictó el acto, normalmente en subsidio de la reposición.",
+  "base": "Art. 59 Ley 19.880",
+  "tema": "recursos-administrativos"
+ },
+ {
+  "termino": "Silencio administrativo",
+  "alias": [
+   "silencio administrativo"
+  ],
+  "area": "Administrativo",
+  "definicion": "Efecto que la ley da a la falta de respuesta de la Administración en el plazo legal: se entiende aceptada (positivo) o rechazada (negativo) la solicitud.",
+  "base": "Art. 64 y 65 Ley 19.880",
+  "tema": "silencio-administrativo"
+ },
+ {
+  "termino": "Toma de razón",
+  "alias": [
+   "toma de razon"
+  ],
+  "area": "Administrativo",
+  "definicion": "Control preventivo que hace la Contraloría sobre la legalidad de ciertos decretos y resoluciones antes de que entren en vigencia.",
+  "base": "Art. 99 Constitución; Ley 10.336",
+  "tema": "contraloria"
+ },
+ {
+  "termino": "Falta de servicio",
+  "alias": [
+   "falta de servicio"
+  ],
+  "area": "Administrativo",
+  "definicion": "Fundamento de la responsabilidad del Estado: el servicio no funcionó, funcionó mal o tardíamente, causando un daño.",
+  "base": "Art. 42 Ley 18.575",
+  "tema": "responsabilidad-estado"
+ },
+ {
+  "termino": "Orden de no innovar",
+  "alias": [
+   "orden de no innovar"
+  ],
+  "area": "General",
+  "definicion": "Medida que dicta un tribunal superior (por ejemplo, en un recurso de protección) para suspender los efectos del acto impugnado mientras se resuelve.",
+  "base": "Auto Acordado sobre recurso de protección; art. 192 CPC",
+  "tema": "recurso-proteccion"
+ },
+ {
+  "termino": "Recurso de amparo",
+  "alias": [
+   "recurso de amparo",
+   "habeas corpus",
+   "amparo economico"
+  ],
+  "area": "General",
+  "definicion": "El recurso de amparo (habeas corpus) protege la libertad personal frente a detenciones ilegales o amenazas; se presenta ante la Corte de Apelaciones. El amparo económico protege la libertad para desarrollar actividades económicas.",
+  "base": "Art. 21 Constitución; Ley 18.971",
+  "tema": "detencion-derechos"
+ }
+]

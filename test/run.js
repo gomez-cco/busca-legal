@@ -70,10 +70,35 @@ for (const [q, expected] of ROUTING) {
 }
 
 // Every welcome-screen chip must land on a topic, otherwise the first click is a dead end.
-for (const q of ['Me despidieron, ¿cuánto me corresponde?', 'Me llegó una citación del SII', 'Detuvieron a un familiar', 'Quiero constituir una SpA', 'Un cliente no me paga una factura', 'La municipalidad rechazó mi patente', 'Quiero demandar pensión de alimentos', 'Me quieren embargar la casa', 'Debo contribuciones atrasadas']) {
+for (const q of ['Me despidieron, ¿cuánto me corresponde?', 'Me llegó una citación del SII', 'Detuvieron a un familiar', 'Quiero constituir una SpA', 'Un cliente no me paga una factura', 'La municipalidad rechazó mi patente', 'Quiero demandar pensión de alimentos', 'Me quieren embargar la casa', 'Debo contribuciones atrasadas', '¿Qué es la posesión efectiva con beneficio de inventario?']) {
   test(`chip de bienvenida: "${q}"`, () => assert.ok(composeAnswer(q).items.length > 0));
 }
 
+test('definición: posesión efectiva con beneficio de inventario', () => {
+  const a = composeAnswer('que es posesion efectiva con beneficio de inventario');
+  const defs = a.items.filter((i) => i.type === 'definicion').map((i) => i.termino);
+  assert.ok(defs.includes('Beneficio de inventario') && defs.includes('Posesión efectiva'), defs.join(','));
+  assert.ok(a.items.some((i) => i.id === 'herencia-sucesion'));
+});
+for (const [q, term] of [['que es la UF', 'UF (Unidad de Fomento)'], ['que es una terceria', 'Tercería'], ['que significa formalizacion', 'Formalización'], ['que es el silencio administrativo', 'Silencio administrativo']]) {
+  test(`definición: ${q}`, () => assert.strictEqual(composeAnswer(q).items[0].termino, term));
+}
+test('glosario lista todos los términos', () => {
+  const { glossary } = require('../lib/engine');
+  assert.strictEqual(composeAnswer('glosario').topicLinks.length, glossary.length);
+});
+test('cada término de glosario apunta a un tema existente o null', () => {
+  const { glossary, TOPICS } = require('../lib/engine');
+  for (const g of glossary) assert.ok(g.tema === null || TOPICS.some((t) => t.id === g.tema), `${g.termino} → ${g.tema}`);
+});
+test('chips del glosario resuelven a su definición', () => {
+  const { glossary } = require('../lib/engine');
+  for (const label of composeAnswer('glosario').topicLinks) {
+    const a = composeAnswer(label);
+    assert.ok(a.items.length && a.items[0].type === 'definicion', `sin definición: ${label}`);
+  }
+  assert.ok(glossary.length >= 80);
+});
 test('saludo devuelve bienvenida sin fichas', () => {
   const a = composeAnswer('hola');
   assert.strictEqual(a.items.length, 0);
