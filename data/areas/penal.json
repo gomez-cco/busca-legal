@@ -1,0 +1,587 @@
+{
+  "id": "penal",
+  "num": 3,
+  "titulo": "Derecho Penal y Procesal Penal",
+  "intro": "Define los delitos y sus penas (Código Penal y leyes especiales) y regula cómo se investigan y juzgan (Código Procesal Penal). Intervienen el Ministerio Público (Fiscalía), la Defensoría Penal Pública, las policías, los Juzgados de Garantía y los Tribunales de Juicio Oral en lo Penal.",
+  "leyes": [
+    "Código Penal (1874)",
+    "Código Procesal Penal (Ley 19.696)",
+    "Ley 18.216 (penas sustitutivas)",
+    "Ley 20.393 (responsabilidad penal de las personas jurídicas)",
+    "Ley 21.595 (delitos económicos)",
+    "Ley 20.000 (drogas)",
+    "Ley 18.290 (Ley de Tránsito) y Ley 20.770 (Ley Emilia)",
+    "Ley 20.066 (violencia intrafamiliar)",
+    "Ley 20.084 (responsabilidad penal adolescente)",
+    "Ley 21.459 (delitos informáticos)"
+  ],
+  "temas": [
+    {
+      "id": "detencion-derechos",
+      "titulo": "Me detuvieron (o detuvieron a un familiar): derechos y qué pasa en las primeras 24 horas",
+      "temas": [
+        "detenido",
+        "detencion",
+        "me detuvieron",
+        "detuvieron a mi hijo",
+        "detuvieron a un familiar",
+        "carabineros me llevaron",
+        "derechos del detenido",
+        "control de detencion",
+        "flagrancia",
+        "pdi detuvo",
+        "comisaria"
+      ],
+      "resumen": "Toda persona detenida debe ser puesta a disposición del juez de garantía dentro de 24 horas, en la audiencia de control de detención; tiene derecho a guardar silencio y a un abogado desde el primer momento.",
+      "explicacion": "Solo se puede detener con orden judicial o en caso de flagrancia (sorprendido cometiendo el delito o inmediatamente después). Los derechos del detenido deben informarse en el momento: conocer el motivo, guardar silencio, ser asistido por un abogado, que se informe a un familiar, entrevistarse privadamente con su abogado, y no ser sometido a tratos crueles. En la audiencia de control de detención el juez revisa la legalidad de la detención y el fiscal puede formalizar la investigación y pedir medidas cautelares.",
+      "baseLegal": [
+        "Art. 19 N°7 Constitución Política (libertad personal)",
+        "Art. 93 Código Procesal Penal (derechos del imputado)",
+        "Art. 125 a 131 CPP (detención y plazo de 24 horas)",
+        "Art. 130 CPP (flagrancia)",
+        "Art. 132 CPP (audiencia de control de detención; ampliación hasta 3 días)",
+        "Art. 95 CPP (amparo ante el juez de garantía)"
+      ],
+      "pasos": [
+        "Ejerce el derecho a guardar silencio hasta hablar con un abogado: lo que digas puede usarse en tu contra.",
+        "Pide que se informe a un familiar de la detención y del lugar donde estás.",
+        "Si no tienes abogado, la Defensoría Penal Pública asigna uno gratis para la audiencia de control de detención.",
+        "La familia debe averiguar en qué Juzgado de Garantía será la audiencia (normalmente al día siguiente en la mañana) y llevar antecedentes de arraigo: domicilio, trabajo, estudios, certificado de antecedentes.",
+        "En la audiencia, el defensor puede pedir que se declare ilegal la detención y discutir las medidas cautelares.",
+        "Si la detención es arbitraria o se prolonga ilegalmente, se puede interponer amparo ante el juez de garantía (art. 95 CPP) o recurso de amparo ante la Corte de Apelaciones."
+      ],
+      "plazos": [
+        "Puesta a disposición del juez: máximo 24 horas",
+        "Ampliación de la detención: hasta 3 días si el fiscal lo pide para preparar la formalización"
+      ],
+      "documentos": [
+        "Cédula de identidad",
+        "Antecedentes de arraigo (contrato de trabajo, certificado de residencia, matrícula, cuentas a su nombre)"
+      ],
+      "dondeAcudir": [
+        "Defensoría Penal Pública (dpp.cl)",
+        "Juzgado de Garantía",
+        "INDH (si hubo malos tratos)"
+      ],
+      "consejo": "Los antecedentes de arraigo familiar, laboral y social son los que más ayudan a evitar la prisión preventiva: tenlos listos para el defensor.",
+      "alerta": "No firmes declaraciones que no hayas leído ni aceptes 'arreglos' propuestos en la comisaría sin tu abogado."
+    },
+    {
+      "id": "denuncia-querella",
+      "titulo": "Cómo hacer una denuncia o presentar una querella",
+      "temas": [
+        "denuncia",
+        "denunciar",
+        "hacer una denuncia",
+        "querella",
+        "querellarse",
+        "fui victima",
+        "me robaron",
+        "me estafaron donde denuncio",
+        "denuncia en fiscalia",
+        "denuncia en carabineros",
+        "victima de delito",
+        "derechos de la victima"
+      ],
+      "resumen": "La denuncia pone en conocimiento de la Fiscalía un delito y puede hacerse ante Carabineros, PDI, Fiscalía o tribunales. La querella es una acción formal (con abogado) que te convierte en interviniente activo en el proceso.",
+      "explicacion": "Con la denuncia, la Fiscalía investiga, pero la víctima no dirige el proceso. Con la querella, la víctima (o ciertos organismos) puede pedir diligencias, acusar, participar en audiencias y recurrir. La víctima tiene derecho a ser informada, a protección, a solicitar medidas de protección y a ser escuchada antes de decisiones relevantes (por ejemplo, salidas alternativas). Ciertos delitos son de acción penal privada (injurias y calumnias, por ejemplo) y solo se persiguen por querella del ofendido.",
+      "baseLegal": [
+        "Art. 173 a 178 Código Procesal Penal (denuncia)",
+        "Art. 111 a 121 CPP (querella)",
+        "Art. 108 y 109 CPP (víctima y sus derechos)",
+        "Art. 175 CPP (denuncia obligatoria para ciertos funcionarios)",
+        "Art. 55 CPP (delitos de acción privada)"
+      ],
+      "pasos": [
+        "Reúne los antecedentes: fecha, hora, lugar, descripción del hecho, datos del autor si los conoces, testigos, fotos, videos, comprobantes, capturas de pantalla.",
+        "Haz la denuncia en Carabineros, PDI o Fiscalía (también existen canales en línea para ciertos delitos). Pide el número de parte o RUC de la causa.",
+        "Con el RUC puedes seguir la causa en fiscaliadechile.cl o pjud.cl.",
+        "Si quieres participar activamente, presenta una querella con abogado ante el Juzgado de Garantía competente.",
+        "Si hay riesgo para tu seguridad, pide medidas de protección a la Fiscalía (Unidad de Atención a Víctimas y Testigos).",
+        "Si la Fiscalía decide archivar la causa, puedes pedir la reapertura aportando nuevos antecedentes o querellarte para forzar la investigación."
+      ],
+      "plazos": [
+        "Funcionarios obligados a denunciar: 24 horas desde que conocen el hecho",
+        "Querella: puede presentarse mientras el fiscal no declare cerrada la investigación"
+      ],
+      "documentos": [
+        "Cédula de identidad",
+        "Pruebas del hecho",
+        "Número de parte/RUC (para la querella)"
+      ],
+      "dondeAcudir": [
+        "Fiscalía (fiscaliadechile.cl)",
+        "Carabineros (133)",
+        "PDI (134)",
+        "Corporación de Asistencia Judicial / Centros de Apoyo a Víctimas (Subsecretaría de Prevención del Delito)"
+      ],
+      "consejo": "En estafas digitales, denuncia rápido y avisa de inmediato a tu banco: la Ley 20.009 permite reclamar operaciones no reconocidas y obliga al banco a restituir en ciertos casos.",
+      "alerta": "Hacer una denuncia falsa a sabiendas es delito (art. 211 Código Penal)."
+    },
+    {
+      "id": "formalizacion-medidas-cautelares",
+      "titulo": "Formalización, medidas cautelares y prisión preventiva",
+      "temas": [
+        "formalizacion",
+        "formalizado",
+        "me van a formalizar",
+        "medidas cautelares",
+        "prision preventiva",
+        "arresto domiciliario",
+        "arraigo nacional",
+        "firma mensual",
+        "orden de alejamiento",
+        "plazo de investigacion"
+      ],
+      "resumen": "La formalización es la comunicación que hace el fiscal, ante el juez de garantía, de que se investiga un delito en tu contra. Desde ahí corren plazos y el fiscal puede pedir medidas cautelares, como prisión preventiva.",
+      "explicacion": "Medidas cautelares personales del art. 155 CPP: arresto domiciliario (total o nocturno), sujeción a vigilancia, presentación periódica ante una autoridad (firma), arraigo nacional, prohibición de acercarse a la víctima, entre otras. La prisión preventiva es la más grave y procede solo si las demás son insuficientes, cuando hay antecedentes del delito, de la participación del imputado y necesidad de cautela (peligro para la seguridad de la sociedad o de la víctima, o riesgo de fuga, o para la investigación). El juez fija un plazo para la investigación, que no puede exceder 2 años desde la formalización.",
+      "baseLegal": [
+        "Art. 229 a 233 Código Procesal Penal (formalización)",
+        "Art. 139 a 154 CPP (prisión preventiva)",
+        "Art. 155 CPP (otras medidas cautelares)",
+        "Art. 234 y 247 CPP (plazo de investigación: máximo 2 años)",
+        "Art. 149 CPP (apelación de la resolución sobre prisión preventiva)"
+      ],
+      "pasos": [
+        "Asiste a la audiencia con tu abogado o defensor público. No estás obligado a declarar.",
+        "Prepara antecedentes de arraigo y conducta anterior (irreprochable conducta anterior es atenuante).",
+        "Si el juez decreta prisión preventiva, puede apelarse verbalmente en la misma audiencia ante la Corte de Apelaciones.",
+        "Las medidas cautelares pueden revisarse en cualquier momento si cambian las circunstancias.",
+        "Cumple rigurosamente las medidas (firma, arraigo): su incumplimiento puede llevar a prisión preventiva."
+      ],
+      "plazos": [
+        "Investigación: máximo 2 años desde la formalización (el juez puede fijar uno menor)",
+        "Apelación de prisión preventiva: en la misma audiencia o dentro de 5 días"
+      ],
+      "documentos": [
+        "Antecedentes de arraigo",
+        "Certificado de antecedentes",
+        "Documentos médicos (si hay razones de salud)"
+      ],
+      "dondeAcudir": [
+        "Defensoría Penal Pública",
+        "Abogado penalista",
+        "Juzgado de Garantía"
+      ],
+      "consejo": "Antes de la formalización puedes pedir al fiscal que te reciba declaración o que realice diligencias que te favorezcan (art. 183 CPP).",
+      "alerta": "La formalización no es una condena: rige la presunción de inocencia (art. 4 CPP) hasta sentencia firme."
+    },
+    {
+      "id": "salidas-alternativas",
+      "titulo": "Salidas alternativas: suspensión condicional y acuerdo reparatorio",
+      "temas": [
+        "salida alternativa",
+        "suspension condicional del procedimiento",
+        "acuerdo reparatorio",
+        "evitar juicio",
+        "evitar condena",
+        "reparar a la victima",
+        "condiciones de la suspension"
+      ],
+      "resumen": "Permiten terminar el proceso penal sin condena: la suspensión condicional (cumpliendo condiciones durante un tiempo) y el acuerdo reparatorio (reparando a la víctima).",
+      "explicacion": "Suspensión condicional del procedimiento: el fiscal, con acuerdo del imputado, la propone si la pena probable no supera 3 años de privación de libertad y el imputado no tiene condena anterior por crimen o simple delito ni otra suspensión vigente. El juez fija condiciones (residir en un lugar, no acercarse a la víctima, firmar, pagar una suma, etc.) por un plazo de 1 a 3 años; cumplido, se extingue la acción penal. Acuerdo reparatorio: entre imputado y víctima, para delitos que afecten bienes jurídicos disponibles de carácter patrimonial, lesiones menos graves o delitos culposos; el juez lo aprueba y se extingue la responsabilidad penal.",
+      "baseLegal": [
+        "Art. 237 a 240 Código Procesal Penal (suspensión condicional)",
+        "Art. 241 a 246 CPP (acuerdos reparatorios)"
+      ],
+      "pasos": [
+        "Consulta con tu defensor si tu caso cumple los requisitos.",
+        "Para un acuerdo reparatorio, negocia con la víctima (directamente o a través de los abogados) el monto o la forma de reparación.",
+        "Presenta la propuesta en audiencia ante el juez de garantía, quien verifica que el consentimiento sea libre e informado.",
+        "Cumple las condiciones o el acuerdo: si incumples la suspensión condicional, puede revocarse y el proceso continúa.",
+        "Al vencer el plazo sin revocación, pide el sobreseimiento definitivo."
+      ],
+      "plazos": [
+        "Suspensión condicional: entre 1 y 3 años",
+        "Se pueden proponer desde la formalización hasta el cierre de la investigación (y en la audiencia de preparación del juicio oral)"
+      ],
+      "documentos": [
+        "Acta del acuerdo",
+        "Comprobantes de pago o cumplimiento"
+      ],
+      "dondeAcudir": [
+        "Defensoría Penal Pública",
+        "Juzgado de Garantía",
+        "Fiscalía"
+      ],
+      "consejo": "La suspensión condicional no implica reconocer culpabilidad ni genera antecedentes penales, pero queda registrada y no puede repetirse mientras esté vigente.",
+      "alerta": "No procede acuerdo reparatorio en delitos de violencia intrafamiliar ni cuando existe un interés público prevalente."
+    },
+    {
+      "id": "procedimientos-penales",
+      "titulo": "Juicio oral, procedimiento abreviado y procedimiento simplificado",
+      "temas": [
+        "juicio oral",
+        "procedimiento abreviado",
+        "procedimiento simplificado",
+        "procedimiento monitorio penal",
+        "acusacion",
+        "como es un juicio penal",
+        "tribunal oral",
+        "aceptar los hechos",
+        "audiencia de preparacion"
+      ],
+      "resumen": "El proceso penal termina normalmente en juicio oral ante un tribunal de 3 jueces, pero existen procedimientos más breves si el imputado acepta los hechos (abreviado) o si el delito es menor (simplificado y monitorio).",
+      "explicacion": "Procedimiento ordinario: investigación, acusación, audiencia de preparación del juicio oral (ante el juez de garantía) y juicio oral (ante el Tribunal de Juicio Oral en lo Penal). Procedimiento abreviado: el imputado acepta los hechos de la acusación y los antecedentes de la investigación, y el juez de garantía dicta sentencia; procede si el fiscal pide una pena no superior a 10 años de presidio. Procedimiento simplificado: para faltas y simples delitos en que el fiscal pida una pena no superior a presidio menor en su grado mínimo (540 días). Monitorio: para faltas con pena de multa.",
+      "baseLegal": [
+        "Art. 259 CPP (acusación)",
+        "Art. 260 a 280 CPP (preparación del juicio oral)",
+        "Art. 281 y siguientes CPP (juicio oral)",
+        "Art. 406 a 415 CPP (procedimiento abreviado)",
+        "Art. 388 a 399 CPP (procedimiento simplificado)",
+        "Art. 392 CPP (procedimiento monitorio)",
+        "Art. 372 y 373 CPP (recurso de nulidad)"
+      ],
+      "pasos": [
+        "Tras el cierre de la investigación, el fiscal decide: acusar, sobreseer o no perseverar.",
+        "Si acusa, en la audiencia de preparación se discuten las pruebas que irán a juicio y se pueden excluir las ilícitas.",
+        "Evalúa con tu defensa si conviene un procedimiento abreviado (normalmente con pena más baja) o ir a juicio oral.",
+        "En el juicio oral se rinden testigos, peritos y documentos; el tribunal dicta veredicto y luego sentencia.",
+        "Contra la sentencia procede recurso de nulidad ante la Corte de Apelaciones o la Corte Suprema dentro de 10 días."
+      ],
+      "plazos": [
+        "Recurso de nulidad: 10 días desde la notificación de la sentencia"
+      ],
+      "documentos": [
+        "Acusación",
+        "Carpeta de investigación (la defensa tiene acceso)"
+      ],
+      "dondeAcudir": [
+        "Defensoría Penal Pública",
+        "Abogado penalista"
+      ],
+      "consejo": "En el abreviado renuncias al juicio oral: hazlo solo si la prueba en tu contra es sólida y la pena ofrecida es claramente más favorable.",
+      "alerta": "Las penas solicitadas por la Fiscalía en el abreviado no pueden ser aumentadas por el juez."
+    },
+    {
+      "id": "prescripcion-penal",
+      "titulo": "Prescripción de la acción penal y de la pena",
+      "temas": [
+        "prescripcion penal",
+        "prescripcion del delito",
+        "cuanto tiempo prescribe un delito",
+        "delito prescrito",
+        "prescripcion de la pena",
+        "plazo para denunciar"
+      ],
+      "resumen": "La acción penal prescribe en 15 años para crímenes con pena de presidio perpetuo, 10 años para los demás crímenes, 5 años para simples delitos y 6 meses para faltas.",
+      "explicacion": "El plazo se cuenta desde el día en que se cometió el delito. Se interrumpe si el responsable comete un nuevo crimen o simple delito, y se suspende desde que el procedimiento se dirige en su contra (por ejemplo, con la formalización). Algunos delitos son imprescriptibles, como los delitos sexuales contra menores de edad (Ley 21.160, para hechos posteriores a su vigencia), y los crímenes de lesa humanidad.",
+      "baseLegal": [
+        "Art. 93 N°6 y 7 Código Penal (extinción por prescripción)",
+        "Art. 94 CP (plazos de prescripción de la acción)",
+        "Art. 96 CP (interrupción y suspensión)",
+        "Art. 97 CP (prescripción de la pena)",
+        "Art. 94 bis CP (imprescriptibilidad, Ley 21.160)"
+      ],
+      "pasos": [
+        "Determina la pena asignada al delito para saber si es crimen, simple delito o falta.",
+        "Cuenta el plazo desde la fecha del hecho.",
+        "Revisa si existen causas de suspensión (procedimiento dirigido contra el imputado) o interrupción (nuevo delito).",
+        "La prescripción se alega ante el juez de garantía, quien puede decretar el sobreseimiento definitivo."
+      ],
+      "plazos": [
+        "Crímenes con presidio perpetuo: 15 años",
+        "Demás crímenes: 10 años",
+        "Simples delitos: 5 años",
+        "Faltas: 6 meses"
+      ],
+      "documentos": [
+        "Antecedentes del hecho y su fecha"
+      ],
+      "dondeAcudir": [
+        "Abogado penalista",
+        "Defensoría Penal Pública"
+      ],
+      "consejo": "Para la víctima: no esperes. Aunque el delito no haya prescrito, el paso del tiempo destruye pruebas (cámaras, registros telefónicos, testigos).",
+      "alerta": "Si el imputado se ausenta del territorio nacional, el tiempo de prescripción se cuenta, para ese período, de forma distinta (se considera un día por cada dos, art. 100 CP)."
+    },
+    {
+      "id": "penas-sustitutivas",
+      "titulo": "Penas sustitutivas: cumplir la condena en libertad (Ley 18.216)",
+      "temas": [
+        "penas sustitutivas",
+        "remision condicional",
+        "libertad vigilada",
+        "reclusion parcial",
+        "pena en libertad",
+        "cumplir en libertad",
+        "ley 18216",
+        "servicios en beneficio de la comunidad",
+        "antecedentes penales",
+        "beneficios"
+      ],
+      "resumen": "Si te condenan a una pena privativa de libertad baja, el tribunal puede sustituirla por remisión condicional, reclusión parcial, libertad vigilada, libertad vigilada intensiva, prestación de servicios en beneficio de la comunidad o expulsión (extranjeros).",
+      "explicacion": "Requisitos generales (simplificados): Remisión condicional: pena no superior a 3 años y sin condena anterior por crimen o simple delito. Reclusión parcial: pena no superior a 3 años. Libertad vigilada: pena superior a 2 y hasta 3 años; intensiva: superior a 3 y hasta 5 años. Prestación de servicios en beneficio de la comunidad: pena no superior a 300 días, con acuerdo del condenado. Existen exclusiones para ciertos delitos graves y para reincidentes.",
+      "baseLegal": [
+        "Ley 18.216 (penas sustitutivas)",
+        "Art. 4 Ley 18.216 (remisión condicional)",
+        "Art. 8 Ley 18.216 (reclusión parcial)",
+        "Art. 15 y 15 bis Ley 18.216 (libertad vigilada)",
+        "Art. 10 y 11 Ley 18.216 (servicios en beneficio de la comunidad)",
+        "Art. 38 Ley 18.216 (omisión de antecedentes)"
+      ],
+      "pasos": [
+        "Revisa con tu defensa la pena probable y tus antecedentes penales anteriores.",
+        "Pide en la audiencia de juicio o del abreviado la aplicación de la pena sustitutiva que corresponda.",
+        "Cumple las condiciones (presentarse a Gendarmería, programas, horarios).",
+        "Al cumplir satisfactoriamente, puedes solicitar la omisión o eliminación de antecedentes según corresponda."
+      ],
+      "plazos": [
+        "Según la pena impuesta"
+      ],
+      "documentos": [
+        "Certificado de antecedentes",
+        "Informes presentenciales (en libertad vigilada)"
+      ],
+      "dondeAcudir": [
+        "Defensoría Penal Pública",
+        "Gendarmería (Centro de Reinserción Social)"
+      ],
+      "consejo": "La irreprochable conducta anterior (art. 11 N°6 CP) y la reparación del mal causado (art. 11 N°7 CP) son atenuantes que bajan la pena y facilitan acceder a penas sustitutivas.",
+      "alerta": "El incumplimiento grave o reiterado de las condiciones puede llevar a revocar la pena sustitutiva y cumplir la pena original en la cárcel."
+    },
+    {
+      "id": "legitima-defensa",
+      "titulo": "Legítima defensa y otras eximentes de responsabilidad",
+      "temas": [
+        "legitima defensa",
+        "defensa propia",
+        "me defendi",
+        "eximente",
+        "estado de necesidad",
+        "defensa de terceros",
+        "entraron a mi casa",
+        "defensa privilegiada"
+      ],
+      "resumen": "No hay responsabilidad penal si se obra en defensa propia, de parientes o de terceros, siempre que exista agresión ilegítima, necesidad racional del medio empleado y falta de provocación suficiente.",
+      "explicacion": "El art. 10 N°4 a 6 del Código Penal regula la legítima defensa. La ley presume que concurren los requisitos (defensa privilegiada) en ciertos casos, por ejemplo frente a quien rechaza el escalamiento o la entrada violenta de noche a una casa, o frente a quien comete ciertos delitos violentos (como robo con violencia, secuestro o violación). Otras eximentes: estado de necesidad, miedo insuperable, fuerza irresistible y cumplimiento de un deber. La Ley 21.560 (Ley Naín-Retamal) amplió reglas de legítima defensa privilegiada para policías.",
+      "baseLegal": [
+        "Art. 10 N°4, 5 y 6 Código Penal (legítima defensa propia, de parientes y de terceros)",
+        "Art. 10 N°7 y 11 CP (estado de necesidad)",
+        "Art. 10 N°9 CP (fuerza irresistible y miedo insuperable)",
+        "Art. 11 N°1 CP (eximente incompleta como atenuante)"
+      ],
+      "pasos": [
+        "Si te defendiste, llama de inmediato a Carabineros (133) y presta colaboración, pero declara solo con abogado.",
+        "Preserva evidencias: cámaras, testigos, lesiones (constata lesiones en un servicio de salud).",
+        "Tu defensa deberá acreditar la agresión ilegítima y la proporcionalidad de la respuesta.",
+        "Si no concurren todos los requisitos, puede operar como atenuante (eximente incompleta)."
+      ],
+      "plazos": [],
+      "documentos": [
+        "Constatación de lesiones",
+        "Registros de cámaras",
+        "Declaraciones de testigos"
+      ],
+      "dondeAcudir": [
+        "Defensoría Penal Pública",
+        "Abogado penalista"
+      ],
+      "consejo": "La necesidad racional del medio no exige igualdad de armas, sino que la respuesta sea razonable frente a la agresión en el contexto concreto.",
+      "alerta": "Una vez que la agresión ha cesado (el agresor huye o está reducido), seguir atacándolo ya no es legítima defensa."
+    },
+    {
+      "id": "delitos-patrimoniales",
+      "titulo": "Delitos contra la propiedad: hurto, robo, estafa y apropiación indebida",
+      "temas": [
+        "hurto",
+        "robo",
+        "estafa",
+        "apropiacion indebida",
+        "me estafaron",
+        "receptacion",
+        "robo con violencia",
+        "robo en lugar habitado",
+        "fraude",
+        "estafa por internet",
+        "no me devuelve lo que le preste",
+        "cheque sin fondos",
+        "me robaron",
+        "me asaltaron",
+        "me hackearon",
+        "me clonaron la tarjeta",
+        "phishing",
+        "me vaciaron la cuenta"
+      ],
+      "resumen": "El hurto es apropiarse de una cosa ajena sin violencia; el robo, con violencia, intimidación o fuerza en las cosas; la estafa, mediante engaño; la apropiación indebida, no devolver algo recibido con obligación de restituirlo.",
+      "explicacion": "Hurto (art. 432 y 446 CP): la pena depende del valor de lo sustraído (en UTM). Robo con fuerza (arts. 440 a 445) y con violencia o intimidación (arts. 433 a 439): penas mayores. Estafa (arts. 467 y 468): engaño que produce error y un perjuicio patrimonial. Apropiación indebida (art. 470 N°1): quien recibe dinero o cosas en depósito, comisión o administración, o por otro título que obligue a devolverlas, y se las apropia. Receptación (art. 456 bis A): tener, comprar o vender especies sabiendo o debiendo saber su origen ilícito. El giro doloso de cheques se sanciona en el DFL 707.",
+      "baseLegal": [
+        "Art. 432 a 456 Código Penal (robo y hurto)",
+        "Art. 456 bis A CP (receptación)",
+        "Art. 467 a 473 CP (estafas y otros engaños)",
+        "Art. 470 N°1 CP (apropiación indebida)",
+        "Art. 22 DFL 707 (giro doloso de cheques)",
+        "Ley 20.009 (uso fraudulento de tarjetas y medios de pago)",
+        "Ley 21.459 (delitos informáticos)"
+      ],
+      "pasos": [
+        "Denuncia ante Carabineros, PDI o Fiscalía con todos los antecedentes (comprobantes, transferencias, chats, publicaciones).",
+        "En fraudes bancarios, avisa al banco y bloquea los medios de pago de inmediato; reclama las operaciones no reconocidas según la Ley 20.009.",
+        "Si conoces al responsable y el perjuicio es patrimonial, evalúa una querella y un acuerdo reparatorio.",
+        "En apropiación indebida, es útil haber requerido por escrito la devolución antes de denunciar.",
+        "Pide a la Fiscalía medidas para recuperar especies (incautación) y deja constancia de su valor."
+      ],
+      "plazos": [
+        "Prescripción: 5 años para simples delitos; 10 años para crímenes (robo con violencia, por ejemplo)",
+        "Ley 20.009 (modificada por Ley 21.234): avisa al banco apenas detectes el fraude; el reclamo cubre operaciones de hasta 120 días corridos anteriores al aviso (verifica condiciones vigentes)"
+      ],
+      "documentos": [
+        "Comprobantes de transferencia o compra",
+        "Capturas de chats y publicaciones",
+        "Facturas o tasaciones de lo sustraído"
+      ],
+      "dondeAcudir": [
+        "Fiscalía",
+        "Carabineros",
+        "PDI (Brigada del Cibercrimen en delitos informáticos)",
+        "Banco emisor (Ley 20.009)"
+      ],
+      "consejo": "Una deuda civil no pagada no es estafa por sí sola: debe existir un engaño previo que te haya llevado a entregar el dinero.",
+      "alerta": "Comprar productos robados a bajo precio puede constituir receptación aunque digas que no sabías su origen."
+    },
+    {
+      "id": "vif",
+      "titulo": "Violencia intrafamiliar (VIF) y medidas de protección",
+      "temas": [
+        "violencia intrafamiliar",
+        "vif",
+        "maltrato habitual",
+        "violencia de pareja",
+        "me pega mi pareja",
+        "medida de proteccion",
+        "orden de alejamiento",
+        "femicidio",
+        "violencia contra la mujer",
+        "ley 20066",
+        "ley gabriela",
+        "ley integral violencia contra las mujeres"
+      ],
+      "resumen": "La violencia intrafamiliar puede denunciarse en Carabineros, PDI, Fiscalía o Tribunales de Familia; se pueden obtener de inmediato medidas de protección como la salida del agresor del hogar y la prohibición de acercamiento.",
+      "explicacion": "Si los hechos constituyen delito (lesiones, amenazas, maltrato habitual), conoce el Juzgado de Garantía; si no, el Tribunal de Familia. El maltrato habitual es delito (art. 14 Ley 20.066). La Ley 21.212 (Ley Gabriela) amplió el femicidio, y la Ley 21.675 (ley integral sobre violencia contra las mujeres) reforzó la protección. En estos delitos no proceden los acuerdos reparatorios.",
+      "baseLegal": [
+        "Ley 20.066 (violencia intrafamiliar)",
+        "Art. 9 y 15 Ley 20.066 (medidas accesorias y cautelares)",
+        "Art. 14 Ley 20.066 (maltrato habitual)",
+        "Art. 390 bis y siguientes Código Penal (femicidio, Ley 21.212)",
+        "Ley 21.675 (violencia contra las mujeres)",
+        "Ley 19.968 (Tribunales de Familia)"
+      ],
+      "pasos": [
+        "Si hay peligro inmediato, llama al 133 (Carabineros) o al 149 (Fono Familia).",
+        "Denuncia los hechos; constata lesiones en un servicio de urgencia.",
+        "Pide medidas de protección: salida del agresor del hogar, prohibición de acercarse a la víctima, al domicilio, trabajo o colegio, prohibición de porte de armas.",
+        "Busca apoyo psicosocial y legal gratuito (Centros de la Mujer de SernamEG, Corporación de Asistencia Judicial).",
+        "Si el agresor incumple una medida, denúncialo: el incumplimiento es delito de desacato."
+      ],
+      "plazos": [
+        "Las medidas cautelares se pueden decretar de inmediato, incluso sin audiencia"
+      ],
+      "documentos": [
+        "Constatación de lesiones",
+        "Mensajes, audios, fotografías",
+        "Testigos"
+      ],
+      "dondeAcudir": [
+        "Carabineros (133)",
+        "Fono Orientación Violencia contra la Mujer (1455)",
+        "Fiscalía",
+        "Tribunal de Familia",
+        "SernamEG"
+      ],
+      "consejo": "Guarda copias de la evidencia fuera de tu teléfono (en la nube o con una persona de confianza).",
+      "alerta": "Retirar la denuncia no siempre termina el proceso: muchos delitos de VIF son de acción penal pública y la Fiscalía puede continuar."
+    },
+    {
+      "id": "manejo-estado-ebriedad",
+      "titulo": "Conducir en estado de ebriedad o bajo la influencia del alcohol (Ley Emilia y Ley de Tránsito)",
+      "temas": [
+        "manejo en estado de ebriedad",
+        "conducir ebrio",
+        "alcotest",
+        "control de alcohol",
+        "bajo la influencia del alcohol",
+        "ley emilia",
+        "ley tolerancia cero",
+        "suspension de licencia",
+        "choque ebrio",
+        "alcoholemia",
+        "curado",
+        "manejar curado",
+        "manejaba curado",
+        "borracho",
+        "manejar borracho",
+        "manejando borracho"
+      ],
+      "resumen": "Conducir con 0,3 a 0,8 gramos por mil de alcohol en la sangre es estar bajo la influencia del alcohol (infracción); desde 0,8 g/l es estado de ebriedad (delito). Si hay lesiones graves o muerte, las penas son de cárcel efectiva (Ley Emilia).",
+      "explicacion": "La Ley 20.580 (Tolerancia Cero) bajó los límites y la Ley 20.770 (Ley Emilia) agravó las penas cuando se causan lesiones graves gravísimas o la muerte, estableciendo que la pena debe cumplirse efectivamente al menos un año. La negativa injustificada a someterse al alcotest o a la alcoholemia también se sanciona. La licencia puede suspenderse o cancelarse.",
+      "baseLegal": [
+        "Art. 110 a 111 Ley 18.290 (Ley de Tránsito)",
+        "Art. 193 a 196 Ley 18.290 (penas)",
+        "Art. 195 y 195 bis Ley 18.290 (huida y negativa al examen)",
+        "Art. 196 Ley 18.290 (penas por estado de ebriedad con resultado)",
+        "Ley 20.770 (Ley Emilia)"
+      ],
+      "pasos": [
+        "Si te controlan, colabora con la identificación; puedes pedir que el resultado del alcotest se confirme con alcoholemia en un centro de salud.",
+        "Si quedas detenido, ejerce tu derecho a guardar silencio y pide abogado.",
+        "Si causaste un accidente, nunca huyas del lugar: detenerse y prestar ayuda es obligatorio y la fuga agrava fuertemente la pena.",
+        "En causas sin resultado de daños a personas, es habitual la suspensión condicional del procedimiento con condiciones y suspensión de licencia."
+      ],
+      "plazos": [],
+      "documentos": [
+        "Licencia de conducir",
+        "Resultado del alcotest/alcoholemia"
+      ],
+      "dondeAcudir": [
+        "Defensoría Penal Pública",
+        "Juzgado de Garantía",
+        "Juzgado de Policía Local (infracciones)"
+      ],
+      "consejo": "Si vas a beber, no conduzcas: los límites legales son bajos y una sola copa puede superarlos en algunas personas.",
+      "alerta": "La Ley Emilia impide sustituir la pena por libertad durante el primer año en casos de lesiones graves gravísimas o muerte."
+    },
+    {
+      "id": "responsabilidad-penal-empresas",
+      "titulo": "Responsabilidad penal de las empresas y delitos económicos (Ley 20.393 y Ley 21.595)",
+      "temas": [
+        "responsabilidad penal de la persona juridica",
+        "ley 20393",
+        "ley de delitos economicos",
+        "ley 21595",
+        "modelo de prevencion de delitos",
+        "compliance",
+        "encargado de prevencion",
+        "cohecho",
+        "lavado de activos",
+        "delitos economicos empresa"
+      ],
+      "resumen": "Las empresas pueden ser penalmente responsables por delitos cometidos en su beneficio por sus dueños, directivos o trabajadores si no tienen un modelo de prevención de delitos implementado eficazmente.",
+      "explicacion": "La Ley 21.595 (2023) amplió el catálogo de delitos que generan responsabilidad penal para las personas jurídicas (incluye delitos tributarios, ambientales, de mercado de valores, laborales, de propiedad intelectual, entre muchos otros) y endureció las penas para personas naturales que cometen delitos económicos. Las sanciones a la empresa incluyen multas, inhabilitación para contratar con el Estado, pérdida de beneficios fiscales, supervisión e incluso disolución. Un modelo de prevención de delitos efectivo es la principal defensa.",
+      "baseLegal": [
+        "Ley 20.393 (responsabilidad penal de las personas jurídicas)",
+        "Art. 3 y 4 Ley 20.393 (atribución y modelo de prevención)",
+        "Ley 21.595 (delitos económicos)"
+      ],
+      "pasos": [
+        "Haz un levantamiento de riesgos penales de tu empresa (por área y proceso).",
+        "Diseña e implementa un modelo de prevención: políticas, protocolos, canal de denuncias, sanciones internas y capacitación.",
+        "Designa un encargado de prevención con autonomía y recursos.",
+        "Documenta todo: matriz de riesgos, controles, auditorías y evidencias de cumplimiento.",
+        "Revisa y actualiza el modelo periódicamente; puede certificarse por entidades autorizadas.",
+        "Ante un posible delito, investiga internamente y evalúa la autodenuncia (es atenuante)."
+      ],
+      "plazos": [],
+      "documentos": [
+        "Matriz de riesgos",
+        "Manual del modelo de prevención",
+        "Registros de capacitación y del canal de denuncias"
+      ],
+      "dondeAcudir": [
+        "Abogado especialista en compliance",
+        "Entidades certificadoras (CMF)"
+      ],
+      "consejo": "Un modelo 'de papel' no basta: los tribunales evalúan si se aplicó en la práctica (capacitaciones reales, denuncias investigadas, sanciones aplicadas).",
+      "alerta": "La Ley 21.595 aplica a empresas de todo tamaño, no solo a grandes compañías."
+    }
+  ]
+}

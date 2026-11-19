@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+<title>ALL-LEX — asistente legal</title>
+<meta name="description" content="ALL-LEX: orientación legal en lenguaje simple sobre derecho laboral, tributario, penal, comercial y administrativo chileno, con plazos, base legal y pasos a seguir.">
+<link rel="icon" href="icons/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#1f3a5f">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="ALL-LEX">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app" id="app">
+
+  <header class="topbar">
+    <button class="icon-btn" id="menuToggle" aria-label="Abrir menú de temas" aria-expanded="false" aria-controls="sidebar">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M12 3v18M5 21h14M4 7h16M7 7l-3 7a3 3 0 0 0 6 0L7 7zm10 0l-3 7a3 3 0 0 0 6 0l-3-7z" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </span>
+      <div class="brand-text">
+        <span class="brand-title">ALL-LEX</span>
+        <span class="brand-sub">by JJ · asistente legal</span>
+      </div>
+    </div>
+
+    <div class="topbar-controls" role="group" aria-label="Controles">
+      <button class="icon-btn" id="newChatBtn" aria-label="Nueva consulta" title="Nueva consulta">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 0 1 13.66-5.66M20 12a8 8 0 0 1-13.66 5.66M17 4v4h-4M7 20v-4h4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+      </button>
+      <button class="icon-btn" id="fontDown" aria-label="Reducir tamaño de letra">A−</button>
+      <button class="icon-btn" id="fontUp" aria-label="Aumentar tamaño de letra">A+</button>
+      <button class="icon-btn" id="themeToggle" aria-label="Cambiar tema claro u oscuro">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v2M12 19v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M3 12h2M19 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.6" fill="none"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <div class="layout">
+    <nav class="sidebar" id="sidebar" aria-label="Áreas del derecho">
+      <div class="sidebar-section">
+        <h2>Herramientas</h2>
+        <ul class="topic-list">
+          <li><button type="button" id="openCalcBtn">🧮 Calcular indemnización por despido</button></li>
+        </ul>
+      </div>
+      <div class="sidebar-section">
+        <h2>Áreas del derecho</h2>
+        <div id="areaList"></div>
+      </div>
+      <p class="sidebar-note">Base de conocimiento sobre legislación chilena: Código del Trabajo, Código Tributario, leyes de Renta e IVA, Código Penal y Procesal Penal, Código de Comercio y leyes de sociedades, Ley 19.880 y normas de Derecho Administrativo. Es orientación general: no reemplaza a un abogado. Verifica la vigencia en <a href="https://www.bcn.cl/leychile" target="_blank" rel="noopener">bcn.cl/leychile</a>.</p>
+    </nav>
+    <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
+
+    <main class="chat" aria-live="polite">
+      <div class="messages" id="messages"></div>
+
+      <form class="composer" id="composerForm">
+        <label for="composerInput" class="sr-only">Escribe tu consulta legal</label>
+        <textarea id="composerInput" rows="1" placeholder="Cuéntame tu caso legal…" autocomplete="off" enterkeyhint="send"></textarea>
+        <button type="submit" class="send-btn" aria-label="Enviar consulta">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12l16-8-6 8 6 8-16-8z" fill="currentColor"/></svg>
+        </button>
+      </form>
+    </main>
+  </div>
+</div>
+
+<template id="tpl-topic-card">
+  <article class="card card-topic">
+    <header class="card-header">
+      <span class="pill" data-role="area"></span>
+      <h3 data-role="titulo"></h3>
+    </header>
+    <p class="card-lead" data-role="resumen"></p>
+    <p class="card-text" data-role="explicacion"></p>
+
+    <div class="block plazos" data-role="plazosWrap">
+      <h4 class="block-title">⏱ Plazos que debes cuidar</h4>
+      <ul data-role="plazos"></ul>
+    </div>
+
+    <div class="block pasos" data-role="pasosWrap">
+      <h4 class="block-title">Qué hacer, paso a paso</h4>
+      <ol class="steps" data-role="pasos"></ol>
+    </div>
+
+    <div class="calc-cta" data-role="calcWrap">
+      <button type="button" class="btn-primary" data-role="calcBtn">🧮 Calcular mi indemnización</button>
+    </div>
+
+    <details class="card-details" data-role="baseLegalWrap">
+      <summary>⚖️ Base legal</summary>
+      <ul data-role="baseLegal"></ul>
+    </details>
+    <details class="card-details" data-role="documentosWrap">
+      <summary>📄 Documentos que te sirven</summary>
+      <ul data-role="documentos"></ul>
+    </details>
+    <details class="card-details" data-role="dondeWrap">
+      <summary>📍 Dónde acudir</summary>
+      <ul data-role="donde"></ul>
+    </details>
+
+    <p class="card-tip" data-role="consejoWrap"><strong>Consejo:</strong> <span data-role="consejo"></span></p>
+    <p class="card-alert" data-role="alertaWrap"><strong>Ojo:</strong> <span data-role="alerta"></span></p>
+  </article>
+</template>
+
+<template id="tpl-calc-card">
+  <article class="card card-calc">
+    <header class="card-header">
+      <span class="pill pill-tool">Herramienta</span>
+      <h3>Calculadora de indemnización por despido</h3>
+    </header>
+    <p class="card-text">Estimación según los arts. 162, 163, 168 y 172 del Código del Trabajo. Ingresa tus datos:</p>
+    <form class="calc-form">
+      <label>Fecha de inicio del contrato <input type="date" name="fechaInicio" required></label>
+      <label>Fecha de término <input type="date" name="fechaTermino" required></label>
+      <label>Última remuneración mensual bruta ($) <input type="number" name="remuneracion" min="1" step="1" inputmode="numeric" placeholder="Ej: 1200000" required></label>
+      <label>Valor de la UF ($) <input type="number" name="valorUF" min="1" step="0.01" inputmode="decimal" placeholder="Consulta el valor del día en sii.cl" required></label>
+      <label>Causal invocada
+        <select name="causal">
+          <option value="161">Art. 161 – Necesidades de la empresa / desahucio</option>
+          <option value="159">Art. 159 – Vencimiento de plazo, fin de obra, etc.</option>
+          <option value="160">Art. 160 – Causal disciplinaria</option>
+        </select>
+      </label>
+      <label>Días hábiles de vacaciones pendientes (opcional) <input type="number" name="feriadoPendienteDias" min="0" step="0.5" value="0"></label>
+      <label class="check"><input type="checkbox" name="avisoDado"> Me avisaron con 30 días de anticipación</label>
+      <button type="submit" class="btn-primary">Calcular</button>
+    </form>
+    <div class="calc-result" data-role="result"></div>
+  </article>
+</template>
+
+<script src="app.js"></script>
+</body>
+</html>

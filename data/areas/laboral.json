@@ -1,0 +1,836 @@
+{
+  "id": "laboral",
+  "num": 1,
+  "titulo": "Derecho Laboral",
+  "intro": "Regula la relación entre trabajador y empleador: contrato, jornada, remuneraciones, feriado, despido, finiquito, fueros, acoso laboral y juicios ante los Juzgados de Letras del Trabajo. La norma central es el Código del Trabajo (DFL N°1 de 2002, del Ministerio del Trabajo).",
+  "leyes": [
+    "Código del Trabajo (DFL N°1, 2002)",
+    "Ley 21.561 (reducción de jornada a 40 horas)",
+    "Ley 21.643 (Ley Karin: acoso laboral, sexual y violencia en el trabajo)",
+    "Ley 21.220 (teletrabajo y trabajo a distancia)",
+    "Ley 19.631 / art. 162 CT (Ley Bustos: nulidad del despido por cotizaciones impagas)",
+    "Ley 16.744 (accidentes del trabajo y enfermedades profesionales)",
+    "Ley 20.545 (postnatal parental)"
+  ],
+  "temas": [
+    {
+      "id": "contrato-trabajo",
+      "titulo": "Contrato de trabajo: qué es, plazos para firmarlo y qué debe contener",
+      "temas": [
+        "contrato de trabajo",
+        "firmar contrato",
+        "no me han hecho contrato",
+        "sin contrato",
+        "trabajo sin contrato",
+        "escriturar contrato",
+        "contrato indefinido",
+        "contrato a plazo fijo",
+        "contrato por obra",
+        "clausulas del contrato",
+        "renovacion de contrato",
+        "plazo fijo"
+      ],
+      "resumen": "Existe contrato de trabajo cuando prestas servicios personales bajo subordinación y dependencia a cambio de una remuneración, aunque no haya nada firmado.",
+      "explicacion": "La ley presume que hay relación laboral cuando trabajas bajo las órdenes de otro (horario, supervisión, lugar fijado por el empleador) a cambio de un sueldo. El contrato puede ser indefinido, a plazo fijo o por obra o faena. El empleador está obligado a escriturarlo; si no lo hace, se presume que las condiciones son las que declare el trabajador.",
+      "baseLegal": [
+        "Art. 7 y 8 Código del Trabajo (definición y presunción de contrato)",
+        "Art. 9 CT (escrituración: 15 días; 5 días si es por obra, faena o dura menos de 30 días)",
+        "Art. 10 CT (contenido mínimo)",
+        "Art. 159 N°4 CT (plazo fijo: máximo 1 año, 2 años para gerentes o profesionales)"
+      ],
+      "pasos": [
+        "Revisa si se cumplen los elementos: trabajo personal, bajo órdenes y horario de otro, y pago de remuneración. Si se cumplen, hay contrato aunque te llamen 'honorarios'.",
+        "Exige el contrato escrito: el empleador tiene 15 días desde que empezaste (5 días si es por obra o faena o de menos de 30 días).",
+        "Verifica el contenido mínimo: lugar y fecha, identificación de las partes, funciones, lugar de trabajo, monto y forma de pago de la remuneración, jornada, plazo del contrato y demás pactos.",
+        "Si es a plazo fijo: la segunda renovación lo convierte en indefinido, y también si sigues trabajando después del vencimiento con conocimiento del empleador.",
+        "Si no te escrituran el contrato, puedes denunciar ante la Inspección del Trabajo; el empleador arriesga multa y se presumen ciertas las condiciones que tú declares."
+      ],
+      "plazos": [
+        "Escriturar: 15 días desde el inicio (5 días en contratos por obra/faena o de menos de 30 días)",
+        "Plazo fijo: duración máxima 1 año (2 años gerentes y profesionales o técnicos de educación superior)"
+      ],
+      "documentos": [
+        "Contrato y anexos",
+        "Liquidaciones de sueldo",
+        "Correos, mensajes o registros de asistencia que prueben la relación"
+      ],
+      "dondeAcudir": [
+        "Inspección del Trabajo (Dirección del Trabajo, dt.gob.cl)",
+        "Juzgado de Letras del Trabajo"
+      ],
+      "consejo": "Guarda siempre pruebas de la relación (mensajes con instrucciones, turnos, credencial, correos). Son la base para demostrar un contrato si te tienen a 'honorarios' cumpliendo horario.",
+      "alerta": "Emitir boletas de honorarios no impide que un juez declare que existía contrato de trabajo si había subordinación y dependencia."
+    },
+    {
+      "id": "honorarios-vs-contrato",
+      "titulo": "Honorarios vs. contrato de trabajo (subordinación encubierta)",
+      "temas": [
+        "honorarios",
+        "boleta de honorarios",
+        "trabajo a honorarios",
+        "me pagan con boleta",
+        "falso honorario",
+        "subordinacion y dependencia",
+        "reconocimiento de relacion laboral",
+        "declarar relacion laboral"
+      ],
+      "resumen": "Si trabajas con horario, bajo órdenes y con continuidad, pero te pagan con boleta de honorarios, puedes pedir que se declare la relación laboral.",
+      "explicacion": "Lo que define un contrato de trabajo es la realidad (principio de primacía de la realidad), no el nombre que le den las partes. Indicios de subordinación: horario fijo, control de asistencia, supervisión directa, uso de herramientas de la empresa, exclusividad, continuidad y pago mensual fijo.",
+      "baseLegal": [
+        "Art. 7 y 8 Código del Trabajo",
+        "Art. 420 CT (competencia de los Juzgados del Trabajo)",
+        "Art. 510 CT (prescripción)"
+      ],
+      "pasos": [
+        "Reúne pruebas de subordinación: correos con instrucciones, registros de horario, credenciales, uniformes, chats de jefatura, evaluaciones de desempeño.",
+        "Si la relación sigue vigente, puedes solicitar al empleador la escrituración o denunciar ante la Inspección del Trabajo.",
+        "Si la relación terminó, demanda ante el Juzgado de Letras del Trabajo pidiendo: declaración de relación laboral, despido injustificado, cotizaciones previsionales impagas y nulidad del despido (Ley Bustos).",
+        "El juicio se tramita por procedimiento de aplicación general (audiencia preparatoria y audiencia de juicio)."
+      ],
+      "plazos": [
+        "Demandar despido: 60 días hábiles desde la separación (90 días hábiles si antes reclamaste ante la Inspección)",
+        "Cobro de derechos laborales: 2 años desde que se hicieron exigibles, pero máximo 6 meses desde el término del contrato"
+      ],
+      "documentos": [
+        "Boletas de honorarios emitidas",
+        "Pruebas de horario y órdenes",
+        "Testigos (compañeros de trabajo)"
+      ],
+      "dondeAcudir": [
+        "Juzgado de Letras del Trabajo",
+        "Inspección del Trabajo",
+        "Oficina de Defensoría Laboral (asesoría gratuita si cumples requisitos)"
+      ],
+      "consejo": "El sector público tiene reglas especiales: la jurisprudencia de la Corte Suprema ha reconocido relación laboral en honorarios del Estado que cumplen funciones permanentes, pero el análisis es caso a caso.",
+      "alerta": "No dejes pasar el plazo de 60 días hábiles desde que te desvinculan: después solo podrías cobrar algunas prestaciones."
+    },
+    {
+      "id": "jornada-40-horas",
+      "titulo": "Jornada de trabajo y Ley de 40 horas",
+      "temas": [
+        "jornada",
+        "jornada laboral",
+        "40 horas",
+        "ley 40 horas",
+        "cuantas horas",
+        "horas semanales",
+        "jornada maxima",
+        "44 horas",
+        "42 horas",
+        "turnos",
+        "descanso",
+        "colacion",
+        "jornada parcial",
+        "horario de trabajo"
+      ],
+      "resumen": "La jornada ordinaria máxima se está reduciendo gradualmente de 45 a 40 horas semanales (Ley 21.561).",
+      "explicacion": "La Ley 21.561 reduce la jornada en forma escalonada: 44 horas desde el 26 de abril de 2024, 42 horas desde el 26 de abril de 2026 y 40 horas desde el 26 de abril de 2028. La jornada no puede distribuirse en más de 6 ni menos de 5 días, y no puede exceder 10 horas diarias. La colación (mínimo media hora) no se considera trabajada, salvo pacto.",
+      "baseLegal": [
+        "Art. 22 Código del Trabajo (jornada máxima)",
+        "Art. 28 CT (distribución: entre 5 y 6 días, máximo 10 horas diarias)",
+        "Art. 34 CT (colación de al menos 30 minutos)",
+        "Art. 40 bis CT (jornada parcial: hasta 2/3 de la jornada ordinaria)",
+        "Ley 21.561 (reducción gradual a 40 horas)"
+      ],
+      "pasos": [
+        "Revisa la jornada pactada en tu contrato y compárala con el máximo vigente a la fecha (42 horas semanales desde el 26-04-2026).",
+        "Si tu jornada supera el máximo, el empleador debe ajustarla sin rebajar la remuneración.",
+        "Verifica la distribución: no menos de 5 ni más de 6 días a la semana, y máximo 10 horas ordinarias por día.",
+        "Si trabajas más de lo pactado, esas horas son horas extraordinarias y deben pagarse con recargo.",
+        "Ante incumplimientos, denuncia ante la Inspección del Trabajo (puede ser de forma reservada)."
+      ],
+      "plazos": [
+        "44 h semanales: desde 26-04-2024",
+        "42 h semanales: desde 26-04-2026",
+        "40 h semanales: desde 26-04-2028"
+      ],
+      "documentos": [
+        "Contrato y anexos de jornada",
+        "Registro de asistencia (libro, reloj control o sistema electrónico autorizado)"
+      ],
+      "dondeAcudir": [
+        "Inspección del Trabajo"
+      ],
+      "consejo": "La ley permite pactar jornadas promedio en ciclos de hasta 4 semanas (con límites) y bandas horarias para padres y madres de menores de 12 años: revisa si te conviene proponerlo.",
+      "alerta": "Hay jornadas especiales (art. 22 inciso 2°: gerentes y trabajadores sin fiscalización superior inmediata; trabajadores de casa particular, transporte, etc.) con reglas propias."
+    },
+    {
+      "id": "horas-extra",
+      "titulo": "Horas extraordinarias: límite, pacto y pago",
+      "temas": [
+        "horas extra",
+        "horas extras",
+        "sobretiempo",
+        "horas extraordinarias",
+        "no me pagan las horas extra",
+        "recargo horas extra",
+        "calcular horas extra",
+        "valor hora extra"
+      ],
+      "resumen": "Las horas extra deben pactarse por escrito, no pueden exceder 2 por día y se pagan con un recargo mínimo del 50% sobre el sueldo convenido.",
+      "explicacion": "Solo pueden pactarse para atender necesidades o situaciones temporales de la empresa. El pacto escrito dura máximo 3 meses, renovable. Aunque no exista pacto escrito, se consideran horas extra las trabajadas en exceso de la jornada con conocimiento del empleador. El valor hora se calcula sobre el sueldo base (no se incluyen bonos variables).",
+      "baseLegal": [
+        "Art. 30 CT (concepto)",
+        "Art. 31 CT (máximo 2 horas por día; pacto escrito por máximo 3 meses)",
+        "Art. 32 CT (recargo del 50% sobre el sueldo convenido; se liquidan y pagan junto con las remuneraciones del período)"
+      ],
+      "pasos": [
+        "Calcula el valor de la hora ordinaria. Para sueldo mensual con jornada de 42 horas: sueldo base ÷ 30 × 28 ÷ (42 × 4). (Ajusta 42 por tu jornada semanal real).",
+        "Multiplica ese valor por 1,5 para obtener el valor de la hora extra.",
+        "Multiplica por la cantidad de horas extra trabajadas en el mes.",
+        "Compara con lo que aparece en tu liquidación de sueldo; si hay diferencias, reclama al empleador por escrito.",
+        "Si no pagan, denuncia en la Inspección del Trabajo o demanda en el Juzgado del Trabajo."
+      ],
+      "plazos": [
+        "Pacto de horas extra: máximo 3 meses, renovable",
+        "Cobro: 6 meses desde que debieron pagarse (art. 510 inciso 3° CT)"
+      ],
+      "documentos": [
+        "Registro de asistencia",
+        "Liquidaciones de sueldo",
+        "Pacto de horas extra"
+      ],
+      "dondeAcudir": [
+        "Inspección del Trabajo",
+        "Juzgado de Letras del Trabajo"
+      ],
+      "consejo": "El derecho a cobrar horas extraordinarias prescribe en 6 meses desde que debieron pagarse: no lo dejes acumular.",
+      "alerta": "Si tu sueldo base es inferior al ingreso mínimo (porque el resto son bonos), las horas extra se calculan sobre el ingreso mínimo mensual."
+    },
+    {
+      "id": "feriado-vacaciones",
+      "titulo": "Feriado legal (vacaciones) y feriado progresivo",
+      "temas": [
+        "vacaciones",
+        "feriado legal",
+        "feriado anual",
+        "dias de vacaciones",
+        "feriado progresivo",
+        "feriado proporcional",
+        "acumular vacaciones",
+        "no me dan vacaciones",
+        "vacaciones pendientes"
+      ],
+      "resumen": "Después de un año de trabajo tienes derecho a 15 días hábiles de vacaciones pagadas, más días adicionales por antigüedad (feriado progresivo).",
+      "explicacion": "Para el feriado, el sábado se considera inhábil. El feriado progresivo da 1 día adicional por cada 3 nuevos años trabajados, después de los primeros 10 años (que pueden ser con distintos empleadores, con un máximo de 10 años de empleadores anteriores). Al terminar el contrato, se paga el feriado proporcional al tiempo trabajado.",
+      "baseLegal": [
+        "Art. 67 CT (15 días hábiles con remuneración íntegra)",
+        "Art. 68 CT (feriado progresivo)",
+        "Art. 69 CT (sábado inhábil para el feriado)",
+        "Art. 70 CT (acumulación hasta 2 períodos consecutivos)",
+        "Art. 73 CT (feriado proporcional y compensación en dinero al término)"
+      ],
+      "pasos": [
+        "Verifica si cumpliste un año de servicio con el empleador.",
+        "Solicita las vacaciones por escrito, idealmente con anticipación; el empleador debe otorgarlas preferentemente en primavera o verano según necesidades del servicio.",
+        "Puedes fraccionar el exceso sobre 10 días hábiles de común acuerdo.",
+        "Si acumulas 2 períodos, el empleador debe otorgarte al menos el primero antes de completar el año que da derecho al tercero.",
+        "Al término del contrato, revisa que el finiquito incluya el feriado pendiente y el proporcional."
+      ],
+      "plazos": [
+        "Acumulación máxima: 2 períodos consecutivos"
+      ],
+      "documentos": [
+        "Comprobantes de feriado firmados",
+        "Certificado de cotizaciones (para acreditar años con otros empleadores en el progresivo)"
+      ],
+      "dondeAcudir": [
+        "Inspección del Trabajo"
+      ],
+      "consejo": "Para acreditar años con empleadores anteriores en el feriado progresivo, usa tu certificado de cotizaciones de la AFP.",
+      "alerta": "El feriado no es compensable en dinero mientras el contrato esté vigente, salvo al término de la relación laboral."
+    },
+    {
+      "id": "remuneraciones-gratificacion",
+      "titulo": "Remuneraciones, liquidación de sueldo y gratificación legal",
+      "temas": [
+        "sueldo",
+        "remuneracion",
+        "liquidacion de sueldo",
+        "no me pagan el sueldo",
+        "atraso en el pago",
+        "gratificacion",
+        "gratificacion legal",
+        "descuentos del sueldo",
+        "sueldo minimo",
+        "ingreso minimo",
+        "bonos",
+        "anticipo",
+        "no me han pagado",
+        "me deben el sueldo",
+        "pago atrasado"
+      ],
+      "resumen": "El sueldo debe pagarse en moneda de curso legal y en períodos no superiores a un mes; la gratificación legal se paga por el sistema del 30% de utilidades o el 25% con tope.",
+      "explicacion": "La remuneración incluye sueldo base, sobresueldo (horas extra), comisiones, participación y gratificación. El sueldo base no puede ser inferior al ingreso mínimo mensual (para jornada completa). La gratificación del art. 50 equivale al 25% de lo devengado en el año con tope de 4,75 ingresos mínimos mensuales al año. Los descuentos obligatorios son: impuestos, cotizaciones previsionales y de salud y otros autorizados por ley.",
+      "baseLegal": [
+        "Art. 41 y 42 CT (concepto de remuneración)",
+        "Art. 44 CT (periodicidad máxima mensual; sueldo base no inferior al ingreso mínimo)",
+        "Art. 46 y 47 CT (gratificación)",
+        "Art. 50 CT (gratificación del 25% con tope de 4,75 IMM)",
+        "Art. 54 y 58 CT (liquidación y descuentos)"
+      ],
+      "pasos": [
+        "Revisa tu liquidación: debe detallar haberes imponibles y no imponibles, descuentos legales y el líquido a pagar.",
+        "Verifica que el sueldo base no sea menor al ingreso mínimo vigente (proporcional si es jornada parcial).",
+        "Confirma que se estén pagando las cotizaciones de AFP, salud y seguro de cesantía (puedes revisarlo en la AFP y en AFC).",
+        "Si hay atraso o no pago, reclama por escrito al empleador y denuncia ante la Inspección del Trabajo.",
+        "Si el incumplimiento es grave, puedes autodespedirte (despido indirecto, art. 171 CT)."
+      ],
+      "plazos": [
+        "Pago: no más de 1 mes entre pagos",
+        "Cobro de remuneraciones: 2 años desde que se hicieron exigibles (máx. 6 meses desde el término)"
+      ],
+      "documentos": [
+        "Liquidaciones de sueldo",
+        "Contrato",
+        "Certificado de cotizaciones AFP/AFC"
+      ],
+      "dondeAcudir": [
+        "Inspección del Trabajo",
+        "Juzgado de Letras del Trabajo"
+      ],
+      "consejo": "El monto del ingreso mínimo mensual se reajusta por ley; confirma el valor vigente en dt.gob.cl antes de calcular.",
+      "alerta": "Los descuentos voluntarios (préstamos, cuotas) no pueden exceder el 15% de la remuneración total, y en conjunto los descuentos no pueden superar el 45%."
+    },
+    {
+      "id": "despido-causales",
+      "titulo": "Despido: causales legales (arts. 159, 160 y 161)",
+      "temas": [
+        "despido",
+        "me despidieron",
+        "despedido",
+        "causales de despido",
+        "necesidades de la empresa",
+        "articulo 161",
+        "articulo 160",
+        "articulo 159",
+        "despido por falta de probidad",
+        "abandono del trabajo",
+        "renuncia",
+        "mutuo acuerdo",
+        "vencimiento del plazo",
+        "desvinculacion",
+        "me echaron",
+        "carta de despido",
+        "me desvincularon",
+        "me cortaron",
+        "renuncie",
+        "renunciar"
+      ],
+      "resumen": "El despido solo puede basarse en las causales de la ley: el art. 159 (objetivas), el 160 (disciplinarias, sin indemnización) y el 161 (necesidades de la empresa o desahucio, con indemnización).",
+      "explicacion": "Art. 159: mutuo acuerdo, renuncia (con 30 días de aviso), muerte del trabajador, vencimiento del plazo, conclusión de la obra y caso fortuito o fuerza mayor. Art. 160: conductas graves como falta de probidad, acoso sexual o laboral, vías de hecho, injurias, conducta inmoral, negociaciones prohibidas, ausencias injustificadas (2 días seguidos, 2 lunes en el mes o 3 días en total en el mes), abandono del trabajo, actos que afecten la seguridad, perjuicio material intencional e incumplimiento grave de obligaciones. Art. 161: necesidades de la empresa (racionalización, modernización, baja productividad, cambios del mercado) y desahucio (solo para gerentes, cargos de exclusiva confianza y trabajadores de casa particular).",
+      "baseLegal": [
+        "Art. 159 CT",
+        "Art. 160 CT",
+        "Art. 161 CT",
+        "Art. 162 CT (forma de comunicar el despido)",
+        "Art. 163 CT (indemnizaciones)",
+        "Art. 168 CT (despido injustificado y recargos)",
+        "Art. 171 CT (autodespido)"
+      ],
+      "pasos": [
+        "Pide la carta de despido: debe indicar la causal, los hechos en que se funda y el estado de pago de tus cotizaciones previsionales.",
+        "Identifica la causal: si es 161 te corresponde indemnización por años de servicio y por aviso previo (si no te avisaron con 30 días).",
+        "No firmes el finiquito si no estás de acuerdo; o fírmalo con 'reserva de derechos' indicando qué no aceptas.",
+        "Si la causal es injusta o los hechos son falsos, demanda despido injustificado, indebido o improcedente.",
+        "Revisa si estás pagado de cotizaciones: si no, el despido no produce efecto (Ley Bustos) y sigues ganando remuneraciones hasta que se pague."
+      ],
+      "plazos": [
+        "Demanda: 60 días hábiles desde la separación (se suspende al reclamar en la Inspección; nunca más de 90 días hábiles)",
+        "Carta: 3 días hábiles desde la separación (6 días hábiles en caso fortuito); con 30 días de anticipación en el art. 161 si no se paga el aviso"
+      ],
+      "documentos": [
+        "Carta de despido",
+        "Contrato",
+        "Últimas 3 liquidaciones",
+        "Certificado de cotizaciones"
+      ],
+      "dondeAcudir": [
+        "Inspección del Trabajo (reclamo administrativo y comparendo de conciliación)",
+        "Juzgado de Letras del Trabajo",
+        "Oficina de Defensoría Laboral"
+      ],
+      "consejo": "La causal y los hechos de la carta son los únicos que el empleador puede probar en juicio: si la carta es vaga, eso juega a tu favor.",
+      "alerta": "La causal de necesidades de la empresa no puede invocarse contra trabajadores con licencia médica, ni contra quienes tienen fuero sin autorización judicial previa."
+    },
+    {
+      "id": "indemnizacion-anos-servicio",
+      "titulo": "Indemnización por años de servicio y aviso previo",
+      "temas": [
+        "indemnizacion",
+        "indemnizacion por años de servicio",
+        "años de servicio",
+        "cuanto me corresponde",
+        "calcular indemnizacion",
+        "aviso previo",
+        "mes de aviso",
+        "indemnizacion sustitutiva",
+        "tope 90 uf",
+        "tope 11 años",
+        "cuanto me deben pagar"
+      ],
+      "resumen": "Si te despiden por necesidades de la empresa o desahucio (art. 161), te corresponden 30 días de la última remuneración por cada año trabajado y fracción superior a 6 meses, con tope de 11 años (330 días) y de 90 UF por mes.",
+      "explicacion": "La indemnización por años de servicio procede cuando el contrato ha durado al menos 1 año. Se calcula con la última remuneración mensual (incluye imposiciones, cotizaciones y regalías en especie avaluables, pero excluye horas extra y beneficios esporádicos como aguinaldos). El tope por mes es 90 UF del último día del mes anterior al pago. Si no te avisaron con 30 días de anticipación, además te pagan un mes de remuneración como indemnización sustitutiva del aviso previo.",
+      "baseLegal": [
+        "Art. 161 CT (causales)",
+        "Art. 162 inciso 4° CT (aviso previo de 30 días o indemnización sustitutiva)",
+        "Art. 163 CT (30 días por año y fracción superior a 6 meses; tope 330 días)",
+        "Art. 172 CT (base de cálculo y tope de 90 UF)",
+        "Art. 168 CT (recargos si el despido es declarado injustificado)"
+      ],
+      "pasos": [
+        "Determina tu última remuneración mensual (sin horas extra ni pagos esporádicos). Si es variable, usa el promedio de los últimos 3 meses.",
+        "Aplica el tope: si supera 90 UF, usa 90 UF.",
+        "Cuenta los años de servicio: cada año completo suma 1, y una fracción superior a 6 meses suma 1 año más. Máximo 11 años (salvo contratos anteriores al 14-08-1981).",
+        "Multiplica la remuneración (topada) por los años: ese es el monto de la indemnización por años de servicio.",
+        "Si no te dieron 30 días de aviso, suma 1 remuneración mensual (también con tope de 90 UF) como indemnización sustitutiva.",
+        "Agrega feriado pendiente y proporcional, y remuneraciones adeudadas, para obtener el total del finiquito.",
+        "Usa la calculadora integrada (botón 'Calcular indemnización') para obtener una estimación."
+      ],
+      "plazos": [
+        "Requiere al menos 1 año de antigüedad",
+        "Pago del finiquito: dentro de 10 días hábiles desde la separación"
+      ],
+      "documentos": [
+        "Contrato (fecha de inicio)",
+        "Últimas liquidaciones",
+        "Carta de despido"
+      ],
+      "dondeAcudir": [
+        "Inspección del Trabajo",
+        "Juzgado de Letras del Trabajo"
+      ],
+      "consejo": "Si el juez declara injustificado el despido, la indemnización por años de servicio se incrementa: 30% (161 improcedente), 50% (159 injustificado o sin causa), 80% (160 indebido) y hasta 100% si se invocaron sin motivo plausible las causales del 160 N°1, 5 y 6.",
+      "alerta": "Por las causales del art. 159 o 160 no hay indemnización por años de servicio, salvo que se haya pactado en el contrato o el juez declare el despido injustificado."
+    },
+    {
+      "id": "nulidad-despido-ley-bustos",
+      "titulo": "Nulidad del despido por cotizaciones impagas (Ley Bustos)",
+      "temas": [
+        "ley bustos",
+        "nulidad del despido",
+        "cotizaciones impagas",
+        "no me pagaron las imposiciones",
+        "imposiciones impagas",
+        "cotizaciones previsionales",
+        "afp no pagada",
+        "convalidacion del despido"
+      ],
+      "resumen": "Si al despedirte el empleador no tenía pagadas tus cotizaciones previsionales, el despido no pone término al contrato y debe seguir pagándote remuneraciones hasta que entere las cotizaciones.",
+      "explicacion": "La carta de despido debe informar el estado de pago de las cotizaciones y adjuntar los comprobantes. Si había cotizaciones impagas, el empleador debe pagarlas y comunicártelo por carta certificada (convalidación); mientras no lo haga, debe pagarte remuneraciones y demás prestaciones desde el despido hasta esa convalidación.",
+      "baseLegal": [
+        "Art. 162 incisos 5° a 7° Código del Trabajo",
+        "Ley 17.322 (cobranza de cotizaciones)"
+      ],
+      "pasos": [
+        "Descarga tu certificado de cotizaciones en tu AFP, Fonasa/Isapre y AFC (seguro de cesantía).",
+        "Compara los meses pagados con los meses trabajados: identifica lagunas.",
+        "Demanda ante el Juzgado del Trabajo la nulidad del despido junto con las demás acciones (despido injustificado, prestaciones).",
+        "Pide el pago de las cotizaciones adeudadas y las remuneraciones devengadas hasta la convalidación."
+      ],
+      "plazos": [
+        "Lo recomendable es demandarla junto con el despido, dentro de 60 días hábiles",
+        "La Corte Suprema ha sostenido que la acción de nulidad tiene un plazo de 6 meses desde la separación (art. 510 CT); verifica el criterio vigente"
+      ],
+      "documentos": [
+        "Certificados de cotizaciones",
+        "Carta de despido",
+        "Liquidaciones (que muestran el descuento de cotizaciones)"
+      ],
+      "dondeAcudir": [
+        "Juzgado de Letras del Trabajo",
+        "AFP (para iniciar cobranza)"
+      ],
+      "consejo": "Si en tus liquidaciones aparece el descuento de cotizaciones pero no se pagaron, el empleador además se apropió de dinero tuyo: refuerza tu demanda.",
+      "alerta": "La jurisprudencia ha limitado en algunos casos el período de pago de remuneraciones por nulidad; consulta con un abogado el criterio vigente de la Corte Suprema."
+    },
+    {
+      "id": "finiquito",
+      "titulo": "Finiquito: qué debe incluir, cuándo se paga y cómo firmarlo",
+      "temas": [
+        "finiquito",
+        "firmar finiquito",
+        "reserva de derechos",
+        "no me pagan el finiquito",
+        "finiquito electronico",
+        "ratificar finiquito",
+        "notaria finiquito",
+        "plazo finiquito"
+      ],
+      "resumen": "El finiquito es el documento que pone fin a la relación laboral; para que tenga valor debe ser ratificado ante un ministro de fe o firmado electrónicamente en el portal de la Dirección del Trabajo.",
+      "explicacion": "Debe detallar las remuneraciones pendientes, feriado legal y proporcional, indemnizaciones y cualquier otro pago. El empleador debe pagarlo dentro de 10 días hábiles desde la separación. Lo que firmas en el finiquito tiene poder liberatorio: si lo firmas sin reserva, en principio renuncias a reclamar lo que no esté ahí.",
+      "baseLegal": [
+        "Art. 177 Código del Trabajo (formalidades y plazo de 10 días hábiles)",
+        "Ley 21.361 y portal DT (finiquito electrónico)"
+      ],
+      "pasos": [
+        "Revisa el borrador: causal, fechas de inicio y término, remuneraciones pendientes, feriado, indemnizaciones y cotizaciones.",
+        "Compara los montos con tu propio cálculo (puedes usar la calculadora de indemnización).",
+        "Ratifícalo ante notario, inspector del trabajo, oficial del Registro Civil o secretario municipal, o fírmalo electrónicamente en dt.gob.cl.",
+        "Si no estás de acuerdo con algo, escribe a mano 'Me reservo el derecho de demandar por ...' indicando qué (por ejemplo: despido injustificado, nulidad del despido, horas extra).",
+        "Si no te pagan el finiquito, reclama en la Inspección del Trabajo o demanda; el finiquito ratificado tiene mérito ejecutivo."
+      ],
+      "plazos": [
+        "Pago: 10 días hábiles desde la separación",
+        "La reserva de derechos no te libera del plazo de 60 días hábiles para demandar el despido"
+      ],
+      "documentos": [
+        "Finiquito",
+        "Carta de despido",
+        "Liquidaciones",
+        "Certificado de cotizaciones"
+      ],
+      "dondeAcudir": [
+        "Notaría",
+        "Inspección del Trabajo",
+        "Portal Mi DT (dt.gob.cl)"
+      ],
+      "consejo": "La reserva de derechos debe ser específica: una reserva genérica ('me reservo todos los derechos') puede ser considerada insuficiente por el tribunal.",
+      "alerta": "Firmar el finiquito y cobrar el pago no impide demandar lo que expresamente te reservaste."
+    },
+    {
+      "id": "autodespido",
+      "titulo": "Autodespido o despido indirecto",
+      "temas": [
+        "autodespido",
+        "despido indirecto",
+        "renunciar con indemnizacion",
+        "el empleador no cumple",
+        "no me pagan y quiero irme",
+        "me rebajaron el sueldo",
+        "acoso y quiero irme"
+      ],
+      "resumen": "Si el empleador incurre en causales graves del art. 160 (no pagar sueldos o cotizaciones, acoso, injurias, etc.), puedes poner término al contrato y demandar las indemnizaciones como si te hubieran despedido.",
+      "explicacion": "Debes comunicar el autodespido por escrito con las mismas formalidades de una carta de despido (causal y hechos), enviar copia a la Inspección del Trabajo y demandar dentro de 60 días hábiles. Si el juez acoge la demanda, te corresponden indemnización sustitutiva del aviso previo e indemnización por años de servicio con recargos (50% en general; hasta 80% en casos de acoso).",
+      "baseLegal": [
+        "Art. 171 Código del Trabajo",
+        "Art. 160 N°1, 5 y 7 CT (causales imputables al empleador)",
+        "Art. 162 CT (formalidades)"
+      ],
+      "pasos": [
+        "Reúne pruebas del incumplimiento grave (liquidaciones impagas, certificado de cotizaciones, mensajes, testigos).",
+        "Redacta la carta de autodespido indicando la causal y los hechos concretos, y entrégala personalmente o por carta certificada al domicilio del empleador.",
+        "Envía copia a la Inspección del Trabajo dentro de 3 días hábiles.",
+        "Demanda ante el Juzgado de Letras del Trabajo dentro de 60 días hábiles.",
+        "Si el tribunal rechaza la demanda, el término se entiende como renuncia: por eso es clave tener pruebas sólidas antes."
+      ],
+      "plazos": [
+        "Copia a la Inspección: 3 días hábiles",
+        "Demanda: 60 días hábiles desde la terminación"
+      ],
+      "documentos": [
+        "Carta de autodespido con comprobante de envío",
+        "Pruebas del incumplimiento"
+      ],
+      "dondeAcudir": [
+        "Juzgado de Letras del Trabajo",
+        "Oficina de Defensoría Laboral"
+      ],
+      "consejo": "Antes de autodespedirte, asesórate con un abogado: un autodespido mal fundado se transforma en una renuncia sin indemnización.",
+      "alerta": "Si hay acoso sexual o laboral, la ley permite además demandar indemnización por daño moral."
+    },
+    {
+      "id": "ley-karin-acoso",
+      "titulo": "Ley Karin: acoso laboral, acoso sexual y violencia en el trabajo",
+      "temas": [
+        "ley karin",
+        "acoso laboral",
+        "acoso sexual",
+        "violencia en el trabajo",
+        "mobbing",
+        "maltrato laboral",
+        "hostigamiento",
+        "denuncia de acoso",
+        "protocolo de prevencion",
+        "investigacion de acoso",
+        "jefe me maltrata",
+        "me humilla",
+        "humillacion",
+        "me grita",
+        "me insulta",
+        "malos tratos",
+        "maltrato",
+        "jefe abusivo",
+        "hostiga",
+        "me acosa",
+        "acoso",
+        "burlas"
+      ],
+      "resumen": "Desde el 1 de agosto de 2024, la Ley 21.643 obliga a todas las empresas a prevenir, investigar y sancionar el acoso laboral, el acoso sexual y la violencia en el trabajo.",
+      "explicacion": "Acoso laboral: toda conducta que constituya agresión u hostigamiento, ejercida por el empleador o por uno o más trabajadores, por cualquier medio, ya sea que se manifieste una sola vez o de manera reiterada, y que menoscabe, maltrate o humille, o amenace o perjudique la situación laboral. Violencia en el trabajo: conductas ejercidas por terceros ajenos (clientes, usuarios). Toda empresa debe tener un protocolo de prevención e incluir el procedimiento de investigación en su reglamento interno.",
+      "baseLegal": [
+        "Ley 21.643 (Ley Karin)",
+        "Art. 2 Código del Trabajo (definiciones)",
+        "Art. 211-A y siguientes CT (procedimiento de investigación)",
+        "Art. 160 N°1 letras b) y f) CT (causales de despido)",
+        "Art. 485 y siguientes CT (tutela de derechos fundamentales)"
+      ],
+      "pasos": [
+        "Registra los hechos: fechas, lugar, qué se dijo o hizo, testigos y evidencia (mensajes, correos, audios lícitamente obtenidos).",
+        "Presenta la denuncia por escrito o verbalmente ante el empleador (según el procedimiento del reglamento interno) o directamente en la Inspección del Trabajo.",
+        "Pide medidas de resguardo inmediatas: separación de espacios, cambio de jornada o redistribución de tareas, y atención psicológica temprana a través del organismo administrador de la Ley 16.744.",
+        "El empleador debe investigar internamente o derivar a la Dirección del Trabajo dentro de 3 días hábiles; la investigación interna debe concluir en 30 días.",
+        "Las conclusiones se remiten a la Dirección del Trabajo, y el empleador debe adoptar medidas y sanciones dentro de 15 días corridos.",
+        "Si la empresa no actúa o la vulneración es grave, evalúa demanda de tutela laboral o autodespido."
+      ],
+      "plazos": [
+        "Derivación a la DT (si el empleador opta): 3 días hábiles",
+        "Investigación interna: 30 días",
+        "Adopción de medidas: 15 días corridos desde las conclusiones",
+        "Tutela laboral: 60 días hábiles desde la vulneración"
+      ],
+      "documentos": [
+        "Denuncia escrita",
+        "Evidencia de los hechos",
+        "Licencias o informes médicos/psicológicos"
+      ],
+      "dondeAcudir": [
+        "Empleador (canal del protocolo)",
+        "Inspección del Trabajo",
+        "Mutualidad o ISL (atención psicológica)",
+        "Juzgado de Letras del Trabajo"
+      ],
+      "consejo": "Para la empresa: el protocolo de prevención debe estar escrito, difundido y actualizado; su ausencia es infracción y agrava la responsabilidad en juicio.",
+      "alerta": "La ley protege contra represalias: no pueden despedirte ni cambiarte de funciones de forma perjudicial por denunciar."
+    },
+    {
+      "id": "tutela-derechos-fundamentales",
+      "titulo": "Tutela de derechos fundamentales (tutela laboral)",
+      "temas": [
+        "tutela laboral",
+        "tutela de derechos fundamentales",
+        "discriminacion laboral",
+        "vulneracion de derechos",
+        "despido discriminatorio",
+        "represalia",
+        "garantia de indemnidad",
+        "derecho a la intimidad trabajo"
+      ],
+      "resumen": "Procedimiento especial para cuando el empleador vulnera derechos fundamentales del trabajador (intimidad, honra, integridad, libertad de expresión, no discriminación, libertad sindical, indemnidad).",
+      "explicacion": "Si la vulneración ocurre con ocasión del despido, el juez puede ordenar el pago de una indemnización adicional de entre 6 y 11 remuneraciones mensuales, además de las indemnizaciones del despido con recargo. Basta con que el trabajador aporte indicios suficientes; luego el empleador debe justificar sus medidas.",
+      "baseLegal": [
+        "Art. 485 a 495 Código del Trabajo",
+        "Art. 489 CT (indemnización adicional de 6 a 11 remuneraciones)",
+        "Art. 493 CT (prueba indiciaria)",
+        "Art. 19 Constitución Política"
+      ],
+      "pasos": [
+        "Identifica el derecho vulnerado y reúne indicios (correos, testigos, cronología de hechos, represalias tras un reclamo).",
+        "Si la relación sigue vigente, puedes denunciar en la Inspección del Trabajo, que puede hacer de mediadora y luego denunciar al tribunal.",
+        "Presenta la demanda de tutela ante el Juzgado de Letras del Trabajo; puedes acumular la acción de despido injustificado en subsidio.",
+        "El tribunal puede decretar medidas cautelares, como la suspensión de los efectos del acto impugnado."
+      ],
+      "plazos": [
+        "60 días hábiles desde que se produce la vulneración (o el despido), suspendible por reclamo en la Inspección"
+      ],
+      "documentos": [
+        "Indicios de la vulneración",
+        "Carta de despido",
+        "Liquidaciones"
+      ],
+      "dondeAcudir": [
+        "Juzgado de Letras del Trabajo",
+        "Inspección del Trabajo",
+        "Oficina de Defensoría Laboral"
+      ],
+      "consejo": "La garantía de indemnidad protege al trabajador que fue despedido como represalia por haber reclamado ante la Inspección o demandado: la cercanía temporal entre el reclamo y el despido es un indicio fuerte.",
+      "alerta": "Los trabajadores regidos por el Estatuto Administrativo también pueden usar la tutela laboral según la jurisprudencia de la Corte Suprema."
+    },
+    {
+      "id": "fuero-maternal-permisos",
+      "titulo": "Fuero maternal, prenatal, postnatal y permisos parentales",
+      "temas": [
+        "fuero maternal",
+        "embarazada",
+        "despido embarazada",
+        "prenatal",
+        "postnatal",
+        "postnatal parental",
+        "permiso por nacimiento",
+        "permiso paternal",
+        "sala cuna",
+        "permiso por hijo enfermo",
+        "alimentacion hijo",
+        "fuero",
+        "estoy embarazada",
+        "embarazo",
+        "licencia prenatal",
+        "papa permiso nacimiento"
+      ],
+      "resumen": "La trabajadora embarazada tiene fuero desde el inicio del embarazo hasta un año después de terminado el postnatal: no puede ser despedida sin autorización judicial previa (desafuero).",
+      "explicacion": "Descansos: prenatal de 6 semanas antes del parto y postnatal de 12 semanas, más 12 semanas de postnatal parental a jornada completa (o 18 a media jornada), transferible en parte al padre. El padre tiene un permiso pagado de 5 días por nacimiento. Las empresas con 20 o más trabajadoras deben tener sala cuna. Existe un permiso diario de 1 hora para alimentar a hijos menores de 2 años.",
+      "baseLegal": [
+        "Art. 195 a 208 Código del Trabajo",
+        "Art. 197 bis CT (postnatal parental, Ley 20.545)",
+        "Art. 201 CT (fuero maternal)",
+        "Art. 174 CT (desafuero judicial)",
+        "Art. 203 CT (sala cuna)",
+        "Art. 206 CT (derecho a alimentar)"
+      ],
+      "pasos": [
+        "Si te despiden estando embarazada (aunque no lo supieras al momento del despido), presenta el certificado médico de embarazo al empleador o a la Inspección del Trabajo.",
+        "El empleador debe reincorporarte: el despido de una trabajadora con fuero sin desafuero es nulo.",
+        "Si no te reincorporan, reclama ante la Inspección del Trabajo o demanda reincorporación ante el Juzgado del Trabajo.",
+        "Para el postnatal parental, avisa al empleador con 30 días de anticipación al término del postnatal la modalidad elegida."
+      ],
+      "plazos": [
+        "Fuero: desde el embarazo hasta 1 año después del postnatal",
+        "Reclamar reincorporación: dentro de 60 días hábiles desde el despido (criterio jurisprudencial)",
+        "Aviso de modalidad postnatal parental: 30 días antes del término del postnatal"
+      ],
+      "documentos": [
+        "Certificado médico de embarazo",
+        "Licencias médicas",
+        "Carta de despido"
+      ],
+      "dondeAcudir": [
+        "Inspección del Trabajo",
+        "Juzgado de Letras del Trabajo"
+      ],
+      "consejo": "En contratos a plazo fijo, el fuero también protege, pero el empleador puede pedir el desafuero por vencimiento del plazo; el juez decide.",
+      "alerta": "También gozan de fuero los dirigentes sindicales, delegados de personal y miembros del comité paritario (en ciertos casos), y quienes negocian colectivamente."
+    },
+    {
+      "id": "accidente-trabajo",
+      "titulo": "Accidentes del trabajo y enfermedades profesionales (Ley 16.744)",
+      "temas": [
+        "accidente del trabajo",
+        "accidente laboral",
+        "accidente de trayecto",
+        "enfermedad profesional",
+        "mutual",
+        "achs",
+        "ist",
+        "isl",
+        "ley 16744",
+        "me accidente en el trabajo",
+        "diat",
+        "licencia por accidente",
+        "me cai en el trabajo",
+        "me lesione trabajando"
+      ],
+      "resumen": "Todo trabajador está cubierto por el seguro de la Ley 16.744: atención médica gratuita, subsidio y eventuales indemnizaciones o pensiones en caso de accidente o enfermedad laboral.",
+      "explicacion": "Accidente del trabajo es toda lesión que sufra un trabajador a causa o con ocasión del trabajo y que le produzca incapacidad o muerte; incluye el de trayecto directo entre la casa y el trabajo. El empleador debe denunciar el accidente (DIAT) al organismo administrador (Mutual de Seguridad, ACHS, IST o ISL). Si el accidente se debió a culpa del empleador (falta de medidas de seguridad), el trabajador puede además demandar daño moral y lucro cesante.",
+      "baseLegal": [
+        "Ley 16.744",
+        "Art. 5 Ley 16.744 (concepto de accidente y de trayecto)",
+        "Art. 69 Ley 16.744 (acción de indemnización contra el empleador culpable)",
+        "Art. 184 Código del Trabajo (deber de protección eficaz)"
+      ],
+      "pasos": [
+        "Avisa de inmediato a tu jefatura y acude al centro de atención del organismo administrador de tu empresa.",
+        "El empleador debe hacer la DIAT; si no la hace, puedes hacerla tú, tu familia, el comité paritario o el médico tratante.",
+        "Recibe atención y licencia médica de origen laboral (subsidio del 100% en la práctica, calculado según la ley).",
+        "Si te califican el accidente o enfermedad como común y no estás de acuerdo, reclama ante la COMPIN y luego ante la Superintendencia de Seguridad Social (SUSESO).",
+        "Si quedaste con secuelas, solicita la evaluación de incapacidad para indemnización o pensión.",
+        "Si hubo culpa del empleador, evalúa demanda de indemnización de perjuicios ante el Juzgado del Trabajo."
+      ],
+      "plazos": [
+        "Denuncia (DIAT): dentro de 24 horas de conocido el accidente",
+        "Prescripción de prestaciones: 5 años",
+        "Acción de indemnización contra el empleador: 2 años desde el término de la relación laboral, según criterio jurisprudencial (verificar)"
+      ],
+      "documentos": [
+        "DIAT/DIEP",
+        "Licencias y ficha clínica",
+        "Partes policiales en accidentes de trayecto",
+        "Testigos"
+      ],
+      "dondeAcudir": [
+        "Mutual de Seguridad, ACHS, IST o ISL",
+        "SUSESO",
+        "Juzgado de Letras del Trabajo"
+      ],
+      "consejo": "En accidentes de trayecto, guarda pruebas del recorrido directo (parte policial, constancia, testigos, boleta del transporte).",
+      "alerta": "No aceptes que te atiendan por la Isapre o Fonasa un accidente laboral: perderías la cobertura completa del seguro."
+    },
+    {
+      "id": "teletrabajo",
+      "titulo": "Teletrabajo y trabajo a distancia (Ley 21.220)",
+      "temas": [
+        "teletrabajo",
+        "trabajo a distancia",
+        "trabajo remoto",
+        "home office",
+        "trabajo desde la casa",
+        "desconexion digital",
+        "derecho a desconexion"
+      ],
+      "resumen": "El teletrabajo debe pactarse por escrito; el empleador debe proporcionar equipos y herramientas, y el trabajador tiene derecho a desconexión de al menos 12 horas continuas.",
+      "explicacion": "Trabajo a distancia: se presta desde el domicilio u otro lugar distinto de la empresa. Teletrabajo: además se usan medios tecnológicos. El pacto puede hacerse al inicio o durante la relación; si se pactó después, cualquiera de las partes puede volver a la modalidad presencial con aviso de 30 días. Los costos de operación, funcionamiento y mantención de equipos son de cargo del empleador.",
+      "baseLegal": [
+        "Art. 152 quáter G a 152 quáter O Código del Trabajo (Ley 21.220)"
+      ],
+      "pasos": [
+        "Firma un anexo de contrato que indique modalidad, lugar, si es total o parcial, jornada o exclusión de jornada, equipos que entrega el empleador y mecanismo de supervisión.",
+        "El anexo debe registrarse en la Dirección del Trabajo dentro de 15 días.",
+        "Exige el derecho a desconexión: al menos 12 horas continuas en 24 horas, sin obligación de responder mensajes.",
+        "Revisa las condiciones de seguridad: el empleador debe informar los riesgos y el seguro de la Ley 16.744 te cubre."
+      ],
+      "plazos": [
+        "Registro del pacto en la DT: 15 días",
+        "Aviso de retorno a presencialidad: 30 días (si el teletrabajo se pactó durante la relación)"
+      ],
+      "documentos": [
+        "Anexo de teletrabajo"
+      ],
+      "dondeAcudir": [
+        "Inspección del Trabajo"
+      ],
+      "consejo": "Si eres madre, padre o cuidador de niños menores de 14 años o personas con discapacidad, la Ley 21.645 te da preferencia para acceder al teletrabajo cuando la naturaleza de tus funciones lo permite.",
+      "alerta": "El empleador no puede usar la modalidad a distancia para disminuir derechos (remuneración, sindicalización, capacitación)."
+    },
+    {
+      "id": "juicio-laboral",
+      "titulo": "Cómo es un juicio laboral (procedimiento de aplicación general y monitorio)",
+      "temas": [
+        "juicio laboral",
+        "demanda laboral",
+        "demandar a mi empleador",
+        "como demandar",
+        "procedimiento monitorio",
+        "audiencia preparatoria",
+        "audiencia de juicio",
+        "juzgado del trabajo",
+        "defensoria laboral",
+        "abogado laboral gratis"
+      ],
+      "resumen": "Los juicios laborales son orales y se tramitan ante los Juzgados de Letras del Trabajo; si la cuantía es baja, se usa el procedimiento monitorio, más rápido.",
+      "explicacion": "Procedimiento monitorio: para contiendas de cuantía igual o inferior a 15 ingresos mínimos mensuales y para causas de fuero maternal; exige un reclamo previo ante la Inspección del Trabajo. Procedimiento de aplicación general: demanda, audiencia preparatoria (conciliación, fijación de hechos y ofrecimiento de prueba) y audiencia de juicio (rendición de prueba); la sentencia puede recurrirse por nulidad ante la Corte de Apelaciones.",
+      "baseLegal": [
+        "Art. 446 y siguientes CT (procedimiento de aplicación general)",
+        "Art. 496 y siguientes CT (procedimiento monitorio)",
+        "Art. 477 CT (recurso de nulidad)",
+        "Art. 510 CT (prescripción)"
+      ],
+      "pasos": [
+        "Calcula tus montos y define el procedimiento (monitorio si es hasta 15 IMM).",
+        "Si es monitorio, primero reclama ante la Inspección del Trabajo y asiste al comparendo de conciliación.",
+        "Presenta la demanda (con patrocinio de abogado; si no tienes recursos, acude a la Oficina de Defensoría Laboral o la Corporación de Asistencia Judicial).",
+        "Asiste a la audiencia preparatoria: allí se intenta un acuerdo y se ofrece la prueba.",
+        "En la audiencia de juicio se rinden documentos, testigos y confesional. La sentencia se dicta en la audiencia o dentro de 15 días.",
+        "Contra la sentencia procede recurso de nulidad dentro de 10 días hábiles."
+      ],
+      "plazos": [
+        "Despido: 60 días hábiles (hasta 90 con reclamo administrativo)",
+        "Recurso de nulidad: 10 días hábiles desde la notificación de la sentencia"
+      ],
+      "documentos": [
+        "Contrato",
+        "Carta de despido",
+        "Liquidaciones",
+        "Certificado de cotizaciones",
+        "Finiquito (si existe)",
+        "Lista de testigos"
+      ],
+      "dondeAcudir": [
+        "Juzgado de Letras del Trabajo",
+        "Oficina de Defensoría Laboral (DT)",
+        "Corporación de Asistencia Judicial",
+        "Oficina Judicial Virtual (pjud.cl)"
+      ],
+      "consejo": "En materia laboral se pide prueba concreta: prepara una cronología con fechas y documentos de respaldo antes de reunirte con el abogado.",
+      "alerta": "La presentación de un reclamo en la Inspección suspende el plazo de 60 días, pero nunca puedes demandar después de 90 días hábiles desde la separación."
+    }
+  ]
+}

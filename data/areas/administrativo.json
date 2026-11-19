@@ -1,0 +1,467 @@
+{
+  "id": "administrativo",
+  "num": 5,
+  "titulo": "Derecho Administrativo",
+  "intro": "Regula la organización y actuación de los órganos del Estado (ministerios, servicios públicos, municipalidades) y los derechos de las personas frente a ellos: procedimientos, recursos, transparencia, compras públicas, sumarios a funcionarios y responsabilidad del Estado.",
+  "leyes": [
+    "Constitución Política de la República (arts. 6, 7, 19, 20 y 38)",
+    "Ley 19.880 (bases de los procedimientos administrativos)",
+    "Ley 18.575 (Bases Generales de la Administración del Estado)",
+    "Ley 18.834 (Estatuto Administrativo)",
+    "Ley 18.883 (Estatuto Administrativo para funcionarios municipales)",
+    "Ley 18.695 (Orgánica Constitucional de Municipalidades)",
+    "Ley 20.285 (acceso a la información pública – Transparencia)",
+    "Ley 19.886 (compras públicas, modificada por Ley 21.634)",
+    "Ley 10.336 (Contraloría General de la República)",
+    "Ley 21.180 (transformación digital del Estado)"
+  ],
+  "temas": [
+    {
+      "id": "recursos-administrativos",
+      "titulo": "Reclamar contra una resolución de un servicio público: reposición y recurso jerárquico",
+      "temas": [
+        "recurso de reposicion",
+        "recurso jerarquico",
+        "reclamar resolucion",
+        "impugnar resolucion",
+        "acto administrativo",
+        "me rechazaron una solicitud",
+        "resolucion del servicio",
+        "apelar resolucion",
+        "ley 19880",
+        "recurso extraordinario de revision",
+        "invalidacion"
+      ],
+      "resumen": "Contra una resolución de un órgano del Estado puedes presentar recurso de reposición ante el mismo órgano y, en subsidio, recurso jerárquico ante el superior, dentro de 5 días hábiles.",
+      "explicacion": "La Ley 19.880 es la ley general de procedimiento administrativo. Los recursos administrativos permiten pedir que la propia Administración revise su decisión. La autoridad tiene 30 días hábiles para resolverlos. También existe el recurso extraordinario de revisión contra actos firmes, por causales específicas (error de hecho manifiesto, documentos nuevos, etc.), y la posibilidad de pedir la invalidación de actos contrarios a derecho dentro de 2 años.",
+      "baseLegal": [
+        "Art. 15 Ley 19.880 (principio de impugnabilidad)",
+        "Art. 25 Ley 19.880 (días hábiles: excluye sábados, domingos y festivos)",
+        "Art. 59 Ley 19.880 (reposición y jerárquico: 5 días hábiles; resolución en 30 días)",
+        "Art. 60 Ley 19.880 (recurso extraordinario de revisión)",
+        "Art. 53 Ley 19.880 (invalidación dentro de 2 años)",
+        "Art. 54 Ley 19.880 (si reclamas administrativamente, se suspende el plazo judicial)"
+      ],
+      "pasos": [
+        "Lee la resolución completa: identifica el órgano, la fecha de notificación y los fundamentos.",
+        "Calcula el plazo: 5 días hábiles administrativos desde la notificación (sábados, domingos y festivos no se cuentan).",
+        "Redacta el recurso: tus datos, la resolución que impugnas, los hechos, los argumentos jurídicos y la petición concreta. Pide en subsidio el recurso jerárquico si el órgano tiene superior.",
+        "Presenta el recurso en la oficina de partes o por la plataforma digital del servicio y guarda el comprobante de ingreso.",
+        "Si no responden en el plazo legal, puedes invocar el silencio administrativo.",
+        "Si el recurso se rechaza, evalúa las vías judiciales (recurso de protección, reclamos especiales de la ley sectorial o juicio ordinario)."
+      ],
+      "plazos": [
+        "Reposición y jerárquico: 5 días hábiles desde la notificación",
+        "Resolución del recurso: 30 días hábiles",
+        "Revisión extraordinaria: 1 año desde la fecha del acto en la mayoría de las causales",
+        "Invalidación de oficio o a petición: dentro de 2 años desde la notificación o publicación del acto"
+      ],
+      "documentos": [
+        "Resolución impugnada y su notificación",
+        "Antecedentes que respalden tus argumentos",
+        "Copia del recurso con timbre o comprobante de ingreso"
+      ],
+      "dondeAcudir": [
+        "Oficina de partes del servicio",
+        "Plataformas digitales del servicio (Ley 21.180)",
+        "Contraloría General de la República (presentaciones)"
+      ],
+      "consejo": "Muchas leyes sectoriales (salud, educación, urbanismo, medio ambiente) tienen recursos y plazos especiales que prevalecen sobre la Ley 19.880: revísalos antes.",
+      "alerta": "Si presentas un recurso administrativo, la ley dice que no puedes ir al mismo tiempo a tribunales por la misma pretensión hasta que se resuelva o venza el plazo (art. 54)."
+    },
+    {
+      "id": "silencio-administrativo",
+      "titulo": "El servicio no me responde: plazos y silencio administrativo",
+      "temas": [
+        "no me responden",
+        "silencio administrativo",
+        "servicio publico no responde",
+        "plazo para responder",
+        "solicitud sin respuesta",
+        "demora del servicio",
+        "6 meses",
+        "silencio positivo",
+        "silencio negativo"
+      ],
+      "resumen": "Los procedimientos administrativos no pueden durar más de 6 meses. Si el órgano no responde, puedes denunciar su inactividad y, pasados los plazos, invocar el silencio administrativo (positivo o negativo).",
+      "explicacion": "Silencio positivo (art. 64): si la autoridad no se pronuncia en el plazo legal, el interesado puede denunciarlo ante la misma autoridad, que tiene 5 días hábiles para responder; si no lo hace, la solicitud se entiende aceptada, y puedes pedir un certificado de ello. Silencio negativo (art. 65): se entiende rechazada la solicitud cuando afecta el patrimonio fiscal, se trata de recursos, se ejercita el derecho de petición del art. 19 N°14 de la Constitución, o en procedimientos iniciados de oficio; esto te habilita para recurrir.",
+      "baseLegal": [
+        "Art. 7 y 9 Ley 19.880 (celeridad y economía procedimental)",
+        "Art. 24 Ley 19.880 (plazos internos)",
+        "Art. 27 Ley 19.880 (duración máxima de 6 meses)",
+        "Art. 64 Ley 19.880 (silencio positivo)",
+        "Art. 65 Ley 19.880 (silencio negativo)"
+      ],
+      "pasos": [
+        "Revisa la fecha en que presentaste tu solicitud y el plazo legal que tenía el órgano para responder.",
+        "Presenta por escrito una denuncia de incumplimiento de plazo ante la misma autoridad, pidiendo que resuelva.",
+        "Si pasan 5 días hábiles sin respuesta, pide el certificado de silencio administrativo.",
+        "Según el caso, se entenderá aprobada (positivo) o rechazada (negativo) tu solicitud; con el rechazo puedes recurrir.",
+        "Puedes además presentar un reclamo ante Contraloría o un recurso de protección si la demora vulnera un derecho."
+      ],
+      "plazos": [
+        "Duración máxima del procedimiento: 6 meses",
+        "Respuesta a la denuncia de silencio: 5 días hábiles"
+      ],
+      "documentos": [
+        "Copia de la solicitud con fecha de ingreso",
+        "Denuncia de incumplimiento de plazo",
+        "Certificado de silencio"
+      ],
+      "dondeAcudir": [
+        "Órgano respectivo",
+        "Contraloría General de la República",
+        "Corte de Apelaciones (recurso de protección)"
+      ],
+      "consejo": "Guarda siempre el comprobante de ingreso con fecha: es tu prueba para el cómputo de plazos.",
+      "alerta": "Superar el plazo de 6 meses no anula automáticamente el procedimiento; la jurisprudencia ha aplicado el decaimiento solo en casos de demora excesiva e injustificada."
+    },
+    {
+      "id": "recurso-proteccion",
+      "titulo": "Recurso de protección",
+      "temas": [
+        "recurso de proteccion",
+        "accion de proteccion",
+        "vulneracion de derechos constitucionales",
+        "acto arbitrario",
+        "acto ilegal",
+        "corte de apelaciones",
+        "isapre recurso de proteccion",
+        "alza plan isapre",
+        "proteger mis derechos"
+      ],
+      "resumen": "Acción rápida ante la Corte de Apelaciones contra actos u omisiones arbitrarios o ilegales que privan, perturban o amenazan derechos constitucionales; se presenta dentro de 30 días corridos.",
+      "explicacion": "Protege, entre otros, los derechos a la vida e integridad, igualdad ante la ley, honra, inviolabilidad del hogar, libertad de trabajo, derecho de propiedad, libertad de culto y vivir en un medio ambiente libre de contaminación (art. 20 de la Constitución). Puede dirigirse contra autoridades o particulares (por ejemplo, Isapres, empresas, colegios). No requiere formalidades complejas, pero sí patrocinio de abogado según el Auto Acordado de la Corte Suprema (o comparecer personalmente en algunos casos).",
+      "baseLegal": [
+        "Art. 20 Constitución Política",
+        "Auto Acordado de la Corte Suprema sobre tramitación del recurso de protección (plazo de 30 días corridos)"
+      ],
+      "pasos": [
+        "Identifica el acto u omisión, quién lo cometió, la fecha en que ocurrió o en que tomaste conocimiento, y el derecho constitucional afectado.",
+        "Redacta el recurso: hechos, derecho vulnerado, por qué el acto es ilegal o arbitrario, y lo que pides a la Corte (medidas para restablecer el derecho).",
+        "Preséntalo en la Corte de Apelaciones del lugar donde ocurrió el acto o donde se produjeron sus efectos (también en línea por la Oficina Judicial Virtual).",
+        "Puedes pedir una orden de no innovar para paralizar los efectos del acto mientras se resuelve.",
+        "La Corte pide informe a la parte recurrida y luego resuelve; la sentencia es apelable ante la Corte Suprema dentro de 5 días hábiles."
+      ],
+      "plazos": [
+        "Interposición: 30 días corridos desde el acto o desde que se tuvo conocimiento",
+        "Apelación: 5 días hábiles desde la notificación"
+      ],
+      "documentos": [
+        "Documentos que prueben el acto (cartas, resoluciones, correos, fotos)",
+        "Identificación del recurrido"
+      ],
+      "dondeAcudir": [
+        "Corte de Apelaciones",
+        "Oficina Judicial Virtual (pjud.cl)",
+        "Corporación de Asistencia Judicial"
+      ],
+      "consejo": "El plazo de 30 días es corrido (incluye fines de semana y festivos): no lo dejes para el final.",
+      "alerta": "El recurso de protección no sirve para discutir cuestiones que requieren un juicio de lato conocimiento (por ejemplo, una disputa compleja de dominio); en esos casos la Corte lo rechaza."
+    },
+    {
+      "id": "transparencia",
+      "titulo": "Solicitud de acceso a la información pública (Ley de Transparencia)",
+      "temas": [
+        "transparencia",
+        "acceso a la informacion",
+        "solicitud de informacion",
+        "ley 20285",
+        "consejo para la transparencia",
+        "amparo de transparencia",
+        "pedir informacion al estado",
+        "transparencia activa",
+        "no me entregan la informacion",
+        "pedir informacion",
+        "solicitar informacion",
+        "informacion publica"
+      ],
+      "resumen": "Toda persona puede pedir información a los órganos del Estado sin expresar causa; deben responder en 20 días hábiles (prorrogables por 10). Si no responden o la deniegan, puedes reclamar ante el Consejo para la Transparencia.",
+      "explicacion": "Es pública la información de los actos, resoluciones, fundamentos, documentos y la información elaborada con presupuesto público, salvo las causales de reserva o secreto del art. 21 (afectar el funcionamiento del órgano, derechos de terceros, seguridad de la Nación o interés nacional, o que una ley de quórum calificado la declare reservada). Si la información afecta derechos de terceros, el órgano debe darles traslado y estos pueden oponerse.",
+      "baseLegal": [
+        "Art. 8 Constitución Política (principio de publicidad)",
+        "Ley 20.285",
+        "Art. 12 Ley 20.285 (requisitos de la solicitud)",
+        "Art. 14 Ley 20.285 (plazo de 20 días hábiles, prorrogable por 10)",
+        "Art. 21 Ley 20.285 (causales de reserva)",
+        "Art. 24 Ley 20.285 (amparo ante el Consejo: 15 días hábiles)",
+        "Art. 28 Ley 20.285 (reclamo de ilegalidad ante la Corte de Apelaciones)"
+      ],
+      "pasos": [
+        "Revisa primero la transparencia activa del órgano (portaltransparencia.cl): mucha información ya está publicada.",
+        "Presenta la solicitud en portaltransparencia.cl o en la oficina del órgano, indicando con claridad qué información pides y el formato preferido.",
+        "Espera la respuesta (20 días hábiles, prorrogables por 10 con aviso).",
+        "Si no responden o la deniegan, presenta un amparo ante el Consejo para la Transparencia dentro de 15 días hábiles.",
+        "Contra la decisión del Consejo, cabe reclamo de ilegalidad ante la Corte de Apelaciones dentro de 15 días corridos."
+      ],
+      "plazos": [
+        "Respuesta: 20 días hábiles (prórroga de 10 días hábiles)",
+        "Amparo ante el Consejo: 15 días hábiles desde la denegación o vencido el plazo",
+        "Reclamo de ilegalidad: 15 días corridos desde la notificación de la decisión del Consejo"
+      ],
+      "documentos": [
+        "Número de solicitud",
+        "Respuesta del órgano (si existe)"
+      ],
+      "dondeAcudir": [
+        "Portal de Transparencia (portaltransparencia.cl)",
+        "Consejo para la Transparencia (consejotransparencia.cl)"
+      ],
+      "consejo": "Una solicitud específica (documento, fecha, unidad) se responde más rápido y es más difícil de denegar que una genérica.",
+      "alerta": "El órgano no está obligado a elaborar información nueva o análisis que no existen: pide documentos o datos que ya tenga."
+    },
+    {
+      "id": "sumario-administrativo",
+      "titulo": "Sumario administrativo e investigación sumaria (funcionarios públicos)",
+      "temas": [
+        "sumario administrativo",
+        "investigacion sumaria",
+        "funcionario publico",
+        "me iniciaron un sumario",
+        "fiscal instructor",
+        "responsabilidad administrativa",
+        "destitucion",
+        "censura",
+        "multa funcionario",
+        "estatuto administrativo",
+        "cargos sumario",
+        "descargos"
+      ],
+      "resumen": "El sumario administrativo es el procedimiento para determinar la responsabilidad de un funcionario público; tiene etapas de investigación, formulación de cargos, descargos, prueba y vista fiscal, y puede terminar en censura, multa, suspensión o destitución.",
+      "explicacion": "La investigación sumaria es un procedimiento breve para faltas menos graves; el sumario es para faltas que podrían merecer sanciones más altas. El funcionario tiene derecho a conocer los cargos, presentar descargos, ofrecer prueba y recurrir de la sanción. El fiscal instructor investiga y propone; resuelve la autoridad. Contra la sanción, procede reposición y luego reclamo ante la Contraloría General.",
+      "baseLegal": [
+        "Art. 119 a 145 Ley 18.834 (responsabilidad administrativa y procedimientos)",
+        "Art. 121 Ley 18.834 (medidas disciplinarias: censura, multa, suspensión, destitución)",
+        "Art. 126 Ley 18.834 (investigación sumaria)",
+        "Art. 129 y siguientes Ley 18.834 (sumario administrativo)",
+        "Art. 140 y 141 Ley 18.834 (recursos)",
+        "Art. 160 Ley 18.834 (reclamo ante Contraloría: 10 días hábiles)",
+        "Art. 158 Ley 18.834 (prescripción de la acción disciplinaria: 4 años)"
+      ],
+      "pasos": [
+        "Cuando te notifiquen, lee la resolución que ordena el sumario y verifica quién es el fiscal; puedes pedir su implicancia o recusación si hay causal.",
+        "Si te citan a declarar como inculpado, puedes ir con abogado y no estás obligado a declarar contra ti mismo.",
+        "Si se formulan cargos, presenta tus descargos por escrito dentro del plazo (generalmente 5 días hábiles, prorrogables) y ofrece prueba.",
+        "Revisa la vista fiscal y la resolución de la autoridad; presenta reposición dentro de 5 días hábiles.",
+        "Si la sanción se mantiene, reclama ante la Contraloría General dentro de 10 días hábiles.",
+        "También puedes acudir a tribunales (por ejemplo, recurso de protección o tutela laboral, según el caso)."
+      ],
+      "plazos": [
+        "Descargos: 5 días hábiles desde la notificación de los cargos (prorrogable por otros 5)",
+        "Reposición: 5 días hábiles",
+        "Reclamo ante Contraloría: 10 días hábiles",
+        "Prescripción de la acción disciplinaria: 4 años desde la falta"
+      ],
+      "documentos": [
+        "Resolución que ordena el sumario",
+        "Formulación de cargos",
+        "Antecedentes de descargo"
+      ],
+      "dondeAcudir": [
+        "Abogado administrativista",
+        "Asociación de funcionarios",
+        "Contraloría General de la República"
+      ],
+      "consejo": "Los vicios de procedimiento (falta de notificación, plazos excedidos sin justificación, fiscal con interés) son causales frecuentes de nulidad del sumario ante Contraloría.",
+      "alerta": "Un funcionario municipal se rige por la Ley 18.883, con reglas muy similares pero no idénticas."
+    },
+    {
+      "id": "compras-publicas",
+      "titulo": "Licitaciones y compras públicas (Mercado Público y Tribunal de Contratación Pública)",
+      "temas": [
+        "licitacion",
+        "licitacion publica",
+        "mercado publico",
+        "chilecompra",
+        "compras publicas",
+        "ley 19886",
+        "tribunal de contratacion publica",
+        "impugnar licitacion",
+        "adjudicacion",
+        "proveedor del estado",
+        "registro de proveedores",
+        "trato directo",
+        "garantia de seriedad"
+      ],
+      "resumen": "Las compras del Estado se rigen por la Ley 19.886 (modificada en 2023 por la Ley 21.634) y se publican en mercadopublico.cl. Si una adjudicación es ilegal o arbitraria, se puede impugnar ante el Tribunal de Contratación Pública dentro de 10 días hábiles.",
+      "explicacion": "La regla general es la licitación pública; la licitación privada y el trato directo son excepcionales y deben fundarse. Para ofertar debes estar registrado como proveedor en Mercado Público (y, para contratar, en el Registro de Proveedores con requisitos de habilidad: no tener condenas por prácticas antisindicales o delitos concursales, ni deudas laborales, entre otros). Las bases son obligatorias para la entidad y los oferentes. La Ley 21.634 incorporó mayores exigencias de probidad, conflictos de interés y nuevos procedimientos, como la compra ágil y los convenios marco reformados.",
+      "baseLegal": [
+        "Ley 19.886 (bases sobre contratos administrativos de suministro y prestación de servicios)",
+        "Ley 21.634 (modernización de compras públicas)",
+        "Reglamento de la Ley 19.886",
+        "Art. 4 Ley 19.886 (inhabilidades)",
+        "Art. 24 Ley 19.886 (acción de impugnación ante el Tribunal de Contratación Pública: 10 días hábiles)"
+      ],
+      "pasos": [
+        "Regístrate como proveedor en mercadopublico.cl y mantén tu documentación al día en el Registro de Proveedores.",
+        "Lee detenidamente las bases: requisitos, criterios de evaluación, garantías, plazos y formato de la oferta.",
+        "Formula preguntas en el foro dentro del plazo: las respuestas forman parte de las bases.",
+        "Prepara la oferta con todos los anexos firmados y la garantía de seriedad si se exige.",
+        "Revisa el acta de evaluación y la resolución de adjudicación; si hay errores o ilegalidades, puedes presentar un reclamo en la plataforma y/o una demanda de impugnación ante el Tribunal de Contratación Pública.",
+        "Si te adjudican, firma el contrato y entrega la garantía de fiel cumplimiento en el plazo fijado."
+      ],
+      "plazos": [
+        "Demanda de impugnación ante el Tribunal de Contratación Pública: 10 días hábiles desde que se conoció el acto o desde su publicación"
+      ],
+      "documentos": [
+        "Bases y anexos",
+        "Oferta presentada",
+        "Acta de evaluación y resolución de adjudicación",
+        "Garantías"
+      ],
+      "dondeAcudir": [
+        "Mercado Público (mercadopublico.cl)",
+        "Dirección ChileCompra",
+        "Tribunal de Contratación Pública",
+        "Contraloría General"
+      ],
+      "consejo": "La mayoría de las ofertas se declaran inadmisibles por errores formales (anexos sin firmar, garantías mal emitidas). Haz una lista de chequeo con las bases antes de enviar.",
+      "alerta": "Tener deudas laborales o previsionales con tus trabajadores puede inhabilitarte para contratar con el Estado."
+    },
+    {
+      "id": "responsabilidad-estado",
+      "titulo": "Responsabilidad del Estado: falta de servicio e indemnización",
+      "temas": [
+        "responsabilidad del estado",
+        "falta de servicio",
+        "demandar al estado",
+        "demandar a la municipalidad",
+        "indemnizacion del estado",
+        "negligencia hospital publico",
+        "bache en la calle",
+        "danos por obra publica",
+        "consejo de defensa del estado",
+        "negligencia medica hospital",
+        "bache",
+        "hoyo en la calle",
+        "calle en mal estado",
+        "vereda en mal estado",
+        "arbol cayo",
+        "me cai en la vereda"
+      ],
+      "resumen": "El Estado y las municipalidades responden por los daños que causen por falta de servicio, es decir, cuando el servicio no funciona, funciona mal o funciona tardíamente.",
+      "explicacion": "La base es el art. 38 inciso 2° de la Constitución y el art. 42 de la Ley 18.575; para municipalidades, el art. 152 de la Ley 18.695. Ejemplos: un hoyo en la calzada sin señalizar que causa un accidente, una atención médica deficiente en un hospital público, o un acto ilegal que causa perjuicios. En salud pública, antes de demandar es obligatorio un procedimiento de mediación ante el Consejo de Defensa del Estado (Ley 19.966). La defensa judicial del Fisco la asume el Consejo de Defensa del Estado.",
+      "baseLegal": [
+        "Art. 38 inciso 2° Constitución Política",
+        "Art. 4 y 42 Ley 18.575 (responsabilidad por falta de servicio)",
+        "Art. 152 Ley 18.695 (municipalidades)",
+        "Art. 43 y siguientes Ley 19.966 (mediación previa en salud)",
+        "Art. 2332 Código Civil (prescripción de 4 años)"
+      ],
+      "pasos": [
+        "Reúne pruebas del daño y de la falla del servicio: fotos, parte policial, ficha clínica, testigos, boletas de gastos.",
+        "Si el daño ocurrió en un establecimiento de salud pública, solicita primero la mediación ante el Consejo de Defensa del Estado.",
+        "Cuantifica el daño: daño emergente (gastos), lucro cesante (lo que dejaste de ganar) y daño moral.",
+        "Presenta la demanda de indemnización ante el Juzgado Civil competente contra el Fisco, el servicio con personalidad jurídica o la municipalidad.",
+        "Considera un acuerdo extrajudicial o en la mediación, que es más rápido."
+      ],
+      "plazos": [
+        "Prescripción de la acción: 4 años desde la perpetración del daño (art. 2332 Código Civil, según jurisprudencia mayoritaria)",
+        "Mediación en salud: 60 días (prorrogables) de duración del procedimiento"
+      ],
+      "documentos": [
+        "Pruebas del hecho y del daño",
+        "Boletas y certificados médicos",
+        "Acta de mediación frustrada (en salud)"
+      ],
+      "dondeAcudir": [
+        "Consejo de Defensa del Estado (cde.cl)",
+        "Juzgado Civil",
+        "Corporación de Asistencia Judicial"
+      ],
+      "consejo": "En accidentes por calles en mal estado, saca fotos del lugar sin señalización el mismo día: es la prueba clave de la falta de servicio municipal.",
+      "alerta": "Si el daño lo causó una empresa concesionaria (por ejemplo, autopistas concesionadas), la responsabilidad recae en principio en la concesionaria y no en el Fisco."
+    },
+    {
+      "id": "municipalidades",
+      "titulo": "Reclamos contra la municipalidad: reclamo de ilegalidad, patentes y multas",
+      "temas": [
+        "municipalidad",
+        "reclamo de ilegalidad",
+        "reclamo municipal",
+        "patente comercial",
+        "permiso de edificacion",
+        "clausura municipal",
+        "multa municipal",
+        "decreto alcaldicio",
+        "juzgado de policia local",
+        "ley 18695",
+        "alcalde"
+      ],
+      "resumen": "Contra resoluciones u omisiones ilegales de la municipalidad, procede el reclamo de ilegalidad: primero ante el alcalde (30 días hábiles) y luego ante la Corte de Apelaciones.",
+      "explicacion": "El reclamo de ilegalidad municipal (art. 151 Ley 18.695) puede presentarlo cualquier particular contra resoluciones u omisiones que afecten el interés general, o el afectado directo cuando lo perjudican. El alcalde tiene 15 días hábiles para responder; si rechaza o no responde, se puede reclamar ante la Corte de Apelaciones dentro de 15 días hábiles. Las multas por infracciones (tránsito, ordenanzas) se discuten en el Juzgado de Policía Local.",
+      "baseLegal": [
+        "Art. 151 Ley 18.695 (reclamo de ilegalidad)",
+        "Ley 18.287 (procedimiento ante Juzgados de Policía Local)",
+        "DL 3.063 (rentas municipales y patentes)",
+        "Ley General de Urbanismo y Construcciones (permisos)"
+      ],
+      "pasos": [
+        "Identifica la resolución u omisión municipal (decreto, oficio, rechazo de patente, clausura).",
+        "Presenta el reclamo de ilegalidad por escrito ante el alcalde dentro de 30 días hábiles desde la publicación o notificación.",
+        "Si el alcalde lo rechaza o no responde en 15 días hábiles, presenta el reclamo ante la Corte de Apelaciones dentro de 15 días hábiles.",
+        "Para multas, comparece ante el Juzgado de Policía Local en la fecha de citación con tus descargos y pruebas.",
+        "Para permisos de edificación, existen además recursos ante la SEREMI de Vivienda y Urbanismo."
+      ],
+      "plazos": [
+        "Reclamo ante el alcalde: 30 días hábiles",
+        "Respuesta del alcalde: 15 días hábiles",
+        "Reclamo ante la Corte: 15 días hábiles"
+      ],
+      "documentos": [
+        "Resolución o decreto municipal",
+        "Antecedentes de la patente o permiso",
+        "Citación del Juzgado de Policía Local"
+      ],
+      "dondeAcudir": [
+        "Oficina de partes municipal",
+        "Corte de Apelaciones",
+        "Juzgado de Policía Local",
+        "SEREMI MINVU"
+      ],
+      "consejo": "El reclamo de ilegalidad ante el alcalde es requisito previo: si vas directo a la Corte de Apelaciones, te lo declararán inadmisible.",
+      "alerta": "Para el reclamo judicial debes consignar o rendir garantía en ciertos casos y actuar con patrocinio de abogado."
+    },
+    {
+      "id": "contraloria",
+      "titulo": "Contraloría General: presentaciones, dictámenes y toma de razón",
+      "temas": [
+        "contraloria",
+        "contraloria general de la republica",
+        "denuncia en contraloria",
+        "dictamen",
+        "toma de razon",
+        "presentacion contraloria",
+        "irregularidad en servicio publico",
+        "cgr",
+        "probidad"
+      ],
+      "resumen": "La Contraloría controla la legalidad de los actos de la Administración (toma de razón), fiscaliza el uso de recursos públicos, emite dictámenes obligatorios para los servicios y recibe denuncias y presentaciones de cualquier persona.",
+      "explicacion": "Puedes pedir un pronunciamiento jurídico a la Contraloría sobre la legalidad de un acto administrativo o denunciar irregularidades (por ejemplo, contrataciones irregulares, uso indebido de bienes públicos, faltas a la probidad). Sus dictámenes son obligatorios para la Administración. No puede intervenir en asuntos que se estén discutiendo en tribunales ni pronunciarse sobre materias de carácter litigioso.",
+      "baseLegal": [
+        "Art. 98 y 99 Constitución Política",
+        "Ley 10.336 (Orgánica de la Contraloría)",
+        "Art. 6 Ley 10.336 (abstención en asuntos litigiosos)",
+        "Art. 52 a 62 Ley 18.575 (probidad administrativa)"
+      ],
+      "pasos": [
+        "Busca primero en la base de dictámenes de contraloria.cl si existe jurisprudencia sobre tu tema.",
+        "Ingresa una presentación o denuncia en el portal ciudadano de contraloria.cl, describiendo los hechos con precisión y adjuntando antecedentes.",
+        "Puedes pedir reserva de identidad en denuncias por irregularidades.",
+        "Sigue el estado de tu presentación con el número de ingreso.",
+        "Si el dictamen te favorece, el servicio está obligado a cumplirlo."
+      ],
+      "plazos": [],
+      "documentos": [
+        "Antecedentes de los hechos",
+        "Actos administrativos involucrados"
+      ],
+      "dondeAcudir": [
+        "Contraloría General de la República (contraloria.cl)",
+        "Contralorías regionales"
+      ],
+      "consejo": "Una presentación a Contraloría es gratuita y no requiere abogado: es una buena vía para cuestionar actos de servicios públicos.",
+      "alerta": "Si ya demandaste en tribunales por el mismo asunto, Contraloría se abstendrá de pronunciarse."
+    }
+  ]
+}

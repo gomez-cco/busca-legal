@@ -1,0 +1,14 @@
+{
+  "name": "all-lex",
+  "version": "1.0.0",
+  "description": "ALL-LEX — asistente legal local (sin costo, sin API externa) sobre derecho laboral, tributario, penal, comercial y administrativo chileno.",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/run.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

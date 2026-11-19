@@ -1,0 +1,567 @@
+{
+  "id": "tributario",
+  "num": 2,
+  "titulo": "Derecho Tributario",
+  "intro": "Regula los impuestos, las obligaciones de los contribuyentes ante el Servicio de Impuestos Internos (SII) y la Tesorería General de la República (TGR), las infracciones y delitos tributarios, y cómo reclamar contra liquidaciones y giros ante los Tribunales Tributarios y Aduaneros.",
+  "leyes": [
+    "Código Tributario (DL 830)",
+    "Ley sobre Impuesto a la Renta (DL 824)",
+    "Ley sobre Impuesto a las Ventas y Servicios – IVA (DL 825)",
+    "Ley 21.713 (Cumplimiento de las obligaciones tributarias, 2024)",
+    "Ley 21.210 (Modernización tributaria, 2020)",
+    "Ley 21.133 (cotizaciones de trabajadores a honorarios)",
+    "Ley de Timbres y Estampillas (DL 3.475)",
+    "Ley 16.271 (Impuesto a las herencias y donaciones)",
+    "Ley 17.235 (Impuesto territorial – contribuciones)"
+  ],
+  "temas": [
+    {
+      "id": "inicio-actividades",
+      "titulo": "Inicio de actividades ante el SII",
+      "temas": [
+        "inicio de actividades",
+        "iniciar actividades",
+        "emprender",
+        "empezar a facturar",
+        "dar aviso al sii",
+        "obtener rut empresa",
+        "giro",
+        "codigo de actividad",
+        "como empezar un negocio tributariamente"
+      ],
+      "resumen": "Toda persona o empresa que comience negocios o labores que generen impuestos de primera o segunda categoría debe declarar el inicio de actividades ante el SII.",
+      "explicacion": "El trámite se hace en línea en sii.cl (personas naturales y sociedades constituidas en el Registro de Empresas y Sociedades). Ahí se indican los códigos de actividad económica (giros), el domicilio y el régimen tributario. Después puedes emitir documentos tributarios electrónicos (facturas, boletas).",
+      "baseLegal": [
+        "Art. 68 Código Tributario (plazo de 2 meses)",
+        "Art. 66 CT (obligación de inscribirse en el RUT)",
+        "Art. 97 N°1 CT (multa por presentación tardía)"
+      ],
+      "pasos": [
+        "Obtén tu RUT (persona natural) o constituye la sociedad (por ejemplo en registrodeempresasysociedades.cl) y obtén su RUT.",
+        "Ingresa a sii.cl > Servicios online > RUT e Inicio de actividades.",
+        "Selecciona los códigos de actividad económica que vas a desarrollar y el domicilio.",
+        "Elige el régimen tributario (General semi integrado 14 A, Pro Pyme General 14 D N°3 o Pro Pyme Transparente 14 D N°8) según tu tamaño y socios.",
+        "Habilítate como facturador electrónico (sistema gratuito del SII o software de mercado).",
+        "Si el SII lo requiere, acredita el domicilio o pasa por verificación de actividad."
+      ],
+      "plazos": [
+        "Dentro de los 2 meses siguientes al inicio de las actividades"
+      ],
+      "documentos": [
+        "RUT y escritura o estatuto de la sociedad",
+        "Acreditación de domicilio (contrato de arriendo, título de dominio o autorización)",
+        "Cédula de identidad del representante"
+      ],
+      "dondeAcudir": [
+        "sii.cl",
+        "Oficinas del SII"
+      ],
+      "consejo": "Elige bien el régimen: el Pro Pyme General tiene tasa reducida de primera categoría y permite contabilidad simplificada; el Transparente libera a la empresa del impuesto de primera categoría y tributan directamente los dueños.",
+      "alerta": "Emitir facturas o cobrar por servicios sin haber dado inicio de actividades es infracción y puede derivar en multas y clausura."
+    },
+    {
+      "id": "iva-f29",
+      "titulo": "IVA y Formulario 29 (declaración mensual)",
+      "temas": [
+        "iva",
+        "f29",
+        "formulario 29",
+        "declaracion mensual",
+        "debito fiscal",
+        "credito fiscal",
+        "impuesto al valor agregado",
+        "19%",
+        "pagar iva",
+        "declarar iva",
+        "ppm",
+        "pagos provisionales mensuales",
+        "iva atrasado",
+        "declarar sin movimiento"
+      ],
+      "resumen": "El IVA es un impuesto del 19% sobre las ventas y servicios; se declara y paga mensualmente en el Formulario 29, restando el IVA de las compras (crédito fiscal) del IVA de las ventas (débito fiscal).",
+      "explicacion": "Cada mes se informa el débito fiscal (IVA cobrado en tus facturas y boletas) y el crédito fiscal (IVA soportado en facturas de compra relacionadas con tu giro). Si el débito es mayor, pagas la diferencia; si es menor, queda un remanente de crédito para el mes siguiente. En el mismo F29 se declaran los Pagos Provisionales Mensuales (PPM) a cuenta del impuesto a la renta y las retenciones de honorarios e impuesto único de trabajadores.",
+      "baseLegal": [
+        "Art. 14 DL 825 (tasa del 19%)",
+        "Art. 20 a 27 DL 825 (débito fiscal)",
+        "Art. 23 DL 825 (crédito fiscal y requisitos)",
+        "Art. 64 DL 825 (plazo de declaración y pago)",
+        "Art. 84 LIR (PPM)",
+        "Art. 97 N°2 y N°11 Código Tributario (multas por atraso)"
+      ],
+      "pasos": [
+        "Revisa en sii.cl el Registro de Compras y Ventas (RCV): acepta o reclama las facturas de compra y confirma las ventas.",
+        "Ingresa a sii.cl > Impuestos mensuales > Declarar IVA (F29). El SII propone una declaración con la información del RCV.",
+        "Verifica débito y crédito fiscal, remanente del mes anterior, PPM y retenciones.",
+        "Envía la declaración y paga en línea; si no hubo movimiento, igual debes declarar 'sin movimiento' si estás obligado.",
+        "Si te atrasaste, declara igual lo antes posible: el pago tardío tiene reajuste, intereses del 1,5% mensual y multas."
+      ],
+      "plazos": [
+        "Hasta el día 12 del mes siguiente (pago y declaración por internet)",
+        "Facturadores electrónicos: hasta el día 20 del mes siguiente (si el día cae en fin de semana o festivo, se prorroga al hábil siguiente)"
+      ],
+      "documentos": [
+        "Registro de Compras y Ventas",
+        "Facturas y boletas emitidas y recibidas",
+        "Libro de remuneraciones (para retenciones)"
+      ],
+      "dondeAcudir": [
+        "sii.cl",
+        "Tesorería (tgr.cl) para convenios de pago"
+      ],
+      "consejo": "El crédito fiscal se pierde si no se usa dentro del plazo legal: reclama las facturas de compra a tiempo y registra solo las que corresponden a tu giro.",
+      "alerta": "Declarar maliciosamente crédito fiscal con facturas falsas es delito tributario (art. 97 N°4 Código Tributario) con penas de cárcel."
+    },
+    {
+      "id": "renta-f22",
+      "titulo": "Impuesto a la Renta y Formulario 22 (Operación Renta de abril)",
+      "temas": [
+        "renta",
+        "f22",
+        "formulario 22",
+        "declaracion de renta",
+        "operacion renta",
+        "devolucion de impuestos",
+        "impuesto a la renta",
+        "global complementario",
+        "primera categoria",
+        "impuesto unico",
+        "retencion",
+        "abril"
+      ],
+      "resumen": "Cada abril se presenta el Formulario 22 con las rentas del año anterior. Las empresas pagan impuesto de primera categoría y las personas impuesto global complementario (o impuesto único si solo tienen sueldo).",
+      "explicacion": "Primera categoría: grava las utilidades de las empresas. La tasa general es 27% en el régimen semi integrado (14 A); el régimen Pro Pyme General (14 D N°3) tiene una tasa de 25%, que ha tenido rebajas transitorias por ley. Global complementario: impuesto progresivo anual de las personas sobre todas sus rentas (honorarios, retiros, dividendos, arriendos). Los trabajadores dependientes con un solo empleador pagan impuesto único mensual y normalmente no están obligados a declarar, salvo que tengan otras rentas o quieran reliquidar.",
+      "baseLegal": [
+        "Art. 14 LIR (regímenes de tributación)",
+        "Art. 20 LIR (primera categoría)",
+        "Art. 42 y 43 LIR (segunda categoría e impuesto único)",
+        "Art. 52 LIR (global complementario)",
+        "Art. 65 y 69 LIR (obligación y plazo de declarar: abril)"
+      ],
+      "pasos": [
+        "Revisa en sii.cl las declaraciones juradas que informaron tus empleadores, bancos y empresas (honorarios, sueldos, intereses, dividendos).",
+        "Ingresa a sii.cl > Declaración de Renta y revisa la propuesta del SII.",
+        "Agrega rentas no informadas (arriendos, ventas de bienes, rentas del extranjero) y créditos que te correspondan (por ejemplo, APV, intereses hipotecarios, gastos en educación, si cumples requisitos).",
+        "Envía la declaración. Si resulta devolución, el SII la deposita en tu cuenta; si resulta pago, págalo en línea hasta el 30 de abril.",
+        "Si después detectas errores, presenta una rectificatoria."
+      ],
+      "plazos": [
+        "Abril de cada año (hasta el 30 de abril; si declaras antes con devolución, recibes el pago antes)"
+      ],
+      "documentos": [
+        "Certificados de sueldos, honorarios y retenciones",
+        "Certificados bancarios (intereses, dividendos, APV, créditos hipotecarios)",
+        "Balance y registros contables (empresas)"
+      ],
+      "dondeAcudir": [
+        "sii.cl",
+        "Oficinas del SII"
+      ],
+      "consejo": "Si emites boletas de honorarios, la retención que te hicieron se usa en abril para pagar tus cotizaciones de seguridad social (Ley 21.133): por eso a veces la devolución es menor de lo esperado.",
+      "alerta": "Las tasas y franquicias cambian con frecuencia (reformas 2020, 2024 y leyes transitorias). Verifica siempre en sii.cl las tasas del año tributario que estás declarando."
+    },
+    {
+      "id": "boletas-honorarios",
+      "titulo": "Boletas de honorarios y retención",
+      "temas": [
+        "boleta de honorarios",
+        "emitir boleta",
+        "retencion de honorarios",
+        "porcentaje de retencion",
+        "15,25",
+        "14,5",
+        "boleta de prestacion de servicios de terceros",
+        "trabajador independiente",
+        "segunda categoria",
+        "cotizar honorarios"
+      ],
+      "resumen": "Los trabajadores independientes emiten boletas de honorarios electrónicas; quien paga (si es empresa) retiene un porcentaje que sube gradualmente cada año para financiar las cotizaciones del trabajador.",
+      "explicacion": "La retención se incrementa gradualmente por la Ley 21.133: 13% (2023), 13,75% (2024), 14,5% (2025), 15,25% (2026), 16% (2027) y 17% desde 2028. Si el receptor es una persona sin contabilidad, el propio emisor debe pagar la retención como PPM. En la Operación Renta se determina el impuesto final y las cotizaciones de salud, pensión y seguros laborales.",
+      "baseLegal": [
+        "Art. 42 N°2 LIR (rentas de segunda categoría)",
+        "Art. 74 N°2 LIR (obligación de retener)",
+        "Art. 84 letra b) LIR (PPM)",
+        "Ley 21.133 (retención gradual y cotizaciones)"
+      ],
+      "pasos": [
+        "Ingresa a sii.cl > Boletas de honorarios electrónicas > Emitir.",
+        "Indica si la retención la hace el receptor (empresa) o el emisor (cuando el cliente es persona natural sin contabilidad).",
+        "Completa los datos del receptor, la descripción del servicio y el monto bruto.",
+        "Si la retención es del emisor, págala en el F29 del mes siguiente.",
+        "En abril, revisa en el F22 el cálculo de tus cotizaciones y del impuesto global complementario."
+      ],
+      "plazos": [
+        "Retención del receptor: se declara y paga en el F29 hasta el día 12 o 20 del mes siguiente"
+      ],
+      "documentos": [
+        "Boletas emitidas",
+        "Certificado de honorarios entregado por el pagador (en marzo)"
+      ],
+      "dondeAcudir": [
+        "sii.cl"
+      ],
+      "consejo": "Si el monto que te pagan es 'líquido', pide que la boleta se calcule sobre el bruto: monto bruto = líquido ÷ (1 − tasa de retención).",
+      "alerta": "Emitir boletas de honorarios por un trabajo con horario y subordinación puede ocultar una relación laboral: revisa el tema 'Honorarios vs. contrato de trabajo'."
+    },
+    {
+      "id": "citacion-liquidacion-sii",
+      "titulo": "Me llegó una notificación, citación o liquidación del SII",
+      "temas": [
+        "citacion del sii",
+        "notificacion del sii",
+        "liquidacion del sii",
+        "fiscalizacion",
+        "auditoria del sii",
+        "me fiscaliza el sii",
+        "carta del sii",
+        "diferencias de impuestos",
+        "giro del sii",
+        "requerimiento del sii",
+        "art 63"
+      ],
+      "resumen": "El SII fiscaliza en etapas: requerimiento de antecedentes, citación (art. 63) para que aclares, y liquidación o giro si mantiene diferencias. Cada etapa tiene plazos para responder.",
+      "explicacion": "La citación del art. 63 del Código Tributario te da un plazo para presentar una declaración, rectificarla, aclararla o confirmarla. Si no respondes o no logras desvirtuar las diferencias, el SII emite una liquidación (determina el impuesto adeudado) y luego un giro (orden de pago). Contra la liquidación puedes pedir revisión administrativa (RAV) o reclamar ante el Tribunal Tributario y Aduanero.",
+      "baseLegal": [
+        "Art. 59 Código Tributario (plazos de fiscalización)",
+        "Art. 63 CT (citación: 1 mes, ampliable hasta 1 mes más)",
+        "Art. 123 bis CT (Revisión Administrativa Voluntaria – RAV)",
+        "Art. 124 CT (reclamación: 90 días hábiles)",
+        "Art. 200 CT (prescripción)"
+      ],
+      "pasos": [
+        "Lee con atención la notificación: identifica la etapa (requerimiento, citación, liquidación o giro), los períodos y los impuestos revisados.",
+        "Anota el plazo: la citación se responde en 1 mes, que puedes pedir ampliar una vez hasta por 1 mes más.",
+        "Reúne respaldos: facturas, contratos, contabilidad, transferencias bancarias que justifiquen tus declaraciones.",
+        "Responde por escrito (en sii.cl o en la unidad) aclarando cada observación con documentos.",
+        "Si llega una liquidación, decide: RAV dentro de 15 días hábiles o reclamación ante el Tribunal Tributario y Aduanero dentro de 90 días hábiles.",
+        "Asesórate con un abogado o contador tributario si los montos son relevantes."
+      ],
+      "plazos": [
+        "Respuesta a la citación: 1 mes (ampliable hasta 1 mes más)",
+        "RAV: 15 días hábiles desde la notificación de la liquidación",
+        "Reclamación judicial: 90 días hábiles desde la notificación (o 1 año si pagas dentro de los 90 días)"
+      ],
+      "documentos": [
+        "Notificación del SII",
+        "Declaraciones de impuestos de los períodos revisados",
+        "Contabilidad y respaldos"
+      ],
+      "dondeAcudir": [
+        "SII (unidad que fiscaliza)",
+        "Tribunal Tributario y Aduanero (TTA) de tu región",
+        "Defensoría del Contribuyente (DEDECON)"
+      ],
+      "consejo": "La Defensoría del Contribuyente (DEDECON) asesora gratuitamente a pequeños contribuyentes en conflictos con el SII.",
+      "alerta": "No responder una citación hace que el SII liquide con la información que tiene y te impide aportar después ciertos antecedentes en el juicio (art. 132 inciso 11 CT)."
+    },
+    {
+      "id": "reclamacion-tributaria",
+      "titulo": "Reclamación tributaria ante el Tribunal Tributario y Aduanero (TTA)",
+      "temas": [
+        "reclamacion tributaria",
+        "reclamar liquidacion",
+        "tribunal tributario",
+        "tta",
+        "procedimiento general de reclamaciones",
+        "reclamar giro",
+        "juicio con el sii",
+        "impugnar liquidacion",
+        "rav",
+        "revision administrativa voluntaria"
+      ],
+      "resumen": "Contra liquidaciones, giros, pagos y resoluciones del SII que incidan en el impuesto, puedes reclamar ante el Tribunal Tributario y Aduanero dentro de 90 días hábiles.",
+      "explicacion": "El procedimiento general de reclamaciones (art. 123 y ss. del Código Tributario) es escrito: reclamo, traslado al SII, prueba, sentencia y recursos de apelación ante la Corte de Apelaciones y casación ante la Corte Suprema. Si la cuantía es superior a 32 UTM debes actuar con abogado. Existe además el procedimiento de vulneración de derechos (art. 155) y el de aplicación de sanciones (art. 161).",
+      "baseLegal": [
+        "Art. 123 a 148 Código Tributario",
+        "Art. 123 bis CT (RAV)",
+        "Art. 124 CT (plazo de 90 días hábiles)",
+        "Art. 125 CT (requisitos del reclamo)",
+        "Art. 129 CT (cuantía y patrocinio de abogado)",
+        "Ley 20.322 (Tribunales Tributarios y Aduaneros)"
+      ],
+      "pasos": [
+        "Revisa que el acto sea reclamable (liquidación, giro, pago o resolución que incida en el impuesto).",
+        "Redacta el reclamo: individualiza al reclamante y su representante, precisa sus fundamentos de hecho y derecho, y presenta las peticiones concretas.",
+        "Acompaña los documentos fundantes (si no los presentaste en la citación, podrías tener restricciones de prueba).",
+        "Preséntalo en el TTA competente o en tta.cl dentro de los 90 días hábiles.",
+        "Considera pedir la suspensión del cobro del giro mientras se tramita (art. 147 CT).",
+        "Evalúa la conciliación judicial: el SII puede conciliar en cualquier etapa (art. 132 CT)."
+      ],
+      "plazos": [
+        "Reclamo: 90 días hábiles desde la notificación (1 año si pagas el impuesto dentro de los 90 días)",
+        "Apelación: 15 días desde la notificación de la sentencia"
+      ],
+      "documentos": [
+        "Liquidación o resolución reclamada",
+        "Respuesta a la citación",
+        "Respaldos contables y documentales"
+      ],
+      "dondeAcudir": [
+        "Tribunal Tributario y Aduanero (tta.cl)",
+        "Defensoría del Contribuyente (DEDECON)"
+      ],
+      "consejo": "Si tienes buenos argumentos y la diferencia es acotada, la RAV es más rápida y barata; pero recuerda que no suspende el plazo para reclamar judicialmente, salvo en las condiciones que la ley indica.",
+      "alerta": "Los días hábiles en materia tributaria excluyen sábados, domingos y festivos (art. 10 Código Tributario)."
+    },
+    {
+      "id": "deudas-tgr-convenios",
+      "titulo": "Deudas tributarias, convenios de pago y condonación (TGR)",
+      "temas": [
+        "deuda tributaria",
+        "deuda con tesoreria",
+        "convenio de pago",
+        "tgr",
+        "tesoreria",
+        "condonacion de intereses",
+        "condonacion de multas",
+        "embargo por impuestos",
+        "cobranza tributaria",
+        "pagar en cuotas impuestos"
+      ],
+      "resumen": "La Tesorería General de la República cobra los impuestos adeudados; puedes pedir convenios de pago en cuotas y condonación parcial o total de intereses y multas.",
+      "explicacion": "Los impuestos no pagados a tiempo se reajustan según la variación del IPC y generan un interés del 1,5% mensual, además de multas. La TGR puede iniciar cobranza administrativa ejecutiva con embargo de bienes. Puedes repactar mediante convenios en cuotas en tgr.cl, y solicitar al SII o a la TGR la condonación de intereses y multas según las políticas vigentes.",
+      "baseLegal": [
+        "Art. 53 Código Tributario (reajuste e interés del 1,5% mensual)",
+        "Art. 56 CT (condonación)",
+        "Art. 192 CT (convenios de pago)",
+        "Art. 168 y siguientes CT (cobro ejecutivo)"
+      ],
+      "pasos": [
+        "Revisa tu deuda en tgr.cl con tu Clave Única o Clave Tributaria.",
+        "Solicita condonación de intereses y multas (la política vigente define porcentajes según tu comportamiento tributario y la forma de pago).",
+        "Firma un convenio de pago en cuotas en tgr.cl; el primer pago (pie) activa el convenio y suspende la cobranza.",
+        "Mantén las cuotas al día: si dejas de pagar, el convenio caduca y se reactiva la cobranza.",
+        "Si ya hay embargo, puedes oponer excepciones dentro de 10 días hábiles desde el requerimiento de pago (art. 177 CT)."
+      ],
+      "plazos": [
+        "Excepciones en el juicio ejecutivo tributario: 10 días hábiles desde el requerimiento"
+      ],
+      "documentos": [
+        "Giros y certificado de deuda",
+        "Comprobantes de pago"
+      ],
+      "dondeAcudir": [
+        "Tesorería General de la República (tgr.cl)",
+        "SII"
+      ],
+      "consejo": "Pagar al contado o con pie alto suele dar mayor porcentaje de condonación de intereses y multas.",
+      "alerta": "Una deuda tributaria vigente puede impedirte obtener devoluciones, participar en licitaciones públicas o vender inmuebles sin pagar."
+    },
+    {
+      "id": "prescripcion-tributaria",
+      "titulo": "Prescripción tributaria: hasta cuándo puede revisarte el SII",
+      "temas": [
+        "prescripcion tributaria",
+        "cuantos años puede revisar el sii",
+        "prescripcion de impuestos",
+        "3 años",
+        "6 años",
+        "deuda prescrita",
+        "prescripcion de la accion de cobro"
+      ],
+      "resumen": "El SII tiene, por regla general, 3 años para revisar y liquidar impuestos; el plazo es de 6 años si la declaración no se presentó o fue maliciosamente falsa.",
+      "explicacion": "El plazo se cuenta desde la expiración del plazo legal en que debió pagarse el impuesto. Los mismos plazos rigen para la acción de cobro de la Tesorería, contados desde la expiración del plazo de pago. El plazo se interrumpe con el reconocimiento de la deuda (por ejemplo, un convenio de pago), la notificación administrativa de un giro o liquidación y el requerimiento judicial; y se aumenta en 3 meses desde que se cita al contribuyente.",
+      "baseLegal": [
+        "Art. 200 Código Tributario (3 y 6 años)",
+        "Art. 201 CT (prescripción de la acción de cobro e interrupción)",
+        "Art. 24 CT (giro)"
+      ],
+      "pasos": [
+        "Identifica el impuesto y el período, y desde cuándo debió pagarse.",
+        "Verifica si presentaste la declaración y si podría considerarse maliciosamente falsa (6 años).",
+        "Revisa si hubo actos que interrumpieron la prescripción (convenios, giros notificados, demandas).",
+        "Si estimas que la deuda está prescrita, solicita la declaración de prescripción ante la TGR o el tribunal competente (en el juicio ejecutivo se opone como excepción)."
+      ],
+      "plazos": [
+        "Regla general: 3 años",
+        "Declaración no presentada o maliciosamente falsa: 6 años",
+        "Citación: aumenta el plazo en 3 meses"
+      ],
+      "documentos": [
+        "Declaraciones y giros",
+        "Certificado de deuda TGR"
+      ],
+      "dondeAcudir": [
+        "TGR",
+        "Tribunal Tributario y Aduanero",
+        "Abogado tributarista"
+      ],
+      "consejo": "Firmar un convenio de pago es un reconocimiento de deuda que interrumpe la prescripción: analiza primero si la deuda podría estar prescrita.",
+      "alerta": "La prescripción no opera automáticamente: debe ser alegada y declarada."
+    },
+    {
+      "id": "delitos-infracciones-tributarias",
+      "titulo": "Infracciones y delitos tributarios",
+      "temas": [
+        "delito tributario",
+        "infraccion tributaria",
+        "multa del sii",
+        "facturas falsas",
+        "evasion",
+        "elusion",
+        "clausura",
+        "articulo 97",
+        "querella del sii",
+        "fraude tributario",
+        "facturas ideologicamente falsas",
+        "norma antielusion"
+      ],
+      "resumen": "El Código Tributario sanciona con multas las infracciones administrativas (atrasos, no emitir documentos) y con penas de cárcel los delitos tributarios (facturas falsas, declaraciones maliciosamente falsas).",
+      "explicacion": "Ejemplos del art. 97: N°1 atraso en declaraciones que no implican pago; N°2 atraso en declaraciones con pago; N°10 no emitir boletas o facturas (multa y clausura); N°4 delitos: declaraciones maliciosamente falsas, uso de facturas falsas para obtener crédito fiscal, obtención fraudulenta de devoluciones. Solo el Director del SII puede querellarse por delitos tributarios o decidir perseguirlos con sanción administrativa (art. 162). La elusión (abuso o simulación) se trata con la norma general antielusión (arts. 4 bis a 4 quinquies).",
+      "baseLegal": [
+        "Art. 97 Código Tributario (infracciones y delitos)",
+        "Art. 162 CT (facultad exclusiva del SII para querellarse)",
+        "Art. 4 bis a 4 quinquies CT (norma general antielusión)",
+        "Art. 161 CT (procedimiento de aplicación de sanciones)",
+        "Ley 21.713 (cumplimiento tributario)"
+      ],
+      "pasos": [
+        "Identifica si la imputación es una infracción (multa) o un delito (pena privativa de libertad).",
+        "En infracciones, puedes pagar la multa con rebaja si la autodenuncias o regularizas antes de la fiscalización (art. 107 y política de condonación).",
+        "Si el SII inicia un procedimiento de sanciones, puedes defenderte ante el Tribunal Tributario y Aduanero.",
+        "Si existe riesgo penal, acude de inmediato a un abogado penal-tributario antes de prestar declaraciones al SII o a la Fiscalía.",
+        "La reparación del daño (pago de impuestos) y la colaboración sustancial son atenuantes relevantes."
+      ],
+      "plazos": [
+        "Prescripción de la acción penal por delitos tributarios: según el Código Penal, generalmente 5 años para simples delitos"
+      ],
+      "documentos": [
+        "Notificaciones del SII",
+        "Contabilidad completa",
+        "Contratos y respaldos"
+      ],
+      "dondeAcudir": [
+        "Abogado especialista",
+        "Tribunal Tributario y Aduanero",
+        "Defensoría Penal Pública (si eres imputado sin abogado)"
+      ],
+      "consejo": "Para empresas: con la Ley de Delitos Económicos (21.595), ciertos delitos tributarios pueden generar responsabilidad penal de la persona jurídica; un modelo de prevención de delitos actualizado es clave.",
+      "alerta": "Comprar facturas para rebajar el IVA es uno de los delitos tributarios más perseguidos: penas de presidio y multas de hasta 4 veces el impuesto defraudado."
+    },
+    {
+      "id": "termino-giro",
+      "titulo": "Término de giro: cómo cerrar un negocio ante el SII",
+      "temas": [
+        "termino de giro",
+        "cerrar empresa",
+        "cerrar negocio",
+        "dar de baja la empresa",
+        "cese de actividades",
+        "disolver sociedad sii",
+        "cerrar emprendimiento",
+        "cerrar mi empresa",
+        "cerrar la empresa",
+        "cerrar mi negocio"
+      ],
+      "resumen": "Si dejas de tener actividades afectas a impuestos, debes dar aviso de término de giro al SII y pagar los impuestos que se devenguen hasta esa fecha.",
+      "explicacion": "El trámite incluye un balance de término de giro y el pago de los impuestos pendientes, incluido el impuesto sobre las utilidades no tributadas. El SII revisa el cumplimiento de los últimos períodos y puede citarte. Las personas naturales con boletas de honorarios que no tienen otra actividad pueden hacer un trámite simplificado.",
+      "baseLegal": [
+        "Art. 69 Código Tributario (aviso y plazo de 2 meses)",
+        "Art. 38 bis LIR (tributación de rentas acumuladas al término de giro)"
+      ],
+      "pasos": [
+        "Verifica que no tengas deudas, declaraciones pendientes ni documentos sin anular.",
+        "Ingresa a sii.cl > RUT e Inicio de Actividades > Término de giro y completa el formulario.",
+        "Presenta el balance de término de giro y paga los impuestos que se determinen.",
+        "Responde las observaciones que el SII formule.",
+        "Si es una sociedad, además debes disolverla y liquidarla según su tipo social (por ejemplo, en el Registro de Empresas y Sociedades)."
+      ],
+      "plazos": [
+        "Dentro de los 2 meses siguientes al término de las actividades"
+      ],
+      "documentos": [
+        "Balance de término de giro",
+        "Declaraciones de los últimos períodos",
+        "Documentos tributarios timbrados no utilizados"
+      ],
+      "dondeAcudir": [
+        "sii.cl",
+        "Registro de Empresas y Sociedades (para disolver sociedades)"
+      ],
+      "consejo": "Si solo quieres suspender la actividad por un tiempo, no siempre es necesario el término de giro: evalúa mantener la empresa 'sin movimiento' declarando el F29.",
+      "alerta": "Los socios pueden quedar respondiendo solidariamente por los impuestos adeudados de la sociedad disuelta."
+    },
+    {
+      "id": "contribuciones",
+      "titulo": "Contribuciones de bienes raíces (impuesto territorial)",
+      "temas": [
+        "contribuciones",
+        "impuesto territorial",
+        "avaluo fiscal",
+        "pagar contribuciones",
+        "exencion contribuciones",
+        "rebaja contribuciones adultos mayores",
+        "reavaluo"
+      ],
+      "resumen": "El impuesto territorial se calcula sobre el avalúo fiscal de los inmuebles y se paga en 4 cuotas anuales (abril, junio, septiembre y noviembre).",
+      "explicacion": "Las viviendas tienen un monto exento del avalúo. Los adultos mayores con ingresos limitados pueden tener rebajas del 50% o 100% según requisitos. Si no estás de acuerdo con el avalúo fiscal, puedes solicitar su modificación al SII o reclamar dentro del plazo tras un reavalúo.",
+      "baseLegal": [
+        "Ley 17.235 (impuesto territorial)",
+        "Art. 149 Código Tributario (reclamo de avalúos)"
+      ],
+      "pasos": [
+        "Revisa el avalúo y el detalle de cuotas en sii.cl > Bienes Raíces.",
+        "Paga las cuotas en tgr.cl (abril, junio, septiembre y noviembre).",
+        "Si eres adulto mayor, verifica si cumples requisitos para la rebaja.",
+        "Si el avalúo es erróneo (superficie, materialidad, destino), solicita modificación al SII con antecedentes."
+      ],
+      "plazos": [
+        "Cuotas: abril, junio, septiembre y noviembre",
+        "Reclamo de avalúo tras un reavalúo general: dentro del plazo que fija la ley, contado desde la publicación del aviso"
+      ],
+      "documentos": [
+        "Certificado de avalúo",
+        "Planos y permisos de edificación"
+      ],
+      "dondeAcudir": [
+        "sii.cl",
+        "tgr.cl"
+      ],
+      "consejo": "Revisa que el destino del inmueble (habitacional, comercial) esté bien registrado: afecta directamente el monto a pagar.",
+      "alerta": "El no pago de contribuciones puede terminar en remate del inmueble por la TGR."
+    },
+    {
+      "id": "herencias-donaciones",
+      "titulo": "Impuesto a las herencias y donaciones",
+      "temas": [
+        "impuesto a la herencia",
+        "herencia",
+        "posesion efectiva",
+        "donacion",
+        "impuesto a las donaciones",
+        "insinuacion de donacion",
+        "heredar impuestos"
+      ],
+      "resumen": "Las asignaciones por causa de muerte y las donaciones pagan un impuesto progresivo según el monto y el parentesco; las herencias se tramitan con la posesión efectiva.",
+      "explicacion": "La posesión efectiva de herencias intestadas se tramita en el Registro Civil; las testadas, en tribunales. Luego se declara y paga el impuesto a la herencia en el SII (si corresponde) dentro de 3 años desde la delación (generalmente, la muerte). Existen exenciones por montos bajos y tramos progresivos. Las donaciones requieren en general insinuación (autorización judicial) cuando superan cierto monto y pagan impuesto antes de realizarse.",
+      "baseLegal": [
+        "Ley 16.271 (impuesto a las herencias, asignaciones y donaciones)",
+        "Art. 50 Ley 16.271 (plazo de 3 años)",
+        "Ley 19.903 (posesión efectiva)",
+        "Código Civil arts. 1386 y siguientes (donaciones)"
+      ],
+      "pasos": [
+        "Solicita la posesión efectiva en el Registro Civil (intestada) o en el tribunal civil (testada).",
+        "Haz el inventario valorado de los bienes del causante.",
+        "Declara y paga el impuesto en sii.cl si corresponde, dentro de 3 años desde la delación.",
+        "Inscribe los bienes a nombre de los herederos (Conservador de Bienes Raíces, vehículos, cuentas bancarias)."
+      ],
+      "plazos": [
+        "Pago del impuesto a la herencia: dentro de 3 años desde la delación (con intereses desde el segundo año)"
+      ],
+      "documentos": [
+        "Certificado de defunción",
+        "Certificados de nacimiento/matrimonio",
+        "Inventario de bienes",
+        "Testamento (si existe)"
+      ],
+      "dondeAcudir": [
+        "Registro Civil",
+        "Tribunal civil",
+        "sii.cl",
+        "Conservador de Bienes Raíces"
+      ],
+      "consejo": "Las asignaciones a cónyuge, conviviente civil e hijos tienen tramos de exención más altos que las de parientes lejanos o extraños.",
+      "alerta": "Ocultar bienes en el inventario de la herencia es infracción tributaria y puede generar responsabilidad entre herederos."
+    }
+  ]
+}

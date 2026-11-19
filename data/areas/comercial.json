@@ -1,0 +1,495 @@
+{
+  "id": "comercial",
+  "num": 4,
+  "titulo": "Derecho Comercial",
+  "intro": "Regula los actos de comercio, las sociedades y empresas, los títulos de crédito (facturas, pagarés, letras, cheques), la insolvencia, la protección del consumidor, la libre competencia y la propiedad industrial (marcas).",
+  "leyes": [
+    "Código de Comercio (1865)",
+    "Ley 18.046 (sociedades anónimas y SpA, arts. 424 y siguientes)",
+    "Ley 3.918 (sociedades de responsabilidad limitada)",
+    "Ley 19.857 (EIRL)",
+    "Ley 20.659 (Registro de Empresas y Sociedades – 'Tu Empresa en un Día')",
+    "Ley 18.092 (letra de cambio y pagaré)",
+    "DFL 707 (cheques)",
+    "Ley 19.983 (factura como título ejecutivo)",
+    "Ley 21.131 (pago a 30 días)",
+    "Ley 20.720 (insolvencia y reemprendimiento)",
+    "Ley 19.496 (protección de los derechos de los consumidores)",
+    "DL 211 (libre competencia)",
+    "Ley 19.039 (propiedad industrial)"
+  ],
+  "temas": [
+    {
+      "id": "constituir-empresa",
+      "titulo": "Cómo constituir una empresa: SpA, EIRL o Limitada",
+      "temas": [
+        "constituir empresa",
+        "crear empresa",
+        "formar una sociedad",
+        "spa",
+        "sociedad por acciones",
+        "eirl",
+        "empresa individual",
+        "limitada",
+        "sociedad de responsabilidad limitada",
+        "tu empresa en un dia",
+        "registro de empresas y sociedades",
+        "que tipo de sociedad me conviene",
+        "estatutos"
+      ],
+      "resumen": "Las formas más usadas por emprendedores son la SpA (uno o más accionistas, flexible), la EIRL (un solo dueño persona natural) y la Limitada (2 a 50 socios). Se pueden constituir gratis y en línea en el Registro de Empresas y Sociedades.",
+      "explicacion": "SpA: puede tener un solo accionista, el capital se divide en acciones, los estatutos son muy flexibles y es fácil incorporar inversionistas. EIRL: solo para una persona natural, responde con el patrimonio de la empresa, no permite incorporar socios sin transformarla. Limitada: los socios responden hasta su aporte; cambiar socios requiere modificar la escritura con acuerdo de todos. En todas, la responsabilidad del dueño queda en principio limitada al capital aportado.",
+      "baseLegal": [
+        "Ley 20.659 (régimen simplificado de constitución)",
+        "Art. 424 a 446 Ley 18.046 (SpA)",
+        "Ley 19.857 (EIRL)",
+        "Ley 3.918 (sociedades de responsabilidad limitada)",
+        "Art. 2053 Código Civil (concepto de sociedad)"
+      ],
+      "pasos": [
+        "Define: número de socios, capital, objeto (giro), administración y si planeas sumar inversionistas (si es así, la SpA suele ser la mejor opción).",
+        "Ingresa con tu Clave Única a registrodeempresasysociedades.cl y elige el tipo de sociedad.",
+        "Completa el formulario de estatutos (razón social, objeto, capital, administración, duración, domicilio).",
+        "Todos los socios firman con firma electrónica avanzada o ante notario.",
+        "El sistema entrega el RUT de la empresa; luego da el inicio de actividades en el SII.",
+        "Abre una cuenta bancaria a nombre de la empresa y suscribe/paga el capital comprometido."
+      ],
+      "plazos": [
+        "SpA: el capital debe pagarse en el plazo que fijen los estatutos, que no puede exceder 5 años",
+        "Inicio de actividades en el SII: dentro de 2 meses"
+      ],
+      "documentos": [
+        "Clave Única de cada socio",
+        "Datos de los socios y del domicilio",
+        "Firma electrónica avanzada (o notario)"
+      ],
+      "dondeAcudir": [
+        "Registro de Empresas y Sociedades (registrodeempresasysociedades.cl)",
+        "Notaría",
+        "Conservador de Bienes Raíces – Registro de Comercio (sistema tradicional)"
+      ],
+      "consejo": "Incluye en los estatutos de la SpA un pacto de accionistas o cláusulas de salida (derecho de compra preferente, arrastre, tag-along) desde el inicio: evitan conflictos futuros entre socios.",
+      "alerta": "La limitación de responsabilidad no te protege si firmas como aval o codeudor personal de la empresa, ni frente a ciertas deudas laborales o tributarias por actuaciones fraudulentas."
+    },
+    {
+      "id": "conflicto-socios",
+      "titulo": "Conflictos entre socios o accionistas",
+      "temas": [
+        "conflicto entre socios",
+        "problema con mi socio",
+        "socio no aporta",
+        "salir de la sociedad",
+        "vender mis acciones",
+        "disolver la sociedad",
+        "arbitraje",
+        "pacto de accionistas",
+        "junta de accionistas",
+        "exclusion de socio"
+      ],
+      "resumen": "Los conflictos entre socios se resuelven según los estatutos y la ley del tipo social; muchas sociedades tienen cláusula arbitral obligatoria.",
+      "explicacion": "En las sociedades de personas (Limitadas), la regla general es que cualquier modificación requiere unanimidad, y la diferencia entre socios se somete a arbitraje según el art. 227 del Código Orgánico de Tribunales y los estatutos. En las SpA y sociedades anónimas, las decisiones se toman en junta de accionistas por las mayorías de los estatutos; los minoritarios pueden tener derecho a retiro en ciertos casos.",
+      "baseLegal": [
+        "Art. 227 Código Orgánico de Tribunales (arbitraje forzoso entre socios)",
+        "Art. 69 Ley 18.046 (derecho a retiro)",
+        "Art. 2071 y siguientes Código Civil (administración de la sociedad)",
+        "Art. 2098 y siguientes Código Civil (disolución)"
+      ],
+      "pasos": [
+        "Revisa los estatutos y cualquier pacto de socios: mayorías, cláusulas de salida, cláusula arbitral.",
+        "Intenta un acuerdo por escrito (compra de participación, cesión de derechos, reparto de activos).",
+        "Si no hay acuerdo, inicia el procedimiento que indiquen los estatutos (normalmente, arbitraje ante un árbitro designado o un centro como el CAM Santiago).",
+        "Si un socio administrador abusa, puedes pedir rendición de cuentas y eventualmente su remoción.",
+        "Como última alternativa, evalúa la disolución y liquidación de la sociedad."
+      ],
+      "plazos": [
+        "Según estatutos y tipo de acción"
+      ],
+      "documentos": [
+        "Estatutos y modificaciones",
+        "Pacto de accionistas",
+        "Actas de juntas y directorio",
+        "Estados financieros"
+      ],
+      "dondeAcudir": [
+        "Abogado comercial",
+        "Centro de Arbitraje y Mediación (CAM Santiago u otros)",
+        "Tribunal arbitral designado"
+      ],
+      "consejo": "Documenta cada aporte y decisión por escrito (actas, correos formales): en arbitraje la prueba documental es clave.",
+      "alerta": "Retirar dinero de la sociedad sin respaldo puede constituir apropiación indebida o administración desleal."
+    },
+    {
+      "id": "cobro-factura",
+      "titulo": "Cobrar una factura impaga (factura como título ejecutivo)",
+      "temas": [
+        "factura impaga",
+        "cobrar factura",
+        "no me pagan la factura",
+        "cliente no paga",
+        "merito ejecutivo factura",
+        "reclamar factura",
+        "pago a 30 dias",
+        "ley de pago a 30 dias",
+        "factoring",
+        "cesion de factura",
+        "cobranza judicial",
+        "cliente no me paga",
+        "me deben plata",
+        "deudor"
+      ],
+      "resumen": "Una factura electrónica no reclamada dentro de 8 días corridos se considera irrevocablemente aceptada, y puede cobrarse en un juicio ejecutivo (más rápido que un juicio ordinario).",
+      "explicacion": "La Ley 19.983 permite que la factura (copia cedible) tenga mérito ejecutivo si: la operación es mercantil, la factura no fue reclamada en el plazo legal, consta la recepción de las mercaderías o servicios, y se gestiona la notificación judicial de la factura cuando el deudor no reconoce firma. La Ley 21.131 fija como regla general un plazo máximo de pago de 30 días corridos desde la recepción de la factura; el atraso genera intereses y una comisión de cobranza.",
+      "baseLegal": [
+        "Ley 19.983 (factura y título ejecutivo)",
+        "Art. 3 Ley 19.983 (reclamo dentro de 8 días corridos)",
+        "Art. 5 Ley 19.983 (requisitos del mérito ejecutivo)",
+        "Ley 21.131 (pago a 30 días)",
+        "Art. 434 y siguientes Código de Procedimiento Civil (juicio ejecutivo)"
+      ],
+      "pasos": [
+        "Verifica en sii.cl que la factura no haya sido reclamada (estado en el Registro de Compras y Ventas del cliente).",
+        "Envía un requerimiento de pago por escrito (correo o carta) indicando la factura, el monto y el plazo.",
+        "Si no paga, inicia la gestión preparatoria de notificación de la factura ante el juzgado civil; si el deudor no paga ni impugna, la factura queda con mérito ejecutivo.",
+        "Presenta la demanda ejecutiva: el tribunal despacha mandamiento de ejecución y embargo.",
+        "Alternativa: cede la factura a una empresa de factoring para obtener liquidez inmediata (pierdes un porcentaje)."
+      ],
+      "plazos": [
+        "Reclamo del contenido de la factura: 8 días corridos desde su recepción",
+        "Pago: máximo 30 días corridos desde la recepción (salvo excepciones de la Ley 21.131)",
+        "Acción ejecutiva: prescribe en 1 año desde el vencimiento de la factura (art. 10 Ley 19.983)"
+      ],
+      "documentos": [
+        "Factura electrónica (representación impresa cedible)",
+        "Guía de despacho o acta de recepción de los servicios",
+        "Comunicaciones de cobro"
+      ],
+      "dondeAcudir": [
+        "Juzgado de Letras en lo Civil",
+        "Abogado",
+        "Empresas de factoring"
+      ],
+      "consejo": "Siempre pide que el cliente firme la recepción de las mercaderías o servicios (o guarda el acuse de recibo electrónico): sin eso, la factura pierde fuerza ejecutiva.",
+      "alerta": "Pasado 1 año desde el vencimiento sin demandar, pierdes la vía ejecutiva y debes ir a un juicio ordinario, más largo."
+    },
+    {
+      "id": "pagare-letra-cheque",
+      "titulo": "Pagarés, letras de cambio y cheques: protesto y cobro",
+      "temas": [
+        "pagare",
+        "letra de cambio",
+        "cheque",
+        "cheque protestado",
+        "protesto",
+        "cobrar un cheque",
+        "cheque sin fondos",
+        "dicom",
+        "aval",
+        "pagare impago",
+        "cobrar pagare"
+      ],
+      "resumen": "Pagarés, letras y cheques son títulos de crédito que permiten un cobro rápido en juicio ejecutivo; el protesto deja constancia del no pago.",
+      "explicacion": "Pagaré: promesa escrita de pagar una suma; si la firma del deudor está autorizada ante notario, tiene mérito ejecutivo directo; si no, se requiere una gestión preparatoria de reconocimiento de firma o de notificación del protesto. Letra de cambio: orden de pago a un tercero. Cheque: orden de pago contra un banco; si es protestado por falta de fondos o cuenta cerrada, se notifica judicialmente el protesto y, si el girador no paga dentro de 3 días, puede configurarse el delito de giro doloso de cheques.",
+      "baseLegal": [
+        "Ley 18.092 (letra de cambio y pagaré)",
+        "Art. 98 Ley 18.092 (prescripción: 1 año desde el vencimiento)",
+        "Art. 102 y siguientes Ley 18.092 (pagaré)",
+        "DFL 707 (cuentas corrientes bancarias y cheques)",
+        "Art. 22 DFL 707 (giro doloso)",
+        "Art. 34 DFL 707 (prescripción de acciones del cheque: 1 año)",
+        "Art. 434 Código de Procedimiento Civil (títulos ejecutivos)"
+      ],
+      "pasos": [
+        "Si el título no se paga, protéstalo (los cheques los protesta el banco; pagarés y letras, normalmente un notario, salvo cláusula 'sin obligación de protesto').",
+        "Inicia la gestión preparatoria (notificación del protesto o reconocimiento de firma) si el título no tiene firma autorizada ante notario.",
+        "Presenta la demanda ejecutiva para embargo de bienes del deudor y de los avales.",
+        "En cheques: notificado el protesto, si el girador no consigna el monto, intereses y costas dentro de 3 días, puedes ejercer la acción penal por giro doloso.",
+        "Puedes negociar un pago con el deudor a cambio de desistirte."
+      ],
+      "plazos": [
+        "Acciones de letras y pagarés: 1 año desde el vencimiento",
+        "Acciones del cheque: 1 año desde el protesto",
+        "Consignación tras notificación del protesto del cheque: 3 días"
+      ],
+      "documentos": [
+        "Original del título",
+        "Acta de protesto",
+        "Antecedentes del deudor y avales"
+      ],
+      "dondeAcudir": [
+        "Juzgado Civil",
+        "Abogado",
+        "Notaría (protesto)"
+      ],
+      "consejo": "Pide siempre que el pagaré tenga la firma del deudor autorizada ante notario: ahorras toda la etapa de reconocimiento de firma.",
+      "alerta": "Los protestos se publican en el Boletín Comercial, lo que afecta el historial crediticio del deudor."
+    },
+    {
+      "id": "insolvencia-ley-20720",
+      "titulo": "Insolvencia: liquidación, reorganización y renegociación (Ley 20.720)",
+      "temas": [
+        "quiebra",
+        "insolvencia",
+        "liquidacion",
+        "reorganizacion",
+        "renegociacion",
+        "superir",
+        "no puedo pagar mis deudas",
+        "empresa en quiebra",
+        "liquidacion voluntaria",
+        "deudas personales",
+        "repactar deudas",
+        "salir de dicom",
+        "reemprendimiento"
+      ],
+      "resumen": "La Ley 20.720 permite a empresas y personas en crisis financiera reorganizar sus deudas o liquidar sus bienes para pagar y quedar libres de las deudas restantes (con excepciones).",
+      "explicacion": "Para empresas: procedimiento de reorganización (acuerdo con acreedores con protección financiera que impide embargos por un tiempo) o de liquidación (venta de los bienes para pagar a los acreedores). Para personas deudoras: procedimiento de renegociación ante la Superintendencia de Insolvencia y Reemprendimiento (Superir), gratuito y sin abogado, si tienes 2 o más obligaciones vencidas por más de 90 días que sumen más de 80 UF; o liquidación de bienes ante tribunal. Al terminar la liquidación, se extinguen los saldos insolutos de las deudas anteriores (con excepciones, como pensiones de alimentos).",
+      "baseLegal": [
+        "Ley 20.720 (insolvencia y reemprendimiento)",
+        "Art. 54 y siguientes Ley 20.720 (reorganización judicial)",
+        "Art. 115 y siguientes Ley 20.720 (liquidación voluntaria de empresa)",
+        "Art. 260 y siguientes Ley 20.720 (renegociación de la persona deudora)",
+        "Art. 255 Ley 20.720 (efecto de extinción de saldos)",
+        "Ley 21.563 (modernización de procedimientos concursales, 2023)"
+      ],
+      "pasos": [
+        "Haz un listado completo de tus deudas (acreedor, monto, vencimiento) y bienes.",
+        "Persona deudora: verifica requisitos de renegociación y solicítala en superir.gob.cl; se citará a audiencias con los acreedores para acordar un nuevo plan de pago.",
+        "Si no es viable pagar, evalúa la liquidación voluntaria ante tribunal (requiere abogado; existen opciones gratuitas a través de la Corporación de Asistencia Judicial).",
+        "Empresa: evalúa con un abogado si la reorganización es viable (empresa con negocio sano pero con problemas de caja) o si corresponde liquidar.",
+        "Durante el procedimiento, no realices ventas o pagos preferentes a ciertos acreedores: pueden ser revocados."
+      ],
+      "plazos": [
+        "Renegociación: obligaciones vencidas por más de 90 días que sumen más de 80 UF (requisito)",
+        "Protección financiera concursal en reorganización: 30 días, prorrogables según la ley"
+      ],
+      "documentos": [
+        "Listado de deudas y acreedores",
+        "Inventario de bienes",
+        "Declaraciones de impuestos y estados financieros",
+        "Certificados de deuda"
+      ],
+      "dondeAcudir": [
+        "Superintendencia de Insolvencia y Reemprendimiento (superir.gob.cl)",
+        "Juzgado Civil",
+        "Corporación de Asistencia Judicial"
+      ],
+      "consejo": "La renegociación ante la Superir es gratuita y no necesitas abogado: es la primera alternativa para personas con varias deudas impagas.",
+      "alerta": "Ocultar bienes o favorecer a un acreedor antes de la insolvencia puede constituir delito concursal (arts. 463 y siguientes del Código Penal)."
+    },
+    {
+      "id": "derechos-consumidor",
+      "titulo": "Derechos del consumidor: garantía legal, retracto y reclamos (Ley 19.496)",
+      "temas": [
+        "derechos del consumidor",
+        "garantia legal",
+        "producto defectuoso",
+        "devolucion",
+        "cambio de producto",
+        "sernac",
+        "reclamo sernac",
+        "retracto",
+        "compra por internet",
+        "compra online",
+        "no me entregaron",
+        "publicidad enganosa",
+        "cobro indebido",
+        "juzgado de policia local",
+        "ley del consumidor",
+        "compre",
+        "llego malo",
+        "llego roto",
+        "llego danado",
+        "producto malo",
+        "producto con falla",
+        "se echo a perder",
+        "no funciona",
+        "tienda no me responde",
+        "me cobraron de mas",
+        "devolver un producto",
+        "garantia"
+      ],
+      "resumen": "Si un producto nuevo falla, tienes 6 meses de garantía legal para elegir entre reparación, cambio o devolución del dinero; en compras a distancia, puedes retractarte dentro de 10 días.",
+      "explicacion": "La garantía legal (derecho de opción) aplica si el producto tiene fallas, no cumple lo prometido o no es apto para su uso. Tras la Ley 21.398 (Pro Consumidor), el plazo es de 6 meses desde la recepción. En compras por internet o teléfono, el retracto es de 10 días desde la recepción del producto o la contratación del servicio, salvo que el proveedor lo haya excluido expresamente. Puedes reclamar en el SERNAC y, si no se resuelve, demandar ante el Juzgado de Policía Local (sin abogado si la cuantía es menor a 10 UTM).",
+      "baseLegal": [
+        "Art. 3 Ley 19.496 (derechos básicos)",
+        "Art. 3 bis Ley 19.496 (retracto)",
+        "Art. 19, 20 y 21 Ley 19.496 (garantía legal y derecho de opción)",
+        "Art. 50 y siguientes Ley 19.496 (procedimientos)",
+        "Ley 21.398 (Ley Pro Consumidor)"
+      ],
+      "pasos": [
+        "Guarda la boleta, factura o comprobante de compra (también sirve el estado de cuenta o el correo de confirmación).",
+        "Acude al proveedor y ejerce el derecho de opción por escrito: reparación, cambio o devolución.",
+        "Si el proveedor no responde o se niega, ingresa un reclamo en sernac.cl.",
+        "Si el reclamo no prospera, demanda ante el Juzgado de Policía Local de tu comuna o la del proveedor.",
+        "En problemas que afectan a muchos consumidores, el SERNAC puede iniciar procedimientos voluntarios colectivos o demandas colectivas."
+      ],
+      "plazos": [
+        "Garantía legal: 6 meses desde la recepción del producto",
+        "Retracto en compras a distancia: 10 días desde la recepción",
+        "Prescripción de las acciones: 2 años desde que cesó la infracción (art. 26 Ley 19.496)"
+      ],
+      "documentos": [
+        "Boleta o comprobante",
+        "Fotos del defecto",
+        "Correos o chats con el vendedor",
+        "Número de reclamo SERNAC"
+      ],
+      "dondeAcudir": [
+        "SERNAC (sernac.cl)",
+        "Juzgado de Policía Local",
+        "Asociaciones de consumidores"
+      ],
+      "consejo": "Si el proveedor envía el producto a reparación, el plazo de garantía se suspende mientras dure la reparación; y si la falla persiste, puedes optar nuevamente por cambio o devolución.",
+      "alerta": "La garantía legal no cubre daños causados por mal uso del consumidor, y los productos usados o de segunda selección pueden tener reglas distintas si se informó al vender."
+    },
+    {
+      "id": "contratos-comerciales",
+      "titulo": "Contratos comerciales: compraventa mercantil, prestación de servicios y cláusulas clave",
+      "temas": [
+        "contrato comercial",
+        "redactar contrato",
+        "contrato de prestacion de servicios",
+        "compraventa mercantil",
+        "clausula penal",
+        "incumplimiento de contrato",
+        "terminar contrato",
+        "contrato con proveedor",
+        "contrato de distribucion",
+        "acuerdo de confidencialidad",
+        "nda",
+        "contrato de arriendo local comercial"
+      ],
+      "resumen": "Los contratos mercantiles se rigen por el Código de Comercio y, supletoriamente, por el Código Civil. Un buen contrato define objeto, precio, plazos, garantías, causales de término, multas y mecanismo de solución de conflictos.",
+      "explicacion": "Son actos de comercio, entre otros, la compra de bienes muebles para revenderlos, las empresas de manufactura, transporte, depósito y comisiones (art. 3 Código de Comercio). Si hay incumplimiento, la parte cumplidora puede pedir el cumplimiento forzado o la resolución del contrato, en ambos casos con indemnización de perjuicios (art. 1489 Código Civil). La cláusula penal permite fijar de antemano la indemnización.",
+      "baseLegal": [
+        "Art. 3 Código de Comercio (actos de comercio)",
+        "Art. 97 y siguientes CCom (formación del consentimiento)",
+        "Art. 130 y siguientes CCom (compraventa mercantil)",
+        "Art. 1545 Código Civil (el contrato es ley para las partes)",
+        "Art. 1489 Código Civil (condición resolutoria tácita)",
+        "Art. 1535 y siguientes Código Civil (cláusula penal)",
+        "Art. 822 CCom (prescripción de 4 años)"
+      ],
+      "pasos": [
+        "Define con precisión el objeto: qué se entrega o qué servicio se presta, con estándares medibles.",
+        "Fija precio, forma de pago, reajustes, intereses por mora y facturación.",
+        "Establece plazos, hitos de entrega y procedimiento de recepción conforme.",
+        "Incluye garantías (boleta de garantía, póliza, pagaré), multas o cláusula penal y límites de responsabilidad.",
+        "Regula causales de término anticipado, confidencialidad, propiedad intelectual, protección de datos y cesión del contrato.",
+        "Define la solución de conflictos: tribunales ordinarios o arbitraje, y el domicilio."
+      ],
+      "plazos": [
+        "Prescripción general de acciones mercantiles: 4 años (art. 822 CCom), salvo plazos especiales"
+      ],
+      "documentos": [
+        "Contrato firmado y anexos",
+        "Órdenes de compra",
+        "Actas de recepción",
+        "Correspondencia"
+      ],
+      "dondeAcudir": [
+        "Abogado comercial",
+        "Notaría (si se requiere firma autorizada)",
+        "Centro de arbitraje"
+      ],
+      "consejo": "Pon por escrito todas las modificaciones del contrato (anexos firmados): los acuerdos 'de palabra' son difíciles de probar.",
+      "alerta": "Los contratos con consumidores deben respetar la Ley 19.496: cláusulas abusivas (art. 16) son nulas aunque se hayan firmado."
+    },
+    {
+      "id": "marcas-inapi",
+      "titulo": "Registro de marca ante INAPI",
+      "temas": [
+        "marca",
+        "registrar marca",
+        "registro de marca",
+        "inapi",
+        "proteger mi marca",
+        "logo",
+        "nombre de mi empresa",
+        "me copiaron la marca",
+        "patente de invencion",
+        "propiedad industrial",
+        "renovar marca"
+      ],
+      "resumen": "El registro de marca en INAPI te da el derecho exclusivo a usarla en Chile para los productos o servicios registrados, por 10 años renovables.",
+      "explicacion": "La marca puede ser denominativa (solo palabras), figurativa (logo) o mixta. Se registra por clases (Clasificación de Niza). INAPI examina si la marca cumple los requisitos y no es confundible con otras ya registradas; después se publica en el Diario Oficial y terceros pueden oponerse. La razón social de tu empresa no es lo mismo que una marca: registrar la sociedad no te protege la marca.",
+      "baseLegal": [
+        "Ley 19.039 (propiedad industrial)",
+        "Art. 19 y 20 Ley 19.039 (marcas registrables y prohibiciones)",
+        "Art. 24 Ley 19.039 (vigencia de 10 años, renovable)",
+        "Art. 5 Ley 19.039 (oposiciones: 30 días hábiles desde la publicación)",
+        "Art. 28 Ley 19.039 (infracciones)"
+      ],
+      "pasos": [
+        "Busca en la base de datos de INAPI si existe una marca igual o similar en las clases de tu interés.",
+        "Define el tipo de marca (denominativa, figurativa o mixta) y las clases de productos o servicios.",
+        "Presenta la solicitud en línea en inapi.cl y paga la tasa inicial.",
+        "Publica el extracto en el Diario Oficial (INAPI lo gestiona) y espera el plazo de oposiciones.",
+        "Si no hay oposiciones u observaciones, paga los derechos finales y obtén el registro.",
+        "Renueva la marca antes de que venzan los 10 años."
+      ],
+      "plazos": [
+        "Oposición de terceros: 30 días hábiles desde la publicación",
+        "Vigencia: 10 años desde el registro, renovable indefinidamente"
+      ],
+      "documentos": [
+        "Logo (si es figurativa o mixta)",
+        "Listado de productos/servicios por clase",
+        "Poder (si actúa un representante)"
+      ],
+      "dondeAcudir": [
+        "INAPI (inapi.cl)",
+        "Abogado o agente de propiedad industrial"
+      ],
+      "consejo": "Registra la marca antes de invertir en publicidad, letreros o dominio web: si otro la registra primero, podrías tener que cambiar de nombre.",
+      "alerta": "Usar una marca registrada por otro puede exponerte a acciones civiles y penales por infracción marcaria."
+    },
+    {
+      "id": "libre-competencia",
+      "titulo": "Libre competencia: colusión, abuso de posición dominante y competencia desleal",
+      "temas": [
+        "libre competencia",
+        "colusion",
+        "abuso de posicion dominante",
+        "competencia desleal",
+        "fne",
+        "tdlc",
+        "acuerdo de precios",
+        "fusiones",
+        "delacion compensada",
+        "ley 20169"
+      ],
+      "resumen": "Están prohibidos los acuerdos entre competidores para fijar precios, repartirse mercados o afectar licitaciones (colusión), y el abuso de una posición dominante. La colusión dura es delito.",
+      "explicacion": "La Fiscalía Nacional Económica (FNE) investiga y el Tribunal de Defensa de la Libre Competencia (TDLC) sanciona con multas que pueden ser muy altas. La colusión en precios, cuotas de producción, zonas o licitaciones tiene sanción penal (art. 62 DL 211). La delación compensada permite reducir o eximir sanciones al primero que aporte antecedentes. La competencia desleal entre empresas (confusión, denigración, desvío de clientela) se regula en la Ley 20.169 y se demanda ante tribunales civiles.",
+      "baseLegal": [
+        "DL 211 (libre competencia)",
+        "Art. 3 DL 211 (conductas anticompetitivas)",
+        "Art. 39 bis DL 211 (delación compensada)",
+        "Art. 62 DL 211 (delito de colusión)",
+        "Art. 47 y siguientes DL 211 (control de operaciones de concentración)",
+        "Ley 20.169 (competencia desleal)"
+      ],
+      "pasos": [
+        "Capacita a tu equipo comercial: no compartir precios, márgenes ni estrategias con competidores (ni siquiera en asociaciones gremiales).",
+        "Si te enteras de una conducta anticompetitiva, puedes denunciarla en fne.gob.cl.",
+        "Si planeas una fusión o adquisición que supere los umbrales legales, notifícala previamente a la FNE.",
+        "Si eres víctima de competencia desleal, reúne pruebas y evalúa la demanda civil (cese de la conducta e indemnización)."
+      ],
+      "plazos": [
+        "Acciones de competencia desleal: plazo de prescripción breve fijado en el art. 9 de la Ley 20.169 (verifica el texto vigente y actúa con rapidez)"
+      ],
+      "documentos": [
+        "Programas de cumplimiento",
+        "Evidencia de la conducta"
+      ],
+      "dondeAcudir": [
+        "Fiscalía Nacional Económica (fne.gob.cl)",
+        "TDLC",
+        "Juzgado Civil (competencia desleal)"
+      ],
+      "consejo": "Un programa de cumplimiento en libre competencia (guía de la FNE) reduce riesgos y puede considerarse en la determinación de multas.",
+      "alerta": "Participar en una colusión puede llevar a penas de cárcel para los ejecutivos involucrados, además de multas a la empresa."
+    }
+  ]
+}
