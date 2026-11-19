@@ -27,6 +27,7 @@
   --area-administrativo: #5b4a8a;
   --area-familia: #a3426e;
   --area-civil: #5f6b2a;
+  --area-tribunales: #3c5a6e;
 }
 
 :root[data-theme="dark"] {
@@ -56,6 +57,7 @@
   --area-administrativo: #b3a3e6;
   --area-familia: #e79bbd;
   --area-civil: #b9c77a;
+  --area-tribunales: #8fb6cf;
 }
 
 * { box-sizing: border-box; }
@@ -138,6 +140,7 @@ a { color: var(--accent); }
 [data-area="administrativo"] > summary { border-left-color: var(--area-administrativo); }
 [data-area="familia"] > summary { border-left-color: var(--area-familia); }
 [data-area="civil"] > summary { border-left-color: var(--area-civil); }
+[data-area="tribunales"] > summary { border-left-color: var(--area-tribunales); }
 
 .sidebar-note {
   margin-top: 1.5rem; font-size: 0.76rem; color: var(--text-muted);
@@ -174,6 +177,7 @@ a { color: var(--accent); }
 .card-topic[data-area="administrativo"] { border-top-color: var(--area-administrativo); }
 .card-topic[data-area="familia"] { border-top-color: var(--area-familia); }
 .card-topic[data-area="civil"] { border-top-color: var(--area-civil); }
+.card-topic[data-area="tribunales"] { border-top-color: var(--area-tribunales); }
 
 .card-header { display: flex; align-items: center; gap: 0.55rem; flex-wrap: wrap; margin-bottom: 0.4rem; }
 .card-header h3 { margin: 0; font-size: 1.02rem; line-height: 1.3; }

@@ -315,7 +315,14 @@
         "me desvincularon",
         "me cortaron",
         "renuncie",
-        "renunciar"
+        "renunciar",
+        "despido injustificado",
+        "demandar despido injustificado",
+        "despido sin causa",
+        "me despidieron sin carta",
+        "despido sin causal",
+        "despido improcedente",
+        "despido indebido"
       ],
       "resumen": "El despido solo puede basarse en las causales de la ley: el art. 159 (objetivas), el 160 (disciplinarias, sin indemnización) y el 161 (necesidades de la empresa o desahucio, con indemnización).",
       "explicacion": "Art. 159: mutuo acuerdo, renuncia (con 30 días de aviso), muerte del trabajador, vencimiento del plazo, conclusión de la obra y caso fortuito o fuerza mayor. Art. 160: conductas graves como falta de probidad, acoso sexual o laboral, vías de hecho, injurias, conducta inmoral, negociaciones prohibidas, ausencias injustificadas (2 días seguidos, 2 lunes en el mes o 3 días en total en el mes), abandono del trabajo, actos que afecten la seguridad, perjuicio material intencional e incumplimiento grave de obligaciones. Art. 161: necesidades de la empresa (racionalización, modernización, baja productividad, cambios del mercado) y desahucio (solo para gerentes, cargos de exclusiva confianza y trabajadores de casa particular).",
@@ -793,7 +800,10 @@
         "audiencia de juicio",
         "juzgado del trabajo",
         "defensoria laboral",
-        "abogado laboral gratis"
+        "abogado laboral gratis",
+        "cuanto demora un juicio laboral",
+        "cobro de prestaciones",
+        "demanda por cobro de prestaciones"
       ],
       "resumen": "Los juicios laborales son orales y se tramitan ante los Juzgados de Letras del Trabajo; si la cuantía es baja, se usa el procedimiento monitorio, más rápido.",
       "explicacion": "Procedimiento monitorio: para contiendas de cuantía igual o inferior a 15 ingresos mínimos mensuales y para causas de fuero maternal; exige un reclamo previo ante la Inspección del Trabajo. Procedimiento de aplicación general: demanda, audiencia preparatoria (conciliación, fijación de hechos y ofrecimiento de prueba) y audiencia de juicio (rendición de prueba); la sentencia puede recurrirse por nulidad ante la Corte de Apelaciones.",

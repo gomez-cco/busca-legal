@@ -582,6 +582,227 @@
       ],
       "consejo": "Un modelo 'de papel' no basta: los tribunales evalúan si se aplicó en la práctica (capacitaciones reales, denuncias investigadas, sanciones aplicadas).",
       "alerta": "La Ley 21.595 aplica a empresas de todo tamaño, no solo a grandes compañías."
+    },
+    {
+      "id": "amenazas",
+      "titulo": "Amenazas: cuándo son delito y cómo denunciarlas",
+      "temas": [
+        "amenazas",
+        "me amenazo",
+        "me amenazaron",
+        "me amenaza",
+        "amenaza de muerte",
+        "amenazas por whatsapp",
+        "amenazas por redes sociales",
+        "me quiere hacer dano",
+        "denunciar amenazas",
+        "amenaza el vecino",
+        "amenazas de mi ex"
+      ],
+      "resumen": "Amenazar seriamente a otra persona con causarle a ella o a su familia un mal que constituya delito (matarla, golpearla, quemar su casa) es delito, si la amenaza es seria y verosímil. Es uno de los delitos más denunciados en Chile.",
+      "explicacion": "El Código Penal distingue las amenazas de un mal que constituye delito (más graves, arts. 296) de las amenazas de un mal que no constituye delito (art. 297) y de amenazas leves que pueden ser falta. La pena es mayor si la amenaza es condicional (exigiendo algo a cambio). Para que sea delito, la amenaza debe ser seria (con intención de que la víctima la crea) y verosímil (que pueda cumplirse). Puede hacerse en persona, por escrito, por teléfono, WhatsApp o redes sociales. Si ocurre entre familiares o parejas, se aplica además la Ley de VIF y se pueden pedir medidas de protección.",
+      "baseLegal": [
+        "Art. 296 Código Penal (amenazas de un mal que constituya delito)",
+        "Art. 297 Código Penal (amenazas de un mal que no constituya delito)",
+        "Art. 494 N°4 Código Penal (amenazas leves como falta)",
+        "Ley 20.066 (VIF)",
+        "Art. 155 Código Procesal Penal (medidas cautelares: prohibición de acercarse)"
+      ],
+      "pasos": [
+        "Guarda la evidencia: capturas de pantalla con fecha y número o perfil, audios, correos, testigos.",
+        "Si sientes peligro inmediato, llama al 133.",
+        "Denuncia en Carabineros, PDI o Fiscalía (o en la Fiscalía en línea, para algunos delitos); pide el número de parte o RUC.",
+        "Pide a la Fiscalía medidas de protección (rondas policiales, prohibición de acercamiento) a través de la Unidad de Atención a Víctimas.",
+        "Si el amenazador es tu pareja, ex pareja o familiar, informa que es un contexto de VIF: se activan medidas especiales.",
+        "Si las amenazas continúan, informa cada nuevo hecho a la Fiscalía con el mismo RUC."
+      ],
+      "plazos": [
+        "Prescripción: 5 años si es simple delito; 6 meses si es falta",
+        "Denuncia lo antes posible para preservar evidencia digital"
+      ],
+      "documentos": [
+        "Capturas de pantalla",
+        "Audios o grabaciones",
+        "Datos de testigos",
+        "Número de parte o RUC"
+      ],
+      "dondeAcudir": [
+        "Carabineros (133)",
+        "PDI (134)",
+        "Fiscalía",
+        "Fono 1455 (violencia contra la mujer)"
+      ],
+      "consejo": "Al hacer capturas, incluye el número o nombre del perfil y la fecha visibles; y no borres la conversación original del teléfono.",
+      "alerta": "Responder con amenazas propias puede convertirte también en imputado."
+    },
+    {
+      "id": "lesiones",
+      "titulo": "Lesiones: leves, menos graves y graves (golpes, agresiones, riñas)",
+      "temas": [
+        "lesiones",
+        "me golpearon",
+        "me pegaron",
+        "agresion",
+        "me agredieron",
+        "pelea",
+        "rina",
+        "lesiones leves",
+        "lesiones menos graves",
+        "lesiones graves",
+        "constatar lesiones",
+        "constatacion de lesiones",
+        "me pegaron en la calle",
+        "golpe en una pelea"
+      ],
+      "resumen": "Las lesiones se clasifican según su gravedad, medida principalmente por los días de incapacidad o enfermedad que causan: leves (falta), menos graves, simplemente graves (más de 30 días) y graves gravísimas. Para denunciar, lo clave es constatar lesiones de inmediato en un servicio de urgencia.",
+      "explicacion": "Graves gravísimas: dejan a la víctima demente, inútil para el trabajo, impotente, con un miembro importante inutilizado o notablemente deforme. Simplemente graves: enfermedad o incapacidad para el trabajo por más de 30 días. Menos graves: las que no son graves ni leves, según el criterio del tribunal (en la práctica, de unos 15 a 30 días). Leves: de menor entidad, son falta (multa), salvo en contexto de VIF, donde siempre son delito. Las lesiones menos graves y algunas otras admiten acuerdo reparatorio con la víctima.",
+      "baseLegal": [
+        "Art. 395 a 399 Código Penal (lesiones)",
+        "Art. 494 N°5 Código Penal (lesiones leves como falta)",
+        "Art. 5 y 14 Ley 20.066 (lesiones en VIF)",
+        "Art. 241 Código Procesal Penal (acuerdo reparatorio en lesiones menos graves)"
+      ],
+      "pasos": [
+        "Acude de inmediato a un servicio de urgencia y pide que te constaten lesiones (el informe médico, o 'DAU', es la prueba principal).",
+        "Toma fotos de las lesiones durante varios días, ya que la evolución también es prueba.",
+        "Denuncia en Carabineros, PDI o Fiscalía con el informe médico y los datos de testigos o cámaras.",
+        "Si las lesiones te impiden trabajar, guarda las licencias médicas: sirven para calificar la gravedad y para pedir indemnización.",
+        "Considera un acuerdo reparatorio (pago de gastos médicos y perjuicios) si el delito lo permite y el agresor lo ofrece."
+      ],
+      "plazos": [
+        "Constatación de lesiones: el mismo día, si es posible",
+        "Prescripción: 5 años para simples delitos; 6 meses para faltas"
+      ],
+      "documentos": [
+        "Constatación de lesiones (DAU)",
+        "Fotos",
+        "Licencias médicas",
+        "Datos de testigos y cámaras"
+      ],
+      "dondeAcudir": [
+        "Servicio de urgencia (SAPU, SAR, hospital)",
+        "Carabineros (133)",
+        "Fiscalía",
+        "Servicio Médico Legal (peritaje, si lo ordena la Fiscalía)"
+      ],
+      "consejo": "Pide a los locales cercanos que guarden las grabaciones de sus cámaras: muchas se borran en pocos días.",
+      "alerta": "Si te defendiste de una agresión, revisa la ficha de legítima defensa antes de declarar."
+    },
+    {
+      "id": "fraude-tarjetas",
+      "titulo": "Fraude con tarjetas o transferencias no reconocidas (Ley 20.009): cómo recuperar el dinero",
+      "temas": [
+        "fraude con tarjeta",
+        "uso malicioso de tarjeta",
+        "me clonaron la tarjeta",
+        "compras que no hice",
+        "cargos no reconocidos",
+        "transferencia no reconocida",
+        "me vaciaron la cuenta",
+        "fraude bancario",
+        "phishing",
+        "me robaron la clave",
+        "el banco no me devuelve la plata",
+        "desconocer compras",
+        "ley 20009",
+        "estafa bancaria",
+        "me llamaron del banco y me sacaron la plata"
+      ],
+      "resumen": "Si aparecen compras, giros o transferencias que no hiciste, debes bloquear tus tarjetas y avisar al banco de inmediato. La Ley 20.009 (modificada por la Ley 21.234 y normas posteriores) obliga al emisor a restituir, dentro de plazos breves, los montos reclamados hasta cierto límite, salvo que demuestre que actuaste con culpa grave o dolo.",
+      "explicacion": "El uso fraudulento de tarjetas y medios de pago es de los delitos más denunciados en Chile. La ley establece un procedimiento: el usuario avisa al emisor (banco o casa comercial) desconociendo las operaciones; el emisor debe restituir los montos dentro de un plazo breve cuando no superan cierto monto en UF, y para montos mayores puede investigar por un plazo adicional; si estima que hubo culpa grave o dolo del usuario, debe acudir a tribunales para probarlo. Mientras tanto, no puede cobrar intereses ni comisiones por esas operaciones. Montos, plazos y procedimientos han sido modificados por leyes recientes: verifica los valores vigentes en el sitio de la CMF.",
+      "baseLegal": [
+        "Ley 20.009 (responsabilidad por uso fraudulento de tarjetas y medios de pago)",
+        "Ley 21.234 (modificación de 2020)",
+        "Art. 7 Ley 20.009 (delitos de uso fraudulento)",
+        "Ley 21.459 (delitos informáticos)"
+      ],
+      "pasos": [
+        "Bloquea de inmediato tarjetas y claves en la app del banco o llamando a su número de emergencia.",
+        "Haz el aviso formal al banco desconociendo cada operación, y pide el número de reclamo y una copia.",
+        "Denuncia el hecho en Carabineros, PDI (Brigada del Cibercrimen) o Fiscalía, y entrega la denuncia al banco si te la piden.",
+        "Exige la restitución dentro del plazo legal. Si el banco se niega o no responde, reclama en la CMF (Comisión para el Mercado Financiero) o en el SERNAC.",
+        "Si el banco te demanda alegando culpa grave, defiéndete en ese juicio (con abogado o la Corporación de Asistencia Judicial).",
+        "Cambia todas tus claves y revisa que no se hayan inscrito nuevos dispositivos o destinatarios."
+      ],
+      "plazos": [
+        "Aviso al banco: inmediatamente después de detectar el fraude",
+        "La ley cubre operaciones realizadas dentro de un período anterior al aviso y fija plazos breves de restitución (verifica los vigentes en cmfchile.cl)"
+      ],
+      "documentos": [
+        "Cartola con las operaciones desconocidas",
+        "Número de reclamo al banco",
+        "Denuncia (parte o RUC)",
+        "Capturas de mensajes o llamadas fraudulentas"
+      ],
+      "dondeAcudir": [
+        "Banco o emisor de la tarjeta",
+        "CMF (cmfchile.cl)",
+        "SERNAC",
+        "PDI – Brigada del Cibercrimen",
+        "Fiscalía"
+      ],
+      "consejo": "Ningún banco te pedirá por teléfono o WhatsApp tus claves, códigos de la app o de la tarjeta de coordenadas. Si te los piden, es una estafa.",
+      "alerta": "Si entregaste tus claves o códigos a un estafador, el banco puede alegar culpa grave; aun así, reclama y deja que sea el banco quien lo pruebe en tribunales."
+    },
+    {
+      "id": "delitos-sexuales",
+      "titulo": "Delitos sexuales: cómo denunciar y qué apoyo existe",
+      "temas": [
+        "abuso sexual",
+        "violacion",
+        "delito sexual",
+        "acoso sexual en la calle",
+        "acoso callejero",
+        "me abusaron",
+        "abusaron de mi hijo",
+        "abuso sexual infantil",
+        "grooming",
+        "difusion de imagenes intimas",
+        "denunciar abuso",
+        "violencia sexual",
+        "abusaron de mi hija",
+        "abusaron de mi hijo",
+        "abusaron de mi",
+        "me violaron",
+        "abuso de un menor",
+        "tocaciones"
+      ],
+      "resumen": "Los delitos sexuales (violación, abuso sexual, estupro, acoso sexual, difusión de imágenes íntimas, grooming) se denuncian en Fiscalía, Carabineros, PDI o en un centro de salud. Los cometidos contra menores de edad son imprescriptibles (para hechos posteriores a la Ley 21.160 de 2019).",
+      "explicacion": "La víctima tiene derecho a ser atendida con prioridad y sin revictimización, a recibir atención médica y psicológica, a pedir medidas de protección y a que su identidad sea resguardada. Si el hecho fue reciente, conviene acudir lo antes posible a un servicio de urgencia: además de la atención médica (incluida la prevención de infecciones y embarazo), se pueden tomar muestras como prueba. Los niños, niñas y adolescentes declaran en entrevista investigativa videograbada para evitar repetir el relato (Ley 21.057). La Ley 21.153 sanciona el acoso sexual en espacios públicos.",
+      "baseLegal": [
+        "Art. 361 a 372 ter Código Penal (delitos sexuales)",
+        "Art. 94 bis Código Penal (imprescriptibilidad en delitos contra menores, Ley 21.160)",
+        "Ley 21.057 (entrevistas videograbadas a menores)",
+        "Ley 21.153 (acoso sexual en espacios públicos)",
+        "Art. 161-A y 161-C Código Penal (captación y difusión de imágenes íntimas)",
+        "Ley 21.523 (derechos de las víctimas de delitos sexuales)"
+      ],
+      "pasos": [
+        "Si estás en peligro, llama al 133. Si el hecho fue reciente, acude a un servicio de urgencia sin bañarte ni cambiarte la ropa, si puedes, para preservar evidencia.",
+        "Denuncia en la Fiscalía, Carabineros, PDI o en el mismo centro de salud (están obligados a recibir la denuncia y derivarla).",
+        "Pide medidas de protección y apoyo psicológico a la Unidad de Atención a Víctimas de la Fiscalía.",
+        "Si la víctima es un niño o niña, no lo interrogues repetidamente: escúchalo, protégelo y denuncia; la entrevista la hará un profesional especializado.",
+        "Considera querellarte con abogado (existen programas gratuitos de representación para víctimas)."
+      ],
+      "plazos": [
+        "Contra menores de edad: imprescriptibles (hechos posteriores a la Ley 21.160)",
+        "Si el hecho es reciente, acude a urgencia dentro de las primeras horas (idealmente antes de 72 horas) para atención y toma de muestras"
+      ],
+      "documentos": [
+        "Atención médica y constancia",
+        "Mensajes, fotos o registros (en grooming o difusión de imágenes)",
+        "Datos de testigos"
+      ],
+      "dondeAcudir": [
+        "Carabineros (133)",
+        "Fiscalía (Unidad de Atención a Víctimas)",
+        "PDI (Brigada de Delitos Sexuales)",
+        "Servicio de urgencia",
+        "Fono 1455",
+        "Centros de Apoyo a Víctimas"
+      ],
+      "consejo": "No necesitas tener todas las pruebas para denunciar: la investigación es responsabilidad de la Fiscalía.",
+      "alerta": "Difundir imágenes íntimas de otra persona sin su consentimiento es delito, aunque esa persona las haya enviado voluntariamente."
     }
   ]
 }

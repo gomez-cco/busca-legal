@@ -34,7 +34,9 @@
         "me llego una demanda por deuda",
         "notificacion de demanda ejecutiva",
         "embargo de cuenta bancaria",
-        "retencion de cuenta"
+        "retencion de cuenta",
+        "demanda ejecutiva banco",
+        "me demando el banco por la tarjeta"
       ],
       "resumen": "Un embargo solo puede ordenarlo un tribunal dentro de un juicio ejecutivo (o la Tesorería en deudas tributarias). Cuando te notifican y requieren de pago, tienes un plazo muy corto —4 días hábiles si te notifican en la comuna del tribunal— para oponer excepciones; si no lo haces, el proceso avanza al remate.",
       "explicacion": "El acreedor con un título ejecutivo (pagaré, cheque o factura con mérito ejecutivo, sentencia, escritura pública, acta de avenimiento, etc.) demanda y el tribunal despacha un mandamiento de ejecución y embargo. Un receptor judicial te notifica, te requiere el pago y, si no pagas, traba embargo sobre bienes suficientes para cubrir la deuda (primero los que indique el acreedor o, si no, los que señales tú). Puedes defenderte oponiendo excepciones legales: pago, prescripción, falta de requisitos del título, plazo pendiente, novación, entre otras. Los bienes embargados quedan en poder de un depositario y no puedes venderlos. Si no hay excepciones o se rechazan, los bienes se rematan y con el producto se paga al acreedor.",

@@ -1,8 +1,9 @@
 # BUSCALEGAL — by JJ
 
 Asistente legal local (sin costo, sin API externa) que responde consultas en lenguaje natural
-sobre **legislación chilena** en siete áreas: Derecho Laboral, Tributario, Penal (y Procesal
-Penal), Comercial, Administrativo, Familia y Civil (deudas, embargos y arriendos). Para cada caso entrega: qué dice la ley, base legal
+sobre **legislación chilena** en ocho áreas: Derecho Laboral, Tributario, Penal (y Procesal
+Penal), Comercial, Administrativo (incluido Municipal), Familia, Civil (deudas, embargos y
+arriendos) y una guía de Tribunales y juicios. Para cada caso entrega: qué dice la ley, base legal
 (artículos), plazos, pasos a seguir, documentos útiles, dónde acudir, un consejo y una alerta.
 
 Sigue la misma arquitectura que ALLEXCEL: Node.js sin dependencias, motor de búsqueda por
@@ -14,7 +15,7 @@ backend. Lista para desplegar en Render.
 
 ## Qué incluye
 
-- **78 temas** en 7 áreas (`data/areas/*.json`), por ejemplo:
+- **91 temas** en 8 áreas (`data/areas/*.json`), por ejemplo:
   - **Laboral:** contrato, honorarios vs. contrato, jornada 40 horas, horas extra, feriado,
     remuneraciones, causales de despido, indemnización, Ley Bustos, finiquito, autodespido,
     Ley Karin, tutela laboral, fuero maternal, accidentes del trabajo, teletrabajo, juicio laboral.
@@ -46,6 +47,23 @@ backend. Lista para desplegar en Render.
 - **Avisos de urgencia** (detención, violencia, riesgo vital) con números de ayuda.
 - Derivación cuando la consulta es de un tema aún no cargado (por ejemplo, servidumbres o regularización de propiedades).
 - Accesibilidad: tamaño de letra A−/A+ persistente, tema claro/oscuro, diseño móvil.
+
+## Prioridades según lo que más llega a tribunales
+
+El contenido se reforzó según las materias con más ingresos en el sistema judicial chileno:
+
+| Tribunal | Causas más frecuentes | Fichas en BUSCALEGAL |
+|---|---|---|
+| Civiles | Cobranza de deudas: ~70% juicios ejecutivos y ~13% gestiones preparatorias (datos 2024) | embargo, gestión preparatoria, notificaciones, abandono, prescripción, bienes inembargables |
+| Laborales | Despido injustificado: 57% de 112 mil ingresos en 2025 | despido, indemnización, Ley Bustos, finiquito, tutela |
+| Familia | Alimentos (materia más frecuente) y violencia intrafamiliar (~128 mil ingresos en 2024) | alimentos, deuda de alimentos, VIF, cuidado personal |
+| Penal | Amenazas, estafas, uso malicioso de tarjetas, lesiones y robos (más denunciados) | amenazas, lesiones, fraude con tarjetas, delitos patrimoniales, delitos sexuales |
+| Cortes de Apelaciones | Recursos de protección: ~80% contra Isapres en 2022 | recurso de protección, reclamos contra Isapres |
+
+Fuentes: estadísticas y boletines del Poder Judicial (pjud.cl), Fiscalía de Chile (boletines
+estadísticos), Libertad y Desarrollo / Observatorio Judicial (Serie Informe Justicia 34),
+INE (Informe anual de Justicia) y prensa que cita esas cifras. Son cifras de referencia:
+revisa las fuentes originales antes de citarlas.
 
 ## Cómo ejecutarlo
 

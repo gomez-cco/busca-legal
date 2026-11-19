@@ -128,7 +128,8 @@
         "corte de apelaciones",
         "isapre recurso de proteccion",
         "alza plan isapre",
-        "proteger mis derechos"
+        "proteger mis derechos",
+        "recurso de proteccion contra la isapre"
       ],
       "resumen": "Acción rápida ante la Corte de Apelaciones contra actos u omisiones arbitrarios o ilegales que privan, perturban o amenazan derechos constitucionales; se presenta dentro de 30 días corridos.",
       "explicacion": "Protege, entre otros, los derechos a la vida e integridad, igualdad ante la ley, honra, inviolabilidad del hogar, libertad de trabajo, derecho de propiedad, libertad de culto y vivir en un medio ambiente libre de contaminación (art. 20 de la Constitución). Puede dirigirse contra autoridades o particulares (por ejemplo, Isapres, empresas, colegios). No requiere formalidades complejas, pero sí patrocinio de abogado según el Auto Acordado de la Corte Suprema (o comparecer personalmente en algunos casos).",
@@ -590,6 +591,63 @@
       ],
       "consejo": "Las ordenanzas cambian de comuna en comuna: búscalas en el sitio web de tu municipalidad (sección Transparencia → Marco normativo).",
       "alerta": "Si el derecho de aseo se cobra junto con las contribuciones, no pagarlo genera deuda que se suma a la de contribuciones y puede terminar en cobranza de la Tesorería."
+    },
+    {
+      "id": "isapre-reclamos",
+      "titulo": "Reclamos contra la Isapre: alza del plan, tabla de factores y coberturas",
+      "temas": [
+        "isapre",
+        "alza de plan isapre",
+        "subieron mi plan",
+        "carta de adecuacion",
+        "tabla de factores",
+        "devolucion isapre",
+        "recurso de proteccion isapre",
+        "reclamo isapre",
+        "isapre no cubre",
+        "isapre rechazo licencia",
+        "superintendencia de salud",
+        "cobertura isapre",
+        "ges",
+        "caec",
+        "licencia medica rechazada"
+      ],
+      "resumen": "Los recursos de protección contra Isapres llegaron a ser la mayoría de las causas en las Cortes de Apelaciones (casi 80% en 2022). Hoy, para alzas de planes, rechazos de cobertura o de licencias, existen dos vías principales: el reclamo ante la Superintendencia de Salud (que puede actuar como árbitro) y el recurso de protección dentro de 30 días.",
+      "explicacion": "Las alzas de precio base (carta de adecuación) y la aplicación de la tabla de factores fueron masivamente judicializadas. En 2022 la Corte Suprema ordenó aplicar una tabla de factores única a todos los contratos, y en 2024 se dictó una ley (Ley 21.674) que regula el cumplimiento de ese fallo, incluida la devolución de montos cobrados en exceso, en cuotas. Para rechazos de cobertura, GES, CAEC o licencias médicas, el afiliado puede reclamar ante la Superintendencia de Salud o la COMPIN (licencias), y luego recurrir judicialmente. El escenario ha cambiado bastante en los últimos años: verifica las reglas vigentes en supersalud.gob.cl.",
+      "baseLegal": [
+        "Art. 20 Constitución Política (recurso de protección)",
+        "DFL 1 de 2005 del Ministerio de Salud (Isapres y Fonasa)",
+        "Art. 117 DFL 1/2005 (la Superintendencia como árbitro)",
+        "Ley 21.674 (cumplimiento del fallo sobre tabla de factores)",
+        "Ley 19.966 (Garantías Explícitas en Salud – GES)"
+      ],
+      "pasos": [
+        "Identifica el problema: alza del plan, tabla de factores, rechazo de cobertura, rechazo o reducción de licencia, o cobro excesivo.",
+        "Pide a la Isapre el fundamento por escrito y presenta primero un reclamo en la propia Isapre.",
+        "Si no se resuelve, reclama en la Superintendencia de Salud (supersalud.gob.cl): puede resolver como árbitro, en forma gratuita.",
+        "Si es un alza de plan u otro acto que consideras arbitrario, evalúa el recurso de protección ante la Corte de Apelaciones dentro de 30 días desde que tomaste conocimiento (por ejemplo, desde la carta de adecuación).",
+        "Para licencias médicas rechazadas, apela ante la COMPIN y luego ante la Superintendencia de Seguridad Social (SUSESO) si corresponde.",
+        "Revisa en supersalud.gob.cl si tienes montos a devolver por la tabla de factores y cómo se pagan."
+      ],
+      "plazos": [
+        "Recurso de protección: 30 días corridos desde el acto o su conocimiento",
+        "Reclamo ante la Superintendencia: según su procedimiento (revisa plazos en supersalud.gob.cl)"
+      ],
+      "documentos": [
+        "Contrato de salud y plan",
+        "Carta de adecuación o de rechazo",
+        "Licencias médicas y resoluciones",
+        "Boletas y programas médicos"
+      ],
+      "dondeAcudir": [
+        "Isapre (reclamo directo)",
+        "Superintendencia de Salud (supersalud.gob.cl)",
+        "COMPIN",
+        "SUSESO",
+        "Corte de Apelaciones"
+      ],
+      "consejo": "Las ofertas de 'recuperar tu alza de Isapre sin costo' pueden cobrarte una parte de lo que te devuelvan; antes, revisa si la Superintendencia lo resuelve gratis.",
+      "alerta": "El recurso de protección tiene un plazo de 30 días corridos: si se vence, solo te quedan las vías administrativas u otras acciones."
     }
   ]
 }

@@ -1,0 +1,139 @@
+{
+  "id": "tribunales",
+  "num": 8,
+  "titulo": "Tribunales y juicios: cómo funcionan",
+  "intro": "Guía práctica del sistema judicial chileno: a qué tribunal acudir, cómo consultar una causa, cómo funcionan las notificaciones y qué hacer ante las demandas más frecuentes. Según datos del Poder Judicial y estudios sobre sus cifras, la gran mayoría de las causas civiles son cobranzas de deudas (juicios ejecutivos y gestiones preparatorias), en los juzgados laborales predomina el despido injustificado, en familia la pensión de alimentos y la violencia intrafamiliar, y en las Cortes de Apelaciones los recursos de protección (históricamente, contra Isapres).",
+  "leyes": [
+    "Código Orgánico de Tribunales",
+    "Código de Procedimiento Civil",
+    "Ley 19.968 (Tribunales de Familia)",
+    "Código del Trabajo (Libro V: jurisdicción laboral)",
+    "Código Procesal Penal",
+    "Ley 18.287 (Juzgados de Policía Local)",
+    "Ley 20.886 (tramitación digital de los procedimientos judiciales)",
+    "Ley 17.995 (Corporaciones de Asistencia Judicial)"
+  ],
+  "temas": [
+    {
+      "id": "a-que-tribunal-voy",
+      "titulo": "¿A qué tribunal debo ir? Mapa de los tribunales en Chile",
+      "temas": ["a que tribunal voy", "que tribunal corresponde", "donde demando", "donde presento la demanda", "que tribunal ve", "tipos de tribunales", "juzgado civil", "juzgado de letras", "tribunal oral en lo penal", "juzgado de policia local", "corte de apelaciones", "corte suprema", "juzgado de cobranza laboral", "tribunal competente", "competencia"],
+      "resumen": "Cada tipo de conflicto tiene su tribunal: Civil (deudas, contratos, arriendos, indemnizaciones), Familia (alimentos, hijos, divorcio, VIF), Trabajo (despidos y derechos laborales), Garantía y Juicio Oral (delitos), Policía Local (tránsito, consumidor, ordenanzas), y las Cortes de Apelaciones (recursos de protección, amparo y apelaciones).",
+      "explicacion": "Juzgados de Letras en lo Civil: cobro de deudas (juicios ejecutivos), contratos, arriendos, indemnización de perjuicios, posesión efectiva testada, insolvencia. Juzgados de Familia: alimentos, cuidado personal, relación directa y regular, divorcio, filiación, violencia intrafamiliar que no constituye delito, medidas de protección de niños. Juzgados de Letras del Trabajo: despidos, cobro de prestaciones, tutela laboral, accidentes del trabajo. Juzgados de Cobranza Laboral y Previsional (en algunas ciudades): ejecución de sentencias laborales y cobro de cotizaciones impagas. Juzgados de Garantía: control de la investigación penal, detenciones, formalizaciones, salidas alternativas, procedimientos abreviado y simplificado. Tribunales de Juicio Oral en lo Penal: juicios por crímenes y simples delitos. Juzgados de Policía Local: infracciones de tránsito, choques con daños, Ley del Consumidor, ordenanzas municipales. Tribunales especiales: Tributarios y Aduaneros, de Contratación Pública, Ambientales y de Defensa de la Libre Competencia. Cortes de Apelaciones: recursos de protección y amparo, y apelaciones contra sentencias de primera instancia. Corte Suprema: casación, unificación de jurisprudencia laboral y apelaciones de protección y amparo. En comunas pequeñas, un Juzgado de Letras 'de competencia común' puede ver varias materias a la vez.",
+      "baseLegal": ["Código Orgánico de Tribunales (organización y competencia)", "Art. 8 Ley 19.968 (competencia de los Juzgados de Familia)", "Art. 420 Código del Trabajo (competencia laboral)", "Art. 14 y 18 Código Orgánico de Tribunales (Garantía y Juicio Oral)", "Ley 15.231 (Juzgados de Policía Local)", "Art. 20 y 21 Constitución (protección y amparo)"],
+      "pasos": [
+        "Identifica la materia: ¿es una deuda o contrato (civil), un tema de hijos o pareja (familia), de trabajo (laboral), un delito (penal) o una infracción menor (policía local)?",
+        "Identifica la comuna: por regla general, es competente el tribunal del domicilio del demandado (en familia, a menudo el del niño o del demandante de alimentos; en laboral, el del lugar de prestación de servicios o del domicilio del demandado).",
+        "Revisa si existe un paso previo obligatorio: mediación en familia, reclamo ante la Inspección en el procedimiento monitorio laboral, recursos administrativos, etc.",
+        "Consulta en pjud.cl el tribunal que corresponde a tu comuna o llama a la Corporación de Asistencia Judicial.",
+        "Presenta la demanda o la solicitud por la Oficina Judicial Virtual (con abogado, salvo excepciones)."
+      ],
+      "plazos": [],
+      "documentos": ["Cédula de identidad", "Documentos del caso", "Domicilio del demandado"],
+      "dondeAcudir": ["Oficina Judicial Virtual (oficinajudicialvirtual.pjud.cl)", "Corporación de Asistencia Judicial", "Centros de atención del Poder Judicial"],
+      "consejo": "Si te equivocas de tribunal, la demanda puede ser rechazada por incompetencia y pierdes tiempo valioso (y a veces plazos). Ante la duda, consulta antes de presentar.",
+      "alerta": "Los delitos no se 'demandan': se denuncian ante Fiscalía, Carabineros o PDI, o se presenta querella ante el Juzgado de Garantía."
+    },
+    {
+      "id": "consultar-causa-ojv",
+      "titulo": "Cómo consultar una causa judicial y saber si me demandaron (Oficina Judicial Virtual)",
+      "temas": ["consultar causa", "saber si me demandaron", "tengo una demanda", "ver mi causa", "oficina judicial virtual", "pjud", "consulta de causas", "numero de causa", "rol de la causa", "rit", "estado de mi juicio", "como va mi juicio", "clave unica poder judicial", "estoy demandado"],
+      "resumen": "En la Oficina Judicial Virtual (oficinajudicialvirtual.pjud.cl) puedes ver, con tu Clave Única, todas las causas en que eres parte, sus resoluciones y plazos, y presentar escritos. También puedes buscar causas por número (ROL o RIT) en la consulta unificada de pjud.cl.",
+      "explicacion": "Desde la Ley 20.886, los juicios se tramitan en forma digital. La sección 'Mis Causas' muestra las causas en que figuras con tu RUT (civiles, familia, laborales, penales, cortes). Cada causa tiene un número: ROL en civil (por ejemplo, C-1234-2025), RIT en familia, laboral y penal, y RUC en la Fiscalía. Allí verás el 'estado diario' (las resoluciones del día), que es una forma de notificación: por eso conviene revisarla seguido si tienes un juicio.",
+      "baseLegal": ["Ley 20.886 (tramitación digital)", "Art. 50 Código de Procedimiento Civil (notificación por el estado diario)", "Auto Acordado de la Corte Suprema sobre tramitación electrónica"],
+      "pasos": [
+        "Ingresa a oficinajudicialvirtual.pjud.cl con tu Clave Única.",
+        "Entra a 'Mis Causas' y revisa cada competencia (Civil, Familia, Laboral, Penal, Cobranza, Cortes).",
+        "Abre la causa: revisa la demanda, las resoluciones y la última actuación.",
+        "Si no eres parte, usa la 'Consulta de causas' pública de pjud.cl con el número de ROL o RIT y el tribunal.",
+        "Si aparece una demanda en tu contra, revisa de inmediato si ya fuiste notificado: desde esa fecha corren los plazos para defenderte."
+      ],
+      "plazos": ["Las resoluciones notificadas por el estado diario producen efecto desde su publicación: revisa la causa con frecuencia"],
+      "documentos": ["Clave Única", "Número de causa (si lo tienes)"],
+      "dondeAcudir": ["Oficina Judicial Virtual", "Mesa de ayuda del Poder Judicial", "Corporación de Asistencia Judicial"],
+      "consejo": "Si recibes llamadas o mensajes que dicen que tienes una 'demanda' o un 'embargo', verifica siempre en la Oficina Judicial Virtual: si no aparece nada, probablemente es una cobranza extrajudicial o una estafa.",
+      "alerta": "Algunas causas de familia o penales con reserva pueden no mostrar todo su contenido públicamente."
+    },
+    {
+      "id": "notificaciones-judiciales",
+      "titulo": "Notificaciones judiciales: me dejaron una demanda en la casa (art. 44) ¿qué significa?",
+      "temas": ["notificacion", "me notificaron", "me dejaron una demanda", "receptor vino a mi casa", "notificacion personal", "articulo 44", "notificacion por cedula", "notificacion por estado diario", "me notificaron sin estar", "le dejaron la demanda a mi mama", "notificacion en el domicilio", "nulidad de la notificacion"],
+      "resumen": "La demanda debe notificarse personalmente, pero si el receptor busca dos veces al demandado en su domicilio y no lo encuentra, el tribunal puede ordenar dejar la copia en el domicilio (art. 44 CPC). Esa notificación vale como personal: los plazos para defenderte empiezan a correr igual.",
+      "explicacion": "Formas de notificación: personal (en mano); 'subsidiaria' del art. 44 (cuando el demandado no es habido en su domicilio, se deja copia a un adulto o en la puerta y se envía aviso por carta certificada); por cédula (copia en el domicilio, para resoluciones importantes durante el juicio); por el estado diario (publicación en la causa electrónica); por avisos (cuando no se conoce el domicilio); y electrónica (en ciertos casos, al correo registrado). Muchas personas descubren tarde que fueron demandadas porque la demanda se notificó por el art. 44 a un familiar o en la puerta.",
+      "baseLegal": ["Art. 40 Código de Procedimiento Civil (notificación personal de la demanda)", "Art. 44 CPC (notificación personal subsidiaria)", "Art. 48 CPC (por cédula)", "Art. 50 CPC (por el estado diario)", "Art. 54 CPC (por avisos)", "Art. 80 CPC (nulidad por falta de emplazamiento)"],
+      "pasos": [
+        "Lee la copia que te dejaron: identifica tribunal, número de causa (ROL/RIT), demandante y la fecha de la notificación (aparece en el certificado del receptor).",
+        "Revisa la causa en la Oficina Judicial Virtual para confirmar la fecha exacta de notificación y los plazos.",
+        "Busca abogado de inmediato (los plazos de defensa pueden ser de pocos días, como los 4 días hábiles del juicio ejecutivo).",
+        "Si no vives en ese domicilio o la notificación tuvo vicios (por ejemplo, el receptor no hizo las búsquedas), pide la nulidad de la notificación: se plantea por incidente, en plazos breves desde que tomaste conocimiento (art. 80 CPC: 5 días).",
+        "Mantén tu domicilio actualizado en bancos, casas comerciales y contratos para enterarte a tiempo."
+      ],
+      "plazos": ["Nulidad por falta de emplazamiento (art. 80 CPC): 5 días desde que el afectado tuvo conocimiento personal del juicio", "Contestación de demanda ordinaria civil: 15 días (más según distancia)", "Excepciones en juicio ejecutivo: 4 días hábiles"],
+      "documentos": ["Copia de la demanda y de la resolución", "Certificado de notificación del receptor", "Prueba de tu domicilio real (si alegas nulidad)"],
+      "dondeAcudir": ["Oficina Judicial Virtual", "Abogado / Corporación de Asistencia Judicial"],
+      "consejo": "No ignores un papel judicial aunque te parezca confuso: lo dejaron para que empiecen a correr plazos en tu contra.",
+      "alerta": "Si la notificación es válida y no te defiendes, el juicio sigue en rebeldía y puede terminar en embargo y remate."
+    },
+    {
+      "id": "gestion-preparatoria",
+      "titulo": "Me citaron a reconocer firma o confesar una deuda (gestión preparatoria de cobranza)",
+      "temas": ["gestion preparatoria", "gestiones preparatorias", "citacion a reconocer firma", "reconocer firma", "confesar deuda", "citacion a confesar deuda", "notificacion de protesto", "notificacion de protesto de cheque", "me citaron al tribunal por una deuda", "demanda de banco", "demanda de casa comercial", "demanda por tarjeta de credito", "me demando el banco", "me demando una casa comercial", "cobranza judicial", "preparar la via ejecutiva"],
+      "resumen": "Si el acreedor no tiene todavía un título ejecutivo, puede citarte al tribunal a reconocer tu firma o a confesar la deuda, o notificarte el protesto de un cheque o una factura. Si no vas o no te opones a tiempo, la ley da por reconocida la firma o confesada la deuda, y el acreedor queda habilitado para embargarte.",
+      "explicacion": "Las gestiones preparatorias de la vía ejecutiva son una de las causas más frecuentes en los juzgados civiles, usadas sobre todo por bancos, casas comerciales y empresas de cobranza. Tipos: citación a reconocer firma de un documento privado (pagaré sin firma ante notario, por ejemplo); citación a confesar deuda; notificación judicial del protesto de un cheque, letra o pagaré, con un plazo breve para alegar que la firma es falsa; y notificación de facturas (Ley 19.983). Si el citado no comparece, o da respuestas evasivas, se tiene por reconocida la firma o confesada la deuda. Luego viene el juicio ejecutivo con mandamiento de embargo.",
+      "baseLegal": ["Art. 434 N°4 Código de Procedimiento Civil (reconocimiento de firma y notificación de protesto; tacha de falsedad en 3 días)", "Art. 435 CPC (citación a confesar deuda o reconocer firma: si no comparece se tiene por reconocida/confesada)", "Art. 436 CPC (reconocimiento de firma)", "Art. 5 Ley 19.983 (notificación de facturas)", "Art. 2515 Código Civil (prescripción)"],
+      "pasos": [
+        "Revisa la citación: tribunal, número de causa, fecha y hora de la audiencia o plazo, y qué documento se invoca.",
+        "Asiste a la citación (idealmente con abogado). Si la firma no es tuya o la deuda no existe o no es por ese monto, dilo expresamente; no respondas con evasivas.",
+        "En la notificación de protesto, si la firma es falsa, debes alegarlo dentro de 3 días.",
+        "Revisa si la deuda está prescrita (por ejemplo, pagarés y letras en 1 año, otras deudas en 3 o 5 años): la prescripción se alega como excepción en el juicio ejecutivo.",
+        "Si la deuda es real, aprovecha esta etapa para negociar un acuerdo de pago con el acreedor antes del embargo.",
+        "Si tienes varias deudas impagas, evalúa la renegociación ante la Superir."
+      ],
+      "plazos": ["Tacha de falsedad de la firma tras la notificación del protesto: 3 días", "La citación indica día y hora: no comparecer equivale a reconocer"],
+      "documentos": ["Citación", "Comprobantes de pago", "Contrato o estados de cuenta de la deuda"],
+      "dondeAcudir": ["Juzgado civil de la causa", "Corporación de Asistencia Judicial", "Superintendencia de Insolvencia (superir.gob.cl)"],
+      "consejo": "No firmes documentos de reconocimiento de deuda que te envíen las empresas de cobranza sin revisarlos: pueden revivir una deuda prescrita o servir de título ejecutivo.",
+      "alerta": "Reconocer la firma o la deuda (o no ir) abre la puerta al embargo. Es el momento más barato para defenderte o negociar."
+    },
+    {
+      "id": "abandono-procedimiento",
+      "titulo": "Abandono del procedimiento: cuando el demandante deja el juicio sin movimiento",
+      "temas": ["abandono del procedimiento", "juicio abandonado", "juicio sin movimiento", "demanda antigua sin movimiento", "la causa esta parada", "6 meses sin movimiento", "alegar abandono", "causa archivada"],
+      "resumen": "En los juicios civiles, si todas las partes dejan de impulsar el juicio durante 6 meses desde la última resolución recaída en una gestión útil, el demandado puede pedir que se declare abandonado el procedimiento. En los juicios ejecutivos existe además una regla especial de 3 años después de la sentencia o de la falta de oposición.",
+      "explicacion": "El abandono del procedimiento castiga la inactividad del demandante: el demandante pierde lo actuado en ese juicio (aunque, en general, puede volver a demandar si la acción no ha prescrito). Solo el demandado puede alegarlo, y debe hacerlo antes de realizar cualquier otra gestión en el juicio, porque cualquier actuación suya distinta de pedir el abandono se entiende como renuncia a alegarlo. Es muy relevante en las numerosas cobranzas civiles que quedan detenidas.",
+      "baseLegal": ["Art. 152 Código de Procedimiento Civil (6 meses de inactividad)", "Art. 153 CPC (quién lo alega; regla especial en juicios ejecutivos)", "Art. 155 CPC (renuncia tácita al abandono)", "Art. 156 CPC (efectos)"],
+      "pasos": [
+        "Revisa en la Oficina Judicial Virtual la fecha de la última resolución que recayó en una gestión útil para el avance del juicio.",
+        "Si han pasado más de 6 meses sin actuaciones útiles, presenta un escrito pidiendo que se declare el abandono del procedimiento (con abogado).",
+        "No presentes otros escritos antes (ni siquiera para pedir copias o delegar poder), porque se entiende que renuncias a alegar el abandono.",
+        "En juicios ejecutivos con sentencia o sin oposición, revisa la regla especial de 3 años del art. 153."
+      ],
+      "plazos": ["Juicios civiles: 6 meses de inactividad desde la última resolución en gestión útil", "Juicios ejecutivos (después de sentencia o sin oposición): 3 años, según el art. 153 CPC (verifica tu caso)"],
+      "documentos": ["Historial de la causa (Oficina Judicial Virtual)"],
+      "dondeAcudir": ["Abogado / Corporación de Asistencia Judicial", "Tribunal de la causa"],
+      "consejo": "Si además de abandonado el juicio la deuda está prescrita, el acreedor podría no tener cómo volver a cobrarla: revisa ambas cosas juntas.",
+      "alerta": "El abandono no extingue la deuda por sí solo: si la acción no está prescrita, el acreedor puede demandar nuevamente."
+    },
+    {
+      "id": "abogado-gratis",
+      "titulo": "No puedo pagar un abogado: asesoría legal gratuita",
+      "temas": ["abogado gratis", "abogado gratuito", "no puedo pagar un abogado", "asesoria legal gratuita", "corporacion de asistencia judicial", "defensoria penal publica", "defensoria laboral", "clinica juridica", "privilegio de pobreza", "abogado de turno", "ayuda legal gratis"],
+      "resumen": "Existen varias instituciones que dan asesoría y representación gratuita: la Corporación de Asistencia Judicial (civil, familia, laboral), la Defensoría Penal Pública (si eres imputado), la Oficina de Defensoría Laboral (trabajadores), las clínicas jurídicas de las universidades y los programas de atención a víctimas.",
+      "explicacion": "Corporación de Asistencia Judicial (CAJ): orientación y patrocinio gratuito a personas que no pueden pagar un abogado, en materias civiles, de familia y otras; atiende en consultorios jurídicos en todo el país. Defensoría Penal Pública: defensa gratuita (o con copago según ingresos) para toda persona imputada por un delito. Oficinas de Defensoría Laboral: representan a trabajadores en juicios laborales. Clínicas jurídicas universitarias: atención gratuita por estudiantes supervisados. Víctimas de delitos: Centros de Apoyo a Víctimas y Unidades de Atención a Víctimas de la Fiscalía. También existe el privilegio de pobreza, que libera de ciertos costos del juicio.",
+      "baseLegal": ["Ley 17.995 (Corporaciones de Asistencia Judicial)", "Ley 19.718 (Defensoría Penal Pública)", "Art. 431 Código del Trabajo (gratuidad en materia laboral)", "Art. 129 y siguientes CPC (privilegio de pobreza)"],
+      "pasos": [
+        "Identifica la materia de tu caso (familia, laboral, civil, penal).",
+        "Familia, civil o deudas: acude al consultorio jurídico de la Corporación de Asistencia Judicial de tu comuna (puedes agendar en línea).",
+        "Trabajador con un conflicto laboral: acude a la Oficina de Defensoría Laboral.",
+        "Si eres imputado: la Defensoría Penal Pública te asigna defensor desde la primera audiencia.",
+        "Si eres víctima de un delito: pide apoyo a la Unidad de Atención a Víctimas de la Fiscalía o a un Centro de Apoyo a Víctimas.",
+        "Lleva tu cédula, los documentos del caso y antecedentes de tus ingresos (Registro Social de Hogares, liquidaciones)."
+      ],
+      "plazos": ["Los plazos legales siguen corriendo mientras buscas abogado: acude cuanto antes"],
+      "documentos": ["Cédula de identidad", "Documentos del caso", "Cartola del Registro Social de Hogares o liquidaciones de sueldo"],
+      "dondeAcudir": ["Corporación de Asistencia Judicial (CAJ)", "Defensoría Penal Pública (dpp.cl)", "Oficina de Defensoría Laboral", "Clínicas jurídicas universitarias", "Centros de Apoyo a Víctimas"],
+      "consejo": "Pide hora apenas recibas una notificación: los consultorios suelen tener demanda alta y los plazos judiciales no esperan.",
+      "alerta": "Desconfía de quienes cobran por adelantado prometiendo 'borrar deudas' o 'ganar seguro' un juicio."
+    }
+  ]
+}

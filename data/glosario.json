@@ -1080,5 +1080,74 @@
   "definicion": "Patrimonio de la empresa (activos menos pasivos exigibles, según las reglas tributarias) que se declara en la Operación Renta; es la base para calcular la patente municipal.",
   "base": "Art. 24 DL 3.063; Ley sobre Impuesto a la Renta",
   "tema": "patente-municipal"
+ },
+ {
+  "termino": "Gestión preparatoria de la vía ejecutiva",
+  "alias": [
+   "gestion preparatoria",
+   "gestiones preparatorias",
+   "preparar la via ejecutiva"
+  ],
+  "area": "Civil / Tribunales",
+  "definicion": "Trámite judicial previo que usa un acreedor que no tiene aún un título ejecutivo: cita al deudor a reconocer su firma o confesar la deuda, o le notifica el protesto de un documento. Si el deudor no comparece o no se opone a tiempo, se tiene por reconocida la firma o confesada la deuda y el acreedor puede pedir el embargo.",
+  "base": "Art. 434 N°4, 435 y 436 Código de Procedimiento Civil",
+  "tema": "gestion-preparatoria"
+ },
+ {
+  "termino": "Abandono del procedimiento",
+  "alias": [
+   "abandono del procedimiento",
+   "juicio abandonado"
+  ],
+  "area": "Civil / Tribunales",
+  "definicion": "Sanción procesal que puede pedir el demandado cuando las partes dejan el juicio sin actividad útil durante 6 meses: se pierde lo actuado en ese juicio, aunque la acción puede volver a ejercerse si no ha prescrito.",
+  "base": "Art. 152 a 157 Código de Procedimiento Civil",
+  "tema": "abandono-procedimiento"
+ },
+ {
+  "termino": "Notificación del artículo 44",
+  "alias": [
+   "articulo 44",
+   "notificacion del articulo 44",
+   "notificacion personal subsidiaria"
+  ],
+  "area": "Civil / Tribunales",
+  "definicion": "Forma de notificar la demanda cuando el demandado no es encontrado en su domicilio en dos búsquedas: se deja la copia a un adulto o en el domicilio y se envía aviso por carta certificada. Vale como notificación personal y desde ella corren los plazos.",
+  "base": "Art. 44 Código de Procedimiento Civil",
+  "tema": "notificaciones-judiciales"
+ },
+ {
+  "termino": "Estado diario",
+  "alias": [
+   "estado diario",
+   "notificacion por el estado diario"
+  ],
+  "area": "Tribunales",
+  "definicion": "Publicación diaria de las resoluciones dictadas en cada causa; en la mayoría de los casos, es la forma en que se notifican las resoluciones durante el juicio, aunque la persona no las lea.",
+  "base": "Art. 50 Código de Procedimiento Civil",
+  "tema": "consultar-causa-ojv"
+ },
+ {
+  "termino": "Rebeldía",
+  "alias": [
+   "rebeldia",
+   "en rebeldia",
+   "juicio en rebeldia"
+  ],
+  "area": "Tribunales",
+  "definicion": "Situación de la parte que no realiza un trámite dentro del plazo (por ejemplo, no contesta la demanda): el juicio sigue adelante sin ella y pierde la oportunidad de ese trámite.",
+  "base": "Art. 78 Código de Procedimiento Civil",
+  "tema": "notificaciones-judiciales"
+ },
+ {
+  "termino": "Oficina Judicial Virtual",
+  "alias": [
+   "oficina judicial virtual",
+   "ojv"
+  ],
+  "area": "Tribunales",
+  "definicion": "Plataforma del Poder Judicial (oficinajudicialvirtual.pjud.cl) donde, con Clave Única, se consultan las causas propias, se revisan resoluciones y se presentan escritos y demandas.",
+  "base": "Ley 20.886",
+  "tema": "consultar-causa-ojv"
  }
 ]
