@@ -60,7 +60,7 @@ for (const q of ['Me despidieron, ¿cuánto me corresponde?', 'Me llegó una cit
 test('saludo devuelve bienvenida sin fichas', () => {
   const a = composeAnswer('hola');
   assert.strictEqual(a.items.length, 0);
-  assert.match(a.greeting, /LEX/);
+  assert.match(a.greeting, /BUSCALEGAL/);
 });
 test('navegación por área lista sus temas', () => {
   const a = composeAnswer('Temas de Derecho Penal y Procesal Penal');

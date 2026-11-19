@@ -1,4 +1,4 @@
-# ALL-LEX — by JJ
+# BUSCALEGAL — by JJ
 
 Asistente legal local (sin costo, sin API externa) que responde consultas en lenguaje natural
 sobre **legislación chilena** en cinco áreas: Derecho Laboral, Tributario, Penal (y Procesal

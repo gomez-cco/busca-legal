@@ -109,5 +109,5 @@ const server = http.createServer(async (req, res) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`ALL-LEX corriendo en http://localhost:${PORT}`);
+  console.log(`BUSCALEGAL corriendo en http://localhost:${PORT}`);
 });

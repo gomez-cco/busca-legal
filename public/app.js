@@ -30,20 +30,20 @@
   function applyFontScale(scale) {
     const clamped = Math.min(MAX_SCALE, Math.max(MIN_SCALE, scale));
     document.documentElement.style.setProperty('--font-scale', clamped.toFixed(3));
-    store.set('alllex:fontScale', String(clamped));
+    store.set('buscalegal:fontScale', String(clamped));
   }
-  applyFontScale(parseFloat(store.get('alllex:fontScale')) || 1);
+  applyFontScale(parseFloat(store.get('buscalegal:fontScale')) || 1);
   fontUp.addEventListener('click', () => applyFontScale(currentScale() + STEP));
   fontDown.addEventListener('click', () => applyFontScale(currentScale() - STEP));
 
   // ---------- Theme ----------
-  const savedTheme = store.get('alllex:theme');
+  const savedTheme = store.get('buscalegal:theme');
   document.documentElement.setAttribute('data-theme',
     savedTheme || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
   themeToggle.addEventListener('click', () => {
     const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
     document.documentElement.setAttribute('data-theme', next);
-    store.set('alllex:theme', next);
+    store.set('buscalegal:theme', next);
   });
 
   // ---------- Sidebar (mobile) ----------
@@ -400,7 +400,7 @@
   function showWelcome() {
     messagesEl.innerHTML = '';
     addAssistantAnswer({
-      greeting: '¡Hola! Soy LEX, tu asistente legal.',
+      greeting: '¡Hola! Soy BUSCALEGAL, tu asistente legal.',
       body: 'Cuéntame tu caso con tus palabras y te explico qué dice la ley chilena, qué plazos corren y qué hacer paso a paso. Manejo Derecho Laboral, Tributario, Penal, Comercial y Administrativo.',
       topicLinks: [
         'Me despidieron, ¿cuánto me corresponde?',

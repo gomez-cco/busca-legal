@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: all-lex
+    name: buscalegal
     runtime: node
     plan: free
     buildCommand: npm install
