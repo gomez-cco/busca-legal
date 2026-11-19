@@ -83,6 +83,11 @@ test('definición: posesión efectiva con beneficio de inventario', () => {
 for (const [q, term] of [['que es la UF', 'UF (Unidad de Fomento)'], ['que es una terceria', 'Tercería'], ['que significa formalizacion', 'Formalización'], ['que es el silencio administrativo', 'Silencio administrativo']]) {
   test(`definición: ${q}`, () => assert.strictEqual(composeAnswer(q).items[0].termino, term));
 }
+for (const q of ['que es posesion efectiva con beneficios de inventario', 'que es el benefisio de inventario', 'que es posecion efectiva']) {
+  test(`definición tolerante a plural/tipeo: ${q}`, () => {
+    assert.ok(composeAnswer(q).items.some((i) => i.type === 'definicion'));
+  });
+}
 test('glosario lista todos los términos', () => {
   const { glossary } = require('../lib/engine');
   assert.strictEqual(composeAnswer('glosario').topicLinks.length, glossary.length);

@@ -21,6 +21,11 @@ const MIME = {
   '.webmanifest': 'application/manifest+json; charset=utf-8',
 };
 
+function logEvent(tag, data) {
+  const clean = { ...data, q: String(data.q || '').replace(/\s+/g, ' ').slice(0, 300), t: new Date().toISOString() };
+  console.log(`[${tag}] ${JSON.stringify(clean)}`);
+}
+
 function sendJSON(res, status, data) {
   const body = JSON.stringify(data);
   res.writeHead(status, { 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': Buffer.byteLength(body) });
@@ -74,7 +79,18 @@ const server = http.createServer(async (req, res) => {
 
     if (pathname === '/api/ask' && req.method === 'POST') {
       const body = await readJSON(req);
-      sendJSON(res, 200, { answer: composeAnswer(String(body.message || '')) });
+      const message = String(body.message || '');
+      const answer = composeAnswer(message);
+      // Visible in Render > Logs: the questions the knowledge base could not answer yet.
+      if (answer.noMatch) logEvent('SIN_RESPUESTA', { q: message });
+      sendJSON(res, 200, { answer });
+      return;
+    }
+
+    if (pathname === '/api/feedback' && req.method === 'POST') {
+      const body = await readJSON(req);
+      logEvent(body.util ? 'FEEDBACK_UTIL' : 'FEEDBACK_NO_UTIL', { q: String(body.q || ''), temas: Array.isArray(body.temas) ? body.temas.slice(0, 5).map(String) : [] });
+      sendJSON(res, 200, { ok: true });
       return;
     }
 

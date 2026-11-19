@@ -144,7 +144,27 @@
     return root;
   }
 
-  function addAssistantAnswer(answer) {
+  function feedbackBar(question, answer) {
+    const bar = document.createElement('div');
+    bar.className = 'feedback';
+    const label = document.createElement('span');
+    label.textContent = '¿Te sirvió esta respuesta?';
+    bar.appendChild(label);
+    const temas = (answer.items || []).map((i) => i.id || i.termino);
+    [['👍 Sí', true], ['👎 No', false]].forEach(([text, util]) => {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.textContent = text;
+      b.addEventListener('click', () => {
+        fetch('/api/feedback', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ q: question, util, temas }) }).catch(() => {});
+        bar.textContent = util ? '¡Gracias! 🙌' : 'Gracias, lo usaremos para mejorar la base de conocimiento.';
+      });
+      bar.appendChild(b);
+    });
+    return bar;
+  }
+
+  function addAssistantAnswer(answer, question) {
     const wrap = document.createElement('div');
     wrap.className = 'msg assistant';
     const stack = document.createElement('div');
@@ -189,6 +209,8 @@
       stack.appendChild(label);
       stack.appendChild(chips(answer.related, 'chips-soft'));
     }
+
+    if (question && answer.items && answer.items.length) stack.appendChild(feedbackBar(question, answer));
 
     if (answer.disclaimer) {
       const d = document.createElement('p');
@@ -346,7 +368,7 @@
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
       typing.remove();
-      const node = addAssistantAnswer(data.answer);
+      const node = addAssistantAnswer(data.answer, message);
       if (data.answer.items && data.answer.items.length) node.scrollIntoView({ behavior: 'smooth', block: 'start' });
     } catch (err) {
       typing.remove();

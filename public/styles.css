@@ -228,6 +228,12 @@ a { color: var(--accent); }
 .chip:hover { background: var(--accent-soft); }
 .chips-soft .chip { border-color: var(--border); color: var(--text); }
 .related-label { margin: 0.2rem 0 0; font-size: 0.8rem; color: var(--text-muted); font-weight: 600; }
+.feedback { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; font-size: 0.8rem; color: var(--text-muted); }
+.feedback button {
+  background: var(--surface); border: 1px solid var(--border); color: var(--text);
+  border-radius: 999px; padding: 0.25rem 0.65rem; font-size: 0.8rem; cursor: pointer;
+}
+.feedback button:hover { border-color: var(--accent); background: var(--accent-soft); }
 .disclaimer { margin: 0; font-size: 0.74rem; color: var(--text-muted); line-height: 1.4; }
 
 .btn-primary {

@@ -86,6 +86,8 @@ npm test
 
 ## Cómo agregar o corregir contenido
 
+Guía paso a paso (sin programar, desde GitHub): [COMO_ALIMENTAR.md](COMO_ALIMENTAR.md).
+
 Edita el JSON del área en `data/areas/`. Cada tema tiene:
 
 ```json
