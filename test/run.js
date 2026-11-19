@@ -58,6 +58,9 @@ const ROUTING = [
   ['quiero viajar con mi hijo y el papa no firma', 'salida-pais-menor'],
   ['murio mi papa quien hereda', 'herencia-sucesion'],
   ['acuerdo de union civil', 'acuerdo-union-civil'],
+  ['como saco la patente comercial para mi negocio', 'patente-municipal'],
+  ['me cobran el derecho de aseo', 'derechos-aseo-ornato'],
+  ['multa por la ordenanza de aseo y ornato', 'derechos-aseo-ornato'],
 ];
 
 for (const [q, expected] of ROUTING) {

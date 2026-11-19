@@ -462,6 +462,134 @@
       ],
       "consejo": "Una presentación a Contraloría es gratuita y no requiere abogado: es una buena vía para cuestionar actos de servicios públicos.",
       "alerta": "Si ya demandaste en tribunales por el mismo asunto, Contraloría se abstendrá de pronunciarse."
+    },
+    {
+      "id": "patente-municipal",
+      "titulo": "Patente comercial municipal: cómo obtenerla, cuánto cuesta y qué pasa si no la tengo",
+      "temas": [
+        "patente comercial",
+        "patente municipal",
+        "sacar patente",
+        "obtener patente",
+        "patente para mi negocio",
+        "patente provisoria",
+        "patente definitiva",
+        "patente de alcoholes",
+        "cuanto cuesta la patente",
+        "pago de patente",
+        "renovar patente",
+        "capital propio patente",
+        "negocio sin patente",
+        "clausura por no tener patente",
+        "microempresa familiar",
+        "patente en mi casa",
+        "permiso para abrir un local",
+        "patentes comerciales",
+        "patentes municipales",
+        "que derecho cubre las patentes"
+      ],
+      "resumen": "Toda actividad lucrativa (comercio, industria, profesión, oficio o servicio) que se ejerce en una comuna debe pagar patente municipal. Se solicita en la municipalidad donde funciona el negocio y su valor anual va del 2,5 al 5 por mil del capital propio, con un mínimo de 1 UTM y un máximo de 8.000 UTM.",
+      "explicacion": "La patente es una contribución municipal que habilita a funcionar en un local o domicilio determinado. Su monto lo fija cada municipalidad dentro del rango legal, y se calcula sobre el capital propio declarado en la Operación Renta. Se paga en dos cuotas semestrales. Para obtenerla, la municipalidad revisa: inicio de actividades en el SII, que el uso de suelo permita esa actividad (zonificación del plan regulador), que el inmueble tenga recepción final o permisos de edificación, y, según el rubro, autorización sanitaria (SEREMI de Salud) u otras. Si falta algún requisito no sanitario ni de zonificación, la municipalidad puede otorgar una patente provisoria mientras se regulariza. La microempresa familiar (Ley 19.749) permite obtener patente para una actividad desarrollada en la casa habitación, con requisitos más simples. Las patentes de alcoholes tienen reglas propias: hay límites por comuna, se requiere la opinión de la junta de vecinos y el acuerdo del concejo municipal, y se renuevan periódicamente.",
+      "baseLegal": [
+        "Art. 23 DL 3.063 (actividades afectas a patente)",
+        "Art. 24 DL 3.063 (valor: 2,5 a 5 por mil del capital propio; mínimo 1 UTM, máximo 8.000 UTM; pago semestral)",
+        "Art. 26 DL 3.063 (patente provisoria)",
+        "Art. 26 y 32 DL 3.063 (otras reglas para profesionales y casos especiales)",
+        "Ley 19.749 (microempresa familiar)",
+        "Ley 19.925 (expendio y consumo de bebidas alcohólicas)",
+        "Art. 58 Ley General de Urbanismo y Construcciones (uso de suelo según plan regulador)"
+      ],
+      "pasos": [
+        "Da inicio de actividades en el SII (obtienes el RUT y el giro).",
+        "Pide en la Dirección de Obras Municipales un certificado de zonificación o de uso de suelo para confirmar que tu actividad está permitida en esa dirección.",
+        "Si el rubro lo exige (alimentos, salud, belleza, etc.), obtén la autorización sanitaria de la SEREMI de Salud.",
+        "Reúne los documentos del local: contrato de arriendo o título de dominio, recepción final o permiso de edificación, y planos si los piden.",
+        "Presenta la solicitud en el Departamento de Patentes (Rentas) de la municipalidad o en su portal en línea.",
+        "Paga la patente (provisoria o definitiva) y exhíbela en el local.",
+        "Cada año, declara tu capital propio a la municipalidad (o verifica que el SII se lo informe) y paga las cuotas semestrales.",
+        "Si cierras o te cambias, avisa a la municipalidad para dar de baja o trasladar la patente y evitar que siga generando deuda."
+      ],
+      "plazos": [
+        "Pago: 2 cuotas semestrales al año (revisa los meses de vencimiento que fija tu municipalidad)",
+        "Patente provisoria: tiene una vigencia limitada mientras regularizas los requisitos pendientes (art. 26 DL 3.063)"
+      ],
+      "documentos": [
+        "Inicio de actividades / RUT",
+        "Certificado de zonificación o uso de suelo",
+        "Contrato de arriendo o escritura",
+        "Recepción final del inmueble",
+        "Autorización sanitaria (si corresponde)",
+        "Escritura de la sociedad (si eres empresa)"
+      ],
+      "dondeAcudir": [
+        "Departamento de Patentes o Rentas Municipales",
+        "Dirección de Obras Municipales",
+        "SEREMI de Salud",
+        "SII"
+      ],
+      "consejo": "Antes de arrendar un local, pide el certificado de zonificación: si el uso de suelo no permite tu actividad, no te darán patente aunque ya hayas firmado el arriendo.",
+      "alerta": "Funcionar sin patente puede significar multas, infracciones cursadas por inspectores municipales ante el Juzgado de Policía Local y la clausura del local."
+    },
+    {
+      "id": "derechos-aseo-ornato",
+      "titulo": "Derechos de aseo (basura), ornato y ordenanzas municipales",
+      "temas": [
+        "derecho de aseo",
+        "derechos de aseo",
+        "aseo y ornato",
+        "ornato",
+        "cobro de basura",
+        "pago de la basura",
+        "retiro de basura",
+        "extraccion de residuos",
+        "aseo domiciliario",
+        "exencion de aseo",
+        "me cobran el aseo",
+        "deuda de aseo",
+        "ordenanza de aseo",
+        "ordenanza municipal",
+        "multa por basura",
+        "limpiar la vereda",
+        "derechos municipales",
+        "permiso de publicidad",
+        "ocupacion de la via publica"
+      ],
+      "resumen": "Las municipalidades cobran un derecho de aseo por el retiro de residuos domiciliarios; las viviendas con avalúo fiscal de hasta 225 UTM están exentas por ley, y el municipio puede eximir a otras según la situación socioeconómica. El 'ornato' se refiere a las ordenanzas municipales de aseo y ornato (limpieza, fachadas, publicidad, uso de la vía pública) y a los derechos que se cobran por esos permisos.",
+      "explicacion": "El derecho de aseo es una tarifa anual por el servicio de extracción de residuos. Para quienes pagan contribuciones, normalmente se cobra junto con ellas; a los demás, la municipalidad lo cobra directamente (o junto con la patente, en el caso de negocios). Las viviendas cuyo avalúo fiscal no supera 225 UTM quedan exentas automáticamente, y además el municipio puede rebajar o eximir a familias vulnerables según el Registro Social de Hogares. Por otra parte, cada municipalidad dicta ordenanzas de aseo y ornato que obligan, por ejemplo, a mantener limpias las veredas frente al inmueble, no botar escombros ni basura en la vía pública, cuidar fachadas y respetar las reglas de publicidad; su incumplimiento se sanciona con multas de hasta 5 UTM ante el Juzgado de Policía Local. Los demás 'derechos municipales' (publicidad, ocupación de bienes nacionales de uso público, kioscos, permisos) se fijan en la ordenanza local de derechos.",
+      "baseLegal": [
+        "Art. 6 a 9 DL 3.063 (derecho de aseo y exenciones)",
+        "Art. 7 DL 3.063 (exención de viviendas con avalúo fiscal de hasta 225 UTM)",
+        "Art. 40 a 42 DL 3.063 (derechos municipales y ordenanzas de derechos)",
+        "Art. 12 Ley 18.695 (ordenanzas municipales y multas de hasta 5 UTM)",
+        "Art. 151 Ley 18.695 (reclamo de ilegalidad)",
+        "Ley 18.287 (procedimiento ante Juzgados de Policía Local)"
+      ],
+      "pasos": [
+        "Revisa en tu boleta de contribuciones o en el cobro municipal cuánto pagas de aseo y por qué periodo.",
+        "Si tu vivienda tiene avalúo fiscal de hasta 225 UTM, verifica que estés exento (descarga el certificado de avalúo en sii.cl).",
+        "Si tu situación económica es difícil, solicita en la municipalidad (Dirección de Desarrollo Comunitario o Rentas) la rebaja o exención según el Registro Social de Hogares.",
+        "Si te cobran el aseo por un inmueble que no corresponde, por periodos ya pagados o por un negocio cerrado, presenta un reclamo escrito en la municipalidad.",
+        "Si recibes una citación al Juzgado de Policía Local por infringir la ordenanza de aseo y ornato, preséntate con tus descargos y pruebas (fotos, comprobantes).",
+        "Si la municipalidad mantiene un cobro ilegal, presenta el reclamo de ilegalidad ante el alcalde dentro de 30 días hábiles."
+      ],
+      "plazos": [
+        "Reclamo de ilegalidad ante el alcalde: 30 días hábiles desde la notificación del acto",
+        "Citación al Juzgado de Policía Local: debes comparecer en la fecha indicada"
+      ],
+      "documentos": [
+        "Boleta de contribuciones o cobro de aseo",
+        "Certificado de avalúo fiscal",
+        "Cartola del Registro Social de Hogares",
+        "Citación o parte (si es una multa)"
+      ],
+      "dondeAcudir": [
+        "Departamento de Rentas Municipales",
+        "Dirección de Desarrollo Comunitario (DIDECO)",
+        "Juzgado de Policía Local",
+        "Tesorería (si el aseo viene en las contribuciones)"
+      ],
+      "consejo": "Las ordenanzas cambian de comuna en comuna: búscalas en el sitio web de tu municipalidad (sección Transparencia → Marco normativo).",
+      "alerta": "Si el derecho de aseo se cobra junto con las contribuciones, no pagarlo genera deuda que se suma a la de contribuciones y puede terminar en cobranza de la Tesorería."
     }
   ]
 }

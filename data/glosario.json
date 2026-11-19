@@ -1020,5 +1020,65 @@
   "definicion": "El recurso de amparo (habeas corpus) protege la libertad personal frente a detenciones ilegales o amenazas; se presenta ante la Corte de Apelaciones. El amparo económico protege la libertad para desarrollar actividades económicas.",
   "base": "Art. 21 Constitución; Ley 18.971",
   "tema": "detencion-derechos"
+ },
+ {
+  "termino": "Patente municipal",
+  "alias": [
+   "patente municipal",
+   "patente comercial",
+   "patente de negocio",
+   "patente provisoria"
+  ],
+  "area": "Administrativo / Municipal",
+  "definicion": "Contribución que paga a la municipalidad toda persona o empresa que ejerce una actividad lucrativa (comercio, industria, profesión, servicio) en la comuna. Su valor anual va del 2,5 al 5 por mil del capital propio (mínimo 1 UTM y máximo 8.000 UTM) y se paga en dos cuotas semestrales.",
+  "base": "Art. 23 a 34 DL 3.063 (Ley de Rentas Municipales)",
+  "tema": "patente-municipal"
+ },
+ {
+  "termino": "Derecho de aseo",
+  "alias": [
+   "derecho de aseo",
+   "derechos de aseo",
+   "cobro de aseo"
+  ],
+  "area": "Administrativo / Municipal",
+  "definicion": "Tarifa anual que cobra la municipalidad por el retiro de residuos domiciliarios. Las viviendas con avalúo fiscal de hasta 225 UTM están exentas por ley, y la municipalidad puede eximir total o parcialmente a otras según su situación socioeconómica.",
+  "base": "Art. 6 a 9 DL 3.063",
+  "tema": "derechos-aseo-ornato"
+ },
+ {
+  "termino": "Aseo y ornato",
+  "alias": [
+   "aseo y ornato",
+   "ornato",
+   "ordenanza de aseo y ornato"
+  ],
+  "area": "Administrativo / Municipal",
+  "definicion": "Conjunto de normas municipales (ordenanzas) que regulan la limpieza y el cuidado estético de la comuna: mantención de veredas y fachadas, manejo de basura y escombros, publicidad y uso de la vía pública. Su infracción se sanciona con multas de hasta 5 UTM ante el Juzgado de Policía Local.",
+  "base": "Art. 12 Ley 18.695; art. 40 a 42 DL 3.063",
+  "tema": "derechos-aseo-ornato"
+ },
+ {
+  "termino": "Ordenanza municipal",
+  "alias": [
+   "ordenanza municipal",
+   "ordenanzas municipales",
+   "ordenanza local"
+  ],
+  "area": "Administrativo / Municipal",
+  "definicion": "Norma general y obligatoria dictada por la municipalidad para su comuna (por ejemplo, sobre aseo y ornato, ruidos, tenencia de mascotas o derechos municipales). Puede establecer multas de hasta 5 UTM.",
+  "base": "Art. 12 Ley 18.695",
+  "tema": "derechos-aseo-ornato"
+ },
+ {
+  "termino": "Capital propio",
+  "alias": [
+   "capital propio",
+   "capital propio tributario"
+  ],
+  "area": "Tributario / Municipal",
+  "definicion": "Patrimonio de la empresa (activos menos pasivos exigibles, según las reglas tributarias) que se declara en la Operación Renta; es la base para calcular la patente municipal.",
+  "base": "Art. 24 DL 3.063; Ley sobre Impuesto a la Renta",
+  "tema": "patente-municipal"
  }
 ]
