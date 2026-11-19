@@ -41,6 +41,23 @@ const ROUTING = [
   ['recurso de proteccion isapre', 'recurso-proteccion'],
   ['choque y el bache no estaba señalizado', 'responsabilidad-estado'],
   ['articulo 161', 'despido-causales'],
+  ['me quieren embargar la casa que puedo hacer?', 'embargo-juicio-ejecutivo'],
+  ['pueden embargar mi sueldo', 'bienes-inembargables'],
+  ['me van a rematar la casa por el dividendo', 'remate-hipoteca'],
+  ['deuda de hace 6 años me cobran', 'prescripcion-deudas'],
+  ['me llaman todo el dia para cobrar', 'cobranza-extrajudicial-dicom'],
+  ['el arrendatario no me paga', 'arriendo'],
+  ['Debo contribuciones atrasadas', 'contribuciones'],
+  ['no he pagado las contribuciones me van a rematar', 'contribuciones'],
+  ['tesoreria me quiere embargar', 'deudas-tgr-convenios'],
+  ['me quieren cobrar pension alimenticia', 'pension-alimentos'],
+  ['el papa de mi hijo no paga la pension', 'pension-alimentos'],
+  ['quiero divorciarme', 'divorcio'],
+  ['no me deja ver a mi hijo', 'relacion-directa-regular'],
+  ['tuicion de mis hijos', 'cuidado-personal'],
+  ['quiero viajar con mi hijo y el papa no firma', 'salida-pais-menor'],
+  ['murio mi papa quien hereda', 'herencia-sucesion'],
+  ['acuerdo de union civil', 'acuerdo-union-civil'],
 ];
 
 for (const [q, expected] of ROUTING) {
@@ -53,7 +70,7 @@ for (const [q, expected] of ROUTING) {
 }
 
 // Every welcome-screen chip must land on a topic, otherwise the first click is a dead end.
-for (const q of ['Me despidieron, ¿cuánto me corresponde?', 'Me llegó una citación del SII', 'Detuvieron a un familiar', 'Quiero constituir una SpA', 'Un cliente no me paga una factura', 'La municipalidad rechazó mi patente']) {
+for (const q of ['Me despidieron, ¿cuánto me corresponde?', 'Me llegó una citación del SII', 'Detuvieron a un familiar', 'Quiero constituir una SpA', 'Un cliente no me paga una factura', 'La municipalidad rechazó mi patente', 'Quiero demandar pensión de alimentos', 'Me quieren embargar la casa', 'Debo contribuciones atrasadas']) {
   test(`chip de bienvenida: "${q}"`, () => assert.ok(composeAnswer(q).items.length > 0));
 }
 
@@ -66,8 +83,8 @@ test('navegación por área lista sus temas', () => {
   const a = composeAnswer('Temas de Derecho Penal y Procesal Penal');
   assert.ok(a.topicLinks.length >= 10);
 });
-test('fuera de alcance (familia) se deriva', () => {
-  assert.match(composeAnswer('pension de alimentos').body, /Familia/);
+test('fuera de alcance (propiedad) se deriva', () => {
+  assert.match(composeAnswer('tengo un problema de servidumbre con el vecino').body, /Civil/);
 });
 test('urgencia detención muestra aviso', () => {
   assert.ok(composeAnswer('detuvieron a mi hijo anoche').urgent.length > 0);

@@ -315,7 +315,15 @@
         "condonacion de multas",
         "embargo por impuestos",
         "cobranza tributaria",
-        "pagar en cuotas impuestos"
+        "pagar en cuotas impuestos",
+        "embargo por impuestos",
+        "me quiere embargar tesoreria",
+        "tesoreria me embargo",
+        "remate tesoreria",
+        "retencion de devolucion por deuda",
+        "tesoreria me quiere embargar",
+        "embargo de tesoreria",
+        "tesoreria me va a embargar"
       ],
       "resumen": "La Tesorería General de la República cobra los impuestos adeudados; puedes pedir convenios de pago en cuotas y condonación parcial o total de intereses y multas.",
       "explicacion": "Los impuestos no pagados a tiempo se reajustan según la variación del IPC y generan un interés del 1,5% mensual, además de multas. La TGR puede iniciar cobranza administrativa ejecutiva con embargo de bienes. Puedes repactar mediante convenios en cuotas en tgr.cl, y solicitar al SII o a la TGR la condonación de intereses y multas según las políticas vigentes.",
@@ -482,7 +490,7 @@
     },
     {
       "id": "contribuciones",
-      "titulo": "Contribuciones de bienes raíces (impuesto territorial)",
+      "titulo": "Contribuciones de bienes raíces: pago, deuda, rebajas y remate por no pago",
       "temas": [
         "contribuciones",
         "impuesto territorial",
@@ -490,34 +498,62 @@
         "pagar contribuciones",
         "exencion contribuciones",
         "rebaja contribuciones adultos mayores",
-        "reavaluo"
+        "reavaluo",
+        "no he pagado las contribuciones",
+        "no pague las contribuciones",
+        "deuda de contribuciones",
+        "contribuciones atrasadas",
+        "me van a rematar por contribuciones",
+        "remate por contribuciones",
+        "embargo por contribuciones",
+        "convenio contribuciones",
+        "cuanto pago de contribuciones",
+        "rebaja de contribuciones",
+        "adulto mayor contribuciones",
+        "estoy exento de contribuciones",
+        "avaluo fiscal muy alto",
+        "cuotas de contribuciones"
       ],
-      "resumen": "El impuesto territorial se calcula sobre el avalúo fiscal de los inmuebles y se paga en 4 cuotas anuales (abril, junio, septiembre y noviembre).",
-      "explicacion": "Las viviendas tienen un monto exento del avalúo. Los adultos mayores con ingresos limitados pueden tener rebajas del 50% o 100% según requisitos. Si no estás de acuerdo con el avalúo fiscal, puedes solicitar su modificación al SII o reclamar dentro del plazo tras un reavalúo.",
+      "resumen": "El impuesto territorial (contribuciones) se calcula sobre el avalúo fiscal del inmueble y se paga en 4 cuotas al año (abril, junio, septiembre y noviembre). Si no se paga, la Tesorería (TGR) puede cobrar judicialmente, embargar y finalmente rematar la propiedad; antes de eso puedes repactar en cuotas y pedir condonación de intereses y multas.",
+      "explicacion": "Las viviendas tienen un monto exento del avalúo: muchas casas de menor valor no pagan contribuciones. El SII recalcula los avalúos en reavalúos periódicos, por lo que el monto puede subir. Los adultos mayores pensionados con ingresos dentro de los tramos legales pueden acceder a una rebaja del 50% o del 100% de las contribuciones de su vivienda (Ley 20.732), cumpliendo requisitos de ingreso y de avalúo. Las cuotas impagas generan reajuste, intereses del 1,5% mensual y multas. La TGR cobra mediante el procedimiento ejecutivo del Código Tributario: requiere de pago, embarga y, si la deuda sigue impaga, puede sacar a remate el inmueble. En la práctica, el remate se produce tras varios años de deuda y después de múltiples avisos, y se puede detener pagando o firmando un convenio.",
       "baseLegal": [
         "Ley 17.235 (impuesto territorial)",
+        "Ley 20.732 (rebaja de contribuciones para adultos mayores)",
+        "Art. 53 Código Tributario (reajuste e interés del 1,5% mensual)",
+        "Art. 168 y siguientes Código Tributario (cobro ejecutivo, embargo y remate por la TGR)",
+        "Art. 177 Código Tributario (excepciones: 10 días hábiles)",
+        "Art. 192 Código Tributario (convenios de pago)",
         "Art. 149 Código Tributario (reclamo de avalúos)"
       ],
       "pasos": [
-        "Revisa el avalúo y el detalle de cuotas en sii.cl > Bienes Raíces.",
-        "Paga las cuotas en tgr.cl (abril, junio, septiembre y noviembre).",
-        "Si eres adulto mayor, verifica si cumples requisitos para la rebaja.",
-        "Si el avalúo es erróneo (superficie, materialidad, destino), solicita modificación al SII con antecedentes."
+        "Revisa el avalúo, el monto de las cuotas y si tu propiedad está exenta en sii.cl > Bienes Raíces (con el rol de la propiedad).",
+        "Revisa la deuda en tgr.cl > Pago de contribuciones / Deudas: verás cuotas impagas, intereses y multas.",
+        "Si no puedes pagar todo, firma un convenio de pago en cuotas en tgr.cl: con el pago del pie se suspende la cobranza y se evita el embargo o el remate.",
+        "Pide la condonación de intereses y multas: la TGR aplica porcentajes según la política vigente y la forma de pago (al contado suele condonar más).",
+        "Si eres adulto mayor pensionado, verifica si cumples los requisitos de la rebaja del 50% o 100%; el SII la aplica en general de oficio, pero puedes consultarla o solicitarla.",
+        "Si el avalúo tiene errores (superficie, destino, materialidad), solicita su modificación al SII con planos o certificados; si hubo reavalúo, reclama dentro del plazo legal.",
+        "Si te notifican un requerimiento de pago de la TGR, tienes 10 días hábiles para oponer excepciones (por ejemplo, prescripción o pago); acude a un abogado o a la Defensoría del Contribuyente."
       ],
       "plazos": [
-        "Cuotas: abril, junio, septiembre y noviembre",
-        "Reclamo de avalúo tras un reavalúo general: dentro del plazo que fija la ley, contado desde la publicación del aviso"
+        "Cuotas: abril, junio, septiembre y noviembre (pueden pagarse por adelantado con descuento según el año)",
+        "Excepciones ante el cobro ejecutivo de la TGR: 10 días hábiles desde el requerimiento de pago",
+        "Prescripción de la acción de cobro: 3 años desde el vencimiento de cada cuota (art. 201 Código Tributario), interrumpible por convenios y notificaciones"
       ],
       "documentos": [
-        "Certificado de avalúo",
-        "Planos y permisos de edificación"
+        "Rol de avalúo de la propiedad",
+        "Certificado de avalúo fiscal",
+        "Certificado de deuda TGR",
+        "Liquidación de pensión (para la rebaja de adulto mayor)",
+        "Planos y permisos de edificación (para corregir el avalúo)"
       ],
       "dondeAcudir": [
-        "sii.cl",
-        "tgr.cl"
+        "Tesorería General de la República (tgr.cl)",
+        "SII (sii.cl > Bienes Raíces)",
+        "Defensoría del Contribuyente (DEDECON)",
+        "Municipalidad (información sobre derechos de aseo que se cobran junto con las contribuciones)"
       ],
-      "consejo": "Revisa que el destino del inmueble (habitacional, comercial) esté bien registrado: afecta directamente el monto a pagar.",
-      "alerta": "El no pago de contribuciones puede terminar en remate del inmueble por la TGR."
+      "consejo": "Revisa si alguna cuota tiene más de 3 años sin que te hayan notificado cobro ni hayas firmado convenio: podría estar prescrita. No firmes un convenio por esas cuotas sin revisarlo antes, porque el convenio interrumpe la prescripción.",
+      "alerta": "La protección de inembargabilidad de la vivienda de bajo avalúo no evita el cobro de contribuciones atrasadas: la TGR puede perseguir el mismo inmueble. No dejes acumular la deuda."
     },
     {
       "id": "herencias-donaciones",

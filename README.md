@@ -1,8 +1,8 @@
 # BUSCALEGAL — by JJ
 
 Asistente legal local (sin costo, sin API externa) que responde consultas en lenguaje natural
-sobre **legislación chilena** en cinco áreas: Derecho Laboral, Tributario, Penal (y Procesal
-Penal), Comercial y Administrativo. Para cada caso entrega: qué dice la ley, base legal
+sobre **legislación chilena** en siete áreas: Derecho Laboral, Tributario, Penal (y Procesal
+Penal), Comercial, Administrativo, Familia y Civil (deudas, embargos y arriendos). Para cada caso entrega: qué dice la ley, base legal
 (artículos), plazos, pasos a seguir, documentos útiles, dónde acudir, un consejo y una alerta.
 
 Sigue la misma arquitectura que ALLEXCEL: Node.js sin dependencias, motor de búsqueda por
@@ -14,7 +14,7 @@ backend. Lista para desplegar en Render.
 
 ## Qué incluye
 
-- **66 temas** en 5 áreas (`data/areas/*.json`), por ejemplo:
+- **78 temas** en 7 áreas (`data/areas/*.json`), por ejemplo:
   - **Laboral:** contrato, honorarios vs. contrato, jornada 40 horas, horas extra, feriado,
     remuneraciones, causales de despido, indemnización, Ley Bustos, finiquito, autodespido,
     Ley Karin, tutela laboral, fuero maternal, accidentes del trabajo, teletrabajo, juicio laboral.
@@ -31,11 +31,17 @@ backend. Lista para desplegar en Render.
   - **Administrativo:** reposición y jerárquico (Ley 19.880), silencio administrativo, recurso
     de protección, transparencia, sumarios, compras públicas, responsabilidad del Estado,
     reclamos municipales, Contraloría.
+  - **Familia:** pensión de alimentos, deudas de alimentos y Registro de Deudores, aumento o
+    rebaja, divorcio y compensación económica, cuidado personal, relación directa y regular,
+    salida del país de menores, filiación, régimen de bienes y bien familiar, AUC, herencias,
+    adopción, VIF ante Tribunales de Familia.
+  - **Civil:** juicio ejecutivo y embargo, bienes inembargables, remate por hipoteca,
+    prescripción de deudas, cobranza abusiva y DICOM, arriendos y Ley "Devuélveme mi casa".
 - **Calculadora de indemnización por despido** (arts. 162, 163, 168 y 172 CT): años de
   servicio, aviso previo, topes de 90 UF y 11 años, feriado proporcional y pendiente, y
   escenarios de recargo judicial.
 - **Avisos de urgencia** (detención, violencia, riesgo vital) con números de ayuda.
-- Derivación cuando la consulta es de otra área (Familia, Civil).
+- Derivación cuando la consulta es de un tema aún no cargado (por ejemplo, servidumbres o regularización de propiedades).
 - Accesibilidad: tamaño de letra A−/A+ persistente, tema claro/oscuro, diseño móvil.
 
 ## Cómo ejecutarlo
@@ -98,7 +104,7 @@ Edita el JSON del área en `data/areas/`. Cada tema tiene:
 Las frases de `temas` son lo que más pesa en la búsqueda: si una consulta real no encuentra
 el tema correcto, agrega esa forma de decirlo ahí y súmala a `test/run.js`.
 
-Para agregar un área nueva (por ejemplo, Familia o Civil), crea `data/areas/familia.json`
+Para agregar un área nueva (por ejemplo, Derecho del Consumidor ampliado o Inmobiliario), crea `data/areas/<id>.json`
 con la misma estructura y añade su id a `AREA_ORDER` en `lib/engine.js`.
 
 ## Próximos pasos posibles
@@ -107,4 +113,4 @@ con la misma estructura y añade su id a `AREA_ORDER` en `lib/engine.js`.
   lenguaje totalmente libre como una IA. Si más adelante se quiere eso, basta cambiar
   `composeAnswer(query)` en `lib/engine.js` para que consulte un modelo usando estas fichas
   como contexto (manteniendo el mismo contrato de respuesta).
-- Agregar Derecho de Familia y Civil, y modelos de escritos (cartas de despido, recursos).
+- Modelos de escritos descargables (cartas de despido, recursos, solicitudes).

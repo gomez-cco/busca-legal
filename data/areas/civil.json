@@ -1,0 +1,335 @@
+{
+  "id": "civil",
+  "num": 7,
+  "titulo": "Derecho Civil: deudas, embargos y arriendos",
+  "intro": "Regula las obligaciones y contratos entre particulares, el cobro judicial de deudas (juicio ejecutivo, embargo y remate), los bienes que no se pueden embargar, la prescripción de deudas, la cobranza extrajudicial y los arriendos. Las normas centrales son el Código Civil y el Código de Procedimiento Civil.",
+  "leyes": [
+    "Código Civil (Libro IV: obligaciones y contratos)",
+    "Código de Procedimiento Civil (juicio ejecutivo: arts. 434 y siguientes)",
+    "Art. 445 Código de Procedimiento Civil (bienes inembargables)",
+    "Art. 57 Código del Trabajo (inembargabilidad de remuneraciones)",
+    "Ley 18.101 (arrendamiento de predios urbanos)",
+    "Ley 21.461 ('Devuélveme mi casa': procedimiento monitorio de arriendo)",
+    "Ley 19.496, art. 37 (cobranza extrajudicial)",
+    "Ley 19.628 (protección de datos y boletines comerciales)",
+    "Ley 20.720 (insolvencia y renegociación de deudas)"
+  ],
+  "temas": [
+    {
+      "id": "embargo-juicio-ejecutivo",
+      "titulo": "Me quieren embargar: cómo funciona el juicio ejecutivo y qué puedo hacer",
+      "temas": [
+        "embargo",
+        "embargar",
+        "me quieren embargar",
+        "me van a embargar",
+        "embargar la casa",
+        "me embargaron",
+        "embargo de bienes",
+        "receptor judicial",
+        "mandamiento de ejecucion",
+        "requerimiento de pago",
+        "juicio ejecutivo",
+        "oponer excepciones",
+        "me llego una demanda por deuda",
+        "notificacion de demanda ejecutiva",
+        "embargo de cuenta bancaria",
+        "retencion de cuenta"
+      ],
+      "resumen": "Un embargo solo puede ordenarlo un tribunal dentro de un juicio ejecutivo (o la Tesorería en deudas tributarias). Cuando te notifican y requieren de pago, tienes un plazo muy corto —4 días hábiles si te notifican en la comuna del tribunal— para oponer excepciones; si no lo haces, el proceso avanza al remate.",
+      "explicacion": "El acreedor con un título ejecutivo (pagaré, cheque o factura con mérito ejecutivo, sentencia, escritura pública, acta de avenimiento, etc.) demanda y el tribunal despacha un mandamiento de ejecución y embargo. Un receptor judicial te notifica, te requiere el pago y, si no pagas, traba embargo sobre bienes suficientes para cubrir la deuda (primero los que indique el acreedor o, si no, los que señales tú). Puedes defenderte oponiendo excepciones legales: pago, prescripción, falta de requisitos del título, plazo pendiente, novación, entre otras. Los bienes embargados quedan en poder de un depositario y no puedes venderlos. Si no hay excepciones o se rechazan, los bienes se rematan y con el producto se paga al acreedor.",
+      "baseLegal": [
+        "Art. 434 Código de Procedimiento Civil (títulos ejecutivos)",
+        "Art. 441 a 457 CPC (mandamiento, requerimiento y embargo)",
+        "Art. 459 CPC (plazo para oponer excepciones: 4 días hábiles en la comuna del tribunal, más días si es fuera)",
+        "Art. 464 CPC (excepciones admisibles)",
+        "Art. 445 CPC (bienes inembargables)",
+        "Art. 518 y siguientes CPC (tercerías)",
+        "Art. 2465 Código Civil (derecho de prenda general de los acreedores)"
+      ],
+      "pasos": [
+        "Lee la notificación: identifica el tribunal, el rol (número de causa), el acreedor y el monto. Revisa la causa en la Oficina Judicial Virtual (pjud.cl) con tu Clave Única.",
+        "Anota el plazo: tienes 4 días hábiles para oponer excepciones si te notificaron en la comuna del tribunal (8 días si fue dentro del territorio jurisdiccional pero fuera de esa comuna, y más si es fuera). Busca abogado de inmediato (Corporación de Asistencia Judicial si no tienes recursos).",
+        "Revisa si la deuda está prescrita, ya pagada o mal calculada: son excepciones frecuentes y efectivas.",
+        "Si te embargan bienes que la ley protege (sueldo, enseres básicos, la vivienda familiar de bajo avalúo), pide que se alce el embargo sobre ellos.",
+        "Si embargaron bienes que no son tuyos (por ejemplo, de tu pareja, tus padres o el dueño de la casa que arriendas), su dueño puede interponer una tercería de dominio con documentos que lo acrediten.",
+        "Negocia: en cualquier etapa puedes llegar a un acuerdo de pago con el acreedor para suspender o terminar el juicio.",
+        "Si tienes varias deudas impagas, evalúa la renegociación gratuita ante la Superintendencia de Insolvencia (Superir), que suspende los juicios ejecutivos en curso durante el procedimiento."
+      ],
+      "plazos": [
+        "Excepciones: 4 días hábiles desde el requerimiento si es en la comuna del tribunal (8 días fuera de la comuna, dentro del territorio; más según la tabla de emplazamiento si es fuera)",
+        "Acción ejecutiva: prescribe en 3 años (art. 2515 CC); pagarés, letras y cheques en 1 año"
+      ],
+      "documentos": [
+        "Notificación y copia de la demanda",
+        "Comprobantes de pago",
+        "Documentos que acrediten que bienes embargados son de terceros (facturas, escrituras)"
+      ],
+      "dondeAcudir": [
+        "Oficina Judicial Virtual (pjud.cl)",
+        "Corporación de Asistencia Judicial",
+        "Abogado",
+        "Superintendencia de Insolvencia (superir.gob.cl)"
+      ],
+      "consejo": "No ignores la notificación: el plazo de 4 días es uno de los más cortos del sistema, y si lo dejas pasar, pierdes casi todas tus defensas.",
+      "alerta": "Desconfía de llamadas o mensajes que amenazan con 'embargo inmediato' sin que exista una causa judicial: verifica siempre en pjud.cl. Solo un receptor judicial, con orden de un tribunal, puede embargar."
+    },
+    {
+      "id": "bienes-inembargables",
+      "titulo": "Qué bienes NO pueden embargarme (sueldo, casa, enseres)",
+      "temas": [
+        "bienes inembargables",
+        "que no me pueden embargar",
+        "pueden embargar mi sueldo",
+        "embargar el sueldo",
+        "embargar mi casa",
+        "embargar la casa donde vivo",
+        "pueden embargar mi auto",
+        "embargar la pension",
+        "embargar la cuenta rut",
+        "embargar los muebles",
+        "inembargable"
+      ],
+      "resumen": "La ley protege ciertos bienes del embargo: las remuneraciones (salvo lo que exceda 56 UF o deudas de alimentos), las pensiones, el inmueble que ocupas con tu familia si su avalúo fiscal no supera 50 UTM, los muebles de dormitorio, comedor y cocina de uso familiar, y las herramientas de trabajo dentro de ciertos límites, entre otros.",
+      "explicacion": "Las remuneraciones de los trabajadores son inembargables, salvo la parte que exceda 56 UF mensuales, y salvo para pagar pensiones de alimentos (en cuyo caso puede retenerse hasta el 50%). Las pensiones de vejez, invalidez y sobrevivencia también tienen protección. El art. 445 del Código de Procedimiento Civil enumera otros bienes inembargables, como el bien raíz que el deudor ocupa con su familia cuando su avalúo fiscal no excede 50 UTM, los muebles de uso familiar, los libros y útiles de trabajo hasta cierto valor y los bienes declarados inembargables por leyes especiales. Ojo: el dinero de sueldos depositado en una cuenta bancaria puede perder parte de su protección si se mezcla con otros fondos o se acumula; conviene poder acreditar su origen.",
+      "baseLegal": [
+        "Art. 445 Código de Procedimiento Civil (bienes inembargables)",
+        "Art. 57 Código del Trabajo (remuneraciones inembargables salvo el exceso de 56 UF y alimentos hasta 50%)",
+        "Art. 1618 Código Civil (bienes no embargables en la cesión de bienes)",
+        "Art. 141 y 148 Código Civil (bien familiar y beneficio de excusión)"
+      ],
+      "pasos": [
+        "Revisa qué bienes se embargaron en el acta del receptor (está en la causa en pjud.cl).",
+        "Si se embargó un bien protegido, presenta un escrito al tribunal pidiendo que se alce el embargo (incidente de inembargabilidad), con pruebas: liquidaciones de sueldo, certificado de avalúo fiscal, certificado de pensión, etc.",
+        "Si te retuvieron la cuenta donde recibes el sueldo o la pensión, acredita con tus liquidaciones y cartolas que esos fondos provienen de remuneraciones o pensiones.",
+        "Si la casa es la vivienda familiar de mayor avalúo, evalúa si fue declarada bien familiar: el cónyuge no propietario puede invocar el beneficio de excusión (que se persigan primero otros bienes)."
+      ],
+      "plazos": [
+        "Plantea la inembargabilidad apenas conozcas el embargo, idealmente junto con las excepciones"
+      ],
+      "documentos": [
+        "Acta de embargo",
+        "Liquidaciones de sueldo o certificado de pensión",
+        "Certificado de avalúo fiscal (sii.cl)",
+        "Cartolas bancarias"
+      ],
+      "dondeAcudir": [
+        "Tribunal de la causa",
+        "Corporación de Asistencia Judicial",
+        "Abogado"
+      ],
+      "consejo": "La protección de 50 UTM de la vivienda se mide por el avalúo fiscal (no el comercial): descárgalo gratis en sii.cl > Bienes Raíces.",
+      "alerta": "Las deudas hipotecarias (el crédito con el que compraste la casa) no se rigen por esta protección: el banco puede ejecutar la hipoteca y rematar el inmueble aunque sea tu única vivienda."
+    },
+    {
+      "id": "remate-hipoteca",
+      "titulo": "Remate de la casa por deuda hipotecaria o embargo: cómo evitarlo",
+      "temas": [
+        "remate",
+        "me van a rematar la casa",
+        "rematar la casa",
+        "remate de la vivienda",
+        "deuda hipotecaria",
+        "dividendo atrasado",
+        "no puedo pagar el dividendo",
+        "hipoteca",
+        "banco me va a quitar la casa",
+        "subasta",
+        "ejecucion hipotecaria",
+        "credito hipotecario impago"
+      ],
+      "resumen": "Si dejas de pagar el crédito hipotecario, el banco puede iniciar un juicio especial de ejecución hipotecaria que termina en el remate del inmueble. Hasta antes del remate puedes negociar, pagar lo adeudado o buscar alternativas.",
+      "explicacion": "Los bancos cuentan con un procedimiento ejecutivo especial y más rápido para cobrar los mutuos hipotecarios (Ley General de Bancos). En el remate, el inmueble se vende en subasta pública ante el tribunal, con un precio mínimo fijado (normalmente el avalúo fiscal o el valor de tasación). Si lo obtenido no alcanza, el saldo de la deuda sigue vigente. Hasta que se firme la escritura de adjudicación, el deudor puede evitar el remate pagando la deuda y las costas (consignando el monto).",
+      "baseLegal": [
+        "Art. 103 y siguientes DFL 3 de 1997, Ley General de Bancos (ejecución especial de mutuos hipotecarios)",
+        "Art. 2407 y siguientes Código Civil (hipoteca)",
+        "Art. 482 y siguientes Código de Procedimiento Civil (realización de bienes y remate)",
+        "Art. 490 CPC (el deudor puede liberar los bienes pagando antes del remate)",
+        "Ley 20.720 (renegociación de deudas de la persona deudora)"
+      ],
+      "pasos": [
+        "Apenas te atrases, habla con el banco: pide repactación, prórroga de dividendos, reprogramación del crédito o carencia (muchos bancos tienen políticas para esto).",
+        "Revisa si tienes seguro de cesantía o desgravamen asociado al crédito: pueden cubrir dividendos en caso de desempleo, invalidez o muerte.",
+        "Si te notifican la demanda, ve de inmediato a un abogado: los plazos de defensa son muy breves.",
+        "Revisa las bases de remate y el avalúo: si el precio mínimo es muy bajo, puedes objetarlo.",
+        "Hasta antes del remate puedes pagar lo adeudado y las costas para liberar el inmueble, o vender tú mismo la propiedad para obtener mejor precio que en una subasta.",
+        "Si tienes varias deudas, evalúa la renegociación ante la Superir: puede incluir el crédito hipotecario en un plan de pago."
+      ],
+      "plazos": [
+        "Los plazos de oposición en la ejecución hipotecaria bancaria son muy breves: actúa en cuanto te notifiquen"
+      ],
+      "documentos": [
+        "Escritura de compraventa y mutuo hipotecario",
+        "Cartola del crédito",
+        "Pólizas de seguros",
+        "Notificación de la demanda"
+      ],
+      "dondeAcudir": [
+        "Banco o institución financiera",
+        "Abogado / Corporación de Asistencia Judicial",
+        "Superintendencia de Insolvencia (superir.gob.cl)",
+        "CMF (reclamos contra bancos)"
+      ],
+      "consejo": "Vender la casa tú mismo antes del remate casi siempre deja más dinero que la subasta, donde el precio suele ser bajo.",
+      "alerta": "Si la vivienda fue adquirida con subsidio habitacional, revisa las prohibiciones y beneficios especiales que pueden aplicar (SERVIU)."
+    },
+    {
+      "id": "prescripcion-deudas",
+      "titulo": "Prescripción de deudas: cuándo una deuda ya no se puede cobrar",
+      "temas": [
+        "prescripcion de deudas",
+        "deuda prescrita",
+        "cuando prescribe una deuda",
+        "deuda antigua",
+        "deuda de hace años",
+        "me cobran una deuda vieja",
+        "prescribe la deuda",
+        "5 años deuda",
+        "3 años deuda",
+        "prescripcion tarjeta de credito",
+        "deuda de hace",
+        "deuda vieja",
+        "me cobran una deuda de hace"
+      ],
+      "resumen": "Por regla general, la acción ejecutiva para cobrar una deuda prescribe en 3 años y la acción ordinaria en 5 años, contados desde que la deuda se hizo exigible. Pagarés, letras y cheques prescriben en 1 año. La prescripción debe alegarse: no opera sola.",
+      "explicacion": "Si el acreedor deja pasar el plazo sin demandar, puedes oponerte al cobro alegando la prescripción. El plazo se interrumpe si reconoces la deuda (por ejemplo, pagando una cuota, firmando una repactación o un reconocimiento) o si el acreedor te demanda y notifica. La acción ejecutiva prescrita se convierte en ordinaria por 2 años más (completando 5 años). Las deudas tributarias (3 o 6 años) y las de alimentos tienen reglas propias.",
+      "baseLegal": [
+        "Art. 2514 y 2515 Código Civil (3 años ejecutiva, 5 años ordinaria)",
+        "Art. 2518 Código Civil (interrupción)",
+        "Art. 2493 Código Civil (la prescripción debe alegarse)",
+        "Art. 98 Ley 18.092 (letras y pagarés: 1 año)",
+        "Art. 34 DFL 707 (cheques: 1 año)",
+        "Art. 464 N°17 CPC (excepción de prescripción)"
+      ],
+      "pasos": [
+        "Identifica la fecha en que la deuda se hizo exigible (vencimiento de la cuota o de la obligación completa si hay cláusula de aceleración).",
+        "Revisa si desde entonces pagaste algo, firmaste una repactación o te notificaron una demanda: eso interrumpe el plazo.",
+        "Si te demandan una deuda que crees prescrita, opón la excepción de prescripción en el juicio dentro del plazo.",
+        "Si no hay juicio, puedes pedir judicialmente que se declare la prescripción (demanda de prescripción extintiva).",
+        "Pide que la deuda prescrita se elimine de los boletines comerciales."
+      ],
+      "plazos": [
+        "Acción ejecutiva: 3 años",
+        "Acción ordinaria: 5 años",
+        "Pagarés, letras y cheques: 1 año"
+      ],
+      "documentos": [
+        "Contrato o documento de la deuda",
+        "Estados de cuenta",
+        "Comunicaciones de cobranza"
+      ],
+      "dondeAcudir": [
+        "Corporación de Asistencia Judicial",
+        "Abogado",
+        "Juzgado civil"
+      ],
+      "consejo": "Ante una cobranza de una deuda muy antigua, no pagues 'un abono para negociar' sin asesorarte: ese pago puede interrumpir la prescripción y revivir la deuda.",
+      "alerta": "Que una deuda esté prescrita no significa que desaparezca sola: si te demandan y no alegas la prescripción, el juez no la declara de oficio."
+    },
+    {
+      "id": "cobranza-extrajudicial-dicom",
+      "titulo": "Cobranza extrajudicial abusiva y deudas en DICOM (boletín comercial)",
+      "temas": [
+        "cobranza",
+        "cobranza extrajudicial",
+        "me llaman a cobrar",
+        "llamadas de cobranza",
+        "acoso de cobranza",
+        "empresa de cobranza",
+        "dicom",
+        "salir de dicom",
+        "boletin comercial",
+        "gastos de cobranza",
+        "me amenazan con embargo",
+        "llaman a mi trabajo para cobrar"
+      ],
+      "resumen": "La cobranza extrajudicial tiene límites legales: no pueden acosarte, llamar a tu trabajo o familiares para presionarte, ni cobrar gastos de cobranza abusivos. Las deudas pagadas o con más de 5 años de antigüedad no pueden seguir informándose en los boletines comerciales.",
+      "explicacion": "La Ley del Consumidor regula la cobranza extrajudicial: solo se pueden cobrar gastos de cobranza después de un número mínimo de días de atraso y con topes porcentuales; está prohibido comunicar la deuda a terceros (empleador, vecinos, familiares), enviar comunicaciones con apariencia de documentos judiciales, hacer visitas o llamadas fuera del horario permitido o con frecuencia abusiva, y amenazar con acciones que no proceden. En cuanto a los boletines, la Ley 19.628 prohíbe informar deudas pagadas o extinguidas y aquellas con más de 5 años desde que se hicieron exigibles.",
+      "baseLegal": [
+        "Art. 37 Ley 19.496 (gastos e intereses de cobranza extrajudicial)",
+        "Art. 38 Ley 19.496 (prohibición de prácticas abusivas de cobranza)",
+        "Art. 17 y 18 Ley 19.628 (datos de deudas en boletines: plazo de 5 años y eliminación al pagar)",
+        "Ley 21.320 (modificaciones a la cobranza extrajudicial)"
+      ],
+      "pasos": [
+        "Guarda registro de las llamadas, mensajes y cartas de cobranza (fecha, hora, número, contenido).",
+        "Pide por escrito el detalle de la deuda: capital, intereses, gastos de cobranza y cómo se calcularon.",
+        "Si hay acoso o cobros abusivos, reclama en el SERNAC y, si corresponde, demanda ante el Juzgado de Policía Local.",
+        "Si pagaste o la deuda tiene más de 5 años, pide al acreedor y a la empresa del boletín que eliminen el registro; si no lo hacen, reclama al SERNAC o ejerce la acción de habeas data.",
+        "Negocia un acuerdo de pago solo por escrito y con la empresa titular de la deuda o su mandatario acreditado."
+      ],
+      "plazos": [
+        "Boletín comercial: máximo 5 años desde que la deuda se hizo exigible",
+        "Al pagar, el acreedor debe comunicar el pago para que se elimine el registro en el plazo legal"
+      ],
+      "documentos": [
+        "Registro de las comunicaciones de cobranza",
+        "Comprobantes de pago",
+        "Informe comercial (puedes pedirlo gratis periódicamente)"
+      ],
+      "dondeAcudir": [
+        "SERNAC (sernac.cl)",
+        "Juzgado de Policía Local",
+        "CMF (si el acreedor es un banco)"
+      ],
+      "consejo": "Una llamada de cobranza no es un embargo: solo un tribunal puede embargar. Verifica en pjud.cl si existe realmente una demanda en tu contra.",
+      "alerta": "Muchas estafas se hacen pasar por 'empresas de cobranza' o 'abogados': nunca pagues a cuentas de personas naturales sin verificar la deuda con el acreedor original."
+    },
+    {
+      "id": "arriendo",
+      "titulo": "Arriendos: no pago, término del contrato y desalojo (Ley 'Devuélveme mi casa')",
+      "temas": [
+        "arriendo",
+        "arrendatario no paga",
+        "no me paga el arriendo",
+        "desalojo",
+        "desalojar",
+        "lanzamiento",
+        "devuelveme mi casa",
+        "ley devuelveme mi casa",
+        "terminar contrato de arriendo",
+        "desahucio",
+        "me quieren echar del arriendo",
+        "garantia del arriendo",
+        "no me devuelven la garantia",
+        "arrendador",
+        "contrato de arriendo",
+        "subir el arriendo"
+      ],
+      "resumen": "Si el arrendatario no paga, el arrendador puede cobrar las rentas y pedir la restitución del inmueble mediante el procedimiento monitorio de la Ley 21.461, más rápido. Si el contrato es indefinido o mes a mes, se puede terminar con aviso (desahucio) con los plazos que fija la ley.",
+      "explicacion": "La Ley 21.461 ('Devuélveme mi casa') creó un procedimiento monitorio: el arrendador presenta la demanda con el contrato y el tribunal ordena al arrendatario pagar o restituir en un plazo breve; si no paga ni se opone fundadamente, se ordena el lanzamiento (desalojo con auxilio de la fuerza pública). En contratos mes a mes o de duración indefinida, el desahucio requiere notificación judicial o por notario con al menos 2 meses de anticipación, más 1 mes por cada año completo de ocupación, con un máximo de 6 meses. Para el arrendatario: la garantía debe devolverse al término, descontando solo daños imputables y deudas, y el arrendador no puede cortar los servicios básicos ni cambiar la cerradura para expulsarlo por su cuenta.",
+      "baseLegal": [
+        "Ley 18.101 (arrendamiento de predios urbanos)",
+        "Art. 3 y 4 Ley 18.101 (desahucio y plazos)",
+        "Art. 18-A y siguientes Ley 18.101 (procedimiento monitorio, Ley 21.461)",
+        "Art. 1915 y siguientes Código Civil (contrato de arrendamiento)",
+        "Art. 1977 Código Civil (mora de 2 periodos y terminación)"
+      ],
+      "pasos": [
+        "Arrendador: reúne el contrato (idealmente con firmas autorizadas ante notario), los comprobantes de pagos y el detalle de rentas adeudadas.",
+        "Envía un requerimiento de pago escrito al arrendatario.",
+        "Si no paga, presenta la demanda monitoria de cobro de rentas y restitución en el Juzgado Civil competente (o demanda de terminación por no pago).",
+        "Si el arrendatario no paga ni se opone dentro del plazo, pide el lanzamiento con auxilio de la fuerza pública.",
+        "Arrendatario: si te demandan, revisa el plazo de la notificación y paga o presenta tu oposición fundada a tiempo (por ejemplo, si ya pagaste o el inmueble tiene problemas graves).",
+        "Al terminar el arriendo, firma un acta de entrega con el estado del inmueble para la devolución de la garantía."
+      ],
+      "plazos": [
+        "Monitorio: plazo breve desde la notificación para pagar, restituir u oponerse (10 días hábiles, verifica la notificación)",
+        "Desahucio en contratos mes a mes o indefinidos: 2 meses + 1 mes por año de ocupación, máximo 6 meses"
+      ],
+      "documentos": [
+        "Contrato de arriendo",
+        "Comprobantes de pago",
+        "Inventario o acta de entrega",
+        "Fotos del estado del inmueble"
+      ],
+      "dondeAcudir": [
+        "Juzgado Civil",
+        "Corporación de Asistencia Judicial",
+        "Notaría (desahucio notarial)"
+      ],
+      "consejo": "Haz siempre el contrato por escrito con firma ante notario y un inventario con fotos: acelera el cobro y evita discusiones sobre la garantía.",
+      "alerta": "El arrendador que saca al arrendatario por la fuerza, cambia la chapa o corta la luz o el agua sin orden judicial puede incurrir en delito y debe responder por los perjuicios."
+    }
+  ]
+}

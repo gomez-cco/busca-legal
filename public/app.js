@@ -401,7 +401,7 @@
     messagesEl.innerHTML = '';
     addAssistantAnswer({
       greeting: '¡Hola! Soy BUSCALEGAL, tu asistente legal.',
-      body: 'Cuéntame tu caso con tus palabras y te explico qué dice la ley chilena, qué plazos corren y qué hacer paso a paso. Manejo Derecho Laboral, Tributario, Penal, Comercial y Administrativo.',
+      body: 'Cuéntame tu caso con tus palabras y te explico qué dice la ley chilena, qué plazos corren y qué hacer paso a paso. Manejo Derecho Laboral, Tributario, Penal, Comercial, Administrativo, Familia y Civil (deudas, embargos y arriendos).',
       topicLinks: [
         'Me despidieron, ¿cuánto me corresponde?',
         'Me llegó una citación del SII',
@@ -409,6 +409,9 @@
         'Quiero constituir una SpA',
         'Un cliente no me paga una factura',
         'La municipalidad rechazó mi patente',
+        'Quiero demandar pensión de alimentos',
+        'Me quieren embargar la casa',
+        'Debo contribuciones atrasadas',
       ],
       disclaimer: 'Orientación general. No reemplaza la asesoría de un abogado que revise tu caso concreto.',
     });
