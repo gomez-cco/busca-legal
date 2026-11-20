@@ -49,6 +49,8 @@
         <h2>Herramientas</h2>
         <ul class="topic-list">
           <li><button type="button" id="openCalcBtn">🧮 Calcular finiquito e indemnización</button></li>
+          <li><button type="button" id="openSueldoBtn">💵 Calcular sueldo líquido</button></li>
+          <li><button type="button" id="openHorasBtn">⏱️ Calcular horas extra</button></li>
           <li><button type="button" id="openGlossaryBtn">📖 Glosario jurídico (¿qué significa…?)</button></li>
         </ul>
       </div>
@@ -162,6 +164,55 @@
       <label class="check"><input type="checkbox" name="avisoDado"> Me avisaron por escrito con 30 días de anticipación</label>
       <label class="check"><input type="checkbox" name="contratoAnterior1981"> Mi contrato comenzó antes del 14-08-1981 (sin tope de 11 años)</label>
       <button type="submit" class="btn-primary">Calcular finiquito</button>
+    </form>
+    <div class="calc-result" data-role="result"></div>
+  </article>
+</template>
+
+<template id="tpl-sueldo-card">
+  <article class="card card-calc">
+    <header class="card-header">
+      <span class="pill pill-tool">Herramienta</span>
+      <h3>Calculadora de sueldo líquido</h3>
+    </header>
+    <p class="card-text">Estima tu sueldo líquido descontando AFP, salud, seguro de cesantía e impuesto único. Los valores por defecto son referenciales: ajústalos con los vigentes.</p>
+    <form class="calc-form" data-endpoint="/api/calc/sueldo-liquido" data-total-label="Sueldo líquido estimado" data-total-key="liquido">
+      <label>Sueldo base bruto ($) <input type="number" name="sueldoBase" min="1" step="1" inputmode="numeric" placeholder="Ej: 1000000" required></label>
+      <label>Gratificación mensual ($, opcional) <input type="number" name="gratificacion" min="0" step="1" value="0"></label>
+      <label>Otros haberes imponibles: horas extra, bonos ($) <input type="number" name="otrosImponibles" min="0" step="1" value="0"></label>
+      <label>Haberes no imponibles: colación, movilización ($) <input type="number" name="noImponibles" min="0" step="1" value="0"></label>
+      <label>Valor de la UF ($) <input type="number" name="valorUF" min="1" step="0.01" placeholder="sii.cl" required></label>
+      <label>Valor de la UTM ($) <input type="number" name="valorUTM" min="1" step="1" placeholder="sii.cl" required></label>
+      <label>Tasa AFP total (% = 10% + comisión) <input type="number" name="tasaAFP" min="10" max="13" step="0.01" value="11.44"></label>
+      <label>Salud
+        <select name="salud"><option value="fonasa">Fonasa (7%)</option><option value="isapre">Isapre (plan en UF)</option></select>
+      </label>
+      <label>Plan Isapre (UF, si corresponde) <input type="number" name="planIsapreUF" min="0" step="0.01" value="0"></label>
+      <label>Tipo de contrato
+        <select name="contrato"><option value="indefinido">Indefinido (descuenta 0,6% AFC)</option><option value="plazo">Plazo fijo u obra (sin descuento AFC)</option></select>
+      </label>
+      <label>Tope imponible AFP/salud (UF) <input type="number" name="topeImponibleUF" min="1" step="0.1" value="89.9"></label>
+      <label>Otros descuentos: préstamos, anticipos ($) <input type="number" name="otrosDescuentos" min="0" step="1" value="0"></label>
+      <button type="submit" class="btn-primary">Calcular sueldo líquido</button>
+    </form>
+    <div class="calc-result" data-role="result"></div>
+  </article>
+</template>
+
+<template id="tpl-horas-card">
+  <article class="card card-calc">
+    <header class="card-header">
+      <span class="pill pill-tool">Herramienta</span>
+      <h3>Calculadora de horas extra</h3>
+    </header>
+    <p class="card-text">Calcula el valor de tus horas extraordinarias (art. 32 del Código del Trabajo: recargo mínimo de 50% sobre el sueldo base).</p>
+    <form class="calc-form" data-endpoint="/api/calc/horas-extra" data-total-label="Total a pagar por horas extra" data-total-key="total">
+      <label>Sueldo base mensual ($) <input type="number" name="sueldoBase" min="1" step="1" inputmode="numeric" placeholder="Ej: 900000" required></label>
+      <label>Jornada semanal pactada (horas) <input type="number" name="jornadaSemanal" min="1" max="45" step="0.5" value="42"></label>
+      <label>Horas extra trabajadas en el mes <input type="number" name="horas" min="0" step="0.5" value="0" required></label>
+      <label>Recargo pactado (%; mínimo legal 50) <input type="number" name="recargo" min="50" step="1" value="50"></label>
+      <label>Ingreso mínimo mensual vigente ($, opcional) <input type="number" name="ingresoMinimo" min="0" step="1" value="0"></label>
+      <button type="submit" class="btn-primary">Calcular horas extra</button>
     </form>
     <div class="calc-result" data-role="result"></div>
   </article>

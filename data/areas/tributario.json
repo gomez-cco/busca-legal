@@ -129,7 +129,7 @@
         "abril"
       ],
       "resumen": "Cada abril se presenta el Formulario 22 con las rentas del año anterior. Las empresas pagan impuesto de primera categoría y las personas impuesto global complementario (o impuesto único si solo tienen sueldo).",
-      "explicacion": "Primera categoría: grava las utilidades de las empresas. La tasa general es 27% en el régimen semi integrado (14 A); el régimen Pro Pyme General (14 D N°3) tiene una tasa de 25%, que ha tenido rebajas transitorias por ley. Global complementario: impuesto progresivo anual de las personas sobre todas sus rentas (honorarios, retiros, dividendos, arriendos). Los trabajadores dependientes con un solo empleador pagan impuesto único mensual y normalmente no están obligados a declarar, salvo que tengan otras rentas o quieran reliquidar.",
+      "explicacion": "Primera categoría: grava las utilidades de las empresas. La tasa general es 27% en el régimen semi integrado (14 A); el régimen Pro Pyme General (14 D N°3) tiene una tasa permanente de 25%, rebajada transitoriamente al 12,5% para los años comerciales 2025 a 2027 (Ley 21.755). Global complementario: impuesto progresivo anual de las personas sobre todas sus rentas (honorarios, retiros, dividendos, arriendos). Los trabajadores dependientes con un solo empleador pagan impuesto único mensual y normalmente no están obligados a declarar, salvo que tengan otras rentas o quieran reliquidar.",
       "baseLegal": [
         "Art. 14 LIR (regímenes de tributación)",
         "Art. 20 LIR (primera categoría)",
@@ -679,7 +679,11 @@
         "gasto rechazado vehiculo",
         "beneficio de uso del vehiculo",
         "depreciacion instantanea",
-        "activo fijo vehiculo"
+        "activo fijo vehiculo",
+        "rebajar como gasto la camioneta",
+        "gasto la camioneta",
+        "camioneta como gasto",
+        "auto como gasto"
       ],
       "resumen": "En la renta, los gastos de compra, arriendo, combustible, mantención y seguros de automóviles, station wagons y similares no se aceptan como gasto, salvo que sean el giro de la empresa o que el SII lo autorice por resolución fundada. Los vehículos de trabajo (camionetas, camiones) usados en el giro sí pueden depreciarse y sus gastos rebajarse.",
       "explicacion": "El art. 31 de la Ley sobre Impuesto a la Renta exige que los gastos sean necesarios para producir la renta. Para automóviles, station wagons y similares, la ley los excluye expresamente como regla general, aunque desde la Ley 21.210 el SII puede calificar mediante resolución fundada que son necesarios según el modelo de negocio (por ejemplo, empresas que usan autos pequeños en su operación). Los vehículos de trabajo forman parte del activo fijo y se deprecian según su vida útil; las empresas Pro Pyme pueden acceder a regímenes de depreciación acelerada o instantánea, según las reglas vigentes. Si un vehículo de la empresa se pone a disposición de los dueños o sus familiares para uso personal, la ley presume un beneficio que tributa (con un valor mínimo establecido en la ley) y puede afectar la deducción de los gastos.",
@@ -813,6 +817,386 @@
       ],
       "consejo": "Pide siempre factura (no boleta) para las compras del negocio: con boleta pierdes el 19% de crédito fiscal.",
       "alerta": "Rebajar IVA de compras personales o con facturas de proveedores que no prestaron el servicio es una de las causas más frecuentes de fiscalización y de querellas por delito tributario."
+    },
+    {
+      "id": "devolucion-impuestos",
+      "titulo": "Devolución de impuestos de la Operación Renta: cuándo llega y por qué la retienen",
+      "temas": [
+        "devolucion de impuestos",
+        "cuando llega la devolucion",
+        "cuando pagan la devolucion",
+        "me retuvieron la devolucion",
+        "devolucion retenida",
+        "devolucion de renta",
+        "no me llego la devolucion",
+        "estado de mi declaracion",
+        "declaracion observada",
+        "observaciones del sii",
+        "devolucion cae",
+        "retencion por pension de alimentos",
+        "por que no me devolvieron"
+      ],
+      "resumen": "Si tu declaración de renta (F22) resulta con devolución, el SII la deposita en la cuenta bancaria que indicaste, según el calendario de pagos de la Operación Renta (quienes declaran antes reciben antes). Puede retenerse por observaciones del SII, por deudas con la Tesorería, por deudas de pensión de alimentos o por el crédito universitario (CAE) en mora.",
+      "explicacion": "La devolución proviene de las retenciones y pagos provisionales que hiciste durante el año y que exceden tu impuesto final (por ejemplo, retenciones de boletas de honorarios o reliquidación del impuesto único). Antes de pagarla, el SII revisa la declaración; si detecta diferencias, la deja 'observada' y no paga hasta que la corrijas o aclares. La Tesorería puede compensar la devolución con deudas fiscales (impuestos, contribuciones) y está obligada a retenerla en caso de deudas de pensiones de alimentos inscritas en el Registro Nacional de Deudores o de deudas del Crédito con Aval del Estado (CAE). Los trabajadores a honorarios ven reducida su devolución porque con ella se pagan sus cotizaciones previsionales (Ley 21.133).",
+      "baseLegal": [
+        "Art. 97 Ley sobre Impuesto a la Renta (devolución de excedentes)",
+        "Art. 6 y 59 Código Tributario (facultades de revisión)",
+        "Art. 16 Ley 14.908 y Ley 21.389 (retención por deudas de alimentos)",
+        "Ley 20.027 (retención por deudas del CAE)",
+        "Ley 21.133 (cotizaciones de trabajadores a honorarios)"
+      ],
+      "pasos": [
+        "Revisa en sii.cl > Renta > Consultar estado de declaración si fue aceptada, observada o pagada, y la fecha de pago.",
+        "Si está observada, revisa el detalle de la observación y corrígela con una rectificatoria o presentando antecedentes en línea.",
+        "Si te retuvieron por deudas, consulta en tgr.cl el detalle (impuestos, contribuciones, CAE o pensión de alimentos).",
+        "Verifica que la cuenta bancaria declarada esté a tu nombre y vigente; si no, el SII emite un pago alternativo.",
+        "Si eres trabajador a honorarios, revisa en el F22 cuánto se destinó a cotizaciones."
+      ],
+      "plazos": [
+        "Operación Renta: abril de cada año; los pagos de devoluciones se realizan en fechas fijadas por el SII según la fecha de presentación"
+      ],
+      "documentos": [
+        "Folio de la declaración F22",
+        "Certificados de retenciones",
+        "Cartola de deudas TGR"
+      ],
+      "dondeAcudir": [
+        "sii.cl",
+        "tgr.cl",
+        "Oficinas del SII",
+        "Defensoría del Contribuyente (DEDECON)"
+      ],
+      "consejo": "Declara apenas se abra la Operación Renta y acepta la propuesta del SII solo después de revisarla: las declaraciones sin observaciones se pagan antes.",
+      "alerta": "Rectificar una declaración para aumentar la devolución sin respaldo puede derivar en fiscalización y multas."
+    },
+    {
+      "id": "clave-tributaria",
+      "titulo": "Clave Tributaria del SII: cómo obtenerla o recuperarla",
+      "temas": [
+        "clave tributaria",
+        "clave del sii",
+        "obtener clave tributaria",
+        "recuperar clave sii",
+        "olvide mi clave del sii",
+        "clave sii bloqueada",
+        "como entro al sii",
+        "clave unica sii",
+        "numero de serie cedula sii"
+      ],
+      "resumen": "Para hacer trámites en sii.cl necesitas tu Clave Tributaria o tu Clave Única. La Clave Tributaria se obtiene o recupera en línea con tu cédula de identidad vigente (número de documento) o en una oficina del SII.",
+      "explicacion": "La Clave Tributaria permite declarar impuestos, emitir boletas y facturas, revisar tu información y hacer trámites en el SII. Puedes obtenerla ingresando tu RUT y el número de documento de tu cédula de identidad (o con Clave Única). Si la olvidaste, puedes recuperarla en línea respondiendo preguntas de seguridad o mediante el correo registrado. Las empresas acceden a través del RUT de la empresa con la clave de su representante o una clave propia.",
+      "baseLegal": [
+        "Resoluciones del SII sobre autenticación electrónica",
+        "Ley 19.799 (documentos y firma electrónica)"
+      ],
+      "pasos": [
+        "Ingresa a sii.cl > Mi SII > Obtener clave (o 'Recuperar clave').",
+        "Identifícate con tu RUT y el número de documento de tu cédula vigente, o con Clave Única.",
+        "Crea una clave segura y registra un correo y teléfono para recuperarla.",
+        "Si no puedes hacerlo en línea, acude a una oficina del SII con tu cédula de identidad."
+      ],
+      "plazos": [],
+      "documentos": [
+        "Cédula de identidad vigente",
+        "Clave Única (opcional)"
+      ],
+      "dondeAcudir": [
+        "sii.cl",
+        "Oficinas del SII",
+        "Mesa de ayuda del SII"
+      ],
+      "consejo": "No compartas tu Clave Tributaria con terceros: con ella pueden emitir documentos a tu nombre.",
+      "alerta": "El SII no pide tu clave por correo, WhatsApp ni teléfono: si te la piden, es una estafa."
+    },
+    {
+      "id": "boleta-factura",
+      "titulo": "Boleta o factura: cuándo emitir cada una y cómo hacerlo gratis en el SII",
+      "temas": [
+        "boleta o factura",
+        "cuando emitir boleta",
+        "cuando emitir factura",
+        "emitir factura",
+        "emitir boleta electronica",
+        "boleta electronica",
+        "factura electronica",
+        "facturador gratuito sii",
+        "comprobante de pago electronico",
+        "voucher como boleta",
+        "nota de credito",
+        "anular una factura",
+        "guia de despacho",
+        "no me dieron boleta"
+      ],
+      "resumen": "Se emite boleta cuando vendes a un consumidor final y factura cuando el comprador es una empresa o persona con giro que necesita usar el IVA como crédito fiscal. Ambas son electrónicas y pueden emitirse gratis con el sistema del SII. El comprobante del pago con tarjeta (voucher) puede servir como boleta.",
+      "explicacion": "La boleta electrónica es obligatoria para los contribuyentes afectos a IVA que venden a consumidores. El comprobante de pago electrónico (voucher de tarjeta de débito o crédito) tiene valor de boleta cuando cumple los requisitos de la ley. La factura se emite a otros contribuyentes e incluye el IVA desglosado. Para corregir o anular una factura se emite una nota de crédito (o de débito, si hay que aumentar el monto); la guía de despacho respalda el traslado de mercaderías. No emitir boletas o facturas es infracción que puede sancionarse con multa y clausura.",
+      "baseLegal": [
+        "Art. 52 a 55 DL 825 (obligación de emitir facturas y boletas)",
+        "Art. 57 DL 825 (notas de crédito y débito)",
+        "Art. 97 N°10 Código Tributario (sanción por no emitir documentos)",
+        "Ley 20.727 y Ley 21.210 (documentos electrónicos y comprobantes de pago)"
+      ],
+      "pasos": [
+        "Habilítate como emisor electrónico en sii.cl (si ya tienes inicio de actividades).",
+        "Para vender a consumidores: emite boleta electrónica (sistema gratuito del SII, app o software de mercado) o usa el voucher de tu máquina de pago como boleta.",
+        "Para vender a empresas: emite factura electrónica con el RUT, giro y dirección del comprador.",
+        "Si te equivocas, emite una nota de crédito que haga referencia a la factura original.",
+        "Revisa mensualmente el Registro de Compras y Ventas antes de declarar el F29."
+      ],
+      "plazos": [
+        "Las boletas y facturas se emiten al momento de la venta o de la entrega del bien o la prestación del servicio, según la ley"
+      ],
+      "documentos": [
+        "Inicio de actividades",
+        "Certificado digital (para algunos sistemas)",
+        "Datos del comprador (para facturas)"
+      ],
+      "dondeAcudir": [
+        "sii.cl (Sistema de Facturación Gratuito y boleta electrónica)",
+        "Contador"
+      ],
+      "consejo": "Si tus ventas son principalmente con tarjeta, revisa que tu proveedor de pagos esté habilitado para que el voucher valga como boleta: te ahorra emitir dos documentos.",
+      "alerta": "Como consumidor puedes denunciar en sii.cl a quien no entrega boleta; los comercios arriesgan multas y clausura."
+    },
+    {
+      "id": "regimenes-tributarios",
+      "titulo": "Regímenes tributarios de empresas: General, Pro Pyme General y Pro Pyme Transparente",
+      "temas": [
+        "regimen tributario",
+        "que regimen me conviene",
+        "pro pyme",
+        "propyme",
+        "regimen pro pyme general",
+        "pro pyme transparente",
+        "14 d",
+        "14 a",
+        "regimen general semi integrado",
+        "tasa pyme",
+        "impuesto pyme",
+        "cambiarse de regimen",
+        "regimen transparente",
+        "12,5 por ciento"
+      ],
+      "resumen": "Las empresas tributan en uno de tres regímenes principales: el General semi integrado (art. 14 A, tasa de primera categoría 27%), el Pro Pyme General (art. 14 D N°3, tasa permanente de 25%, rebajada transitoriamente al 12,5% para los años comerciales 2025, 2026 y 2027 según la Ley 21.755) y el Pro Pyme Transparente (art. 14 D N°8, sin impuesto de primera categoría: los dueños tributan directamente).",
+      "explicacion": "Pro Pyme: para empresas con ingresos promedio que no superen el límite legal (75.000 UF promedio en los últimos 3 años, entre otros requisitos). Ofrece contabilidad simplificada, depreciación instantánea y pagos provisionales reducidos. El Pro Pyme General integra parcialmente el impuesto pagado por la empresa con los impuestos personales de los dueños. El Transparente es conveniente cuando todos los dueños son personas naturales con impuestos personales bajos. El régimen General aplica a empresas más grandes o que no cumplen los requisitos Pyme. Según el SII, la tasa rebajada de 12,5% para el Pro Pyme General sube al 15% en 2028; el Gobierno anunció en 2026 proyectos para mantener el 12,5%, que deben verificarse. El cambio de régimen se informa al SII dentro de los plazos legales (generalmente entre enero y abril).",
+      "baseLegal": [
+        "Art. 14 letra A Ley sobre Impuesto a la Renta (régimen general semi integrado)",
+        "Art. 14 letra D N°3 LIR (Pro Pyme General)",
+        "Art. 14 letra D N°8 LIR (Pro Pyme Transparente)",
+        "Art. 20 LIR (tasas de primera categoría)",
+        "Ley 21.755 (rebaja transitoria al 12,5%)",
+        "Circular N°53 de 2025 del SII"
+      ],
+      "pasos": [
+        "Revisa tu régimen actual en sii.cl > Mi SII > Datos personales y tributarios.",
+        "Calcula tus ingresos promedio de los últimos 3 años y verifica si cumples los requisitos Pyme.",
+        "Simula con tu contador la carga tributaria total (empresa + dueños) en cada régimen.",
+        "Si te conviene cambiarte, presenta el aviso de cambio en sii.cl dentro del período legal.",
+        "Mantén los registros que exige tu régimen (contabilidad simplificada o completa)."
+      ],
+      "plazos": [
+        "Cambio de régimen: generalmente entre el 1 de enero y el 30 de abril del año en que se quiere cambiar",
+        "Tasa Pro Pyme General: 12,5% años comerciales 2025-2027 (Ley 21.755); verifica cambios posteriores"
+      ],
+      "documentos": [
+        "Declaraciones de renta de los últimos 3 años",
+        "Estados financieros",
+        "Estatutos y socios"
+      ],
+      "dondeAcudir": [
+        "sii.cl",
+        "Contador o asesor tributario"
+      ],
+      "consejo": "El régimen Transparente suele convenir a sociedades pequeñas de profesionales con retiros moderados; el Pro Pyme General, a empresas que reinvierten utilidades.",
+      "alerta": "Las tasas y requisitos Pyme han cambiado varias veces desde 2020: confirma siempre la tasa del año comercial en curso en sii.cl."
+    },
+    {
+      "id": "impuesto-arriendos",
+      "titulo": "Impuestos por arrendar una propiedad: ¿debo declarar el arriendo?",
+      "temas": [
+        "impuesto por arriendo",
+        "declarar arriendo",
+        "arriendo de departamento impuesto",
+        "tengo un departamento arrendado",
+        "dfl 2",
+        "dfl2",
+        "arriendo amoblado iva",
+        "iva en arriendo",
+        "cobro arriendo debo pagar impuesto",
+        "renta por arriendo",
+        "arriendo y global complementario"
+      ],
+      "resumen": "Las personas que reciben arriendos deben declararlos en la Operación Renta (impuesto global complementario), salvo las rentas exentas, como las de viviendas acogidas al DFL 2 dentro de los límites legales. El arriendo de inmuebles sin amoblar para vivienda no lleva IVA; el arriendo de inmuebles amoblados o con instalaciones para una actividad comercial sí puede estar afecto.",
+      "explicacion": "Las rentas de arriendo de bienes raíces no agrícolas de personas naturales se declaran en el F22 y suman al global complementario, pudiendo rebajar gastos según las reglas del SII. Las viviendas DFL 2 tienen exención de impuesto a la renta por sus arriendos, limitada (para adquisiciones posteriores a la Ley 20.455) a un número máximo de viviendas por persona. El IVA grava el arriendo de inmuebles amoblados y de inmuebles con instalaciones o maquinarias que permitan el ejercicio de alguna actividad comercial o industrial (art. 8 letra g del DL 825). Las empresas que arriendan tributan según su régimen.",
+      "baseLegal": [
+        "Art. 20 N°1 Ley sobre Impuesto a la Renta (rentas de bienes raíces)",
+        "Art. 52 LIR (global complementario)",
+        "DFL 2 de 1959 y Ley 20.455 (exención y límite de viviendas)",
+        "Art. 8 letra g) DL 825 (IVA en arriendo de inmuebles amoblados o con instalaciones)"
+      ],
+      "pasos": [
+        "Determina si la propiedad es DFL 2 y si está dentro del límite de viviendas con beneficio.",
+        "Suma los arriendos recibidos en el año y los gastos permitidos.",
+        "Declara la renta en el F22 en abril, en la línea correspondiente.",
+        "Si arriendas amoblado o un local con instalaciones, revisa con tu contador si debes emitir factura con IVA.",
+        "Guarda contratos y comprobantes de pago de los arriendos."
+      ],
+      "plazos": [
+        "Declaración anual: Operación Renta de abril"
+      ],
+      "documentos": [
+        "Contratos de arriendo",
+        "Comprobantes de pago",
+        "Certificado DFL 2 o escritura",
+        "Contribuciones pagadas"
+      ],
+      "dondeAcudir": [
+        "sii.cl",
+        "Contador"
+      ],
+      "consejo": "Declarar los arriendos te permite respaldar ingresos ante bancos (por ejemplo, para un crédito hipotecario).",
+      "alerta": "El SII cruza información de bancos, corredoras y plataformas: no declarar arriendos habituales puede generar diferencias, giros y multas."
+    },
+    {
+      "id": "venta-inmueble",
+      "titulo": "Vender una casa o departamento: ¿pago impuesto por la ganancia?",
+      "temas": [
+        "vender una casa",
+        "vender un departamento",
+        "venta de propiedad impuesto",
+        "impuesto por vender una casa",
+        "ganancia de capital",
+        "mayor valor venta inmueble",
+        "8000 uf",
+        "8.000 uf",
+        "ingreso no renta venta casa",
+        "vendi mi casa debo declarar",
+        "impuesto por venta de inmueble"
+      ],
+      "resumen": "Una persona natural que vende un inmueble en Chile no paga impuesto a la renta por la ganancia (mayor valor) hasta un tope de 8.000 UF, acumulado durante toda su vida, si cumple los requisitos de la ley (art. 17 N°8 letra b de la Ley de la Renta). Sobre el exceso, la ganancia tributa según las reglas de la ley.",
+      "explicacion": "El mayor valor es la diferencia entre el precio de venta y el costo de adquisición reajustado (más mejoras declaradas, según la ley). El beneficio de las 8.000 UF es exclusivo de personas naturales, se aplica a bienes raíces situados en Chile y se mide en UF al 31 de diciembre del año de la venta. No aplica si el inmueble estaba en la contabilidad de una empresa, ni en ciertas ventas a partes relacionadas o en plazos muy breves desde la compra o subdivisión. Los inmuebles adquiridos antes de 2004 tienen reglas transitorias. La ganancia que excede el tope se declara en el F22, con las opciones de tributación que establece la ley; el SII publica cada año un instructivo paso a paso.",
+      "baseLegal": [
+        "Art. 17 N°8 letra b) Ley sobre Impuesto a la Renta (tope de 8.000 UF de por vida)",
+        "Art. 17 N°8 incisos sobre requisitos (relacionados y plazos)",
+        "Disposiciones transitorias de la Ley 20.780 (inmuebles adquiridos antes de 2004)"
+      ],
+      "pasos": [
+        "Reúne la escritura de compra (costo) y la de venta (precio), y comprobantes de mejoras si corresponde.",
+        "Calcula el mayor valor reajustado según las reglas del SII.",
+        "Verifica cuánto has usado antes del tope de 8.000 UF en ventas anteriores.",
+        "Si la ganancia supera el tope, declara el exceso en la Operación Renta siguiente.",
+        "Revisa el instructivo anual del SII 'Venta de bienes raíces' o consulta a un contador."
+      ],
+      "plazos": [
+        "Declaración: en la Operación Renta de abril del año siguiente a la venta"
+      ],
+      "documentos": [
+        "Escritura de compra y de venta",
+        "Comprobantes de mejoras",
+        "Certificados de avalúo"
+      ],
+      "dondeAcudir": [
+        "sii.cl (instructivo de venta de bienes raíces)",
+        "Contador o abogado tributario"
+      ],
+      "consejo": "Guarda siempre la escritura de compra y los permisos de las mejoras: sin el costo acreditado, la ganancia calculada puede ser mayor.",
+      "alerta": "El tope de 8.000 UF es para toda la vida: si vendes varias propiedades, se va consumiendo."
+    },
+    {
+      "id": "iva-compras-extranjero",
+      "titulo": "IVA en compras por internet al extranjero (Temu, Shein, AliExpress, Amazon) y servicios digitales",
+      "temas": [
+        "iva compras extranjero",
+        "iva temu",
+        "iva shein",
+        "iva aliexpress",
+        "iva amazon",
+        "compras internacionales iva",
+        "compras en el extranjero",
+        "iva digital",
+        "iva a servicios digitales",
+        "iva netflix",
+        "iva spotify",
+        "compra menor a 500 dolares",
+        "pagar iva en aduana",
+        "courier iva",
+        "iva en temu",
+        "iva en shein",
+        "iva en aliexpress",
+        "pago iva en temu",
+        "compras por internet al extranjero"
+      ],
+      "resumen": "Desde el 25 de octubre de 2025 (Ley 21.713), las compras de bienes al extranjero de hasta USD 500 hechas por personas en plataformas digitales pagan IVA de 19%, que la plataforma inscrita cobra en el precio; si la plataforma no está inscrita, el IVA se paga al importar. Desde 2020, los servicios digitales prestados desde el extranjero (streaming, apps, publicidad) también pagan IVA.",
+      "explicacion": "Antes, las importaciones de menos de USD 41 estaban exentas de IVA; esa exención se eliminó. Para compras de hasta USD 500, las plataformas inscritas en el SII (que concentran la mayoría de las compras) cobran el IVA al momento de la compra y Aduanas sigue fiscalizando los envíos. Para compras sobre USD 500 rige el régimen general de importación (IVA y derechos ante Aduanas). Los servicios digitales (Netflix, Spotify, plataformas de apps, almacenamiento en la nube, etc.) pagan IVA desde la Ley 21.210 (junio de 2020), que cobran las empresas extranjeras inscritas.",
+      "baseLegal": [
+        "Ley 21.713 (IVA a bienes de hasta USD 500 vendidos de forma remota)",
+        "Ley 21.210 (IVA a servicios digitales)",
+        "Art. 8 letra n) DL 825 (servicios digitales)",
+        "Circular N°39 de 2025 del SII"
+      ],
+      "pasos": [
+        "Revisa en el carrito de compra si la plataforma incluye el IVA (aparece como impuesto en el detalle).",
+        "Si compras en una tienda no inscrita, prepárate para pagar IVA y derechos al recibir el envío o en el courier.",
+        "Para compras sobre USD 500, revisa los costos de importación (IVA y arancel) antes de comprar.",
+        "Si eres empresa con giro y compras bienes para tu actividad, consulta con tu contador cómo respaldar ese IVA."
+      ],
+      "plazos": [
+        "Vigencia del IVA a compras de hasta USD 500: desde el 25 de octubre de 2025"
+      ],
+      "documentos": [
+        "Comprobante de compra con el detalle del IVA",
+        "Documentos del courier o de Aduanas"
+      ],
+      "dondeAcudir": [
+        "sii.cl",
+        "aduana.cl",
+        "SERNAC (problemas con la compra)"
+      ],
+      "consejo": "Compara el precio final con IVA incluido: muchas compras internacionales dejaron de ser más baratas que en el comercio local.",
+      "alerta": "Declarar un valor menor al real en una importación para pagar menos impuestos es una infracción aduanera."
+    },
+    {
+      "id": "beneficios-tributarios-personas",
+      "titulo": "Rebajas y beneficios tributarios para personas: APV, dividendo hipotecario y gastos en educación",
+      "temas": [
+        "como pagar menos impuestos",
+        "beneficios tributarios",
+        "rebajar impuestos",
+        "apv beneficio tributario",
+        "dividendo hipotecario impuesto",
+        "intereses hipotecarios renta",
+        "credito por gastos en educacion",
+        "gastos en educacion renta",
+        "devolucion por educacion de hijos",
+        "ahorro previsional voluntario",
+        "reliquidar impuesto unico"
+      ],
+      "resumen": "Las personas pueden rebajar legalmente sus impuestos en la Operación Renta con beneficios como el Ahorro Previsional Voluntario (APV), la rebaja por intereses de créditos hipotecarios y el crédito por gastos en educación de los hijos, siempre que cumplan los requisitos y topes de ingreso de la ley.",
+      "explicacion": "APV (art. 42 bis): en el régimen B, los aportes rebajan la base del impuesto (con tope anual); en el régimen A, el Estado entrega una bonificación del 15% con tope. Intereses hipotecarios (art. 55 bis): permite rebajar de la base imponible los intereses de créditos para comprar viviendas, con tope anual y una reducción gradual del beneficio según el nivel de renta. Gastos en educación (art. 55 ter): crédito por cada hijo que estudie en educación preescolar, básica, media o diferencial (y desde ciertas reformas, también otros niveles), con requisitos de edad del hijo y un tope de renta de los padres. Los topes en UF y UTA se actualizan: verifica los vigentes en el asistente de renta del SII.",
+      "baseLegal": [
+        "Art. 42 bis Ley sobre Impuesto a la Renta (APV)",
+        "Art. 55 bis LIR (intereses por créditos hipotecarios)",
+        "Art. 55 ter LIR (crédito por gastos en educación)"
+      ],
+      "pasos": [
+        "Pide a tu banco, AFP o institución los certificados (intereses del dividendo, APV) y revisa que estén informados en la propuesta del SII.",
+        "En el F22, verifica que se hayan aplicado las rebajas que te corresponden.",
+        "Para el crédito por educación, completa la información de tus hijos en el asistente del SII.",
+        "Si tienes un solo empleador y no te correspondía declarar, igual puedes declarar para reliquidar y obtener estas rebajas."
+      ],
+      "plazos": [
+        "Operación Renta: abril de cada año"
+      ],
+      "documentos": [
+        "Certificado de intereses hipotecarios",
+        "Certificado de APV",
+        "Antecedentes de matrícula de los hijos"
+      ],
+      "dondeAcudir": [
+        "sii.cl (asistente de Renta)",
+        "Banco, AFP o compañía de seguros"
+      ],
+      "consejo": "Muchos trabajadores dependientes no declaran renta y pierden la devolución por dividendos hipotecarios: revisa la propuesta del SII aunque no estés obligado.",
+      "alerta": "Los beneficios tienen topes y requisitos de renta: si los aplicas sin cumplirlos, el SII puede observar la declaración."
     }
   ]
 }

@@ -89,6 +89,22 @@ const ROUTING = [
   ['como cobro el seguro de cesantia', 'seguro-cesantia'],
   ['quiero despedir a la nana', 'casa-particular'],
   ['cuanto tiempo tengo para demandar', 'plazos-laborales'],
+  ['cuando llega la devolucion de impuestos', 'devolucion-impuestos'],
+  ['me retuvieron la devolucion', 'devolucion-impuestos'],
+  ['olvide mi clave del sii', 'clave-tributaria'],
+  ['cuando emitir boleta o factura', 'boleta-factura'],
+  ['que regimen tributario me conviene', 'regimenes-tributarios'],
+  ['tengo un departamento arrendado debo pagar impuesto', 'impuesto-arriendos'],
+  ['vendi mi casa debo pagar impuesto', 'venta-inmueble'],
+  ['pago iva en temu', 'iva-compras-extranjero'],
+  ['como pagar menos impuestos', 'beneficios-tributarios-personas'],
+  ['cuanto es mi sueldo liquido', 'liquidacion-sueldo'],
+  ['me rechazaron la licencia', 'licencias-medicas'],
+  ['murio mi papa permiso', 'permisos-legales'],
+  ['trabajo todos los domingos', 'domingos-festivos'],
+  ['no pagan mis cotizaciones', 'cotizaciones-impagas'],
+  ['me cambiaron de funciones', 'cambio-funciones'],
+  ['quiero formar un sindicato', 'sindicato-negociacion'],
 ];
 
 for (const [q, expected] of ROUTING) {
@@ -101,7 +117,7 @@ for (const [q, expected] of ROUTING) {
 }
 
 // Every welcome-screen chip must land on a topic, otherwise the first click is a dead end.
-for (const q of ['Me despidieron, ¿cuánto me corresponde?', 'Me llegó una citación del SII', 'Detuvieron a un familiar', 'Quiero constituir una SpA', 'Un cliente no me paga una factura', 'La municipalidad rechazó mi patente', 'Quiero demandar pensión de alimentos', 'Me quieren embargar la casa', 'Debo contribuciones atrasadas', '¿Qué es la posesión efectiva con beneficio de inventario?']) {
+for (const q of ['Me despidieron, ¿cuánto me corresponde?', 'Me llegó una citación del SII', 'Detuvieron a un familiar', 'Quiero constituir una SpA', 'Un cliente no me paga una factura', 'La municipalidad rechazó mi patente', 'Quiero demandar pensión de alimentos', 'Me quieren embargar la casa', 'Debo contribuciones atrasadas', '¿Qué es la posesión efectiva con beneficio de inventario?', 'Calcular mi finiquito', '¿Cuánto es mi sueldo líquido?', '¿Cuándo llega la devolución de impuestos?']) {
   test(`chip de bienvenida: "${q}"`, () => assert.ok(composeAnswer(q).items.length > 0));
 }
 
@@ -240,6 +256,30 @@ test('feriado: días hábiles a corridos cuenta fines de semana', () => {
   const { habilesACorridos } = require('../lib/calc');
   // Término el viernes 2025-01-10: 5 hábiles siguientes = lunes 13 a viernes 17 → 7 días corridos.
   assert.strictEqual(habilesACorridos(parseDate('2025-01-10'), 5), 7);
+});
+test('sueldo líquido: descuentos e impuesto único', () => {
+  const { calcularSueldoLiquido, impuestoUnico } = require('../lib/calc');
+  const r = calcularSueldoLiquido({ sueldoBase: 1000000, valorUF: 39900, valorUTM: 69000, tasaAFP: 11.44 });
+  assert.ok(r.ok);
+  // 1.000.000 - 114.400 AFP - 70.000 salud - 6.000 AFC = 809.600 (exento de impuesto: < 13,5 UTM)
+  assert.strictEqual(r.liquido, 809600);
+  // Tramo 2 (35,2 UTM): 8% - 1,74 UTM
+  assert.strictEqual(Math.round(impuestoUnico(2428800, 69000)), 74244);
+  // continuidad de tramos
+  assert.ok(Math.abs(impuestoUnico(30 * 69000 + 1, 69000) - impuestoUnico(30 * 69000, 69000)) < 1);
+});
+test('sueldo líquido: plazo fijo no descuenta AFC e Isapre usa plan si es mayor', () => {
+  const { calcularSueldoLiquido } = require('../lib/calc');
+  const r = calcularSueldoLiquido({ sueldoBase: 1000000, valorUF: 40000, valorUTM: 69000, contrato: 'plazo', salud: 'isapre', planIsapreUF: 3 });
+  assert.ok(!r.lineas.some((l) => /cesantía/.test(l.concepto) && l.monto !== 0));
+  assert.strictEqual(r.lineas.find((l) => /Isapre/.test(l.concepto)).monto, -120000);
+});
+test('horas extra: fórmula DT y recargo 50%', () => {
+  const { calcularHorasExtra } = require('../lib/calc');
+  const r = calcularHorasExtra({ sueldoBase: 900000, jornadaSemanal: 42, horas: 10 });
+  assert.strictEqual(r.valorHoraOrdinaria, 5000);
+  assert.strictEqual(r.total, 75000);
+  assert.ok(!calcularHorasExtra({ sueldoBase: 900000, recargo: 30 }).ok);
 });
 test('validación de entrada', () => {
   const r = calcularIndemnizacion({ fechaInicio: 'x', remuneracion: -1 });

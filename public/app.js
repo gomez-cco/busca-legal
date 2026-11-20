@@ -16,6 +16,7 @@
 
   const tplTopic = document.getElementById('tpl-topic-card');
   const tplCalc = document.getElementById('tpl-calc-card');
+  const TOOL_LABELS = { sueldo: '💵 Calcular mi sueldo líquido', horasExtra: '⏱️ Calcular mis horas extra' };
   const tplDef = document.getElementById('tpl-def-card');
   const openGlossaryBtn = document.getElementById('openGlossaryBtn');
 
@@ -126,8 +127,12 @@
     fillText(root, 'alerta', t.alerta, 'alertaWrap');
 
     const calcWrap = root.querySelector('[data-role="calcWrap"]');
-    if (t.calculadora === 'indemnizacion') {
-      root.querySelector('[data-role="calcBtn"]').addEventListener('click', () => showCalculator({ causal: t.calcCausal }));
+    if (t.calculadora === 'indemnizacion' || TOOL_LABELS[t.calculadora]) {
+      const btn = root.querySelector('[data-role="calcBtn"]');
+      if (TOOL_LABELS[t.calculadora]) btn.textContent = TOOL_LABELS[t.calculadora];
+      btn.addEventListener('click', () => (t.calculadora === 'indemnizacion'
+        ? showCalculator({ causal: t.calcCausal })
+        : showTool(TOOL_TEMPLATES[t.calculadora])));
     } else {
       calcWrap.remove();
     }
@@ -350,6 +355,79 @@
     wrap.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
   openCalcBtn.addEventListener('click', () => showCalculator());
+
+  // Generic tools (sueldo líquido, horas extra): form posts to data-endpoint, result is a table.
+  function renderSimpleResult(container, r, totalLabel, totalKey) {
+    container.innerHTML = '';
+    if (!r.ok) {
+      const p = document.createElement('p');
+      p.className = 'card-alert';
+      p.textContent = (r.errors || ['No se pudo calcular.']).join(' ');
+      container.appendChild(p);
+      return;
+    }
+    const table = document.createElement('table');
+    table.className = 'calc-table';
+    table.innerHTML = '<thead><tr><th>Concepto</th><th>Monto</th></tr></thead>';
+    const tbody = document.createElement('tbody');
+    r.lineas.forEach((l) => {
+      const tr = document.createElement('tr');
+      if (l.tipo === 'descuento') tr.className = 'descuento';
+      const td1 = document.createElement('td');
+      td1.textContent = l.concepto;
+      if (l.base) { const sm = document.createElement('small'); sm.textContent = ` (${l.base})`; td1.appendChild(sm); }
+      const td2 = document.createElement('td');
+      td2.textContent = l.monto < 0 ? `− ${fmt(-l.monto)}` : fmt(l.monto);
+      tr.append(td1, td2);
+      tbody.appendChild(tr);
+    });
+    const trT = document.createElement('tr');
+    trT.className = 'total';
+    const tdL = document.createElement('td'); tdL.textContent = totalLabel;
+    const tdV = document.createElement('td'); tdV.textContent = fmt(r[totalKey]);
+    trT.append(tdL, tdV);
+    tbody.appendChild(trT);
+    table.appendChild(tbody);
+    container.appendChild(table);
+    const notas = document.createElement('details');
+    notas.className = 'card-details';
+    notas.innerHTML = '<summary>Cómo se calculó y advertencias</summary>';
+    const ul = document.createElement('ul');
+    (r.notas || []).forEach((n) => { const li = document.createElement('li'); li.textContent = n; ul.appendChild(li); });
+    notas.appendChild(ul);
+    container.appendChild(notas);
+  }
+
+  function showTool(templateId) {
+    closeSidebar();
+    const tpl = document.getElementById(templateId);
+    const card = tpl.content.cloneNode(true).querySelector('.card-calc');
+    const toolForm = card.querySelector('.calc-form');
+    const result = card.querySelector('[data-role="result"]');
+    toolForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const payload = {};
+      Array.from(toolForm.elements).forEach((el) => { if (el.name) payload[el.name] = el.type === 'checkbox' ? el.checked : el.value; });
+      result.textContent = 'Calculando…';
+      try {
+        const res = await fetch(toolForm.dataset.endpoint, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
+        renderSimpleResult(result, await res.json(), toolForm.dataset.totalLabel, toolForm.dataset.totalKey);
+      } catch {
+        renderSimpleResult(result, { ok: false, errors: ['No pude conectarme con el servidor. Intenta de nuevo.'] });
+      }
+    });
+    const wrap = document.createElement('div');
+    wrap.className = 'msg assistant';
+    const stack = document.createElement('div');
+    stack.className = 'assistant-stack';
+    stack.appendChild(card);
+    wrap.appendChild(stack);
+    messagesEl.appendChild(wrap);
+    wrap.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+  const TOOL_TEMPLATES = { sueldo: 'tpl-sueldo-card', horasExtra: 'tpl-horas-card' };
+  document.getElementById('openSueldoBtn').addEventListener('click', () => showTool('tpl-sueldo-card'));
+  document.getElementById('openHorasBtn').addEventListener('click', () => showTool('tpl-horas-card'));
   openGlossaryBtn.addEventListener('click', () => ask('Glosario'));
 
   // ---------- Ask ----------
@@ -458,6 +536,8 @@
       topicLinks: [
         'Me despidieron, ¿cuánto me corresponde?',
         'Calcular mi finiquito',
+        '¿Cuánto es mi sueldo líquido?',
+        '¿Cuándo llega la devolución de impuestos?',
         'Me llegó una citación del SII',
         'Detuvieron a un familiar',
         'Quiero constituir una SpA',

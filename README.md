@@ -15,7 +15,7 @@ backend. Lista para desplegar en Render.
 
 ## Qué incluye
 
-- **91 temas** en 8 áreas (`data/areas/*.json`), por ejemplo:
+- **120 temas** en 8 áreas (`data/areas/*.json`), por ejemplo:
   - **Laboral:** una ficha por cada causal de despido (161, 160 con cada numeral, renuncia, mutuo acuerdo, plazo fijo y obra), carta de despido, despido con licencia médica, seguro de cesantía, casa particular, plazos laborales, contrato, honorarios vs. contrato, jornada 40 horas, horas extra, feriado,
     remuneraciones, causales de despido, indemnización, Ley Bustos, finiquito, autodespido,
     Ley Karin, tutela laboral, fuero maternal, accidentes del trabajo, teletrabajo, juicio laboral.
@@ -38,6 +38,10 @@ backend. Lista para desplegar en Render.
     adopción, VIF ante Tribunales de Familia.
   - **Civil:** juicio ejecutivo y embargo, bienes inembargables, remate por hipoteca,
     prescripción de deudas, cobranza abusiva y DICOM, arriendos y Ley "Devuélveme mi casa".
+- **Calculadora de sueldo líquido** (`POST /api/calc/sueldo-liquido`): AFP, salud (Fonasa o
+  Isapre), seguro de cesantía, impuesto único de segunda categoría por tramos y descuentos.
+- **Calculadora de horas extra** (`POST /api/calc/horas-extra`): valor hora según la fórmula de
+  la Dirección del Trabajo, recargo mínimo de 50% y base mínima del ingreso mínimo.
 - **Glosario jurídico** (`data/glosario.json`, 91 conceptos): responde preguntas del tipo
   "¿qué es / qué significa…?" (beneficio de inventario, posesión efectiva, tercería, UF,
   formalización, silencio administrativo, etc.) y enlaza con la ficha del trámite.

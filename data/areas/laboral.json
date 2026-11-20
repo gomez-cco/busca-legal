@@ -152,7 +152,8 @@
         "Inspección del Trabajo"
       ],
       "consejo": "La ley permite pactar jornadas promedio en ciclos de hasta 4 semanas (con límites) y bandas horarias para padres y madres de menores de 12 años: revisa si te conviene proponerlo.",
-      "alerta": "Hay jornadas especiales (art. 22 inciso 2°: gerentes y trabajadores sin fiscalización superior inmediata; trabajadores de casa particular, transporte, etc.) con reglas propias."
+      "alerta": "Hay jornadas especiales (art. 22 inciso 2°: gerentes y trabajadores sin fiscalización superior inmediata; trabajadores de casa particular, transporte, etc.) con reglas propias.",
+      "calculadora": "horasExtra"
     },
     {
       "id": "horas-extra",
@@ -195,7 +196,8 @@
         "Juzgado de Letras del Trabajo"
       ],
       "consejo": "El derecho a cobrar horas extraordinarias prescribe en 6 meses desde que debieron pagarse: no lo dejes acumular.",
-      "alerta": "Si tu sueldo base es inferior al ingreso mínimo (porque el resto son bonos), las horas extra se calculan sobre el ingreso mínimo mensual."
+      "alerta": "Si tu sueldo base es inferior al ingreso mínimo (porque el resto son bonos), las horas extra se calculan sobre el ingreso mínimo mensual.",
+      "calculadora": "horasExtra"
     },
     {
       "id": "feriado-vacaciones",
@@ -290,7 +292,8 @@
         "Juzgado de Letras del Trabajo"
       ],
       "consejo": "El monto del ingreso mínimo mensual se reajusta por ley; confirma el valor vigente en dt.gob.cl antes de calcular.",
-      "alerta": "Los descuentos voluntarios (préstamos, cuotas) no pueden exceder el 15% de la remuneración total, y en conjunto los descuentos no pueden superar el 45%."
+      "alerta": "Los descuentos voluntarios (préstamos, cuotas) no pueden exceder el 15% de la remuneración total, y en conjunto los descuentos no pueden superar el 45%.",
+      "calculadora": "sueldo"
     },
     {
       "id": "despido-causales",
@@ -1343,6 +1346,356 @@
       ],
       "consejo": "No esperes a que te paguen el finiquito para contar el plazo: corre desde que dejaste de trabajar.",
       "alerta": "Vencidos los 60 (o 90) días hábiles, ya no puedes discutir si el despido fue justificado, aunque aún puedas cobrar algunas prestaciones."
+    },
+    {
+      "id": "liquidacion-sueldo",
+      "calculadora": "sueldo",
+      "titulo": "Cómo leer mi liquidación de sueldo y calcular el sueldo líquido",
+      "temas": [
+        "liquidacion de sueldo",
+        "como leer mi liquidacion",
+        "sueldo liquido",
+        "sueldo bruto",
+        "de bruto a liquido",
+        "cuanto me descuentan",
+        "descuentos del sueldo",
+        "cuanto me queda liquido",
+        "imponible",
+        "no imponible",
+        "impuesto unico",
+        "cuanto descuenta la afp",
+        "descuento de salud",
+        "calcular sueldo liquido",
+        "por que me descontaron"
+      ],
+      "resumen": "La liquidación detalla tus haberes (sueldo, gratificación, horas extra, bonos, colación y movilización) y tus descuentos (AFP, salud, seguro de cesantía, impuesto único y descuentos voluntarios). El sueldo líquido es lo que queda después de esos descuentos.",
+      "explicacion": "Haberes imponibles: sueldo base, gratificación, horas extra, comisiones y bonos; sobre ellos se calculan las cotizaciones. Haberes no imponibles: colación, movilización, viáticos y desgaste de herramientas (deben ser razonables). Descuentos legales: AFP (10% para el fondo más la comisión de tu AFP), salud (7% en Fonasa o el valor de tu plan en Isapre), seguro de cesantía (0,6% si tu contrato es indefinido) e impuesto único de segunda categoría (solo si tu sueldo tributable supera 13,5 UTM). Descuentos voluntarios: préstamos, cuotas sindicales, seguros, que no pueden superar los límites del art. 58. El empleador debe entregarte la liquidación junto con el pago.",
+      "baseLegal": [
+        "Art. 41 Código del Trabajo (remuneración e ítems no imponibles)",
+        "Art. 54 CT (liquidación y comprobante de pago)",
+        "Art. 58 CT (descuentos obligatorios y voluntarios; tope del 15%)",
+        "DL 3.500 (cotizaciones AFP)",
+        "Ley 19.728 (seguro de cesantía)",
+        "Art. 42 N°1 y 43 LIR (impuesto único de segunda categoría)"
+      ],
+      "pasos": [
+        "Revisa el total de haberes imponibles: sueldo base, gratificación, horas extra, bonos y comisiones.",
+        "Revisa los haberes no imponibles: colación y movilización.",
+        "Comprueba los descuentos: AFP (10% + comisión), salud (7% o plan Isapre), seguro de cesantía (0,6% si es indefinido) e impuesto único.",
+        "Verifica que los descuentos voluntarios (préstamos, anticipos) estén autorizados por escrito.",
+        "Usa la calculadora de sueldo líquido para comparar.",
+        "Revisa en tu AFP y en AFC que lo descontado se haya depositado efectivamente."
+      ],
+      "plazos": [
+        "Pago de remuneraciones: con periodicidad no mayor a 1 mes",
+        "Cotizaciones: el empleador debe pagarlas dentro de los primeros días del mes siguiente (generalmente hasta el día 10, o 13 si es por internet)"
+      ],
+      "documentos": [
+        "Liquidaciones de sueldo",
+        "Contrato",
+        "Certificado de cotizaciones"
+      ],
+      "dondeAcudir": [
+        "Inspección del Trabajo",
+        "AFP / AFC / Fonasa o Isapre"
+      ],
+      "consejo": "Si la colación o movilización son muy altas comparadas con tu sueldo, puede ser una forma de pagar menos cotizaciones: eso reduce tu pensión y tus beneficios futuros.",
+      "alerta": "Si te descuentan cotizaciones y el empleador no las paga, se aplica la Ley Bustos y puede haber delito de apropiación indebida de cotizaciones."
+    },
+    {
+      "id": "licencias-medicas",
+      "titulo": "Licencias médicas: cómo se tramitan, cuánto pagan y qué hacer si la rechazan",
+      "temas": [
+        "licencia medica",
+        "licencias medicas",
+        "me rechazaron la licencia",
+        "licencia rechazada",
+        "compin",
+        "subsidio por incapacidad laboral",
+        "cuanto pagan la licencia",
+        "dias de carencia",
+        "primeros tres dias de licencia",
+        "licencia reducida",
+        "apelar licencia",
+        "suseso",
+        "me pagaron menos la licencia"
+      ],
+      "resumen": "La licencia médica justifica la ausencia y da derecho a un subsidio que paga la Isapre o la COMPIN/Caja de Compensación (Fonasa). Si la licencia dura 10 días o menos, los primeros 3 días no se pagan (carencia); si dura 11 días o más, se pagan desde el primer día. Si la rechazan o reducen, puedes apelar.",
+      "explicacion": "El subsidio se calcula sobre el promedio de tus remuneraciones imponibles de los meses anteriores a la licencia (descontadas las cotizaciones). La licencia electrónica la emite el médico y llega al empleador, que debe completar sus datos y tramitarla. Las licencias de origen laboral (accidente o enfermedad profesional) las paga la mutualidad o el ISL al 100% y no tienen carencia. Contra el rechazo o reducción, se reclama ante la COMPIN (si eres Fonasa o la Isapre rechazó y la COMPIN resolvió) y luego ante la Superintendencia de Seguridad Social (SUSESO).",
+      "baseLegal": [
+        "DFL 44 de 1978 (subsidios por incapacidad laboral)",
+        "Art. 14 DFL 44 (carencia de 3 días en licencias de hasta 10 días)",
+        "DS 3 de 1984 del Ministerio de Salud (reglamento de licencias médicas)",
+        "Ley 16.744 (licencias de origen laboral)",
+        "Art. 161 inciso final CT (no se puede despedir por art. 161 durante la licencia)"
+      ],
+      "pasos": [
+        "Verifica que la licencia electrónica llegó a tu empleador (o entrega la de papel dentro del plazo reglamentario, normalmente 2 días hábiles desde su inicio).",
+        "Sigue el estado en el portal de licencias (Isapre, COMPIN o licencia.cl/medipass, según corresponda).",
+        "Si la rechazan o reducen, pide la resolución y reclama dentro del plazo ante la COMPIN, con informes médicos que respalden la licencia.",
+        "Si la COMPIN mantiene el rechazo, apela ante la SUSESO (suseso.cl).",
+        "Si el empleador no tramitó la licencia a tiempo y por eso perdiste el subsidio, él responde por el pago."
+      ],
+      "plazos": [
+        "Entrega de la licencia al empleador: dentro de los plazos del reglamento (normalmente 2 días hábiles desde el inicio)",
+        "Reclamo ante COMPIN y apelación ante SUSESO: plazos breves desde la notificación del rechazo (verifica en la resolución)"
+      ],
+      "documentos": [
+        "Licencia médica",
+        "Informes médicos y exámenes",
+        "Resolución de rechazo o reducción",
+        "Liquidaciones de sueldo"
+      ],
+      "dondeAcudir": [
+        "COMPIN",
+        "Isapre o Caja de Compensación",
+        "SUSESO (suseso.cl)",
+        "Mutualidad o ISL (licencias laborales)"
+      ],
+      "consejo": "Para apelar un rechazo, el informe del médico tratante detallando el diagnóstico y por qué necesitas reposo es la prueba más importante.",
+      "alerta": "Si no presentas la licencia a tiempo, el empleador podría considerar tus días como ausencias injustificadas (causal del art. 160 N°3)."
+    },
+    {
+      "id": "permisos-legales",
+      "titulo": "Permisos laborales legales: fallecimiento, nacimiento, matrimonio, hijos enfermos y exámenes",
+      "temas": [
+        "permiso por fallecimiento",
+        "murio mi papa permiso",
+        "murio mi madre permiso trabajo",
+        "permiso por muerte",
+        "permiso por matrimonio",
+        "permiso por union civil",
+        "permiso por nacimiento",
+        "permiso paternal",
+        "dias libres por",
+        "permiso para examen preventivo",
+        "hijo enfermo permiso",
+        "permiso por hijo hospitalizado",
+        "permisos legales",
+        "dias de permiso"
+      ],
+      "resumen": "La ley da permisos pagados en situaciones como el fallecimiento de familiares, el nacimiento de un hijo, el matrimonio o acuerdo de unión civil y ciertos casos de enfermedad grave de hijos. No se descuentan del feriado ni del sueldo.",
+      "explicacion": "Fallecimiento (art. 66), según la Dirección del Trabajo: muerte de un hijo o del cónyuge o conviviente civil, 7 días corridos; muerte de un hijo en período de gestación, 7 días hábiles; muerte del padre, la madre o un hermano, 4 días hábiles. El permiso se usa desde el día del fallecimiento, es irrenunciable y, si ocurre durante las vacaciones, las suspende. Durante el mes siguiente al fallecimiento de un hijo o cónyuge, el trabajador goza de fuero (salvo en contratos a plazo). Nacimiento: 5 días pagados para el padre (art. 195). Matrimonio o AUC: 5 días hábiles continuos (art. 207 bis). Enfermedad grave de hijos menores: permisos especiales con compensación (art. 199 bis). Exámenes preventivos: permiso anual de medio día para ciertos trabajadores según edad (art. 66 bis). Los días exactos han sido modificados por leyes recientes: verifica la cifra vigente en dt.gob.cl.",
+      "baseLegal": [
+        "Art. 66 Código del Trabajo (permiso por fallecimiento y fuero)",
+        "Art. 66 bis CT (exámenes preventivos)",
+        "Art. 195 CT (permiso del padre por nacimiento)",
+        "Art. 199 y 199 bis CT (enfermedad grave de hijos)",
+        "Art. 207 bis CT (matrimonio y unión civil)"
+      ],
+      "pasos": [
+        "Avisa a tu empleador y pide el permiso por escrito indicando la causa y las fechas.",
+        "Presenta el certificado que lo acredite (defunción, nacimiento, matrimonio/AUC o certificado médico) dentro de los días siguientes.",
+        "Revisa en tu liquidación que esos días se hayan pagado completos.",
+        "Si te descuentan o niegan el permiso, reclama en la Inspección del Trabajo."
+      ],
+      "plazos": [
+        "Se usan desde el hecho que los origina (por ejemplo, el permiso por nacimiento dentro del primer mes)",
+        "Fuero de 1 mes tras la muerte de un hijo o cónyuge/conviviente (art. 66)"
+      ],
+      "documentos": [
+        "Certificado de defunción, nacimiento o matrimonio/AUC",
+        "Certificados médicos"
+      ],
+      "dondeAcudir": [
+        "Empleador (RR.HH.)",
+        "Inspección del Trabajo"
+      ],
+      "consejo": "Estos permisos no son vacaciones: el empleador no puede descontarlos de tu feriado legal.",
+      "alerta": "No existe por ley un 'día libre por cumpleaños' ni por mudanza: solo si lo dan el contrato, el reglamento interno o un convenio colectivo."
+    },
+    {
+      "id": "domingos-festivos",
+      "titulo": "Trabajo en domingos y festivos, días de descanso y feriados irrenunciables",
+      "temas": [
+        "trabajar el domingo",
+        "trabajo en domingo",
+        "trabajar en festivo",
+        "pago de festivos",
+        "feriado irrenunciable",
+        "feriados irrenunciables",
+        "18 de septiembre trabajo",
+        "1 de mayo trabajo",
+        "domingos libres",
+        "dia de descanso",
+        "descanso compensatorio",
+        "me hacen trabajar todos los domingos",
+        "trabajo en el comercio domingo"
+      ],
+      "resumen": "Por regla general, los domingos y festivos son de descanso. Las empresas exceptuadas (comercio, servicios de atención al público, procesos continuos, etc.) pueden distribuir la jornada incluyéndolos, pero deben otorgar días de descanso compensatorio y, en ciertos casos, al menos 2 domingos libres al mes. Para los trabajadores del comercio existen feriados irrenunciables.",
+      "explicacion": "El art. 35 establece el descanso en domingos y festivos. El art. 38 enumera las actividades exceptuadas, que deben dar un día de descanso a la semana en compensación por el domingo trabajado y otro por cada festivo trabajado. Los trabajadores exceptuados de comercio y servicios tienen derecho a que al menos 2 de los días de descanso en el mes calendario sean domingo (con algunas excepciones). La Ley 19.973 fija feriados irrenunciables para los trabajadores del comercio (1 de mayo, 18 y 19 de septiembre, 25 de diciembre y 1 de enero), con excepciones para ciertos establecimientos. Las horas trabajadas en un día de descanso que exceden la jornada ordinaria se pagan como extraordinarias.",
+      "baseLegal": [
+        "Art. 35 Código del Trabajo (descanso dominical y festivos)",
+        "Art. 38 CT (actividades exceptuadas, descanso compensatorio y domingos libres)",
+        "Ley 19.973 (feriados irrenunciables del comercio)",
+        "Art. 2 Ley 19.973"
+      ],
+      "pasos": [
+        "Revisa en tu contrato si tu empresa está exceptuada del descanso dominical y cómo se distribuye tu jornada.",
+        "Lleva registro de los domingos y festivos trabajados y de los descansos compensatorios que te dieron.",
+        "Verifica que al menos 2 domingos al mes sean libres si trabajas en comercio o servicios exceptuados.",
+        "Si te obligan a trabajar un feriado irrenunciable o no te dan los descansos, denuncia en la Inspección del Trabajo (puede ser reservada)."
+      ],
+      "plazos": [
+        "Cobro de horas o días no compensados: 6 meses para horas extra; 2 años para otras prestaciones (máximo 6 meses desde el término del contrato)"
+      ],
+      "documentos": [
+        "Contrato y anexos de jornada",
+        "Registro de asistencia",
+        "Liquidaciones"
+      ],
+      "dondeAcudir": [
+        "Inspección del Trabajo",
+        "Juzgado de Letras del Trabajo"
+      ],
+      "consejo": "Si tu empresa no está en el listado del art. 38, no puede obligarte a trabajar en domingo como jornada ordinaria.",
+      "alerta": "El incumplimiento de los feriados irrenunciables tiene multas especiales para el empleador."
+    },
+    {
+      "id": "cotizaciones-impagas",
+      "titulo": "¿Mi empleador paga mis cotizaciones? Cómo revisarlo y qué hacer si no paga",
+      "temas": [
+        "cotizaciones",
+        "mis cotizaciones",
+        "revisar cotizaciones",
+        "no me pagan las cotizaciones",
+        "lagunas previsionales",
+        "certificado de cotizaciones",
+        "afp no aparece",
+        "empleador no paga afp",
+        "deuda previsional",
+        "cobranza previsional",
+        "no pagan la salud",
+        "no pagan el seguro de cesantia",
+        "cotizaciones atrasadas"
+      ],
+      "resumen": "Puedes revisar gratis en tu AFP, Fonasa o Isapre y la AFC si tu empleador paga tus cotizaciones. Si no lo hace, puedes reclamar en la Inspección del Trabajo, avisar a tu AFP (que debe cobrar judicialmente) y, si te despiden con cotizaciones impagas, el despido no produce efecto (Ley Bustos).",
+      "explicacion": "El empleador debe descontar las cotizaciones de tu sueldo y pagarlas cada mes. Si las declara pero no las paga, la AFP inicia una cobranza judicial ante los Juzgados de Cobranza Laboral y Previsional (Ley 17.322), con reajustes e intereses. Si ni siquiera las declara, el trabajador debe reclamar. No pagar las cotizaciones descontadas puede constituir delito (apropiación indebida de cotizaciones). Las lagunas reducen tu pensión, tu acceso a salud y al seguro de cesantía.",
+      "baseLegal": [
+        "Art. 19 DL 3.500 (pago de cotizaciones AFP)",
+        "Ley 17.322 (cobranza judicial de cotizaciones)",
+        "Art. 162 incisos 5° a 7° CT (Ley Bustos)",
+        "Art. 58 CT (obligación de descontar e integrar cotizaciones)",
+        "Art. 12 Ley 17.322 (sanción penal por apropiación de cotizaciones)"
+      ],
+      "pasos": [
+        "Descarga tu certificado de cotizaciones en el sitio de tu AFP (con Clave Única) y revisa mes a mes.",
+        "Haz lo mismo en Fonasa o tu Isapre y en afc.cl (seguro de cesantía).",
+        "Compara con tus liquidaciones: si te descontaron y no aparece el pago, hay deuda previsional.",
+        "Reclama en la Inspección del Trabajo y avisa a tu AFP para que inicie la cobranza.",
+        "Si te despiden con cotizaciones impagas, demanda la nulidad del despido junto con las demás acciones."
+      ],
+      "plazos": [
+        "Pago mensual por el empleador: generalmente hasta el día 10 del mes siguiente (13 si paga por internet)",
+        "Despido con cotizaciones impagas: demanda dentro de 60 días hábiles (nulidad: 6 meses según la Corte Suprema)"
+      ],
+      "documentos": [
+        "Certificados de cotizaciones (AFP, salud, AFC)",
+        "Liquidaciones de sueldo"
+      ],
+      "dondeAcudir": [
+        "AFP",
+        "Fonasa / Isapre",
+        "AFC",
+        "Inspección del Trabajo",
+        "Juzgado de Cobranza Laboral y Previsional"
+      ],
+      "consejo": "Revisa tus cotizaciones al menos cada tres meses: es más fácil cobrar una deuda reciente.",
+      "alerta": "Si tu empleador entra en quiebra, las cotizaciones adeudadas tienen preferencia de pago: reclámalas en el procedimiento de liquidación."
+    },
+    {
+      "id": "cambio-funciones",
+      "titulo": "Cambio de funciones, de lugar de trabajo, de jornada o rebaja de sueldo: ¿qué puede hacer el empleador?",
+      "temas": [
+        "me cambiaron de funciones",
+        "cambio de funciones",
+        "me cambiaron de cargo",
+        "me trasladaron",
+        "traslado de lugar de trabajo",
+        "cambio de sucursal",
+        "me cambiaron el horario",
+        "cambio de turno",
+        "me bajaron el sueldo",
+        "rebaja de sueldo",
+        "ius variandi",
+        "me quieren cambiar el contrato",
+        "modificar el contrato"
+      ],
+      "resumen": "El empleador puede, por sí solo, cambiar tus funciones o tu lugar de trabajo solo si se trata de labores similares, en un sitio dentro del mismo lugar o ciudad, y sin causarte menoscabo. No puede rebajar tu sueldo ni cambiar elementos esenciales del contrato sin tu acuerdo escrito. Si no estás de acuerdo, puedes reclamar ante la Inspección del Trabajo dentro de 30 días hábiles.",
+      "explicacion": "Esta facultad se llama ius variandi (art. 12). Además, el empleador puede alterar la distribución de la jornada hasta en 60 minutos (adelantar o retrasar la hora de ingreso) por circunstancias que afecten a la empresa, con aviso de al menos 30 días. Cualquier otra modificación (sueldo, jornada, funciones distintas, cambio de ciudad) requiere un anexo firmado por ambas partes. Si el empleador impone un cambio grave sin tu acuerdo, puede configurarse un incumplimiento que justifique el autodespido.",
+      "baseLegal": [
+        "Art. 5 inciso 3° Código del Trabajo (los contratos solo se modifican por consentimiento mutuo)",
+        "Art. 11 CT (las modificaciones deben constar por escrito)",
+        "Art. 12 CT (ius variandi: funciones, lugar y jornada; reclamo en 30 días hábiles)",
+        "Art. 171 CT (autodespido)"
+      ],
+      "pasos": [
+        "Pide por escrito el detalle del cambio que te proponen o imponen.",
+        "No firmes anexos que rebajen tu sueldo o cambien condiciones esenciales si no estás de acuerdo.",
+        "Si el cambio te perjudica (más lejos, funciones distintas, menor categoría), reclama ante la Inspección del Trabajo dentro de 30 días hábiles.",
+        "Si el empleador insiste y el cambio es grave, evalúa con un abogado el autodespido."
+      ],
+      "plazos": [
+        "Reclamo ante la Inspección del Trabajo: 30 días hábiles desde el cambio o su notificación (art. 12)",
+        "Aviso de cambio de distribución de jornada: 30 días de anticipación"
+      ],
+      "documentos": [
+        "Contrato y anexos",
+        "Comunicación del cambio",
+        "Liquidaciones"
+      ],
+      "dondeAcudir": [
+        "Inspección del Trabajo",
+        "Juzgado de Letras del Trabajo"
+      ],
+      "consejo": "Si sigues trabajando en las nuevas condiciones durante mucho tiempo sin reclamar, podría entenderse que las aceptaste: reclama a tiempo.",
+      "alerta": "Una rebaja de sueldo impuesta sin tu acuerdo es ilegal, aunque la empresa tenga problemas económicos."
+    },
+    {
+      "id": "sindicato-negociacion",
+      "titulo": "Sindicatos y negociación colectiva: derechos básicos",
+      "temas": [
+        "sindicato",
+        "formar un sindicato",
+        "afiliarme a un sindicato",
+        "negociacion colectiva",
+        "fuero sindical",
+        "practicas antisindicales",
+        "huelga",
+        "convenio colectivo",
+        "contrato colectivo",
+        "delegado sindical"
+      ],
+      "resumen": "Los trabajadores tienen derecho a formar sindicatos y afiliarse a ellos sin autorización previa, y a negociar colectivamente con su empleador. Los dirigentes y quienes participan en la negociación gozan de fuero, y las conductas que impiden o castigan la sindicalización son prácticas antisindicales sancionadas.",
+      "explicacion": "Para constituir un sindicato de empresa se requiere un número mínimo de trabajadores, que depende del tamaño de la empresa (por ejemplo, 8 trabajadores en empresas de 50 o menos). La negociación colectiva reglada (Ley 20.940) culmina en un contrato colectivo; si no hay acuerdo, los trabajadores pueden ejercer la huelga en los términos de la ley. Despedir, amenazar o discriminar a trabajadores por su actividad sindical es práctica antisindical, que se denuncia ante la Inspección del Trabajo y se sanciona judicialmente.",
+      "baseLegal": [
+        "Art. 212 y siguientes Código del Trabajo (organizaciones sindicales)",
+        "Art. 227 CT (quórum para constituir sindicato de empresa)",
+        "Art. 243 CT (fuero de dirigentes)",
+        "Art. 289 y siguientes CT (prácticas antisindicales)",
+        "Ley 20.940 (negociación colectiva)"
+      ],
+      "pasos": [
+        "Reúne al número mínimo de trabajadores y celebra la asamblea constitutiva ante un ministro de fe (inspector del trabajo, notario u otro).",
+        "Deposita el acta y los estatutos en la Inspección del Trabajo dentro del plazo legal.",
+        "Comunica al empleador la constitución y la elección de dirigentes (fuero).",
+        "Para negociar, presenta el proyecto de contrato colectivo dentro de los plazos de la ley.",
+        "Denuncia en la Inspección del Trabajo cualquier práctica antisindical."
+      ],
+      "plazos": [
+        "Depósito del acta constitutiva: dentro de 15 días desde la asamblea (verifica el plazo vigente)"
+      ],
+      "documentos": [
+        "Acta de constitución y estatutos",
+        "Nómina de socios"
+      ],
+      "dondeAcudir": [
+        "Inspección del Trabajo",
+        "Dirección del Trabajo (dt.gob.cl)",
+        "Juzgado de Letras del Trabajo"
+      ],
+      "consejo": "Antes de formar el sindicato, asesórate con la Dirección del Trabajo: ofrece orientación gratuita sobre los pasos y plazos.",
+      "alerta": "El despido de un trabajador con fuero sindical sin autorización judicial previa es nulo."
     }
   ]
 }

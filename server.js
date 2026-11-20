@@ -4,7 +4,7 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 const { composeAnswer, areas } = require('./lib/engine');
-const { calcularFiniquito } = require('./lib/calc');
+const { calcularFiniquito, calcularSueldoLiquido, calcularHorasExtra } = require('./lib/calc');
 
 const PORT = process.env.PORT || 3000;
 const PUBLIC_DIR = path.join(__dirname, 'public');
@@ -109,6 +109,18 @@ const server = http.createServer(async (req, res) => {
     if ((pathname === '/api/calc/finiquito' || pathname === '/api/calc/indemnizacion') && req.method === 'POST') {
       const body = await readJSON(req);
       const result = calcularFiniquito(body);
+      sendJSON(res, result.ok ? 200 : 400, result);
+      return;
+    }
+
+    if (pathname === '/api/calc/sueldo-liquido' && req.method === 'POST') {
+      const result = calcularSueldoLiquido(await readJSON(req));
+      sendJSON(res, result.ok ? 200 : 400, result);
+      return;
+    }
+
+    if (pathname === '/api/calc/horas-extra' && req.method === 'POST') {
+      const result = calcularHorasExtra(await readJSON(req));
       sendJSON(res, result.ok ? 200 : 400, result);
       return;
     }

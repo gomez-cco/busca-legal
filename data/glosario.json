@@ -1287,5 +1287,88 @@
   "definicion": "Aumento porcentual de la indemnización por años de servicio que ordena el juez cuando declara que el despido fue mal aplicado: 30% (art. 161), 50% (art. 159 o sin causal), 80% (art. 160) y hasta 100% en ciertos casos del art. 160.",
   "base": "Art. 168 Código del Trabajo",
   "tema": "despido-causales"
+ },
+ {
+  "termino": "Sueldo líquido y sueldo bruto",
+  "alias": [
+   "sueldo liquido",
+   "sueldo bruto",
+   "renta liquida",
+   "renta bruta"
+  ],
+  "area": "Laboral",
+  "definicion": "El sueldo bruto es el total de haberes antes de descuentos; el líquido es lo que recibe el trabajador después de descontar AFP, salud, seguro de cesantía, impuesto único y descuentos voluntarios.",
+  "base": "Art. 41, 54 y 58 Código del Trabajo",
+  "tema": "liquidacion-sueldo"
+ },
+ {
+  "termino": "Impuesto único de segunda categoría",
+  "alias": [
+   "impuesto unico",
+   "impuesto unico de segunda categoria",
+   "iusc"
+  ],
+  "area": "Tributario / Laboral",
+  "definicion": "Impuesto mensual progresivo que el empleador retiene del sueldo de los trabajadores dependientes cuando su renta tributable supera 13,5 UTM. Tiene tramos con tasas desde 4% hasta 40%.",
+  "base": "Art. 42 N°1 y 43 N°1 Ley sobre Impuesto a la Renta",
+  "tema": "liquidacion-sueldo"
+ },
+ {
+  "termino": "Haberes imponibles y no imponibles",
+  "alias": [
+   "imponible",
+   "no imponible",
+   "haberes imponibles",
+   "haberes no imponibles"
+  ],
+  "area": "Laboral",
+  "definicion": "Los haberes imponibles (sueldo, gratificación, horas extra, bonos, comisiones) pagan cotizaciones previsionales y de salud; los no imponibles (colación, movilización, viáticos) no las pagan, siempre que sean razonables.",
+  "base": "Art. 41 Código del Trabajo",
+  "tema": "liquidacion-sueldo"
+ },
+ {
+  "termino": "Tope imponible",
+  "alias": [
+   "tope imponible"
+  ],
+  "area": "Laboral",
+  "definicion": "Monto máximo mensual (expresado en UF y reajustado cada año) sobre el cual se calculan las cotizaciones de AFP y salud; el seguro de cesantía tiene un tope propio mayor.",
+  "base": "Art. 16 DL 3.500",
+  "tema": "liquidacion-sueldo"
+ },
+ {
+  "termino": "Régimen Pro Pyme",
+  "alias": [
+   "pro pyme",
+   "propyme",
+   "regimen pro pyme"
+  ],
+  "area": "Tributario",
+  "definicion": "Régimen tributario para pequeñas y medianas empresas (art. 14 D de la Ley de la Renta), con contabilidad simplificada y menor tasa de primera categoría (12,5% transitoria para 2025-2027 en el Pro Pyme General). Tiene una variante transparente en que la empresa no paga primera categoría.",
+  "base": "Art. 14 letra D LIR; Ley 21.755",
+  "tema": "regimenes-tributarios"
+ },
+ {
+  "termino": "DFL 2",
+  "alias": [
+   "dfl 2",
+   "dfl2"
+  ],
+  "area": "Tributario",
+  "definicion": "Régimen de viviendas económicas (superficie limitada) con beneficios tributarios, como la exención de impuesto a la renta por sus arriendos, limitada a un número máximo de viviendas por persona para adquisiciones recientes.",
+  "base": "DFL 2 de 1959; Ley 20.455",
+  "tema": "impuesto-arriendos"
+ },
+ {
+  "termino": "Licencia médica y días de carencia",
+  "alias": [
+   "dias de carencia",
+   "carencia",
+   "subsidio por incapacidad laboral"
+  ],
+  "area": "Laboral",
+  "definicion": "El subsidio por licencia médica común se paga desde el cuarto día si la licencia dura 10 días o menos (los 3 primeros días son de carencia) y desde el primer día si dura 11 días o más.",
+  "base": "Art. 14 DFL 44 de 1978",
+  "tema": "licencias-medicas"
  }
 ]
