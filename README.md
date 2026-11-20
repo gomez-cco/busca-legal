@@ -16,7 +16,7 @@ backend. Lista para desplegar en Render.
 ## Qué incluye
 
 - **91 temas** en 8 áreas (`data/areas/*.json`), por ejemplo:
-  - **Laboral:** contrato, honorarios vs. contrato, jornada 40 horas, horas extra, feriado,
+  - **Laboral:** una ficha por cada causal de despido (161, 160 con cada numeral, renuncia, mutuo acuerdo, plazo fijo y obra), carta de despido, despido con licencia médica, seguro de cesantía, casa particular, plazos laborales, contrato, honorarios vs. contrato, jornada 40 horas, horas extra, feriado,
     remuneraciones, causales de despido, indemnización, Ley Bustos, finiquito, autodespido,
     Ley Karin, tutela laboral, fuero maternal, accidentes del trabajo, teletrabajo, juicio laboral.
   - **Tributario:** inicio de actividades, IVA/F29, Renta/F22, boletas de honorarios,
@@ -41,9 +41,12 @@ backend. Lista para desplegar en Render.
 - **Glosario jurídico** (`data/glosario.json`, 91 conceptos): responde preguntas del tipo
   "¿qué es / qué significa…?" (beneficio de inventario, posesión efectiva, tercería, UF,
   formalización, silencio administrativo, etc.) y enlaza con la ficha del trámite.
-- **Calculadora de indemnización por despido** (arts. 162, 163, 168 y 172 CT): años de
-  servicio, aviso previo, topes de 90 UF y 11 años, feriado proporcional y pendiente, y
-  escenarios de recargo judicial.
+- **Calculadora de finiquito** (`lib/calc.js`, `POST /api/calc/finiquito`): 9 causales (art. 161
+  necesidades y desahucio, 159 N°1, 2, 4, 5 y 6, 160 y autodespido 171). Calcula días trabajados
+  sin pagar, feriado proporcional y pendiente (días hábiles → corridos), horas extra y otros
+  haberes, indemnización por años de servicio (topes 90 UF y 11 años), aviso previo,
+  indemnización por obra o faena (Ley 21.122), indemnización pactada, descuentos y aporte AFC
+  (art. 13 Ley 19.728), y escenarios judiciales (recargos del art. 168 y tutela de 6 a 11 sueldos).
 - **Avisos de urgencia** (detención, violencia, riesgo vital) con números de ayuda.
 - Derivación cuando la consulta es de un tema aún no cargado (por ejemplo, servidumbres o regularización de propiedades).
 - Accesibilidad: tamaño de letra A−/A+ persistente, tema claro/oscuro, diseño móvil.

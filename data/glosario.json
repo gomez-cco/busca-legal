@@ -1205,5 +1205,87 @@
   "definicion": "Impuesto que se paga por una sola vez en la primera venta de ciertos vehículos motorizados nuevos, según su rendimiento urbano y sus emisiones. Se suma al precio junto con el IVA.",
   "base": "Art. 3 Ley 20.780",
   "tema": "iva-vehiculos"
+ },
+ {
+  "termino": "Causal de despido",
+  "alias": [
+   "causal de despido",
+   "causales de despido",
+   "causal de termino"
+  ],
+  "area": "Laboral",
+  "definicion": "Motivo legal invocado para terminar el contrato de trabajo. Solo valen las del Código del Trabajo: art. 159 (objetivas: mutuo acuerdo, renuncia, muerte, vencimiento del plazo, fin de obra, caso fortuito), art. 160 (faltas graves del trabajador) y art. 161 (necesidades de la empresa o desahucio).",
+  "base": "Art. 159, 160 y 161 Código del Trabajo",
+  "tema": "despido-causales"
+ },
+ {
+  "termino": "Falta de probidad",
+  "alias": [
+   "falta de probidad",
+   "probidad"
+  ],
+  "area": "Laboral",
+  "definicion": "Conducta deshonesta grave del trabajador (hurto, fraude, falsificar registros, usar recursos de la empresa en beneficio propio). Es causal de despido sin indemnización del art. 160 N°1 letra a), pero el empleador debe probarla.",
+  "base": "Art. 160 N°1 a) Código del Trabajo",
+  "tema": "despido-disciplinario-160"
+ },
+ {
+  "termino": "Despido injustificado, indebido o improcedente",
+  "alias": [
+   "despido injustificado",
+   "despido indebido",
+   "despido improcedente"
+  ],
+  "area": "Laboral",
+  "definicion": "Calificación que hace el juez cuando la causal invocada no se prueba o no corresponde: 'improcedente' si se aplicó mal el art. 161, 'injustificado' si se aplicó mal el art. 159 o no se invocó causal, e 'indebido' si se aplicó mal el art. 160. Da derecho a indemnizaciones con recargos del 30%, 50% u 80%.",
+  "base": "Art. 168 Código del Trabajo",
+  "tema": "despido-causales"
+ },
+ {
+  "termino": "Indemnización a todo evento",
+  "alias": [
+   "indemnizacion a todo evento"
+  ],
+  "area": "Laboral",
+  "definicion": "Indemnización que se paga al trabajador cualquiera sea la causa del término del contrato, financiada con aportes mensuales del empleador. Es obligatoria para trabajadoras de casa particular (4,11% mensual) y puede pactarse en otros casos desde el séptimo año.",
+  "base": "Art. 163 y 164 Código del Trabajo",
+  "tema": "casa-particular"
+ },
+ {
+  "termino": "Seguro de cesantía (AFC)",
+  "alias": [
+   "seguro de cesantia",
+   "cuenta individual de cesantia",
+   "fondo de cesantia solidario",
+   "afc"
+  ],
+  "area": "Laboral",
+  "definicion": "Seguro obligatorio para trabajadores dependientes que entrega pagos mensuales al quedar cesante, con cargo a una cuenta individual y, si se cumplen requisitos, al Fondo de Cesantía Solidario. Lo administra la AFC.",
+  "base": "Ley 19.728",
+  "tema": "seguro-cesantia"
+ },
+ {
+  "termino": "Feriado proporcional",
+  "alias": [
+   "feriado proporcional",
+   "vacaciones proporcionales"
+  ],
+  "area": "Laboral",
+  "definicion": "Pago, al terminar el contrato, de las vacaciones correspondientes al tiempo trabajado desde el último aniversario (1,25 días hábiles por mes), convertidas a días corridos sumando los sábados, domingos y festivos que siguen al término.",
+  "base": "Art. 73 Código del Trabajo",
+  "tema": "feriado-vacaciones"
+ },
+ {
+  "termino": "Recargo legal",
+  "alias": [
+   "recargo del 30",
+   "recargo del 50",
+   "recargo del 80",
+   "recargos del articulo 168"
+  ],
+  "area": "Laboral",
+  "definicion": "Aumento porcentual de la indemnización por años de servicio que ordena el juez cuando declara que el despido fue mal aplicado: 30% (art. 161), 50% (art. 159 o sin causal), 80% (art. 160) y hasta 100% en ciertos casos del art. 160.",
+  "base": "Art. 168 Código del Trabajo",
+  "tema": "despido-causales"
  }
 ]

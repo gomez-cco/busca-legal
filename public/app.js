@@ -127,7 +127,7 @@
 
     const calcWrap = root.querySelector('[data-role="calcWrap"]');
     if (t.calculadora === 'indemnizacion') {
-      root.querySelector('[data-role="calcBtn"]').addEventListener('click', () => showCalculator());
+      root.querySelector('[data-role="calcBtn"]').addEventListener('click', () => showCalculator({ causal: t.calcCausal }));
     } else {
       calcWrap.remove();
     }
@@ -238,7 +238,7 @@
     const a = r.antiguedad;
     const intro = document.createElement('p');
     intro.className = 'card-text';
-    intro.textContent = `Antigüedad: ${a.anos} año(s), ${a.meses} mes(es) y ${a.dias} día(s) → ${a.anosIndemnizables} año(s) indemnizable(s). Base de cálculo: ${fmt(r.base)}.`;
+    intro.textContent = `${r.causal ? r.causal.label + ' · ' : ''}Antigüedad: ${a.anos} año(s), ${a.meses} mes(es) y ${a.dias} día(s) → ${a.anosIndemnizables} año(s) indemnizable(s). Base de cálculo: ${fmt(r.base)}.`;
     container.appendChild(intro);
 
     const table = document.createElement('table');
@@ -253,13 +253,14 @@
       small.textContent = ` (${l.base})`;
       td1.appendChild(small);
       const td2 = document.createElement('td');
-      td2.textContent = fmt(l.monto);
+      td2.textContent = l.monto < 0 ? `− ${fmt(-l.monto)}` : fmt(l.monto);
+      if (l.tipo === 'descuento') tr.className = 'descuento';
       tr.append(td1, td2);
       tbody.appendChild(tr);
     });
     const trTotal = document.createElement('tr');
     trTotal.className = 'total';
-    trTotal.innerHTML = '<td>Total estimado</td>';
+    trTotal.innerHTML = '<td>Total estimado del finiquito</td>';
     const tdTotal = document.createElement('td');
     tdTotal.textContent = fmt(r.total);
     trTotal.appendChild(tdTotal);
@@ -267,17 +268,25 @@
     table.appendChild(tbody);
     container.appendChild(table);
 
-    if (r.recargos && r.recargos.length) {
+    const escenarios = r.escenarios || [];
+    if (escenarios.length) {
       const det = document.createElement('details');
       det.className = 'card-details';
-      det.innerHTML = '<summary>Si un juez declara injustificado el despido (art. 168 CT)</summary>';
+      det.open = true;
+      det.innerHTML = '<summary>⚖️ Si demandas y el juez te da la razón (art. 168, 171 y 489 CT)</summary>';
       const ul = document.createElement('ul');
-      r.recargos.forEach((x) => {
+      escenarios.forEach((x) => {
         const li = document.createElement('li');
-        li.textContent = `${x.escenario}: recargo ${x.porcentaje}% = ${fmt(x.recargo)} · indemnizaciones totales ≈ ${fmt(x.totalConIAS)}`;
+        li.textContent = x.rango
+          ? `${x.escenario}: entre ${fmt(x.rango[0])} y ${fmt(x.rango[1])} (6 a 11 remuneraciones)`
+          : `${x.escenario}: recargo ${x.porcentaje}% = ${fmt(x.recargo)} · indemnizaciones totales ≈ ${fmt(x.totalIndemnizaciones)}`;
         ul.appendChild(li);
       });
       det.appendChild(ul);
+      const hint = document.createElement('p');
+      hint.className = 'def-base';
+      hint.textContent = 'Plazo para demandar: 60 días hábiles desde la separación (hasta 90 si reclamas antes en la Inspección del Trabajo).';
+      det.appendChild(hint);
       container.appendChild(det);
     }
 
@@ -290,28 +299,37 @@
     container.appendChild(notas);
   }
 
-  function showCalculator() {
+  function showCalculator(preset) {
     closeSidebar();
     const node = tplCalc.content.cloneNode(true);
     const card = node.querySelector('.card-calc');
     const calcForm = card.querySelector('.calc-form');
     const result = card.querySelector('[data-role="result"]');
     calcForm.fechaTermino.value = new Date().toISOString().slice(0, 10);
+    // Show only the fields that matter for the selected causal.
+    const pactadaWrap = calcForm.querySelector('[data-role="pactadaWrap"]');
+    const avisoWrap = calcForm.avisoDado.closest('label');
+    const afcWrap = calcForm.aporteAFC.closest('label');
+    const syncFields = () => {
+      const c = calcForm.causal.value;
+      pactadaWrap.hidden = c !== '159-1';
+      avisoWrap.hidden = !c.startsWith('161');
+      afcWrap.hidden = !c.startsWith('161');
+    };
+    calcForm.causal.addEventListener('change', syncFields);
+    syncFields();
+    if (preset && preset.causal) { calcForm.causal.value = preset.causal; syncFields(); }
 
     calcForm.addEventListener('submit', async (e) => {
       e.preventDefault();
-      const payload = {
-        fechaInicio: calcForm.fechaInicio.value,
-        fechaTermino: calcForm.fechaTermino.value,
-        remuneracion: calcForm.remuneracion.value,
-        valorUF: calcForm.valorUF.value,
-        causal: calcForm.causal.value,
-        avisoDado: calcForm.avisoDado.checked,
-        feriadoPendienteDias: calcForm.feriadoPendienteDias.value,
-      };
+      const payload = {};
+      Array.from(calcForm.elements).forEach((el) => {
+        if (!el.name) return;
+        payload[el.name] = el.type === 'checkbox' ? el.checked : el.value;
+      });
       result.textContent = 'Calculando…';
       try {
-        const res = await fetch('/api/calc/indemnizacion', {
+        const res = await fetch('/api/calc/finiquito', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(payload),
@@ -331,7 +349,7 @@
     messagesEl.appendChild(wrap);
     wrap.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
-  openCalcBtn.addEventListener('click', showCalculator);
+  openCalcBtn.addEventListener('click', () => showCalculator());
   openGlossaryBtn.addEventListener('click', () => ask('Glosario'));
 
   // ---------- Ask ----------
@@ -439,6 +457,7 @@
       body: 'Cuéntame tu caso con tus palabras y te explico qué dice la ley chilena, qué plazos corren y qué hacer paso a paso. Manejo Derecho Laboral, Tributario, Penal, Comercial, Administrativo, Familia y Civil (deudas, embargos y arriendos).',
       topicLinks: [
         'Me despidieron, ¿cuánto me corresponde?',
+        'Calcular mi finiquito',
         'Me llegó una citación del SII',
         'Detuvieron a un familiar',
         'Quiero constituir una SpA',

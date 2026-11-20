@@ -48,7 +48,7 @@
       <div class="sidebar-section">
         <h2>Herramientas</h2>
         <ul class="topic-list">
-          <li><button type="button" id="openCalcBtn">🧮 Calcular indemnización por despido</button></li>
+          <li><button type="button" id="openCalcBtn">🧮 Calcular finiquito e indemnización</button></li>
           <li><button type="button" id="openGlossaryBtn">📖 Glosario jurídico (¿qué significa…?)</button></li>
         </ul>
       </div>
@@ -94,7 +94,7 @@
     </div>
 
     <div class="calc-cta" data-role="calcWrap">
-      <button type="button" class="btn-primary" data-role="calcBtn">🧮 Calcular mi indemnización</button>
+      <button type="button" class="btn-primary" data-role="calcBtn">🧮 Calcular mi finiquito</button>
     </div>
 
     <details class="card-details" data-role="baseLegalWrap">
@@ -131,24 +131,37 @@
   <article class="card card-calc">
     <header class="card-header">
       <span class="pill pill-tool">Herramienta</span>
-      <h3>Calculadora de indemnización por despido</h3>
+      <h3>Calculadora de finiquito</h3>
     </header>
-    <p class="card-text">Estimación según los arts. 162, 163, 168 y 172 del Código del Trabajo. Ingresa tus datos:</p>
+    <p class="card-text">Estima tu finiquito según la causal de término (arts. 159 a 163, 168, 171, 172 y 73 del Código del Trabajo). Los campos marcados como opcionales afinan el resultado.</p>
     <form class="calc-form">
+      <label class="wide">Causal de término
+        <select name="causal">
+          <option value="161-necesidades">Art. 161 – Necesidades de la empresa</option>
+          <option value="161-desahucio">Art. 161 – Desahucio (gerentes, exclusiva confianza, casa particular)</option>
+          <option value="159-2">Art. 159 N°2 – Renuncia voluntaria</option>
+          <option value="159-1">Art. 159 N°1 – Mutuo acuerdo</option>
+          <option value="159-4">Art. 159 N°4 – Vencimiento del plazo</option>
+          <option value="159-5">Art. 159 N°5 – Término de obra o faena</option>
+          <option value="159-6">Art. 159 N°6 – Caso fortuito o fuerza mayor</option>
+          <option value="160">Art. 160 – Causal disciplinaria (falta de probidad, ausencias, abandono, etc.)</option>
+          <option value="171">Art. 171 – Autodespido (despido indirecto)</option>
+        </select>
+      </label>
       <label>Fecha de inicio del contrato <input type="date" name="fechaInicio" required></label>
       <label>Fecha de término <input type="date" name="fechaTermino" required></label>
       <label>Última remuneración mensual bruta ($) <input type="number" name="remuneracion" min="1" step="1" inputmode="numeric" placeholder="Ej: 1200000" required></label>
-      <label>Valor de la UF ($) <input type="number" name="valorUF" min="1" step="0.01" inputmode="decimal" placeholder="Consulta el valor del día en sii.cl" required></label>
-      <label>Causal invocada
-        <select name="causal">
-          <option value="161">Art. 161 – Necesidades de la empresa / desahucio</option>
-          <option value="159">Art. 159 – Vencimiento de plazo, fin de obra, etc.</option>
-          <option value="160">Art. 160 – Causal disciplinaria</option>
-        </select>
-      </label>
+      <label>Valor de la UF ($) <input type="number" name="valorUF" min="1" step="0.01" inputmode="decimal" placeholder="Valor del día en sii.cl" required></label>
+      <label>Días trabajados del último mes sin pagar (opcional) <input type="number" name="diasTrabajadosSinPagar" min="0" max="31" step="1" value="0"></label>
       <label>Días hábiles de vacaciones pendientes (opcional) <input type="number" name="feriadoPendienteDias" min="0" step="0.5" value="0"></label>
-      <label class="check"><input type="checkbox" name="avisoDado"> Me avisaron con 30 días de anticipación</label>
-      <button type="submit" class="btn-primary">Calcular</button>
+      <label>Horas extra pendientes de pago ($, opcional) <input type="number" name="horasExtraPendientes" min="0" step="1" value="0"></label>
+      <label>Otros haberes pendientes: bonos, comisiones ($, opcional) <input type="number" name="otrosHaberes" min="0" step="1" value="0"></label>
+      <label>Descuentos: anticipos o préstamos ($, opcional) <input type="number" name="descuentos" min="0" step="1" value="0"></label>
+      <label>Aporte del empleador a tu AFC ($, opcional, solo art. 161) <input type="number" name="aporteAFC" min="0" step="1" value="0"></label>
+      <label data-role="pactadaWrap">Indemnización acordada en el mutuo acuerdo ($, opcional) <input type="number" name="indemnizacionPactada" min="0" step="1" value="0"></label>
+      <label class="check"><input type="checkbox" name="avisoDado"> Me avisaron por escrito con 30 días de anticipación</label>
+      <label class="check"><input type="checkbox" name="contratoAnterior1981"> Mi contrato comenzó antes del 14-08-1981 (sin tope de 11 años)</label>
+      <button type="submit" class="btn-primary">Calcular finiquito</button>
     </form>
     <div class="calc-result" data-role="result"></div>
   </article>

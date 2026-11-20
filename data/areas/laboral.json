@@ -300,22 +300,13 @@
         "me despidieron",
         "despedido",
         "causales de despido",
-        "necesidades de la empresa",
-        "articulo 161",
-        "articulo 160",
         "articulo 159",
         "despido por falta de probidad",
-        "abandono del trabajo",
-        "renuncia",
-        "mutuo acuerdo",
-        "vencimiento del plazo",
         "desvinculacion",
         "me echaron",
         "carta de despido",
         "me desvincularon",
         "me cortaron",
-        "renuncie",
-        "renunciar",
         "despido injustificado",
         "demandar despido injustificado",
         "despido sin causa",
@@ -358,7 +349,8 @@
         "Oficina de Defensoría Laboral"
       ],
       "consejo": "La causal y los hechos de la carta son los únicos que el empleador puede probar en juicio: si la carta es vaga, eso juega a tu favor.",
-      "alerta": "La causal de necesidades de la empresa no puede invocarse contra trabajadores con licencia médica, ni contra quienes tienen fuero sin autorización judicial previa."
+      "alerta": "La causal de necesidades de la empresa no puede invocarse contra trabajadores con licencia médica, ni contra quienes tienen fuero sin autorización judicial previa.",
+      "calculadora": "indemnizacion"
     },
     {
       "id": "indemnizacion-anos-servicio",
@@ -408,7 +400,8 @@
         "Juzgado de Letras del Trabajo"
       ],
       "consejo": "Si el juez declara injustificado el despido, la indemnización por años de servicio se incrementa: 30% (161 improcedente), 50% (159 injustificado o sin causa), 80% (160 indebido) y hasta 100% si se invocaron sin motivo plausible las causales del 160 N°1, 5 y 6.",
-      "alerta": "Por las causales del art. 159 o 160 no hay indemnización por años de servicio, salvo que se haya pactado en el contrato o el juez declare el despido injustificado."
+      "alerta": "Por las causales del art. 159 o 160 no hay indemnización por años de servicio, salvo que se haya pactado en el contrato o el juez declare el despido injustificado.",
+      "calculadora": "indemnizacion"
     },
     {
       "id": "nulidad-despido-ley-bustos",
@@ -493,7 +486,8 @@
         "Portal Mi DT (dt.gob.cl)"
       ],
       "consejo": "La reserva de derechos debe ser específica: una reserva genérica ('me reservo todos los derechos') puede ser considerada insuficiente por el tribunal.",
-      "alerta": "Firmar el finiquito y cobrar el pago no impide demandar lo que expresamente te reservaste."
+      "alerta": "Firmar el finiquito y cobrar el pago no impide demandar lo que expresamente te reservaste.",
+      "calculadora": "indemnizacion"
     },
     {
       "id": "autodespido",
@@ -534,7 +528,9 @@
         "Oficina de Defensoría Laboral"
       ],
       "consejo": "Antes de autodespedirte, asesórate con un abogado: un autodespido mal fundado se transforma en una renuncia sin indemnización.",
-      "alerta": "Si hay acoso sexual o laboral, la ley permite además demandar indemnización por daño moral."
+      "alerta": "Si hay acoso sexual o laboral, la ley permite además demandar indemnización por daño moral.",
+      "calculadora": "indemnizacion",
+      "calcCausal": "171"
     },
     {
       "id": "ley-karin-acoso",
@@ -841,6 +837,512 @@
       ],
       "consejo": "En materia laboral se pide prueba concreta: prepara una cronología con fechas y documentos de respaldo antes de reunirte con el abogado.",
       "alerta": "La presentación de un reclamo en la Inspección suspende el plazo de 60 días, pero nunca puedes demandar después de 90 días hábiles desde la separación."
+    },
+    {
+      "id": "despido-necesidades-empresa",
+      "calculadora": "indemnizacion",
+      "calcCausal": "161-necesidades",
+      "titulo": "Despido por necesidades de la empresa (art. 161): requisitos, montos y cómo impugnarlo",
+      "temas": [
+        "necesidades de la empresa",
+        "despido por necesidades de la empresa",
+        "articulo 161",
+        "me despidieron por necesidades de la empresa",
+        "racionalizacion",
+        "reestructuracion",
+        "baja en las ventas",
+        "despido por reestructuracion",
+        "modernizacion de la empresa",
+        "161 inciso primero",
+        "me descontaron el seguro de cesantia",
+        "descuento afc",
+        "descuento del seguro de cesantia"
+      ],
+      "resumen": "El art. 161 permite despedir por necesidades de la empresa (racionalización, modernización, bajas de productividad, cambios del mercado o de la economía), pero el empleador debe probar hechos objetivos y concretos. Da derecho a indemnización por años de servicio y, si no hubo aviso de 30 días, a un mes adicional.",
+      "explicacion": "Es la causal más usada y también una de las más impugnadas. No basta con decir 'necesidades de la empresa': la carta debe describir los hechos concretos (por ejemplo, cierre de una sucursal, supresión del cargo, caída de ventas acreditable) y el empleador debe probarlos en juicio. Si el tribunal la declara improcedente, la indemnización por años de servicio se recarga en un 30%. El empleador puede descontar de la indemnización lo que aportó a la cuenta individual de cesantía del trabajador (AFC), pero según la jurisprudencia de la Corte Suprema ese descuento no procede si el despido es declarado injustificado. No puede invocarse contra trabajadores con licencia médica por enfermedad común o laboral, ni contra trabajadores con fuero sin autorización judicial previa.",
+      "baseLegal": [
+        "Art. 161 inciso 1° Código del Trabajo",
+        "Art. 161 inciso final CT (no procede durante licencia médica)",
+        "Art. 162 CT (carta y aviso de 30 días)",
+        "Art. 163 y 172 CT (indemnización y topes)",
+        "Art. 168 letra a) CT (recargo del 30%)",
+        "Art. 13 Ley 19.728 (descuento del aporte del empleador al seguro de cesantía)"
+      ],
+      "pasos": [
+        "Revisa la carta: debe señalar la causal (art. 161), los hechos concretos que la fundan y el estado de pago de tus cotizaciones.",
+        "Verifica si te avisaron con 30 días de anticipación; si no, te corresponde la indemnización sustitutiva del aviso previo (1 remuneración).",
+        "Calcula tu finiquito con la calculadora (indemnización por años de servicio, aviso, feriado, haberes y descuento de AFC).",
+        "Pide en afc.cl tu certificado de saldo para verificar el descuento del aporte del empleador.",
+        "Si los hechos son vagos, falsos o la empresa contrató a otra persona para tu cargo, firma el finiquito con reserva de derechos y demanda despido improcedente dentro de 60 días hábiles.",
+        "Si estabas con licencia médica o tenías fuero, el despido por esta causal es improcedente: consulta de inmediato."
+      ],
+      "plazos": [
+        "Aviso previo: 30 días, o pago de 1 remuneración en su lugar",
+        "Carta: entregada personalmente o por carta certificada; con copia a la Inspección del Trabajo",
+        "Demanda: 60 días hábiles desde la separación (hasta 90 si reclamas antes en la Inspección)"
+      ],
+      "documentos": [
+        "Carta de despido",
+        "Contrato y anexos",
+        "Últimas 3 liquidaciones",
+        "Certificado de cotizaciones y de la cuenta AFC",
+        "Pruebas de que el cargo siguió existiendo (avisos de empleo, nuevo contratado)"
+      ],
+      "dondeAcudir": [
+        "Inspección del Trabajo",
+        "Juzgado de Letras del Trabajo",
+        "Oficina de Defensoría Laboral"
+      ],
+      "consejo": "Si poco después del despido la empresa publica un aviso para tu mismo cargo o contrata a un reemplazo, guarda esa evidencia: es la prueba más fuerte de que no había necesidades de la empresa.",
+      "alerta": "Si firmas el finiquito sin reserva de derechos, en principio ya no podrás demandar el recargo del 30% ni discutir el descuento del seguro de cesantía."
+    },
+    {
+      "id": "despido-disciplinario-160",
+      "calculadora": "indemnizacion",
+      "calcCausal": "160",
+      "titulo": "Despido disciplinario (art. 160): cada causal explicada y cómo defenderse",
+      "temas": [
+        "articulo 160",
+        "despido disciplinario",
+        "despido sin indemnizacion",
+        "me despidieron sin indemnizacion",
+        "falta de probidad",
+        "acoso laboral despido",
+        "vias de hecho",
+        "injurias al empleador",
+        "conducta inmoral",
+        "negociaciones prohibidas",
+        "ausencias injustificadas",
+        "no fui a trabajar",
+        "falte al trabajo",
+        "abandono del trabajo",
+        "incumplimiento grave de las obligaciones",
+        "perjuicio material",
+        "atrasos reiterados",
+        "me acusan de robar en el trabajo",
+        "160 n 1",
+        "160 n 3",
+        "160 n 7",
+        "falte",
+        "falte dias",
+        "falte al trabajo y me despidieron",
+        "me despidieron por faltar",
+        "falte 2 dias",
+        "falte 3 dias",
+        "falte dos dias",
+        "falte tres dias",
+        "falte un lunes",
+        "inasistencias"
+      ],
+      "resumen": "Las causales del art. 160 sancionan faltas graves del trabajador y permiten despedir sin indemnización por años de servicio ni aviso previo. Pero el empleador debe probar la falta y su gravedad; si no lo logra, el despido se declara indebido y la indemnización se paga con recargo del 80% (o hasta 100% si la causal no tenía motivo plausible).",
+      "explicacion": "N°1 Conductas indebidas de carácter grave, debidamente comprobadas: a) falta de probidad (deshonestidad: hurtos, falsificar registros, uso indebido de recursos); b) acoso sexual; c) vías de hecho (agresión física) contra el empleador o compañeros; d) injurias al empleador; e) conducta inmoral que afecte a la empresa; f) acoso laboral. N°2 Negociaciones dentro del giro del negocio prohibidas por escrito en el contrato. N°3 No concurrencia sin causa justificada durante 2 días seguidos, 2 lunes en el mes o un total de 3 días en el mes; o la falta injustificada o sin aviso previo de quien tiene a cargo una actividad cuyo abandono signifique perturbación grave. N°4 Abandono del trabajo: salida intempestiva e injustificada en horas de trabajo sin permiso, o negativa a trabajar sin causa justificada en las faenas convenidas. N°5 Actos, omisiones o imprudencias temerarias que afecten la seguridad o el funcionamiento del establecimiento o la salud de los trabajadores. N°6 Perjuicio material causado intencionalmente en instalaciones, maquinarias o mercaderías. N°7 Incumplimiento grave de las obligaciones del contrato. La jurisprudencia exige que los hechos sean graves, estén probados, sean recientes (inmediatez) y se describan con precisión en la carta.",
+      "baseLegal": [
+        "Art. 160 N°1 a N°7 Código del Trabajo",
+        "Art. 162 CT (carta con hechos precisos)",
+        "Art. 168 letras c) y final CT (recargo del 80% o hasta 100%)",
+        "Art. 454 N°1 CT (el empleador debe probar los hechos de la carta)"
+      ],
+      "pasos": [
+        "Lee la carta: anota la causal exacta (número y letra) y los hechos que te imputan. El empleador solo podrá probar en juicio los hechos que estén en la carta.",
+        "Reúne tus pruebas: licencias médicas o justificaciones por las ausencias, registros de asistencia, correos, testigos.",
+        "Si la falta no existió, no fue grave, ocurrió hace mucho tiempo o fue tolerada antes por el empleador, el despido puede ser indebido.",
+        "No firmes reconocimientos de culpa ni 'actas de entrevista' sin leerlas; puedes negarte o dejar constancia de tu versión.",
+        "Firma el finiquito con reserva de derechos (o no lo firmes) y demanda despido indebido dentro de 60 días hábiles.",
+        "Si el despido fue una represalia o vulneró tus derechos (por ejemplo, tras denunciar acoso), evalúa demanda de tutela laboral."
+      ],
+      "plazos": [
+        "Demanda: 60 días hábiles desde la separación (hasta 90 con reclamo previo en la Inspección)",
+        "Carta: dentro de 3 días hábiles desde la separación"
+      ],
+      "documentos": [
+        "Carta de despido",
+        "Justificaciones de ausencias (licencias, certificados)",
+        "Registros de asistencia",
+        "Testigos",
+        "Correos o mensajes"
+      ],
+      "dondeAcudir": [
+        "Juzgado de Letras del Trabajo",
+        "Inspección del Trabajo",
+        "Oficina de Defensoría Laboral"
+      ],
+      "consejo": "En el juicio, la carga de probar la causal es del empleador. Una carta genérica ('incumplimiento grave de sus obligaciones' sin detallar hechos) juega a tu favor.",
+      "alerta": "Aunque el despido por art. 160 sea válido, igual te deben pagar el feriado proporcional y pendiente, y las remuneraciones adeudadas."
+    },
+    {
+      "id": "renuncia-voluntaria",
+      "calculadora": "indemnizacion",
+      "calcCausal": "159-2",
+      "titulo": "Renuncia voluntaria (art. 159 N°2): cómo renunciar y qué me deben pagar",
+      "temas": [
+        "renuncia",
+        "renunciar",
+        "quiero renunciar",
+        "renuncia voluntaria",
+        "carta de renuncia",
+        "como renuncio",
+        "renuncie que me pagan",
+        "aviso de renuncia",
+        "30 dias de aviso renuncia",
+        "me obligaron a renunciar",
+        "renuncia forzada",
+        "me hicieron firmar la renuncia"
+      ],
+      "resumen": "El trabajador puede renunciar avisando por escrito con al menos 30 días de anticipación. Al renunciar no hay indemnización por años de servicio (salvo que el contrato la pacte), pero sí se paga el feriado proporcional y pendiente y lo trabajado hasta el último día.",
+      "explicacion": "La renuncia debe ser firmada por el trabajador y ratificada ante un ministro de fe (inspector del trabajo, notario, oficial del Registro Civil) o firmada electrónicamente en el portal de la Dirección del Trabajo; sin esa formalidad, no puede invocarse en su contra en juicio. El aviso de 30 días es una obligación del trabajador, pero el empleador no puede retener remuneraciones si no se cumple. Una renuncia obtenida mediante presión, engaño o amenazas puede impugnarse como un despido encubierto.",
+      "baseLegal": [
+        "Art. 159 N°2 Código del Trabajo (renuncia con aviso de 30 días)",
+        "Art. 177 CT (ratificación ante ministro de fe o firma electrónica)",
+        "Art. 73 CT (feriado proporcional)"
+      ],
+      "pasos": [
+        "Redacta una carta de renuncia simple con fecha, nombre, RUT, cargo y fecha de término (al menos 30 días después).",
+        "Firma la renuncia ante un ministro de fe o en el portal Mi DT (dt.gob.cl) con Clave Única.",
+        "Entrega una copia al empleador y guarda un respaldo con fecha de recepción.",
+        "Calcula lo que te deben: días trabajados del último mes, feriado proporcional y pendiente, horas extra y otros haberes.",
+        "Revisa el finiquito antes de firmarlo y exige su pago dentro de 10 días hábiles."
+      ],
+      "plazos": [
+        "Aviso al empleador: 30 días de anticipación",
+        "Pago del finiquito: 10 días hábiles desde la separación"
+      ],
+      "documentos": [
+        "Carta de renuncia ratificada",
+        "Liquidaciones",
+        "Comprobantes de feriado"
+      ],
+      "dondeAcudir": [
+        "Portal Mi DT (dt.gob.cl)",
+        "Notaría",
+        "Inspección del Trabajo"
+      ],
+      "consejo": "Si te están presionando para que renuncies, no firmes: pide que te despidan por la causal que corresponda. La renuncia te hace perder la indemnización que tendrías con un despido por necesidades de la empresa.",
+      "alerta": "Si el empleador incumple gravemente (no paga sueldos o cotizaciones, acoso), no renuncies: evalúa el autodespido, que permite demandar indemnizaciones."
+    },
+    {
+      "id": "mutuo-acuerdo",
+      "calculadora": "indemnizacion",
+      "calcCausal": "159-1",
+      "titulo": "Término por mutuo acuerdo (art. 159 N°1): qué debo negociar",
+      "temas": [
+        "mutuo acuerdo",
+        "termino por mutuo acuerdo",
+        "159 n 1",
+        "acuerdo de salida",
+        "me ofrecen un acuerdo",
+        "indemnizacion voluntaria",
+        "plan de retiro",
+        "retiro voluntario",
+        "me ofrecen plata para irme"
+      ],
+      "resumen": "Trabajador y empleador pueden poner término al contrato de común acuerdo. No existe indemnización legal obligatoria: solo la que se negocie. Por eso es clave negociar el monto antes de firmar.",
+      "explicacion": "El acuerdo debe constar por escrito y ratificarse ante ministro de fe o firmarse electrónicamente. Es frecuente que la empresa proponga 'mutuo acuerdo' en vez de un despido por necesidades de la empresa para evitar pagar indemnizaciones. Si aceptas, conviene que la indemnización pactada sea al menos equivalente a la que te correspondería por el art. 161 (años de servicio + aviso). Las indemnizaciones voluntarias pueden tener un tratamiento tributario distinto de las legales: revísalo si el monto es alto.",
+      "baseLegal": [
+        "Art. 159 N°1 Código del Trabajo",
+        "Art. 177 CT (formalidades del finiquito)",
+        "Art. 178 CT (tratamiento de las indemnizaciones)"
+      ],
+      "pasos": [
+        "Calcula primero cuánto te correspondería si te despidieran por necesidades de la empresa (usa la calculadora con art. 161).",
+        "Negocia: indemnización, fecha de salida, pago de feriado, bonos pendientes, mantención del seguro de salud por un tiempo, carta de recomendación.",
+        "Pide que todo quede por escrito en el finiquito.",
+        "Ratifica el acuerdo ante ministro de fe o en el portal de la DT solo cuando estés conforme."
+      ],
+      "plazos": [
+        "Pago: 10 días hábiles desde la separación"
+      ],
+      "documentos": [
+        "Propuesta de acuerdo",
+        "Cálculo comparativo con el art. 161",
+        "Finiquito"
+      ],
+      "dondeAcudir": [
+        "Inspección del Trabajo",
+        "Abogado laboral",
+        "Portal Mi DT"
+      ],
+      "consejo": "Nunca firmes un 'mutuo acuerdo' en la misma reunión en que te lo proponen: pide unos días para calcular y asesorarte.",
+      "alerta": "Un mutuo acuerdo firmado y ratificado es muy difícil de impugnar después: el finiquito tiene poder liberatorio."
+    },
+    {
+      "id": "vencimiento-plazo-obra",
+      "calculadora": "indemnizacion",
+      "calcCausal": "159-4",
+      "titulo": "Término por vencimiento del plazo o fin de la obra (art. 159 N°4 y N°5)",
+      "temas": [
+        "vencimiento del plazo",
+        "contrato a plazo fijo termino",
+        "se me termino el contrato",
+        "no me renovaron el contrato",
+        "fin de obra",
+        "termino de obra o faena",
+        "contrato por obra",
+        "indemnizacion por obra o faena",
+        "159 n 4",
+        "159 n 5",
+        "plazo fijo renovado",
+        "tercer contrato",
+        "contrato a plazo se volvio indefinido",
+        "no me renovaron el contrato a plazo fijo",
+        "termino el plazo fijo"
+      ],
+      "resumen": "El contrato a plazo fijo termina al vencer el plazo y el contrato por obra al terminar la obra o faena, sin indemnización por años de servicio. Pero si el contrato se renovó dos veces o siguió después del vencimiento, se transformó en indefinido, y el término por esta causal es injustificado. En los contratos por obra o faena de más de 30 días existe una indemnización especial de 2,5 días de remuneración por cada mes trabajado.",
+      "explicacion": "Plazo fijo: máximo 1 año (2 años para gerentes o profesionales/técnicos titulados). Se transforma en indefinido si se renueva por segunda vez, si el trabajador sigue prestando servicios después del vencimiento con conocimiento del empleador, o si presta servicios discontinuos en virtud de más de dos contratos a plazo durante 12 meses o más en un período de 15 meses (presunción legal). Obra o faena: la Ley 21.122 estableció una indemnización equivalente a 2,5 días de remuneración por cada mes trabajado y fracción superior a 15 días cuando el contrato por obra dura más de 30 días y termina por conclusión de la obra (art. 159 N°5). Si el empleador usa estas causales para un contrato que en realidad es indefinido, se declara el despido injustificado con recargo del 50%.",
+      "baseLegal": [
+        "Art. 159 N°4 Código del Trabajo (vencimiento del plazo y presunciones de indefinido)",
+        "Art. 159 N°5 CT (conclusión del trabajo o servicio)",
+        "Art. 163 CT, inciso sobre contratos por obra o faena (Ley 21.122: 2,5 días por mes)",
+        "Art. 168 letra b) CT (recargo del 50% si es injustificado)"
+      ],
+      "pasos": [
+        "Cuenta cuántos contratos o renovaciones has tenido y revisa si seguiste trabajando después de algún vencimiento.",
+        "Si hubo una segunda renovación o continuidad, tu contrato es indefinido: el término por 'vencimiento del plazo' es injustificado.",
+        "En contratos por obra, verifica que la obra realmente terminó y calcula la indemnización de 2,5 días por mes (usa la calculadora con art. 159 N°5).",
+        "Revisa el finiquito: feriado proporcional, días trabajados y, en obra, la indemnización especial.",
+        "Si corresponde, firma con reserva de derechos y demanda dentro de 60 días hábiles."
+      ],
+      "plazos": [
+        "Plazo fijo: máximo 1 año (2 años en casos de la ley)",
+        "Demanda: 60 días hábiles desde la separación"
+      ],
+      "documentos": [
+        "Todos los contratos y anexos de renovación",
+        "Liquidaciones",
+        "Carta de término",
+        "Antecedentes de la obra (para contratos por obra)"
+      ],
+      "dondeAcudir": [
+        "Inspección del Trabajo",
+        "Juzgado de Letras del Trabajo"
+      ],
+      "consejo": "Guarda todos tus contratos: la cadena de renovaciones es la prueba de que tu contrato pasó a ser indefinido.",
+      "alerta": "Una trabajadora embarazada con contrato a plazo tiene fuero: el empleador debe pedir el desafuero al tribunal aunque venza el plazo."
+    },
+    {
+      "id": "carta-despido",
+      "titulo": "Carta de despido: requisitos, plazos y errores frecuentes",
+      "temas": [
+        "carta de despido",
+        "no me dieron carta de despido",
+        "me despidieron de palabra",
+        "despido verbal",
+        "me despidieron por whatsapp",
+        "requisitos de la carta de despido",
+        "carta de aviso",
+        "carta certificada despido",
+        "la carta no dice los hechos",
+        "no me entregaron la carta",
+        "despido sin carta"
+      ],
+      "resumen": "El despido debe comunicarse por escrito, personalmente o por carta certificada al domicilio del trabajador, indicando la causal, los hechos en que se funda y el estado de pago de las cotizaciones previsionales, con copia a la Inspección del Trabajo.",
+      "explicacion": "Plazos: dentro de 3 días hábiles desde la separación (6 días hábiles en caso fortuito); en el art. 161, con 30 días de anticipación o pagando el aviso. La carta debe precisar los hechos: el empleador no podrá alegar en juicio hechos distintos de los señalados. Debe acompañarse el comprobante de pago de las cotizaciones hasta el último día del mes anterior; si hay cotizaciones impagas, el despido no produce efecto (Ley Bustos). Un despido de palabra o por WhatsApp sin carta posterior no invalida el término, pero en juicio se considera que no hubo causal válida, lo que normalmente lleva a declarar el despido injustificado con recargo.",
+      "baseLegal": [
+        "Art. 162 Código del Trabajo (forma, plazo y contenido de la comunicación)",
+        "Art. 162 incisos 5° a 7° CT (cotizaciones impagas – Ley Bustos)",
+        "Art. 454 N°1 CT (el empleador no puede probar hechos distintos de los de la carta)",
+        "Art. 168 CT (despido sin causal: recargo del 50%)"
+      ],
+      "pasos": [
+        "Pide la carta por escrito si te despidieron de palabra; guarda los mensajes o testigos del despido verbal.",
+        "Revisa que la carta indique causal, hechos concretos y estado de cotizaciones, y que haya llegado en plazo.",
+        "Descarga tu certificado de cotizaciones para comprobar que estén pagadas.",
+        "Usa la calculadora de finiquito con la causal indicada en la carta.",
+        "Si la carta es genérica, no llegó o falta el pago de cotizaciones, consulta: puede haber despido injustificado o nulidad del despido."
+      ],
+      "plazos": [
+        "Entrega de la carta: 3 días hábiles desde la separación (6 en caso fortuito)",
+        "Art. 161: 30 días de anticipación o indemnización sustitutiva",
+        "Demanda: 60 días hábiles"
+      ],
+      "documentos": [
+        "Carta de despido y sobre o comprobante de carta certificada",
+        "Mensajes o testigos del despido verbal",
+        "Certificado de cotizaciones"
+      ],
+      "dondeAcudir": [
+        "Inspección del Trabajo",
+        "Juzgado de Letras del Trabajo"
+      ],
+      "consejo": "Anota la fecha exacta en que dejaste de trabajar: desde ese día corren los 60 días hábiles para demandar, aunque la carta llegue después.",
+      "alerta": "Los errores formales de la carta (por ejemplo, el retraso en el envío) no anulan el despido, pero generan multas al empleador y pueden debilitar su defensa en juicio."
+    },
+    {
+      "id": "despido-licencia-medica",
+      "titulo": "¿Me pueden despedir con licencia médica?",
+      "temas": [
+        "despido con licencia medica",
+        "me despidieron con licencia",
+        "estoy con licencia y me despidieron",
+        "despido durante licencia",
+        "licencia medica y despido",
+        "pueden despedirme si estoy con licencia",
+        "licencia psiquiatrica despido",
+        "me despidieron estando con licencia",
+        "despedido con licencia medica"
+      ],
+      "resumen": "Durante una licencia médica no se puede despedir por necesidades de la empresa ni desahucio (art. 161). Sí podrían invocarse otras causales (como el vencimiento del plazo o una falta grave del art. 160), pero el empleador debe acreditarlas, y la licencia sigue pagándose por la Isapre o Fonasa.",
+      "explicacion": "El art. 161 inciso final prohíbe invocar las causales de ese artículo respecto de trabajadores con licencia por enfermedad común, accidente del trabajo o enfermedad profesional. Si el empleador lo hace, el despido es improcedente. Si el contrato vence durante la licencia, la jurisprudencia es variada; en el caso de trabajadoras embarazadas rige además el fuero. El subsidio por incapacidad laboral se sigue pagando hasta el término de la licencia aunque el contrato haya terminado, según las reglas de la licencia.",
+      "baseLegal": [
+        "Art. 161 inciso final Código del Trabajo",
+        "Art. 168 CT (recargos)",
+        "DFL 44 de 1978 (subsidios por incapacidad laboral)"
+      ],
+      "pasos": [
+        "Guarda copia de todas tus licencias médicas y del comprobante de su presentación al empleador.",
+        "Si te despiden por el art. 161 estando con licencia, demanda despido improcedente dentro de 60 días hábiles.",
+        "Si te despiden por otra causal, revisa si los hechos son reales: un despido por represalia por enfermedad puede dar lugar a tutela laboral (discriminación).",
+        "Sigue tramitando tus licencias para recibir el subsidio."
+      ],
+      "plazos": [
+        "Demanda: 60 días hábiles desde la separación"
+      ],
+      "documentos": [
+        "Licencias médicas y comprobantes de entrega",
+        "Carta de despido"
+      ],
+      "dondeAcudir": [
+        "Inspección del Trabajo",
+        "Juzgado de Letras del Trabajo",
+        "COMPIN / Isapre (subsidio)"
+      ],
+      "consejo": "Presenta las licencias dentro de plazo y deja constancia de la entrega: si no las tramitas a tiempo, el empleador podría alegar ausencias injustificadas.",
+      "alerta": "Ausentarte sin presentar la licencia oportunamente puede usarse para un despido por el art. 160 N°3 (ausencias)."
+    },
+    {
+      "id": "seguro-cesantia",
+      "titulo": "Seguro de cesantía (AFC): cómo cobrarlo después del despido",
+      "temas": [
+        "seguro de cesantia",
+        "afc",
+        "cobrar el seguro de cesantia",
+        "fondo de cesantia solidario",
+        "cuenta individual de cesantia",
+        "me quede sin trabajo",
+        "cesante",
+        "giros del seguro de cesantia",
+        "cuanto me paga el seguro de cesantia"
+      ],
+      "resumen": "Al quedar cesante puedes cobrar el seguro de cesantía en la AFC: primero con tu Cuenta Individual de Cesantía y, si no alcanza y cumples requisitos, con el Fondo de Cesantía Solidario. Se solicita en afc.cl con el finiquito, la carta de despido u otro documento que acredite el término.",
+      "explicacion": "El seguro de la Ley 19.728 se financia con aportes del trabajador y del empleador. Los requisitos de cotizaciones para la cuenta individual dependen del tipo de contrato (más cotizaciones si era indefinido que si era a plazo fijo u obra). El Fondo Solidario exige, entre otros requisitos, haber sido despedido por causales que no dependan del trabajador (como el art. 161 o el 159 N°4, 5 o 6) y un número mínimo de cotizaciones en los últimos 24 meses. Los pagos son mensuales y decrecientes. En despidos por el art. 161, el aporte del empleador a la cuenta individual se puede descontar de la indemnización por años de servicio.",
+      "baseLegal": [
+        "Ley 19.728 (seguro de desempleo)",
+        "Art. 12 y 13 Ley 19.728 (requisitos e imputación a la indemnización)",
+        "Art. 24 y siguientes Ley 19.728 (Fondo de Cesantía Solidario)"
+      ],
+      "pasos": [
+        "Reúne el documento de término: finiquito, carta de despido o acta de la Inspección del Trabajo.",
+        "Ingresa a afc.cl con tu Clave Única y solicita el beneficio (o acude a una sucursal AFC).",
+        "Revisa si cumples los requisitos del Fondo Solidario si tu cuenta individual tiene poco saldo.",
+        "Inscríbete en la Bolsa Nacional de Empleo si te lo exigen para seguir recibiendo pagos del Fondo Solidario.",
+        "Si tu empleador no pagó las cotizaciones del seguro, reclama: también es un caso de cotizaciones impagas."
+      ],
+      "plazos": [
+        "Solicita el beneficio pronto tras el término del contrato (la ley fija plazos máximos; revísalos en afc.cl)"
+      ],
+      "documentos": [
+        "Finiquito o carta de despido",
+        "Cédula de identidad",
+        "Certificado de cotizaciones AFC"
+      ],
+      "dondeAcudir": [
+        "AFC Chile (afc.cl)",
+        "ChileAtiende",
+        "Bolsa Nacional de Empleo"
+      ],
+      "consejo": "Cobrar el seguro de cesantía no te impide demandar al empleador por despido injustificado.",
+      "alerta": "Los requisitos y montos del seguro se actualizan por ley: verifica los vigentes en afc.cl."
+    },
+    {
+      "id": "casa-particular",
+      "calculadora": "indemnizacion",
+      "calcCausal": "161-desahucio",
+      "titulo": "Trabajadoras de casa particular: contrato, jornada, término e indemnización a todo evento",
+      "temas": [
+        "trabajadora de casa particular",
+        "trabajador de casa particular",
+        "nana",
+        "asesora del hogar",
+        "empleada domestica",
+        "despedir a la nana",
+        "indemnizacion a todo evento",
+        "contrato de casa particular",
+        "puertas adentro",
+        "puertas afuera"
+      ],
+      "resumen": "Las trabajadoras de casa particular tienen derecho a contrato escrito, sueldo no inferior al mínimo, jornada limitada, descansos, vacaciones y cotizaciones. Al término del contrato, cualquiera sea la causa, reciben una indemnización 'a todo evento' financiada con un aporte mensual del empleador del 4,11% de la remuneración, depositado en la AFP.",
+      "explicacion": "Se rigen por el Código del Trabajo (arts. 146 y siguientes) con las normas de la Ley 20.786. El contrato debe escriturarse y registrarse en la Dirección del Trabajo. Pueden ser 'puertas afuera' (con jornada máxima similar a la general) o 'puertas adentro' (con descansos mínimos diarios y semanales). El empleador puede terminar el contrato por desahucio (art. 161 inciso 2°) dando aviso de 30 días o pagando un mes; la indemnización por años de servicio se reemplaza por la indemnización a todo evento acumulada en la AFP, que la trabajadora retira al término.",
+      "baseLegal": [
+        "Art. 146 a 152 Código del Trabajo",
+        "Ley 20.786 (modifica jornada, descanso y composición de la remuneración)",
+        "Art. 163 inciso final CT (indemnización a todo evento: aporte de 4,11%)",
+        "Art. 161 inciso 2° CT (desahucio)"
+      ],
+      "pasos": [
+        "Firma un contrato escrito y regístralo en la Dirección del Trabajo (dt.gob.cl).",
+        "Paga mensualmente las cotizaciones previsionales y el aporte de 4,11% para la indemnización a todo evento (por ejemplo, vía Previred).",
+        "Para terminar el contrato, entrega aviso escrito con 30 días de anticipación o paga el mes de aviso.",
+        "Paga feriado proporcional y lo adeudado en el finiquito, y entrega los documentos para que la trabajadora retire su indemnización en la AFP."
+      ],
+      "plazos": [
+        "Aviso de desahucio: 30 días o pago de 1 remuneración",
+        "Registro del contrato en la DT: dentro de 15 días desde su celebración"
+      ],
+      "documentos": [
+        "Contrato registrado",
+        "Comprobantes de cotizaciones y del aporte de 4,11%",
+        "Finiquito"
+      ],
+      "dondeAcudir": [
+        "Dirección del Trabajo (dt.gob.cl)",
+        "Previred",
+        "AFP"
+      ],
+      "consejo": "Si el empleador no pagó el aporte de 4,11%, la trabajadora puede cobrarlo: revisa el certificado de la AFP.",
+      "alerta": "No pagar cotizaciones de la trabajadora de casa particular también aplica la Ley Bustos: el despido no produce efecto hasta que se paguen."
+    },
+    {
+      "id": "plazos-laborales",
+      "titulo": "Plazos laborales más importantes (resumen)",
+      "temas": [
+        "plazos laborales",
+        "cuanto tiempo tengo para demandar",
+        "plazo para demandar despido",
+        "se me paso el plazo",
+        "plazo de 60 dias",
+        "prescripcion laboral",
+        "cuando prescribe",
+        "hasta cuando puedo reclamar"
+      ],
+      "resumen": "El plazo clave es de 60 días hábiles desde el despido para demandar (90 si reclamaste antes en la Inspección). Los derechos laborales prescriben en 2 años desde que se hicieron exigibles, pero las acciones al terminar el contrato prescriben en 6 meses desde la separación.",
+      "explicacion": "Despido injustificado, indebido o improcedente y autodespido: 60 días hábiles desde la separación; se suspende al presentar reclamo ante la Inspección del Trabajo, pero nunca más allá de 90 días hábiles. Tutela de derechos fundamentales: 60 días hábiles desde la vulneración. Cobro de prestaciones (sueldos, feriado, horas extra): 2 años desde que se hicieron exigibles, con un máximo de 6 meses contados desde el término del contrato; horas extra: 6 meses desde que debieron pagarse. Nulidad del despido (Ley Bustos): según la Corte Suprema, 6 meses desde la separación. Pago del finiquito: 10 días hábiles. Para la ley laboral, los días hábiles excluyen domingos y festivos (y en el art. 168 se cuentan como en el procedimiento laboral; verifica el cómputo con tu abogado).",
+      "baseLegal": [
+        "Art. 168 Código del Trabajo (60 días hábiles; suspensión hasta 90)",
+        "Art. 486 CT (tutela)",
+        "Art. 510 CT (prescripción de derechos y acciones)",
+        "Art. 177 CT (pago del finiquito)"
+      ],
+      "pasos": [
+        "Anota la fecha exacta de tu despido o autodespido.",
+        "Cuenta 60 días hábiles y márcalo en tu calendario.",
+        "Si necesitas más tiempo, presenta un reclamo en la Inspección del Trabajo: suspende el plazo (con un máximo de 90 días hábiles).",
+        "Busca asesoría (Defensoría Laboral o abogado) antes de la mitad del plazo."
+      ],
+      "plazos": [
+        "Despido: 60 días hábiles (máx. 90 con reclamo administrativo)",
+        "Tutela: 60 días hábiles",
+        "Cobro de prestaciones: 2 años (máx. 6 meses desde el término)",
+        "Finiquito: pago en 10 días hábiles"
+      ],
+      "documentos": [
+        "Carta de despido o fecha de separación"
+      ],
+      "dondeAcudir": [
+        "Inspección del Trabajo",
+        "Oficina de Defensoría Laboral",
+        "Juzgado de Letras del Trabajo"
+      ],
+      "consejo": "No esperes a que te paguen el finiquito para contar el plazo: corre desde que dejaste de trabajar.",
+      "alerta": "Vencidos los 60 (o 90) días hábiles, ya no puedes discutir si el despido fue justificado, aunque aún puedas cobrar algunas prestaciones."
     }
   ]
 }

@@ -3,7 +3,7 @@
 // Pruebas sin dependencias: node test/run.js
 const assert = require('assert');
 const { composeAnswer, areas } = require('../lib/engine');
-const { calcularIndemnizacion, antiguedad, parseDate } = require('../lib/calc');
+const { calcularIndemnizacion, calcularFiniquito, antiguedad, parseDate } = require('../lib/calc');
 
 let passed = 0;
 let failed = 0;
@@ -13,7 +13,7 @@ function test(name, fn) {
 
 // Consulta → tema que debe aparecer primero.
 const ROUTING = [
-  ['me despidieron por necesidades de la empresa cuanto me corresponde', 'despido-causales'],
+  ['me despidieron por necesidades de la empresa cuanto me corresponde', 'despido-necesidades-empresa'],
   ['calcular indemnizacion por años de servicio', 'indemnizacion-anos-servicio'],
   ['me echaron y no me pagaron las imposiciones', 'nulidad-despido-ley-bustos'],
   ['mi jefe me humilla todos los dias', 'ley-karin-acoso'],
@@ -41,7 +41,7 @@ const ROUTING = [
   ['recurso de proteccion isapre', 'isapre-reclamos'],
   ['recurso de proteccion contra un colegio', 'recurso-proteccion'],
   ['choque y el bache no estaba señalizado', 'responsabilidad-estado'],
-  ['articulo 161', 'despido-causales'],
+  ['articulo 161', 'despido-necesidades-empresa'],
   ['me quieren embargar la casa que puedo hacer?', 'embargo-juicio-ejecutivo'],
   ['pueden embargar mi sueldo', 'bienes-inembargables'],
   ['me van a rematar la casa por el dividendo', 'remate-hipoteca'],
@@ -79,6 +79,16 @@ const ROUTING = [
   ['cuanto se paga por transferir un auto usado', 'transferencia-vehiculo-usado'],
   ['puedo rebajar como gasto la camioneta', 'gastos-vehiculos-renta'],
   ['que compras dan credito fiscal', 'credito-fiscal-requisitos'],
+  ['me despidieron por falta de probidad', 'despido-disciplinario-160'],
+  ['falte 3 dias y me despidieron', 'despido-disciplinario-160'],
+  ['quiero renunciar', 'renuncia-voluntaria'],
+  ['me ofrecen un mutuo acuerdo', 'mutuo-acuerdo'],
+  ['no me renovaron el contrato a plazo fijo', 'vencimiento-plazo-obra'],
+  ['me despidieron por whatsapp', 'carta-despido'],
+  ['me despidieron estando con licencia', 'despido-licencia-medica'],
+  ['como cobro el seguro de cesantia', 'seguro-cesantia'],
+  ['quiero despedir a la nana', 'casa-particular'],
+  ['cuanto tiempo tengo para demandar', 'plazos-laborales'],
 ];
 
 for (const [q, expected] of ROUTING) {
@@ -186,14 +196,14 @@ test('161 sin aviso: IAS + aviso', () => {
   const r = calcularIndemnizacion({ fechaInicio: '2020-01-01', fechaTermino: '2025-08-15', remuneracion: 1000000, valorUF: 39000, causal: '161', avisoDado: false });
   assert.ok(r.ok);
   assert.strictEqual(r.antiguedad.anosIndemnizables, 6);
-  assert.strictEqual(r.lineas[0].monto, 6000000);
-  assert.strictEqual(r.lineas[1].monto, 1000000);
+  assert.strictEqual(r.lineas.find((l) => /años de servicio/.test(l.concepto)).monto, 6000000);
+  assert.strictEqual(r.lineas.find((l) => /aviso previo/.test(l.concepto)).monto, 1000000);
 });
 test('tope de 90 UF y 11 años', () => {
   const r = calcularIndemnizacion({ fechaInicio: '2005-01-01', fechaTermino: '2025-03-01', remuneracion: 9000000, valorUF: 39000, causal: '161', avisoDado: true });
   assert.strictEqual(r.base, 90 * 39000);
   assert.strictEqual(r.antiguedad.anosIndemnizables, 11);
-  assert.strictEqual(r.lineas[0].monto, 11 * 90 * 39000);
+  assert.strictEqual(r.lineas.find((l) => /años de servicio/.test(l.concepto)).monto, 11 * 90 * 39000);
 });
 test('menos de 1 año: sin IAS', () => {
   const r = calcularIndemnizacion({ fechaInicio: '2025-01-01', fechaTermino: '2025-10-01', remuneracion: 800000, valorUF: 39000, causal: '161', avisoDado: false });
@@ -203,6 +213,33 @@ test('causal 160: sin IAS pero con escenarios de recargo', () => {
   const r = calcularIndemnizacion({ fechaInicio: '2018-01-01', fechaTermino: '2025-01-10', remuneracion: 1000000, valorUF: 39000, causal: '160' });
   assert.ok(!r.lineas.some((l) => /años de servicio/.test(l.concepto)));
   assert.strictEqual(r.recargos.find((x) => x.porcentaje === 80).recargo, 7 * 1000000 * 0.8);
+});
+test('finiquito: renuncia solo paga feriado y haberes', () => {
+  const r = calcularFiniquito({ fechaInicio: '2020-03-01', fechaTermino: '2025-09-15', remuneracion: 900000, valorUF: 39000, causal: '159-2', diasTrabajadosSinPagar: 15 });
+  assert.ok(r.ok);
+  assert.ok(!r.lineas.some((l) => l.tipo === 'indemnizacion'));
+  assert.strictEqual(r.lineas.find((l) => /día\(s\) trabajado/.test(l.concepto)).monto, 450000);
+  assert.ok(r.lineas.some((l) => /Feriado proporcional/.test(l.concepto)));
+});
+test('finiquito: 161 descuenta AFC y anticipos', () => {
+  const r = calcularFiniquito({ fechaInicio: '2018-01-01', fechaTermino: '2025-01-10', remuneracion: 1000000, valorUF: 39000, causal: '161-necesidades', avisoDado: true, aporteAFC: 800000, descuentos: 100000 });
+  const ias = r.lineas.find((l) => /años de servicio/.test(l.concepto)).monto;
+  assert.strictEqual(ias, 7000000);
+  assert.strictEqual(r.lineas.find((l) => /cesantía/.test(l.concepto)).monto, -800000);
+  assert.strictEqual(r.total, r.lineas.reduce((s2, l) => s2 + l.monto, 0));
+});
+test('finiquito: obra o faena paga 2,5 días por mes', () => {
+  const r = calcularFiniquito({ fechaInicio: '2025-01-01', fechaTermino: '2025-07-01', remuneracion: 900000, valorUF: 39000, causal: '159-5' });
+  assert.strictEqual(r.lineas.find((l) => /obra o faena/.test(l.concepto)).monto, Math.round(30000 * 2.5 * 6));
+});
+test('finiquito: autodespido muestra escenarios de demanda', () => {
+  const r = calcularFiniquito({ fechaInicio: '2019-01-01', fechaTermino: '2025-01-15', remuneracion: 1000000, valorUF: 39000, causal: '171' });
+  assert.ok(r.escenarios.some((e) => e.porcentaje === 80));
+});
+test('feriado: días hábiles a corridos cuenta fines de semana', () => {
+  const { habilesACorridos } = require('../lib/calc');
+  // Término el viernes 2025-01-10: 5 hábiles siguientes = lunes 13 a viernes 17 → 7 días corridos.
+  assert.strictEqual(habilesACorridos(parseDate('2025-01-10'), 5), 7);
 });
 test('validación de entrada', () => {
   const r = calcularIndemnizacion({ fechaInicio: 'x', remuneracion: -1 });

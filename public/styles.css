@@ -256,6 +256,9 @@ a { color: var(--accent); }
 /* ---------- Calculator ---------- */
 .calc-form { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem 0.9rem; margin-top: 0.6rem; }
 .calc-form label { display: flex; flex-direction: column; gap: 0.25rem; font-size: 0.82rem; font-weight: 600; color: var(--text-muted); }
+.calc-form label.wide { grid-column: 1 / -1; }
+.calc-form [hidden] { display: none !important; }
+.calc-table tr.descuento td { color: var(--alert-text); }
 .calc-form label.check { flex-direction: row; align-items: center; gap: 0.5rem; grid-column: 1 / -1; color: var(--text); }
 .calc-form input[type="date"], .calc-form input[type="number"], .calc-form select {
   font-family: inherit; font-size: max(16px, 0.9rem); padding: 0.5rem 0.6rem;
