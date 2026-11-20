@@ -1149,5 +1149,61 @@
   "definicion": "Plataforma del Poder Judicial (oficinajudicialvirtual.pjud.cl) donde, con Clave Única, se consultan las causas propias, se revisan resoluciones y se presentan escritos y demandas.",
   "base": "Ley 20.886",
   "tema": "consultar-causa-ojv"
+ },
+ {
+  "termino": "Activo fijo",
+  "alias": [
+   "activo fijo",
+   "bienes del activo fijo"
+  ],
+  "area": "Tributario",
+  "definicion": "Bienes que la empresa compra para usarlos en su actividad durante varios años (maquinaria, vehículos de trabajo, computadores, inmuebles), no para revenderlos. Su costo se rebaja en la renta mediante depreciación.",
+  "base": "Art. 31 N°5 Ley sobre Impuesto a la Renta",
+  "tema": "gastos-vehiculos-renta"
+ },
+ {
+  "termino": "Depreciación",
+  "alias": [
+   "depreciacion",
+   "depreciacion acelerada",
+   "depreciacion instantanea"
+  ],
+  "area": "Tributario",
+  "definicion": "Rebaja gradual, como gasto en la renta, del valor de un bien del activo fijo según su vida útil. La ley permite, en ciertos casos, depreciación acelerada o instantánea (especialmente para Pymes).",
+  "base": "Art. 31 N°5 y 5 bis Ley sobre Impuesto a la Renta",
+  "tema": "gastos-vehiculos-renta"
+ },
+ {
+  "termino": "Tasación fiscal de vehículos",
+  "alias": [
+   "tasacion fiscal",
+   "tasacion fiscal del vehiculo",
+   "tasacion fiscal de vehiculos"
+  ],
+  "area": "Tributario / Municipal",
+  "definicion": "Valor que el SII asigna cada año a los vehículos según marca, modelo y año. Es la base del permiso de circulación y se compara con el precio para calcular el impuesto de 1,5% en la venta de vehículos usados.",
+  "base": "Ley de Rentas Municipales (DL 3.063); publicación anual del SII",
+  "tema": "transferencia-vehiculo-usado"
+ },
+ {
+  "termino": "Permiso de circulación",
+  "alias": [
+   "permiso de circulacion"
+  ],
+  "area": "Municipal",
+  "definicion": "Impuesto municipal anual que autoriza a un vehículo a circular; se calcula según la tasación fiscal y se paga en la municipalidad (o en línea), normalmente en marzo, con opción de dos cuotas.",
+  "base": "DL 3.063 (Ley de Rentas Municipales)",
+  "tema": "transferencia-vehiculo-usado"
+ },
+ {
+  "termino": "Impuesto verde a vehículos nuevos",
+  "alias": [
+   "impuesto verde",
+   "impuesto verde vehiculos"
+  ],
+  "area": "Tributario",
+  "definicion": "Impuesto que se paga por una sola vez en la primera venta de ciertos vehículos motorizados nuevos, según su rendimiento urbano y sus emisiones. Se suma al precio junto con el IVA.",
+  "base": "Art. 3 Ley 20.780",
+  "tema": "iva-vehiculos"
  }
 ]

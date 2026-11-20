@@ -598,6 +598,221 @@
       ],
       "consejo": "Las asignaciones a cónyuge, conviviente civil e hijos tienen tramos de exención más altos que las de parientes lejanos o extraños.",
       "alerta": "Ocultar bienes en el inventario de la herencia es infracción tributaria y puede generar responsabilidad entre herederos."
+    },
+    {
+      "id": "iva-vehiculos",
+      "titulo": "¿Cuándo puedo comprar un vehículo con IVA (y usar el crédito fiscal)?",
+      "temas": [
+        "comprar un vehiculo con iva",
+        "comprar auto con iva",
+        "comprar camioneta con iva",
+        "iva del vehiculo",
+        "iva de la camioneta",
+        "iva del auto",
+        "recuperar el iva de un auto",
+        "recuperar el iva de una camioneta",
+        "credito fiscal vehiculo",
+        "credito fiscal camioneta",
+        "credito fiscal automovil",
+        "auto de la empresa",
+        "camioneta de la empresa",
+        "vehiculo para la empresa",
+        "comprar auto por la empresa",
+        "camioneta doble cabina",
+        "station wagon",
+        "automoviles station wagons y similares",
+        "iva combustible",
+        "iva bencina",
+        "articulo 23 n 4",
+        "leasing de vehiculo"
+      ],
+      "resumen": "Una empresa puede usar como crédito fiscal el IVA de un vehículo solo si es un vehículo de trabajo (por ejemplo, camioneta, furgón de carga o camión) destinado al giro y a operaciones afectas a IVA. El IVA de automóviles, station wagons y similares (y de su arriendo, leasing, combustible y mantención) NO da derecho a crédito fiscal, salvo que el giro habitual de la empresa sea vender o arrendar esos vehículos. Una persona natural sin giro no recupera el IVA: siempre lo paga como consumidor final.",
+      "explicacion": "La regla está en el art. 23 N°4 de la Ley del IVA (DL 825): no dan derecho a crédito la importación, adquisición y arrendamiento (con o sin opción de compra) de automóviles, station wagons y similares, ni los combustibles, lubricantes, repuestos y reparaciones para su mantención, a menos que el giro habitual sea la venta o arriendo de esos bienes. El SII ha aceptado el crédito fiscal en la compra de camionetas (incluso doble cabina) que formen parte del activo fijo de la empresa y se usen en su giro, cumpliendo los requisitos generales del art. 23: factura a nombre de la empresa, relación directa con la actividad y que la empresa realice operaciones gravadas con IVA. La calificación de si un vehículo es 'similar' a un automóvil (por ejemplo, ciertos jeeps o SUV) la hace el SII caso a caso, según sus características y uso. La Ley 21.210 permite además que el SII, por resolución fundada, autorice el gasto y el crédito de ciertos automóviles cuando son necesarios para producir la renta según el modelo de negocio. Si la empresa vende después un vehículo que le dio derecho a crédito fiscal, esa venta queda afecta a IVA y el comprador con giro también puede usar ese crédito.",
+      "baseLegal": [
+        "Art. 23 N°4 DL 825 (Ley del IVA: automóviles, station wagons y similares sin derecho a crédito)",
+        "Art. 23 N°1 DL 825 (requisitos generales del crédito fiscal)",
+        "Art. 8 letra m) DL 825 (venta de bienes del activo fijo con derecho a crédito: afecta a IVA)",
+        "Art. 31 inciso 1° Ley sobre Impuesto a la Renta (gastos de vehículos; facultad del SII, modificado por Ley 21.210)",
+        "Preguntas frecuentes y oficios del SII sobre camionetas y vehículos de trabajo"
+      ],
+      "pasos": [
+        "Verifica que tu empresa (o tú como persona con inicio de actividades) realice operaciones afectas a IVA: si solo tienes ventas exentas o no tienes giro, no hay crédito fiscal que usar.",
+        "Define el tipo de vehículo: camioneta, furgón de carga o camión destinados al trabajo suelen dar derecho a crédito; automóvil, station wagon o un vehículo 'similar' no (salvo que tu giro sea venderlos o arrendarlos).",
+        "Compra con factura a nombre de la empresa (RUT de la empresa), no con boleta ni a nombre de una persona natural.",
+        "Registra el vehículo como activo fijo y úsalo efectivamente en el giro (guarda respaldos: guías de despacho, bitácora de uso, contratos con clientes).",
+        "Incorpora la factura en el Registro de Compras y declara el crédito en el F29 del mes correspondiente (o, si la recibiste con atraso, hasta en los 2 períodos siguientes).",
+        "Si tienes ventas afectas y exentas a la vez, el crédito se usa en forma proporcional.",
+        "Si tienes dudas sobre un modelo específico (jeep, SUV, camioneta de uso mixto), consulta al SII o pide una resolución: el SII califica caso a caso.",
+        "Si más adelante vendes el vehículo, emite factura con IVA si te dio derecho a crédito fiscal."
+      ],
+      "plazos": [
+        "Crédito fiscal: se usa en el período de la factura, o en los 2 períodos tributarios siguientes si la factura se recibió o registró con atraso (art. 24 DL 825)",
+        "Facturas de compra: revisa y acepta o reclama en el Registro de Compras y Ventas (8 días corridos para reclamar su contenido)"
+      ],
+      "documentos": [
+        "Factura de compra a nombre de la empresa",
+        "Inscripción del vehículo en el Registro Nacional de Vehículos Motorizados a nombre de la empresa",
+        "Respaldos del uso en el giro",
+        "Registro de Compras y Ventas / F29"
+      ],
+      "dondeAcudir": [
+        "sii.cl (Preguntas frecuentes de IVA y jurisprudencia administrativa)",
+        "Contador o asesor tributario",
+        "Oficinas del SII"
+      ],
+      "consejo": "Antes de comprar, pide a la automotora la factura a nombre de la empresa y confirma con tu contador si ese modelo se considera 'camioneta de trabajo' o 'similar a automóvil': la diferencia es el 19% del precio.",
+      "alerta": "Usar como crédito fiscal el IVA de un automóvil sin derecho, o de un vehículo de uso personal del dueño, puede generar un giro de impuestos con reajustes, intereses y multas, y en casos maliciosos, responsabilidad penal tributaria."
+    },
+    {
+      "id": "gastos-vehiculos-renta",
+      "titulo": "Vehículos de la empresa en el impuesto a la renta: gasto, depreciación y uso personal",
+      "temas": [
+        "gasto del vehiculo",
+        "gasto de la camioneta",
+        "rebajar el auto como gasto",
+        "depreciar un vehiculo",
+        "depreciacion de camioneta",
+        "gasto en combustible",
+        "bencina como gasto",
+        "auto de la empresa uso personal",
+        "vehiculo como gasto aceptado",
+        "gasto rechazado vehiculo",
+        "beneficio de uso del vehiculo",
+        "depreciacion instantanea",
+        "activo fijo vehiculo"
+      ],
+      "resumen": "En la renta, los gastos de compra, arriendo, combustible, mantención y seguros de automóviles, station wagons y similares no se aceptan como gasto, salvo que sean el giro de la empresa o que el SII lo autorice por resolución fundada. Los vehículos de trabajo (camionetas, camiones) usados en el giro sí pueden depreciarse y sus gastos rebajarse.",
+      "explicacion": "El art. 31 de la Ley sobre Impuesto a la Renta exige que los gastos sean necesarios para producir la renta. Para automóviles, station wagons y similares, la ley los excluye expresamente como regla general, aunque desde la Ley 21.210 el SII puede calificar mediante resolución fundada que son necesarios según el modelo de negocio (por ejemplo, empresas que usan autos pequeños en su operación). Los vehículos de trabajo forman parte del activo fijo y se deprecian según su vida útil; las empresas Pro Pyme pueden acceder a regímenes de depreciación acelerada o instantánea, según las reglas vigentes. Si un vehículo de la empresa se pone a disposición de los dueños o sus familiares para uso personal, la ley presume un beneficio que tributa (con un valor mínimo establecido en la ley) y puede afectar la deducción de los gastos.",
+      "baseLegal": [
+        "Art. 31 inciso 1° LIR (gastos necesarios; exclusión de automóviles, station wagons y similares; facultad del SII)",
+        "Art. 31 N°5 y 5 bis LIR (depreciación y depreciación acelerada/instantánea)",
+        "Art. 21 LIR (uso personal de bienes de la empresa: presunción de beneficio)",
+        "Ley 21.210 (modernización tributaria)"
+      ],
+      "pasos": [
+        "Clasifica el vehículo: de trabajo (camioneta, furgón, camión) o automóvil/station wagon/similar.",
+        "Si es de trabajo y se usa en el giro: regístralo como activo fijo, aplica la depreciación que corresponda y rebaja los gastos de combustible, mantención y seguros con factura.",
+        "Si es automóvil o similar: en principio sus gastos son rechazados; evalúa si cumples los criterios para pedir al SII la autorización por resolución fundada.",
+        "Evita el uso personal por dueños o familiares; si existe, regístralo y considera la tributación del beneficio presunto.",
+        "Lleva una bitácora de uso y guarda respaldos (rutas, clientes, guías) por si el SII fiscaliza."
+      ],
+      "plazos": [
+        "La depreciación y los gastos se reflejan en la declaración anual de renta (F22, abril)"
+      ],
+      "documentos": [
+        "Facturas de compra y gastos",
+        "Registro de activo fijo",
+        "Bitácora de uso del vehículo"
+      ],
+      "dondeAcudir": [
+        "Contador o asesor tributario",
+        "sii.cl (jurisprudencia administrativa de Renta)"
+      ],
+      "consejo": "IVA y Renta van de la mano: si el vehículo no da derecho a crédito fiscal por ser 'similar a automóvil', normalmente tampoco sus gastos serán aceptados en la renta.",
+      "alerta": "Los gastos rechazados pueden quedar afectos a un impuesto único con tasa alta (art. 21 LIR) cuando benefician a los dueños."
+    },
+    {
+      "id": "transferencia-vehiculo-usado",
+      "titulo": "Comprar o vender un vehículo usado: impuesto de 1,5%, transferencia e inscripción",
+      "temas": [
+        "transferir un auto",
+        "transferencia de vehiculo",
+        "traspaso de auto",
+        "traspasar un auto",
+        "comprar auto usado",
+        "vender mi auto",
+        "impuesto a la transferencia",
+        "impuesto de 1,5",
+        "1,5 por ciento",
+        "compraventa de vehiculo",
+        "auto usado iva",
+        "tasacion fiscal del vehiculo",
+        "inscribir auto a mi nombre",
+        "registro de vehiculos motorizados",
+        "comprar auto a una persona"
+      ],
+      "resumen": "La compra de un vehículo usado entre particulares no lleva IVA: paga un impuesto municipal del 1,5% sobre el mayor valor entre el precio de venta y la tasación fiscal del SII. Si el vendedor es una empresa que tuvo derecho a crédito fiscal por ese vehículo (o una automotora), la venta lleva IVA en vez del 1,5%.",
+      "explicacion": "El impuesto de 1,5% está en el art. 41 N°7 de la Ley de Rentas Municipales (DL 3.063) y es a beneficio municipal; en la práctica se paga en bancos o instituciones autorizadas (o en línea) antes de inscribir la transferencia. La compraventa se formaliza en el Registro Civil, en notarías o en línea, y se inscribe en el Registro Nacional de Vehículos Motorizados (RNVM) a nombre del comprador. La tasación fiscal del SII también es la base para el permiso de circulación anual. Si quien vende es contribuyente de IVA y el vehículo formaba parte de su activo fijo con derecho a crédito fiscal (por ejemplo, una camioneta de empresa), la venta se factura con IVA y el comprador con giro puede usar ese crédito.",
+      "baseLegal": [
+        "Art. 41 N°7 DL 3.063 (impuesto de 1,5% a la transferencia de vehículos usados)",
+        "Art. 8 letra m) DL 825 (venta de activo fijo afecta a IVA)",
+        "Ley 18.290 (Registro Nacional de Vehículos Motorizados)",
+        "Tasación fiscal de vehículos (SII)"
+      ],
+      "pasos": [
+        "Revisa el certificado de anotaciones vigentes del vehículo en el Registro Civil: dueño, prendas, prohibiciones, embargos o multas impagas.",
+        "Consulta la tasación fiscal del modelo en sii.cl.",
+        "Firma el contrato de compraventa (Registro Civil, notaría o en línea según el trámite disponible).",
+        "Paga el impuesto de 1,5% sobre el mayor valor entre el precio y la tasación fiscal (salvo que la venta lleve IVA).",
+        "Solicita la inscripción de la transferencia en el RNVM a nombre del comprador y verifica que se actualice el padrón.",
+        "Exige al vendedor el permiso de circulación, la revisión técnica y el seguro obligatorio (SOAP) al día."
+      ],
+      "plazos": [
+        "Paga el impuesto e inscribe la transferencia cuanto antes: mientras no se inscriba, el vendedor sigue figurando como dueño (multas, tags, responsabilidad)"
+      ],
+      "documentos": [
+        "Certificado de anotaciones vigentes",
+        "Contrato de compraventa",
+        "Comprobante de pago del 1,5%",
+        "Permiso de circulación, revisión técnica y SOAP",
+        "Cédulas de identidad de las partes"
+      ],
+      "dondeAcudir": [
+        "Registro Civil (registrocivil.cl)",
+        "Notaría",
+        "sii.cl (tasación fiscal)",
+        "Municipalidad (permiso de circulación)"
+      ],
+      "consejo": "Si vendes tu auto, no lo entregues sin firmar la transferencia: hasta que se inscriba a nombre del comprador, las multas y los tags pueden seguir llegando a tu nombre.",
+      "alerta": "Comprar un vehículo con prenda o embargo vigente puede hacerte perder el vehículo o heredar la deuda: revisa siempre el certificado de anotaciones."
+    },
+    {
+      "id": "credito-fiscal-requisitos",
+      "titulo": "Crédito fiscal IVA: qué compras dan derecho y cuáles no",
+      "temas": [
+        "que compras dan credito fiscal",
+        "puedo usar el iva de",
+        "recuperar el iva",
+        "iva recuperable",
+        "iva no recuperable",
+        "credito fiscal requisitos",
+        "facturas que no dan credito",
+        "iva de compras personales",
+        "credito fiscal proporcional",
+        "factura atrasada credito fiscal",
+        "perdi el credito fiscal",
+        "iva de la compra"
+      ],
+      "resumen": "El IVA de una compra solo puede usarse como crédito fiscal si: se respalda con factura a nombre de la empresa, la compra se relaciona directamente con el giro, se destina a operaciones afectas a IVA y no está expresamente excluida por la ley (como automóviles y sus gastos, o bienes de uso personal).",
+      "explicacion": "El crédito fiscal es el IVA soportado en compras y servicios del giro, que se descuenta del IVA de las ventas (débito fiscal) en el F29. No dan derecho a crédito: las compras con boleta, las de uso personal o familiar, las destinadas a operaciones exentas o no gravadas, las facturas falsas o no fidedignas, y los casos del art. 23 N°4 (automóviles, station wagons y similares, salvo que sean el giro). Si la empresa tiene ventas afectas y exentas, el crédito de compras de uso común se aplica en proporción. Las facturas recibidas o registradas con atraso pueden usarse hasta en los dos períodos tributarios siguientes.",
+      "baseLegal": [
+        "Art. 23 DL 825 (crédito fiscal y exclusiones)",
+        "Art. 24 DL 825 (remanente y uso en períodos siguientes)",
+        "Art. 25 DL 825 (respaldo documental)",
+        "Art. 97 N°4 Código Tributario (uso de facturas falsas)"
+      ],
+      "pasos": [
+        "Confirma que la factura esté emitida a nombre y RUT de la empresa, con el detalle correcto.",
+        "Verifica que la compra sea necesaria para el giro y se destine a ventas afectas a IVA.",
+        "Revisa si cae en alguna exclusión (automóviles y sus gastos, uso personal, operaciones exentas).",
+        "Acepta la factura en el Registro de Compras y Ventas y declárala en el F29.",
+        "Si tienes ventas exentas y afectas, aplica la proporcionalidad del crédito de uso común."
+      ],
+      "plazos": [
+        "Uso del crédito: en el período de la factura o hasta en los 2 períodos siguientes si se recibió o registró con atraso",
+        "Reclamo del contenido de una factura recibida: 8 días corridos"
+      ],
+      "documentos": [
+        "Facturas de compra",
+        "Registro de Compras y Ventas",
+        "F29"
+      ],
+      "dondeAcudir": [
+        "sii.cl",
+        "Contador o asesor tributario"
+      ],
+      "consejo": "Pide siempre factura (no boleta) para las compras del negocio: con boleta pierdes el 19% de crédito fiscal.",
+      "alerta": "Rebajar IVA de compras personales o con facturas de proveedores que no prestaron el servicio es una de las causas más frecuentes de fiscalización y de querellas por delito tributario."
     }
   ]
 }

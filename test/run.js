@@ -73,6 +73,12 @@ const ROUTING = [
   ['abusaron de mi hija', 'delitos-sexuales'],
   ['subieron mi plan de isapre', 'isapre-reclamos'],
   ['despido injustificado', 'despido-causales'],
+  ['cuando puedo comprar un vehiculo con IVA?', 'iva-vehiculos'],
+  ['puedo recuperar el iva de una camioneta', 'iva-vehiculos'],
+  ['el iva del auto de la empresa', 'iva-vehiculos'],
+  ['cuanto se paga por transferir un auto usado', 'transferencia-vehiculo-usado'],
+  ['puedo rebajar como gasto la camioneta', 'gastos-vehiculos-renta'],
+  ['que compras dan credito fiscal', 'credito-fiscal-requisitos'],
 ];
 
 for (const [q, expected] of ROUTING) {
@@ -118,6 +124,16 @@ test('chips del glosario resuelven a su definición', () => {
     assert.ok(a.items.length && a.items[0].type === 'definicion', `sin definición: ${label}`);
   }
   assert.ok(glossary.length >= 80);
+});
+test('relacionados del mismo derecho y cercanos a la pregunta', () => {
+  const a = composeAnswer('cuando puedo comprar un vehiculo con IVA?');
+  assert.ok(a.related.length >= 2);
+  assert.ok(a.related.some((r) => /Crédito fiscal|Vehículos de la empresa|vehículo usado/.test(r)), a.related.join(' | '));
+});
+test('sin ficha exacta pero con área clara: responde dentro de esa área', () => {
+  const a = composeAnswer('tengo un problema con mi jefe');
+  assert.ok(a.items.length > 0 && a.items.every((i) => i.areaId === 'laboral'), a.items.map((i) => i.id).join(','));
+  assert.ok(a.noMatch, 'debe quedar registrada como sin respuesta exacta');
 });
 test('saludo devuelve bienvenida sin fichas', () => {
   const a = composeAnswer('hola');
